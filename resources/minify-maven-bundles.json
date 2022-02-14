@@ -7,6 +7,22 @@
                 "/index.css",
                 "/material-design.css"
             ]
+        },
+        {
+            "type": "js",
+            "name": "blog.all.js",
+            "files": [
+                "/pages/loadHomePage.js",
+                "/pages/loadPage.js",
+                "/constants.js",
+                "/index.js",
+                "/plugins/libraries.js",
+                "/autocomplete/index.js",
+                "/anchor/retrievePage.js",
+                "/anchor/anchor.js",
+                "/navigation/index.js",
+                "/askUsDirectly/index.js"
+            ]
         }
     ]
 }

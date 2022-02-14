@@ -1,9 +1,13 @@
 # blog.blitzbudget.com
-Blog for blitzbudget
-
 Blitz Budget Bootstrap front end
 
-Instructions to install and run the server
+## Install Http Server
+Install Http Server using NPM
 
-1) npm install http-server -g
-2) http-server . -p 8080
+`npm install http-server -g`
+
+## Start the HTTP Server
+
+Navigate to the `target` and the start the server.
+
+`http-server . -p 8080`
