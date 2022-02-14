@@ -1,0 +1,12 @@
+{
+    "bundles": [
+        {
+            "type": "css",
+            "name": "blog.all.css",
+            "files": [
+                "/index.css",
+                "/material-design.css"
+            ]
+        }
+    ]
+}
