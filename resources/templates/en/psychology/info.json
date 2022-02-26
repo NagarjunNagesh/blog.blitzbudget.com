@@ -1,0 +1,11 @@
+{
+    "url": "/psychology/",
+    "title": "Psychology",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Blog",
+            "crumbUrl": "/"
+        }
+    ]
+}

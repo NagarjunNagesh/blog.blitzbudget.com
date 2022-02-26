@@ -1,5 +1,11 @@
 "use strict";
 (function scopeWrapper($) {
+    const emailValidation = /^\w+([\.-]?\w+)+@\w+([\.:]?\w+)+(\.[a-zA-Z0-9]{2,3})+$/;
+    let api = {
+        'invokeUrl': 'https://api.blitzbudget.com',
+        'sendEmailUrl': '/send-email'
+    }
+
     // Ask Us Directly
     document.getElementById("askUsDirectly").addEventListener("click", function (e) {
         // Show Sweet Alert

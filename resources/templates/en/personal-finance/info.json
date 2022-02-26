@@ -1,0 +1,11 @@
+{
+	"url": "/personal-finance/",
+	"title": "Personal Finance",
+	"subcategoryPresent": true,
+	"breadcrumb": [
+		{
+			"crumbTitle": "Blog",
+			"crumbUrl": "/"
+		}
+	]
+}

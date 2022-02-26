@@ -194,7 +194,7 @@ h5 ~ ul,
 h6 ~ ol,
 h6 ~ p,
 h6 ~ ul {
-    margin-top: 1.125rem;
+    margin-top: 2.125rem;
 }
 
 .article-container ol,
@@ -203,7 +203,7 @@ h6 ~ ul {
 ol,
 p,
 ul {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 button,
@@ -299,10 +299,11 @@ var,
 video {
     border: 0;
     font: inherit;
-    font-size: 100%;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 /**
@@ -423,11 +424,12 @@ video {
     font: inherit;
     font-size: inherit;
     line-height: inherit;
-    font-size: 100%;
+    font-size: 1.2rem;
     margin: 0;
     margin-bottom: 0px;
     padding: 0;
     vertical-align: baseline;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 * {
@@ -485,7 +487,7 @@ ul ~ h2,
 ul ~ h3,
 ul ~ h4,
 ul ~ h5 {
-    margin-bottom: 1.125rem;
+    margin-bottom: 2.125rem;
     margin-top: 1.75rem;
 }
 
@@ -1505,6 +1507,13 @@ a.button:hover {
     margin: 2rem 0;
 }
 
+.article-header-image {
+    border-radius: 0;
+    border: 1px solid #d7d7d7;
+    width: 100%;
+    margin: 2rem 0;
+}
+
 .article-image.b-none,
 .b-none {
     border: none;
@@ -1684,6 +1693,17 @@ a.button:hover {
 
 .ksbordertop.row {
     border-top: 1px solid rgba(128, 128, 128, 0.22);
+}
+
+.quote {
+    text-align: center;
+    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #244564;
+    font-size: 120%;
+    margin: 2rem;
 }
 
 @media (max-width: 576px) {

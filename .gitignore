@@ -2,3 +2,7 @@
 /css/
 /js/
 .brackets.json
+
+
+## Aple specific ###
+*.DS_Store

@@ -1,5 +1,7 @@
 "use strict";
 (function scopeWrapper($) {
+    let searchArticleDD = document.getElementById('searchArticleDD');
+    
     /**
      * Autocomplete Module
      **/
