@@ -1426,6 +1426,7 @@ a.button:hover {
     font-weight: 900;
     color: #12323d;
     margin-bottom: 0.3rem;
+    text-align: center;
 }
 
 .article-title {
@@ -1704,6 +1705,13 @@ a.button:hover {
     color: #244564;
     font-size: 120%;
     margin: 2rem;
+}
+
+#currentYear,
+.navWithHeader a,
+.cardFooter p,
+.cardFooter time {
+    font-size: 14px;
 }
 
 @media (max-width: 576px) {
