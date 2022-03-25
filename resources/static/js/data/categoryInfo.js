@@ -57,6 +57,10 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 12: Do you really need a budget to become Financially Free?",
                     "url": "/do-you-really-need-a-budget-to-become-financially-free/"
+                },
+                {
+                    "title": "Personal Finance 13: I cannot save a Penny More",
+                    "url": "/i-cannot-save-a-penny-more/"
                 }
             ]
         },
