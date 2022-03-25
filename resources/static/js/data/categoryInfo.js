@@ -45,6 +45,18 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 9: Find what Drives you to Achieve",
                     "url": "/find-what-drives-you-to-achieve/"
+                },
+                {
+                    "title": "Personal Finance 10: Include your Partner",
+                    "url": "/include-your-partner/"
+                },
+                {
+                    "title": "Personal Finance 11: The Power of Dreaming",
+                    "url": "/power-of-dreaming/"
+                },
+                {
+                    "title": "Personal Finance 12: Do you really need a budget to become Financially Free?",
+                    "url": "/do-you-really-need-a-budget-to-become-financially-free/"
                 }
             ]
         },

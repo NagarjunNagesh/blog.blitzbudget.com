@@ -11,42 +11,9 @@ function loadHomePage() {
     // FAQ populate the questions for search
     let faq = [];
     let categoryInformation = window.categoryInfo[window.currentLanguage];
-    let gettingstartedtitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.gettingstarted : 'Getting Started';
-    let budgettitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.budget : 'Budget';
-    let transactionstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.transactions : 'Transactions';
-    let goalstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.goals : 'Goals';
-    let financialaccountstitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.financialaccounts : 'Financial Accounts';
-    let miscellaneoustitle = isNotEmpty(window.translationData) ? window.translationData.dynamic.miscellaneous : 'Miscellaneous';
-    let articlesdescription = isNotEmpty(window.translationData) ? window.translationData.dynamic.articles : ' articles';
     for (let i = 0, len = categoryInformation.length; i < len; i++) {
         let categoryInfoItem = categoryInformation[i];
         let subCategoryArr = categoryInfoItem.subCategory;
-
-        switch (categoryInfoItem.categoryName) {
-
-            case gettingstartedtitle:
-                document.getElementById('gettingStartedCount').innerText = subCategoryArr.length + articlesdescription;
-                break;
-            case budgettitle:
-                document.getElementById('budgetCount').innerText = subCategoryArr.length + articlesdescription;
-                break;
-            case transactionstitle:
-                document.getElementById('transactionsCount').innerText = subCategoryArr.length + articlesdescription;
-                break;
-            case goalstitle:
-                document.getElementById('goalsCount').innerText = isEmpty(subCategoryArr) ? 0 + articlesdescription :
-                    subCategoryArr.length + articlesdescription;
-                break;
-            case financialaccountstitle:
-                document.getElementById('financialAccountsCount').innerText = subCategoryArr.length + articlesdescription;
-                break;
-            case miscellaneoustitle:
-                document.getElementById('miscellaneousCount').innerText = subCategoryArr.length + articlesdescription;
-                break;
-            default:
-                break;
-
-        }
 
         // Is subcategory information is empty then continue
         if (isEmpty(subCategoryArr)) {
