@@ -41,13 +41,13 @@ function loadHomePage() {
     });
 
     // Search Article focus in
-    document.getElementById('searchArticle').addEventListener('focusin', (event) => {
+    document.getElementById('searchArticle').addEventListener('focusin', () => {
         searchArticleDD.classList.add('fadeInDown');
         searchArticleDD.classList.remove('fadeOut');
     });
 
     // Search Article focus out
-    document.getElementById('searchArticle').addEventListener('focusout', (event) => {
+    document.getElementById('searchArticle').addEventListener('focusout', () => {
         searchArticleDD.classList.add('fadeOut');
         searchArticleDD.classList.remove('fadeInDown');
     });
