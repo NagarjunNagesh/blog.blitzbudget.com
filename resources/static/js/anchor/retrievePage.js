@@ -1,7 +1,7 @@
 "use strict";
 (function scopeWrapper($) {
     const reForwardSlash = /\//g;
-    
+
     // Retrieve Appropriate Information
     window.retrievePage = {
         retrieveAppropriateInformation: (anchorHref) => {
