@@ -81,6 +81,10 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 18: Credit Cards: How to Increase your Credit Score",
                     "url": "/credit-cards-how-to-increase-your-credit-score/"
+                },
+                {
+                    "title": "Personal Finance 19: Home Loan: Is it a Boon in Disguise",
+                    "url": "/home-loan-is-it-a-boon-in-disguise/"
                 }
             ]
         },
