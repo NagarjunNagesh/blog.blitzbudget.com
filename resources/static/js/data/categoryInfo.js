@@ -61,6 +61,26 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 13: I cannot save a Penny More",
                     "url": "/i-cannot-save-a-penny-more/"
+                },
+                {
+                    "title": "Personal Finance 14: Income Allocation Strategy",
+                    "url": "/income-allocation-strategy/"
+                },
+                {
+                    "title": "Personal Finance 15: Emergency Fund: Why is it important?",
+                    "url": "/emergency-fund-why-is-it-important/"
+                },
+                {
+                    "title": "Personal Finance 16: Debt Analysis: Analysing Your Financial Past?",
+                    "url": "/debt-analysis-analysing-your-financial-past/"
+                },
+                {
+                    "title": "Personal Finance 17: Debt Management Strategy",
+                    "url": "/debt-management-strategy/"
+                },
+                {
+                    "title": "Personal Finance 18: Credit Cards: How to Increase your Credit Score",
+                    "url": "/credit-cards-how-to-increase-your-credit-score/"
                 }
             ]
         },
