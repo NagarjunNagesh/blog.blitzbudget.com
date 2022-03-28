@@ -85,6 +85,22 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 19: Home Loan: Is it a Boon in Disguise",
                     "url": "/home-loan-is-it-a-boon-in-disguise/"
+                },
+                {
+                    "title": "Personal Finance 20: Savings Management Strategy",
+                    "url": "/savings-management-strategy/"
+                },
+                {
+                    "title": "Personal Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom",
+                    "url": "/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/"
+                },
+                {
+                    "title": "Personal Finance 22: How to Save Your Way to Achieve Your Dream",
+                    "url": "/how-to-save-your-way-to-achieve-your-dream/"
+                },
+                {
+                    "title": "Personal Finance 23: Buying a Car the Right Way",
+                    "url": "/buying-a-car-the-right-way/"
                 }
             ]
         },
