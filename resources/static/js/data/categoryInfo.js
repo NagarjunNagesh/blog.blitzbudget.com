@@ -85,6 +85,10 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 19: Home Loan: Is it a Boon in Disguise",
                     "url": "/home-loan-is-it-a-boon-in-disguise/"
+                },
+                {
+                    "title": "Personal Finance 20: Savings Management Strategy",
+                    "url": "/savings-management-strategy/"
                 }
             ]
         },
