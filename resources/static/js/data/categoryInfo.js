@@ -101,6 +101,10 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 23: Buying a Car the Right Way",
                     "url": "/buying-a-car-the-right-way/"
+                },
+                {
+                    "title": "Personl Finance 24: Never Kill Your Golden Goose",
+                    "url": "/never-kill-your-golden-goose/"
                 }
             ]
         },
