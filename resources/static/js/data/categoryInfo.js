@@ -105,6 +105,26 @@ window.categoryInfo = {
                 {
                     "title": "Personl Finance 24: Never Kill Your Golden Goose",
                     "url": "/never-kill-your-golden-goose/"
+                },
+                {
+                    "title": "Personl Finance 25: Financial Goals to Achieve Before You Turn 35",
+                    "url": "/financial-goals-to-achieve-before-you-turn-thirty-five/"
+                },
+                {
+                    "title": "Personl Finance 26: Investment Management Strategy",
+                    "url": "/investment-management-strategy/"
+                },
+                {
+                    "title": "Personl Finance 27: Investing in Mutual Funds",
+                    "url": "/investing-in-mutual-funds/"
+                },
+                {
+                    "title": "Personl Finance 28: Investing in Index Funds",
+                    "url": "/investing-in-index-funds/"
+                },
+                {
+                    "title": "Personl Finance 29: Investing in Fixed Deposits",
+                    "url": "/investing-in-fixed-deposits/"
                 }
             ]
         },
