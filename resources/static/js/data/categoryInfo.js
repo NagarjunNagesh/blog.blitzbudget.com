@@ -101,6 +101,30 @@ window.categoryInfo = {
                 {
                     "title": "Personal Finance 23: Buying a Car the Right Way",
                     "url": "/buying-a-car-the-right-way/"
+                },
+                {
+                    "title": "Personl Finance 24: Never Kill Your Golden Goose",
+                    "url": "/never-kill-your-golden-goose/"
+                },
+                {
+                    "title": "Personl Finance 25: Financial Goals to Achieve Before You Turn 35",
+                    "url": "/financial-goals-to-achieve-before-you-turn-thirty-five/"
+                },
+                {
+                    "title": "Personl Finance 26: Investment Management Strategy",
+                    "url": "/investment-management-strategy/"
+                },
+                {
+                    "title": "Personl Finance 27: Investing in Mutual Funds",
+                    "url": "/investing-in-mutual-funds/"
+                },
+                {
+                    "title": "Personl Finance 28: Investing in Index Funds",
+                    "url": "/investing-in-index-funds/"
+                },
+                {
+                    "title": "Personl Finance 29: Investing in Fixed Deposits",
+                    "url": "/investing-in-fixed-deposits/"
                 }
             ]
         },
@@ -109,6 +133,42 @@ window.categoryInfo = {
             "dataUrl": "/psychology/",
             "description": "I thought emotions had to be controlled.. I was so wrong!",
             "subCategory": [
+                {
+                    "title": "The Truth about White Lies",
+                    "url": "/the-truth-about-white-lies/"
+                },
+                {
+                    "title": "What is your Religion?",
+                    "url": "/what-is-your-religion/"
+                },
+                {
+                    "title": "Why is the Sense of Morality more Important than Capitalism",
+                    "url": "/why-is-the-sense-of-morality-more-important-than-capitalism/"
+                },
+                {
+                    "title": "Is Racism a Social Construct?",
+                    "url": "/is-racism-a-social-construct/"
+                },
+                {
+                    "title": "Pursuit of Problem Solving",
+                    "url": "/pursuit-of-problem-solving/"
+                },
+                {
+                    "title": "Search for the Good: Self preservation",
+                    "url": "/search-for-the-good/self-preservation/"
+                },
+                {
+                    "title": "One Piece: Straw Hat Luffy",
+                    "url": "/one-piece/straw-hat-luffy/"
+                },
+                {
+                    "title": "One Piece: Roronova Zoro",
+                    "url": "/psychology/one-piece/roronoa-zoro/"
+                },
+                {
+                    "title": "Can a Smoke ask you to Not Smoke?",
+                    "url": "/can-a-smoker-ask-you-to-not-smoke/"
+                }
             ]
         }
     ]
