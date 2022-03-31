@@ -154,21 +154,35 @@ window.categoryInfo = {
                     "url": "/pursuit-of-problem-solving/"
                 },
                 {
-                    "title": "Search for the Good: Self preservation",
-                    "url": "/search-for-the-good/self-preservation/"
-                },
-                {
-                    "title": "One Piece: Straw Hat Luffy",
-                    "url": "/one-piece/straw-hat-luffy/"
-                },
-                {
-                    "title": "One Piece: Roronova Zoro",
-                    "url": "/one-piece/roronoa-zoro/"
-                },
-                {
                     "title": "Can a Smoke ask you to Not Smoke?",
                     "url": "/can-a-smoker-ask-you-to-not-smoke/"
                 }
+            ]
+        },
+        {
+            "categoryName": "One Piece",
+            "dataUrl": "/psychology/one-piece/",
+            "description": "One piece has a lot to offer!",
+            "subCategory": [
+                {
+                    "title": "One Piece: Straw Hat Luffy",
+                    "url": "/straw-hat-luffy/"
+                },
+                {
+                    "title": "One Piece: Roronova Zoro",
+                    "url": "/roronoa-zoro/"
+                }
+            ]
+        },
+        {
+            "categoryName": "Search for the Good",
+            "dataUrl": "/psychology/search-for-the-good/",
+            "description": "Search for the goodness in ourselves",
+            "subCategory": [
+                {
+                    "title": "Search for the Good: Self preservation",
+                    "url": "/self-preservation/"
+                },
             ]
         }
     ]
