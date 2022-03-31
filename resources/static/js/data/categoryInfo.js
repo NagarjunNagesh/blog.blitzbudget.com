@@ -133,6 +133,42 @@ window.categoryInfo = {
             "dataUrl": "/psychology/",
             "description": "I thought emotions had to be controlled.. I was so wrong!",
             "subCategory": [
+                {
+                    "title": "The Truth about White Lies",
+                    "url": "/the-truth-about-white-lies/"
+                },
+                {
+                    "title": "What is your Religion?",
+                    "url": "/what-is-your-religion/"
+                },
+                {
+                    "title": "Why is the Sense of Morality more Important than Capitalism",
+                    "url": "/why-is-the-sense-of-morality-more-important-than-capitalism/"
+                },
+                {
+                    "title": "Is Racism a Social Construct?",
+                    "url": "/is-racism-a-social-construct/"
+                },
+                {
+                    "title": "Pursuit of Problem Solving",
+                    "url": "/pursuit-of-problem-solving/"
+                },
+                {
+                    "title": "Search for the Good: Self preservation",
+                    "url": "/search-for-the-good/self-preservation/"
+                },
+                {
+                    "title": "One Piece: Straw Hat Luffy",
+                    "url": "/one-piece/straw-hat-luffy/"
+                },
+                {
+                    "title": "One Piece: Roronova Zoro",
+                    "url": "/psychology/one-piece/roronoa-zoro/"
+                },
+                {
+                    "title": "Can a Smoke ask you to Not Smoke?",
+                    "url": "/can-a-smoker-ask-you-to-not-smoke/"
+                }
             ]
         }
     ]
