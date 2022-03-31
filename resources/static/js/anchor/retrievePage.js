@@ -43,14 +43,6 @@
             }
             articleBody.appendChild(window.retrievePage.buildMaterialSpinner());
 
-            let urlPath = lastElement(anchorHref.split(window.constants.currentSite));
-            // Check if language is in the URL
-            let languageInUrl = "/" + window.currentLanguage + "/";
-            // Change the URL to embed the language like https://help.blitzbudget.com/goals/ becomes https://help.blitzbudget/en/goals/
-            if (notIncludesStr(urlPath, languageInUrl)) {
-                anchorHref = window.constants.currentSite + window.currentLanguage + urlPath;
-            }
-
             // Retrieve categories / articles
             jQuery.ajax({
                 url: anchorHref + 'info.json',

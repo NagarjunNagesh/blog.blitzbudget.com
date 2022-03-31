@@ -11,12 +11,12 @@
         "howcanwehelp": "How Can We Help?"
     },
     "cards": {
-        "gettingstarted": {
+        "personalfinance": {
             "title": "Getting Started",
             "description": "Total control over your money in a few clicks."
         },
-        "goals": {
-            "title": "Goals",
+        "psychology": {
+            "title": "psychology",
             "description": "Planning to buy save your money for something worth saving?"
         },
         "budget": {
@@ -58,7 +58,7 @@
     },
     "dynamic": {
         "noresult": "No Results",
-        "gettingstarted": "Getting Started",
+        "personalfinance": "Getting Started",
         "budget": "Budget",
         "transactions": "Transactions",
         "goals": "Goals",
@@ -77,8 +77,8 @@
         "errorsendingemail": "Unable to send the email at the moment. Please try again!"
     },
     "anchor": {
-        "gettingstarted": "/en/personal-finance/",
-        "goals": "/en/psychology/",
+        "personalfinance": "/en/personal-finance/",
+        "psychology": "/en/psychology/",
         "privacy": "https://www.blitzbudget.com/privacy",
         "terms": "https://www.blitzbudget.com/terms"
     }
