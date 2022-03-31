@@ -163,7 +163,7 @@ window.categoryInfo = {
                 },
                 {
                     "title": "One Piece: Roronova Zoro",
-                    "url": "/psychology/one-piece/roronoa-zoro/"
+                    "url": "/one-piece/roronoa-zoro/"
                 },
                 {
                     "title": "Can a Smoke ask you to Not Smoke?",
