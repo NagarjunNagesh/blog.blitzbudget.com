@@ -27,7 +27,7 @@
             window.scrollTo(0, 0);
             // Switch to category nav
             document.getElementsByClassName('Hero')[0].classList.add('d-none');
-            document.getElementsByClassName('HelpResult')[0].classList.add('d-none');
+            document.getElementsByClassName('blogSpace')[0].classList.add('d-none');
             document.getElementsByClassName('CategoryResult')[0].classList.remove('d-none');
             let articleTitle = document.getElementById('article-title');
             while (articleTitle.firstChild) {

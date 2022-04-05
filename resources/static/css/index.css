@@ -158,42 +158,42 @@ a.text-decoration-none,
     color: #008697;
 }
 
-.article-container h1 ~ ol,
-.article-container h1 ~ p,
-.article-container h1 ~ ul,
-.article-container h2 ~ ol,
-.article-container h2 ~ p,
-.article-container h2 ~ ul,
-.article-container h3 ~ ol,
-.article-container h3 ~ p,
-.article-container h3 ~ ul,
-.article-container h4 ~ ol,
-.article-container h4 ~ p,
-.article-container h4 ~ ul,
-.article-container h5 ~ ol,
-.article-container h5 ~ p,
-.article-container h5 ~ ul,
-.article-container h6 ~ ol,
-.article-container h6 ~ p,
-.article-container h6 ~ ul,
-h1 ~ ol,
-h1 ~ p,
-h1 ~ ul,
-h2 ~ ol,
-h2 ~ p,
-h2 ~ ul,
-h3 ~ ol,
-h3 ~ p,
-h3 ~ ul,
-h4 ~ ol,
-h4 ~ p,
-h4 ~ ul,
-h5 ~ ol,
-h5 ~ p,
-h5 ~ ul,
-h6 ~ ol,
-h6 ~ p,
-h6 ~ ul {
+.article-container h1~ol,
+.article-container h1~p,
+.article-container h1~ul,
+.article-container h2~ol,
+.article-container h2~p,
+.article-container h2~ul,
+.article-container h3~ol,
+.article-container h3~p,
+.article-container h3~ul,
+.article-container h4~ol,
+.article-container h4~p,
+.article-container h4~ul,
+.article-container h5~ol,
+.article-container h5~p,
+.article-container h5~ul,
+.article-container h6~ol,
+.article-container h6~p,
+.article-container h6~ul,
+h1~ol,
+h1~p,
+h1~ul,
+h2~ol,
+h2~p,
+h2~ul,
+h3~ol,
+h3~p,
+h3~ul,
+h4~ol,
+h4~p,
+h4~ul,
+h5~ol,
+h5~p,
+h5~ul,
+h6~ol,
+h6~p,
+h6~ul {
     margin-top: 2.125rem;
 }
 
@@ -463,30 +463,30 @@ body {
     line-height: 1;
 }
 
-.article-container ol ~ h2,
-.article-container ol ~ h3,
-.article-container ol ~ h4,
-.article-container ol ~ h5,
-.article-container p ~ h2,
-.article-container p ~ h3,
-.article-container p ~ h4,
-.article-container p ~ h5,
-.article-container ul ~ h2,
-.article-container ul ~ h3,
-.article-container ul ~ h4,
-.article-container ul ~ h5,
-ol ~ h2,
-ol ~ h3,
-ol ~ h4,
-ol ~ h5,
-p ~ h2,
-p ~ h3,
-p ~ h4,
-p ~ h5,
-ul ~ h2,
-ul ~ h3,
-ul ~ h4,
-ul ~ h5 {
+.article-container ol~h2,
+.article-container ol~h3,
+.article-container ol~h4,
+.article-container ol~h5,
+.article-container p~h2,
+.article-container p~h3,
+.article-container p~h4,
+.article-container p~h5,
+.article-container ul~h2,
+.article-container ul~h3,
+.article-container ul~h4,
+.article-container ul~h5,
+ol~h2,
+ol~h3,
+ol~h4,
+ol~h5,
+p~h2,
+p~h3,
+p~h4,
+p~h5,
+ul~h2,
+ul~h3,
+ul~h4,
+ul~h5 {
     margin-bottom: 2.125rem;
     margin-top: 1.75rem;
 }
@@ -555,7 +555,8 @@ h6 {
 }
 
 .Hero {
-    background: linear-gradient(145deg, #0c95a7, #e5fafd);
+    background-image: url('../img/home/header-image.jpg');
+    background-position: 50% 83%;
 }
 
 /**
@@ -969,9 +970,7 @@ a.button:hover {
     -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
     -webkit-transition: background .4s, -webkit-box-shadow .2s;
-    transition: background .4s, -webkit-box-shadow .2s;
     -o-transition: background .4s, box-shadow .2s;
-    transition: background .4s, box-shadow .2s;
     transition: background .4s, box-shadow .2s, -webkit-box-shadow .2s;
 }
 
@@ -1100,15 +1099,15 @@ a.button:hover {
     margin-top: -14px
 }
 
-#searchArticle:focus + .searchIconAndResult .search-icons .search-submit:before,
-#searchArticle:focus + .searchIconAndResult .search-icons .search-submit:after,
-#searchArticle:active + .searchIconAndResult.search-icons .search-submit:before,
-#searchArticle:active + .searchIconAndResult .search-icons .search-submit:after {
+#searchArticle:focus+.searchIconAndResult .search-icons .search-submit:before,
+#searchArticle:focus+.searchIconAndResult .search-icons .search-submit:after,
+#searchArticle:active+.searchIconAndResult.search-icons .search-submit:before,
+#searchArticle:active+.searchIconAndResult .search-icons .search-submit:after {
     border-color: #9fa0a8
 }
 
-#searchArticle:focus + .searchIconAndResult .search-icons .interface-icon path,
-#searchArticle:active + .searchIconAndResult .search-icons .interface-icon path {
+#searchArticle:focus+.searchIconAndResult .search-icons .interface-icon path,
+#searchArticle:active+.searchIconAndResult .search-icons .interface-icon path {
     fill-opacity: 1
 }
 
@@ -1234,8 +1233,8 @@ a.button:hover {
                                   supported by Chrome and Opera */
 }
 
-.helpResult .material-icons,
-.helpResult svg {
+.blogSpace .material-icons,
+.blogSpace svg {
     color: #244564;
     font-size: 3rem;
 }
@@ -1698,7 +1697,7 @@ a.button:hover {
 
 .quote {
     text-align: center;
-    font-family: "Didact Gothic","Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1732,7 +1731,7 @@ a.button:hover {
     }
 
     #helpSearch,
-    .helpResult,
+    .blogSpace,
     .categoryResult {
         padding: 0.11rem 0.11rem 0 0.17rem;
     }
@@ -1750,7 +1749,7 @@ a.button:hover {
 @media (min-width: 767px) and (max-width: 840px) {
 
     #helpSearch,
-    .helpResult,
+    .blogSpace,
     .categoryResult {
         padding: 6rem 2rem 0.7rem;
     }
@@ -1759,7 +1758,7 @@ a.button:hover {
 @media (min-width: 841px) {
 
     #helpSearch,
-    .helpResult,
+    .blogSpace,
     .categoryResult {
         padding: 4rem 4rem 0 7rem;
     }
@@ -1855,7 +1854,7 @@ a.button:hover {
 @media (min-width: 992px) {
 
     #helpSearch,
-    .helpResult,
+    .blogSpace,
     .categoryResult {
         padding: 7rem 7rem 0 7rem;
     }

@@ -5,15 +5,13 @@
         window.scrollTo(0, 0);
         // Switch to category nav
         document.getElementsByClassName('Hero')[0].classList.add('d-none');
-        document.getElementsByClassName('HelpResult')[0].classList.add('d-none');
+        document.getElementsByClassName('blogSpace')[0].classList.add('d-none');
         document.getElementsByClassName('CategoryResult')[0].classList.remove('d-none');
 
         // Check if subcategory
         if (result.subcategoryPresent) {
             // Populate article information
             populateSubCategoryInfo(result);
-            // Make subcategory active
-            makeSubCategoryActive(result.url);
         } else {
             // Populate article information
             populateArticleInfo(result);
@@ -21,18 +19,6 @@
             if (isNotEmpty(result.breadcrumb[1])) makeSubCategoryActive(result.breadcrumb[1].crumbUrl);
         }
 
-    }
-
-    // Make Subcategory Active
-    function makeSubCategoryActive(urlToMatch) {
-        let categoryItems = document.getElementsByClassName('category-item');
-        for (let i = 0, len = categoryItems.length; i < len; i++) {
-            let categoryItem = categoryItems[i];
-            let anchorItem = categoryItem.lastElementChild;
-            if (includesStr(anchorItem.href, urlToMatch)) {
-                anchorItem.classList = 'active';
-            }
-        }
     }
 
 
@@ -69,50 +55,12 @@
 
     // Populate sub category information
     function populateSubCategory(category) {
-        let subCategoryDiv = document.createDocumentFragment();
-        let subCategoryNav = category.subCategory;
-
-        if (isEmpty(subCategoryNav)) {
-            return subCategoryDiv;
-        }
-
-        let ul = document.createElement('ul');
-        ul.classList.add('sub-category-list');
-
-        for (let i = 0, len = subCategoryNav.length; i < len; i++) {
-            let subCategoryNavItem = subCategoryNav[i];
-            let li = document.createElement('li');
-            li.classList.add('sub-category-li');
-
-            let articleIcon = document.createElement('i');
-            articleIcon.classList = 'material-icons align-middle';
-            articleIcon.innerText = 'assignment';
-            li.appendChild(articleIcon);
-
-            let anchorArticle = document.createElement('a');
-            anchorArticle.classList.add('sub-category-link');
-            // If the category url contains the below url then
-            // Add the url directly without adding the language
-            anchorHref = subCategoryNavItem.url;
-            if (anchorHref.indexOf("http://" + window.constants.applicationSite) == 0 ||
-                anchorHref.indexOf("https://" + window.constants.applicationSite) == 0 ||
-                anchorHref.indexOf("http://" + window.constants.homeSite) == 0 ||
-                anchorHref.indexOf("https://" + window.constants.homeSite) == 0 ||
-                anchorHref.indexOf("http://" + window.constants.homeSiteWithoutPrefix) == 0 ||
-                anchorHref.indexOf("https://" + window.constants.homeSiteWithoutPrefix) == 0) {
-                anchorArticle.href = anchorHref;
-                // Open in a new tab
-                anchorArticle.target = "_blank";
-            } else {
-                anchorArticle.href = '/' + window.currentLanguage + category.dataUrl + anchorHref.slice(1);
-            }
-            anchorArticle.innerText = subCategoryNavItem.title;
-            li.appendChild(anchorArticle);
-            ul.appendChild(li);
-        }
-
-        subCategoryDiv.appendChild(ul);
-        return subCategoryDiv;
+        let categoryInfo = [category];
+        let row = document.createElement('div');
+        row.classList = 'row';
+        let blogFragment = populateAllBlogs(categoryInfo);
+        row.appendChild(blogFragment);
+        return row;
     }
 
     // Populate the breadcrumb

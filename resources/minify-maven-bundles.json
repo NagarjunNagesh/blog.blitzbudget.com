@@ -16,15 +16,16 @@
                 "/plugins/translator.js",
                 "/data/categoryInfo.js",
                 "/autocomplete/index.js",
-                "/plugins/animateOnScroll.js",
                 "/constants.js",
                 "/plugins/libraries.js",
+                "/pages/home/blogList.js",
                 "/pages/loadHomePage.js",
                 "/pages/loadPage.js",
                 "/anchor/retrievePage.js",
                 "/anchor/anchor.js",
                 "/navigation/index.js",
-                "/askUsDirectly/index.js"
+                "/askUsDirectly/index.js",
+                "/plugins/animateOnScroll.js"
             ]
         }
     ]
