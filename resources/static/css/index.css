@@ -1420,12 +1420,23 @@ a.button:hover {
 
 #article-title,
 .article-title {
-    font-family: "Didact Gothic", "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 1.85rem;
     font-weight: 900;
-    color: #12323d;
     margin-bottom: 0.3rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+    line-height: 1.3;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    width: 80%;
+    text-rendering: optimizeLegibility;
+    overflow-wrap: break-word;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
 }
 
 .article-title {
@@ -1711,6 +1722,25 @@ a.button:hover {
 .cardFooter p,
 .cardFooter time {
     font-size: 14px;
+}
+
+.cb-vertical-down {
+    position: absolute;
+    bottom: 40px;
+    margin: 0 0 0 -0.5em;
+    text-align: center;
+    z-index: 20;
+    font-size: 2.5em;
+    color: #fff;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    top: 50%;
+}
+
+.cb-vertical-down .material-icons {
+    font-size: 5em;
 }
 
 @media (max-width: 576px) {

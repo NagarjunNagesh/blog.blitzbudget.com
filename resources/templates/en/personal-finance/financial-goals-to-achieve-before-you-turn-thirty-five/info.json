@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five/",
     "title": "Never Kill Your Goldent Goose",
+    "image": "/img/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five.jpg"
-        },
         {
             "tag": "p",
             "html": "You must have come across a recent study which suggests that you must have saved twice your annual salary before you reach the age of 35 in order to ensure that you retire by 67 having to live a similar lifestyle afterward. As many agree and as many disagree, The fact still remains the same."

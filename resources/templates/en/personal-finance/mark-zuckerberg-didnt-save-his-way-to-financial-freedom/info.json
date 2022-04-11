@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/",
     "title": "Mark Zuckerberg Didnt Save his way to Financial Freedom",
+    "image": "/img/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom.jpg"
-        },
         {
             "tag": "p",
             "html": "Why do people think saving is the key to wealth when the most wealthy people didn’t get to the top by saving?"

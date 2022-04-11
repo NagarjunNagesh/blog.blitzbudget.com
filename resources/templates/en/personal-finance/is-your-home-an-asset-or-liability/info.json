@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/is-your-home-an-asset-or-liability/",
     "title": "Is your Home an Asset or Liability?",
+    "image": "/img/personal-finance/is-your-home-an-asset-or-liability.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/is-your-home-an-asset-or-liability.jpg"
-        },
         {
             "tag": "p",
             "html": "We call it home because we live there with our loved ones; else it is a house, a real estate property, an asset or a liability. Your financial planner / real estate agent calls your home an asset. But what is the difference between an asset and a liability in the first place? Is your home an asset or a liability? Well, you are going to pay a rent for the house you are living in if you do not own that house."

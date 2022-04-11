@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/self-motivation-a-necessity-for-success/",
     "title": "Self-Motivation! A Necessity for Success",
+    "image": "/img/personal-finance/self-motivation-a-necessity-for-success.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/self-motivation-a-necessity-for-success.jpg"
-        },
         {
             "tag": "p",
             "html": "Self-Motivation. Some time that is the only thing you will have in order to push yourself towards success. Waking up every day feeling that you are causing a positive change in other people’s life and making it better for everybody as a community can be a motivator. Purpose can be the biggest motivator at times of hardship."

@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/i-cannot-save-a-penny-more/",
     "title": "I cannot save a Penny More",
+    "image": "/img/personal-finance/i-cannot-save-a-penny-more.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/i-cannot-save-a-penny-more.jpg"
-        },
         {
             "tag": "p",
             "html": "Why aren’t people saving?"

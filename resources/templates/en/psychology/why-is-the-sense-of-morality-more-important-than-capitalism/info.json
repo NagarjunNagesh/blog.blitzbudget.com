@@ -1,6 +1,7 @@
 {
     "url": "/psychology/why-is-the-sense-of-morality-more-important-than-capitalism/",
     "title": "Why is the Sense of Morality more Important than Capitalism?",
+    "image": "/img/psychology/why-is-the-sense-of-morality-more-important-than-capitalism.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/why-is-the-sense-of-morality-more-important-than-capitalism.jpg"
-        },
         {
             "tag": "p",
             "html": "Morality navigates us through life when there are infinite directions one could potentially take. Morality vastly restricts the number of pathways one could take."

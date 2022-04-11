@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/investing-in-index-funds/",
     "title": "Investing in Index Funds",
+    "image": "/img/personal-finance/investing-in-index-funds.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/investing-in-index-funds.jpg"
-        },
         {
             "tag": "p",
             "html": "Index funds are low-cost funds which do not require any active management."

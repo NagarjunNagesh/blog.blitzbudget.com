@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/investment-management-strategy/",
     "title": "Never Kill Your Goldent Goose",
+    "image": "/img/personal-finance/investment-management-strategy.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/investment-management-strategy.jpg"
-        },
         {
             "tag": "p",
             "html": "The investment management strategy has to be personalized and should satisfy your need. For this reason, I do not provide a tailor made strategy which could satisfy everyone's needs."

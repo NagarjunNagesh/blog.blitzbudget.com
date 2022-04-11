@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/power-of-dreaming/",
     "title": "The Power of Dreaming",
+    "image": "/img/personal-finance/power-of-dreaming.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/power-of-dreaming.jpg"
-        },
         {
             "tag": "p",
             "html": "It all starts with a dream to become successful in life. The dream has to be justified with a definiteness of purpose. The purpose then drives us to plan and to take action. Keep repeating the action with discipline and there you have it! A glimpse of the path to success."

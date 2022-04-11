@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/find-your-desire-for-financial-freedom/",
     "title": "Find your desire for Financial Freedom",
+    "image": "/img/personal-finance/find-your-desire-for-financial-freedom.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/find-your-desire-for-financial-freedom.jpg"
-        },
         {
             "tag": "p",
             "html": "Why do human beings do what they do? Why do we need to be financially free? Some of them make a killing. Some sacrifice their life in the hope of providing a better life for their children."

@@ -13,7 +13,7 @@ function populateAllBlogs(categoryInfo) {
         for (let j = 0, length = subCategoryNav.length; j < length; j++) {
             let subCategoryNavItem = subCategoryNav[j];
             let column = document.createElement('div');
-            column.classList = 'col-12 col-md-6 col-lg-6 text-animation fIU';
+            column.classList = 'col-12 col-md-6 col-lg-6 text-animation fadeInUp';
 
             let anchor = document.createElement('a');
             anchor.href = '/' + window.currentLanguage + categoryrUrl.slice(0, -1) + subCategoryNavItem.url;

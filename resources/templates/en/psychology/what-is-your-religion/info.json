@@ -1,6 +1,7 @@
 {
     "url": "/psychology/what-is-your-religion/",
     "title": "What is your Religion?",
+    "image": "/img/psychology/what-is-your-religion.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/what-is-your-religion.jpg"
-        },
         {
             "tag": "p",
             "html": "The need for religion and god is intrinsic in most people. Once the god is destroyed then we are in chaos."

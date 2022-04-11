@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/debt-analysis-analysing-your-financial-past/",
     "title": "Debt Analysis: Analysing your Financial Oast?",
+    "image": "/img/personal-finance/debt-analysis-analysing-your-financial-past.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/debt-analysis-analysing-your-financial-past.jpg"
-        },
         {
             "tag": "p",
             "html": "How much are you in debt? You need to analyze the past. If you are in debt make sure you do not stack up anymore. That’s half the battle against debt won! The need to stop stalking up more debt has to come from within."

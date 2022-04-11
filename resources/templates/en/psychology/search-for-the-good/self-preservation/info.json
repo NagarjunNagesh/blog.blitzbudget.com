@@ -1,6 +1,7 @@
 {
     "url": "/psychology/search-for-the-good/self-preservation/",
     "title": "Self Preservation",
+    "image": "/img/psychology/search-for-the-good/self-preservation.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -17,11 +18,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/search-for-the-good/self-preservation.jpg"
-        },
         {
             "tag": "p",
             "html": "What is good? That is a hard thing to crack, right? That’s the most abstract word anyone has ever found. It has multiple meanings if we try to crack it from the top-down and people can get lost in the search for good."

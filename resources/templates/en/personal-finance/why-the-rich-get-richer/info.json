@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/why-the-rich-get-richer/",
     "title": "Why the Rich get Richer?",
+    "image": "/img/personal-finance/why-the-rich-get-richer.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/why-the-rich-get-richer.jpg"
-        },
         {
             "tag": "p",
             "html": "Certainly, the possibility of living in a civilized world develops the opportunity for inequality"

@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/are-you-rich-if-you-own-a-bmw/",
     "title": "Are you Rich if you own a BMW?",
+    "image": "/img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
-        },
         {
             "tag": "p",
             "html": "Can somebody be dead broke and still own a BMW? Yes, anybody can be dead broke and still own a BMW according to the book – “The Millionaire Next Door”."

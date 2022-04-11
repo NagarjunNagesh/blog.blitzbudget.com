@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/include-your-partner/",
     "title": "Include your Partner?",
+    "image": "/img/personal-finance/include-your-partner.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/include-your-partner.jpg"
-        },
         {
             "tag": "p",
             "html": "Your partner is one of the most influential people in your life. The importance of having a right partner in life is realized in the emotional and financial aspect of your life."

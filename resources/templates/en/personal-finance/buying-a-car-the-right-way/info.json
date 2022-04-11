@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/buying-a-car-the-right-way/",
     "title": "Buying a Car the Right Way",
+    "image": "/img/personal-finance/buying-a-car-the-right-way.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/buying-a-car-the-right-way.jpg"
-        },
         {
             "tag": "p",
             "html": "Every plan, savings or budget is personalized and cannot be implemented by your neighbor. It won’t be the right fit for them. So is your car."

@@ -1,6 +1,7 @@
 {
     "url": "/psychology/pursuit-of-problem-solving/",
     "title": "Pursuit of Problem Solving?",
+    "image": "/img/psychology/pursuit-of-problem-solving.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/pursuit-of-problem-solving.jpg"
-        },
         {
             "tag": "p",
             "html": "The mere fact that we are focusing on something and the limitation that it imposes on us ensures that other problems might arise out of this lack of focus on other aspects which also require your attention."

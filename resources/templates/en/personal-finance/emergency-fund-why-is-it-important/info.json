@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/emergency-fund-why-is-it-important/",
     "title": "Emergency Fund: Why is it Important?",
+    "image": "/img/personal-finance/emergency-fund-why-is-it-important.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/emergency-fund-why-is-it-important.jpg"
-        },
         {
             "tag": "p",
             "html": "Have you ever noticed that we keep staring at someone for no reason? It makes everyone uncomfortable."

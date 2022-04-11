@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/self-analysis-understanding-your-habits/",
     "title": "Self-Analysis! Understanding your Habits",
+    "image": "/img/personal-finance/self-analysis-understanding-your-habits.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/self-analysis-understanding-your-habits.jpg"
-        },
         {
             "tag": "p",
             "html": "We were born helpless, unable to speak or feed ourselves on our own. The factors that influence who we become is to a large extent from the outside. Isn’t it?"

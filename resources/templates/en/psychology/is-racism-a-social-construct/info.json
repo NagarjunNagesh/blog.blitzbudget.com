@@ -1,6 +1,7 @@
 {
     "url": "/psychology/is-racism-a-social-construct/",
     "title": "Is Racism a Social Construct?",
+    "image": "/img/psychology/is-racism-a-social-construct.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/is-racism-a-social-construct.jpg"
-        },
         {
             "tag": "p",
             "html": "Racism could be a social construct or a learned behavior to a certain degree."

@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/credit-cards-how-to-increase-your-credit-score/",
     "title": "Credit Cards: How to Increase your Credit Score",
+    "image": "/img/personal-finance/credit-cards-how-to-increase-your-credit-score.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/credit-cards-how-to-increase-your-credit-score.jpg"
-        },
         {
             "tag": "p",
             "html": "Before reading Ramit Sethi’s book – “I Will Teach You To Be Rich”, I thought there are only two ways to finance your budget - cash or debit card."

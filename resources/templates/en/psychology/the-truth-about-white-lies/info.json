@@ -1,6 +1,7 @@
 {
     "url": "/psychology/the-truth-about-white-lies/",
     "title": "The Truth about White Lies",
+    "image": "/img/psychology/the-truth-about-white-lies.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/the-truth-about-white-lies.jpg"
-        },
         {
             "tag": "p",
             "html": "Once we establish ourselves as a person who would not shy away from saying white lies as long as we get what we want/prevent bad things from happening by telling the truth (which just means you did something that would negatively impact you and/or others if the truth comes out ) then you would notice that even if we get away till now, we are paying a price."

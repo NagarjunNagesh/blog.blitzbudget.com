@@ -1,6 +1,7 @@
 {
     "url": "/psychology/one-piece/straw-hat-luffy/",
     "title": "Straw Hat Luffy",
+    "image": "/img/psychology/one-piece/straw-hat-luffy.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -17,11 +18,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/one-piece/straw-hat-luffy.jpg"
-        },
         {
             "tag": "p",
             "html": "A 17-year-old boy from a small town in East Blue sets off on a journey to become a pirate. In this hypothetical world like the real one, all the pirates are considered bad."

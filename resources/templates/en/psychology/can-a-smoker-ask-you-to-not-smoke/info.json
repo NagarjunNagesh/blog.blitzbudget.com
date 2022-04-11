@@ -1,6 +1,7 @@
 {
     "url": "/psychology/can-a-smoker-ask-you-to-not-smoke/",
     "title": "Can a Smoke ask you to Not Smoke?",
+    "image": "/img/psychology/can-a-smoker-ask-you-to-not-smoke.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/can-a-smoker-ask-you-to-not-smoke.jpg"
-        },
         {
             "tag": "p",
             "html": "A good piece of advice provided even by a child abuser if valid should be taken."

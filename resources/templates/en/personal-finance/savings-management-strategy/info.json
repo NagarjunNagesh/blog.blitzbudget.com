@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/savings-management-strategy/",
     "title": "Savings Management Strategy",
+    "image": "/img/personal-finance/savings-management-strategy.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/savings-management-strategy.jpg"
-        },
         {
             "tag": "p",
             "html": "Savings management strategy is by far the simplest yet hard to implement amongst all the strategies. It demands that you change your mentality and destroy the previously held notions of money."

@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/income-allocation-strategy/",
     "title": "Income Allocation Strategy?",
+    "image": "/img/personal-finance/income-allocation-strategy.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/income-allocation-strategy.jpg"
-        },
         {
             "tag": "p",
             "html": "The income allocation blueprint is a suggestion to allocate a certain portion of your income."

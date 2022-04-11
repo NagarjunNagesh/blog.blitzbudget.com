@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/where-should-we-begin/",
     "title": "Where should we Begin?",
+    "image": "/img/personal-finance/where-should-we-begin.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/where-should-we-begin.jpg"
-        },
         {
             "tag": "p",
             "html": "We all have to start from wherever we are today. But to be financially successful where do we start from? Let’s find out,  Which statement resonates with you?"

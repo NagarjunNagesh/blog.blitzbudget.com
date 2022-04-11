@@ -1,6 +1,7 @@
 {
     "url": "/do-you-really-need-a-budget-to-become-financially-free/",
     "title": "Do you really need a budget to become Financially Free?",
+    "image": "/img/personal-finance/do-you-really-need-a-budget-to-become-financially-free.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/do-you-really-need-a-budget-to-become-financially-free.jpg"
-        },
         {
             "tag": "p",
             "html": "We all love freedom. Doesn’t budgeting restrict our freedom of spending?"

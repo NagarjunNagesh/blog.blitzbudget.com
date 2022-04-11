@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/investing-in-fixed-deposits/",
     "title": "Investing in Fixed Deposits",
+    "image": "/img/personal-finance/investing-in-fixed-deposits.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/investing-in-fixed-deposits.jpg"
-        },
         {
             "tag": "p",
             "html": "These are one of the most common forms of investment in the developing nations, although not common among developed nations. These play an important role when it comes to managing emergency funds."

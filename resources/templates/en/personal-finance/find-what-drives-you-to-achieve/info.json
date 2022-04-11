@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/find-what-drives-you-to-achieve/",
     "title": "Find what Drives you to Achieve?",
+    "image": "/img/personal-finance/find-what-drives-you-to-achieve.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/find-what-drives-you-to-achieve.jpg"
-        },
         {
             "tag": "p",
             "html": "Let’s find out what drives us to achieve. A good number of people do the jobs they do not love to earn the riches they desire. If you have just enough determination, passion and desire to achieve and consistently outperform, financial success will be the byproduct. But we all know the person who works for more than 10 hours a day."

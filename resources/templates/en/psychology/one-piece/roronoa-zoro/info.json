@@ -1,6 +1,7 @@
 {
     "url": "/psychology/one-piece/roronoa-zoro/",
     "title": "Roronoa Zoro",
+    "image": "/img/psychology/one-piece/roronoa-zoro.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -17,11 +18,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/psychology/one-piece/roronoa-zoro.jpg"
-        },
         {
             "tag": "p",
             "html": "Some of the most easy-to-understand characters in One piece is Roronova Zoro. He is portrayed as a personality who wants to be the world's greatest swordsman."

@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/how-to-save-your-way-to-achieve-your-dream/",
     "title": "How to Save Your Way to Achieve your Dream",
+    "image": "/img/personal-finance/how-to-save-your-way-to-achieve-your-dream.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/how-to-save-your-way-to-achieve-your-dream.jpg"
-        },
         {
             "tag": "p",
             "html": "There is one thing that we know with certainty, i.e. in today’s economic situation a single steady income stream is not enough to sustain a family."

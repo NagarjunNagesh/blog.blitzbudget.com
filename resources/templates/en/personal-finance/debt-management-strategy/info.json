@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/debt-management-strategy/",
     "title": "Debt Management Strategy",
+    "image": "/img/personal-finance/debt-management-strategy.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/debt-management-strategy.jpg"
-        },
         {
             "tag": "p",
             "html": "Debt management requires your utmost commitment to get rid of debt. The first step in making sure that you start reducing your debt is an emergency fund."

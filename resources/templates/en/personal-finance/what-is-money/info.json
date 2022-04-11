@@ -1,6 +1,7 @@
 {
 	"url": "/personal-finance/what-is-money/",
 	"title": "What is Money?",
+	"image": "/img/personal-finance/what-is-money.jpg",
 	"subcategoryPresent": false,
 	"breadcrumb": [
 		{
@@ -13,11 +14,6 @@
 		}
 	],
 	"content": [
-		{
-			"tag": "img",
-			"classInfo": "article-header-image",
-			"srcUrl": "/img/personal-finance/what-is-money.jpg"
-		},
 		{
 			"tag": "p",
 			"classInfo": "quote",

@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/investing-in-mutual-funds/",
     "title": "Investing in Mutual Funds",
+    "image": "/img/personal-finance/investing-in-mutual-funds.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/investing-in-mutual-funds.jpg"
-        },
         {
             "tag": "p",
             "html": "Mutual funds also known as actively managed funds are the most sorted out forms of investments by the public."

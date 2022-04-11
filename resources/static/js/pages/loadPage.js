@@ -33,6 +33,7 @@
             if (isEqual(category.categoryName, title)) {
                 // Update body
                 document.getElementById('article-title').innerText = category.categoryName;
+                document.getElementById('article-header-image').src = category.image;
                 document.getElementById('article-description').innerText = category.description;
                 let bcEl = document.getElementById('breadcrumb');
                 while (bcEl.firstChild) {
@@ -114,6 +115,7 @@
     function populateArticleInfo(result) {
         // Update body
         document.getElementById('article-title').innerText = result.title;
+        document.getElementById('article-header-image').src = result.image;
         document.getElementById('article-description').innerText = '';
         let bcEl = document.getElementById('breadcrumb');
         while (bcEl.firstChild) {

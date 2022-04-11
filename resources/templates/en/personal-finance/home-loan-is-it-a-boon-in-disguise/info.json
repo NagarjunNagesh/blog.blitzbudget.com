@@ -1,6 +1,7 @@
 {
     "url": "/personal-finance/home-loan-is-it-a-boon-in-disguise/",
     "title": "Home Loan: Is it a Boon in Disguise",
+    "image": "/img/personal-finance/home-loan-is-it-a-boon-in-disguise.jpg",
     "subcategoryPresent": false,
     "breadcrumb": [
         {
@@ -13,11 +14,6 @@
         }
     ],
     "content": [
-        {
-            "tag": "img",
-            "classInfo": "article-header-image",
-            "srcUrl": "/img/personal-finance/home-loan-is-it-a-boon-in-disguise.jpg"
-        },
         {
             "tag": "p",
             "html": "It all starts with a dream of having a roof on top of one’s head for the sake of their family."

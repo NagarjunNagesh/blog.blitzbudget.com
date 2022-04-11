@@ -8,6 +8,7 @@ window.categoryInfo = {
         {
             "categoryName": "Personal Finance",
             "dataUrl": "/personal-finance/",
+            "image": "/img/personal-finance/why-the-rich-get-richer.jpg",
             "description": "What I had learnt about money so far..",
             "subCategory": [
                 {
@@ -160,6 +161,7 @@ window.categoryInfo = {
         {
             "categoryName": "Psychology",
             "dataUrl": "/psychology/",
+            "image": "/img/psychology/why-is-the-sense-of-morality-more-important-than-capitalism.jpg",
             "description": "I thought emotions had to be controlled.. I was so wrong!",
             "subCategory": [
                 {
