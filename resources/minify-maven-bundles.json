@@ -23,9 +23,7 @@
                 "/pages/loadPage.js",
                 "/anchor/retrievePage.js",
                 "/anchor/anchor.js",
-                "/navigation/index.js",
-                "/askUsDirectly/index.js",
-                "/plugins/animateOnScroll.js"
+                "/navigation/index.js"
             ]
         }
     ]

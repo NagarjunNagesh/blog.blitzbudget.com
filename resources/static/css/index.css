@@ -1411,11 +1411,14 @@ a.button:hover {
 
 .articleContainer {
     background: #fff;
-    border: 1px solid #e9e5e5;
     color: #222;
     min-height: 460px;
     padding: 45px 46px;
     position: relative;
+}
+
+#breadcrumb {
+    text-align: center;
 }
 
 #article-title,
@@ -1447,6 +1450,29 @@ a.button:hover {
     font-size: 1rem;
     color: #999;
     margin-top: 0.2rem;
+    text-align: center;
+}
+
+.expand-more {
+    position: absolute;
+    top: 80%;
+    color: #fff;
+    left: 46%;
+    font-size: 500%;
+}
+
+.written-by {
+    font-size: 0.6em;
+    letter-spacing: 3px;
+    color: #9c9c9c;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+#currentYear {
+    font-size: 14px;
 }
 
 .crumbAnchor,
@@ -1717,13 +1743,6 @@ a.button:hover {
     margin: 2rem;
 }
 
-#currentYear,
-.navWithHeader a,
-.cardFooter p,
-.cardFooter time {
-    font-size: 14px;
-}
-
 .cb-vertical-down {
     position: absolute;
     bottom: 40px;
@@ -1773,6 +1792,10 @@ a.button:hover {
 
     .mobileBannerMenuSocialNav .col-6 .btn-info {
         margin-left: 2rem;
+    }
+
+    .article-header-image {
+        width: 250%;
     }
 }
 

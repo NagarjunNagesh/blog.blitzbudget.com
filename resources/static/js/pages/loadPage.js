@@ -78,34 +78,23 @@
         let anchorZero = document.createElement('a');
         anchorZero.href = breadcrumbAnchor.crumbUrl;
         anchorZero.classList.add('crumbAnchor');
-        anchorZero.innerText = breadcrumbAnchor.crumbTitle;
+        anchorZero.innerText = '#' + breadcrumbAnchor.crumbTitle;
         breadcrumbDiv.appendChild(anchorZero);
 
         for (let i = 1, len = breadcrumbSC.length; i < len; i++) {
-            let span = document.createElement('span');
-            span.classList.add('nextCrumb');
-            span.innerText = '>';
-            breadcrumbDiv.appendChild(span);
-
             let breadcrumbAnchor = breadcrumbSC[i];
             let anchorOther = document.createElement('a');
             anchorOther.classList.add('crumbAnchor');
             anchorOther.href = '/' + window.currentLanguage + breadcrumbAnchor.crumbUrl;
-            anchorOther.innerText = breadcrumbAnchor.crumbTitle;
+            anchorOther.innerText = '#' + breadcrumbAnchor.crumbTitle;
             breadcrumbDiv.appendChild(anchorOther);
         }
-
-        // Upload the category
-        let span = document.createElement('span');
-        span.classList.add('nextCrumb');
-        span.innerText = '>';
-        breadcrumbDiv.appendChild(span);
 
         // Bread crumb last
         let anchorLast = document.createElement('a');
         anchorLast.href = '/' + window.currentLanguage + result.url;
         anchorLast.classList.add('crumbAnchor');
-        anchorLast.innerText = result.title;
+        anchorLast.innerText = '#' + result.title;
         breadcrumbDiv.appendChild(anchorLast);
 
         return breadcrumbDiv;
