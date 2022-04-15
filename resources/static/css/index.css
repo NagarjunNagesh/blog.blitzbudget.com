@@ -1797,6 +1797,12 @@ a.button:hover {
     .article-header-image {
         width: 250%;
     }
+
+    .category-result-header {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 840px) {
