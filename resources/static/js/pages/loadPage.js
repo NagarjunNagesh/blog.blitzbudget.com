@@ -21,7 +21,6 @@
 
     }
 
-
     // Populate Sub Category Info
     function populateSubCategoryInfo(result) {
         let title = result.title;
@@ -46,12 +45,10 @@
                 }
 
                 articleBody.appendChild(populateSubCategory(category));
-
                 return;
             }
         }
     }
-
 
     // Populate sub category information
     function populateSubCategory(category) {
@@ -127,7 +124,6 @@
         }
 
         articleBody.appendChild(populateArticle(result.content));
-
     }
 
     // Populate Article
