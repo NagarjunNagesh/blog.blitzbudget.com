@@ -16,7 +16,7 @@
         width="300"
         trigger="hover"
       >
-        <div class="popover-body">Designed by BlitzBudget.</div>
+        <div class="popover-body">Created by BlitzBudget.</div>
       </el-popover>
     </template>
     <template slot="navbar-menu">
