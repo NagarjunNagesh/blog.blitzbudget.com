@@ -23,7 +23,7 @@
             <card
               type="background"
               class="card-fashion"
-              style="background-image: url('img/psychology/bg-1.jpg')"
+              style="background-image: url('img/personal-finance/bg-1.jpg')"
             >
               <div class="card-title text-left">
                 <h2>
