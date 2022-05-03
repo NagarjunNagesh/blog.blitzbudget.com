@@ -1,0 +1,15 @@
+{
+    "url": "/psychology/one-piece/",
+    "title": "One Piece",
+    "subcategoryPresent": true,
+    "breadcrumb": [
+        {
+            "crumbTitle": "Blog",
+            "crumbUrl": "/"
+        },
+        {
+            "crumbTitle": "Psychology",
+            "crumbUrl": "/psychology/"
+        }
+    ]
+}

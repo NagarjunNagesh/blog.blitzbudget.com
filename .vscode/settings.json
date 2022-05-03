@@ -3,5 +3,8 @@
     "java.debug.settings.enableRunDebugCodeLens": false,
     "java.test.editor.enableShortcuts": false,
     "editor.formatOnSave": true,
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "nuxt.isNuxtApp": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
 }

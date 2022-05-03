@@ -1,0 +1,12 @@
+{
+	"url": "/personal-finance/",
+	"title": "Personal Finance",
+	"image": "/img/personal-finance/find-your-desire-for-financial-freedom.jpg",
+	"subcategoryPresent": true,
+	"breadcrumb": [
+		{
+			"crumbTitle": "Blog",
+			"crumbUrl": "/"
+		}
+	]
+}
