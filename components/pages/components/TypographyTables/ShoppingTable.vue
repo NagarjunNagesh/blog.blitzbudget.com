@@ -59,7 +59,7 @@
         </div>
       </el-table-column>
       <el-table-column min-width="100" label="">
-        <div slot-scope="{ row }" class="td-actions">
+        <div slot-scope="{}" class="td-actions">
           <n-button type="neutral">
             <em class="now-ui-icons ui-1_simple-remove"></em>
           </n-button>

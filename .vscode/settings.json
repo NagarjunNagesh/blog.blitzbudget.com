@@ -6,5 +6,8 @@
     "java.configuration.updateBuildConfiguration": "automatic",
     "nuxt.isNuxtApp": false,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000
+    "files.autoSaveDelay": 1000,
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/NagarjunNagesh/Documents/GitHub/Personal/blog.blitzbudget.com/.github/workflows/deploy.yml"
+    }
 }

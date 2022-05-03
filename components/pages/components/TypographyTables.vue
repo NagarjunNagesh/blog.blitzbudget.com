@@ -186,10 +186,7 @@
                         header-align="right"
                         label="Actions"
                       >
-                        <div
-                          slot-scope="{ row }"
-                          class="text-right table-actions"
-                        >
+                        <div slot-scope="{}" class="text-right table-actions">
                           <el-tooltip
                             content="Info"
                             :open-delay="300"
