@@ -4,7 +4,7 @@
     "java.test.editor.enableShortcuts": false,
     "editor.formatOnSave": true,
     "java.configuration.updateBuildConfiguration": "automatic",
-    "nuxt.isNuxtApp": false,
+    "nuxt.isNuxtApp": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "yaml.schemas": {
