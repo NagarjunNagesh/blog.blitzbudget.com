@@ -1,368 +1,169 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"
-      ></div>
+      <div class="page-header-image"
+        style="background-image: url('/img/personal-finance/investment-management-strategy.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">Never Kill Your Goldent Goose</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="article">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <p>The investment management strategy has to be personalized and should satisfy your need. For this
+              reason, I do not provide a tailor made strategy which could satisfy everyone's needs.</p>
+            <p>The above mentioned strategy is a sample blueprint which could be implemented by any individual
+              in India.</p>
+            <p>I believe that the above example would shed some light on how to invest. Let’s take a retirement
+              plan in India. Apart from your mandatory payments to the Employees Provident Fund (EPF), let’s
+              imagine that you are having a surplus and are choosing to invest in an index fund (UTI Nifty
+              Fund) a set amount periodically and systematically. In other words, you are investing in UTI
+              Nifty Fund with Rupee Cost Averaging strategy.</p>
+            <p>After you retire, you are withdrawing all of the balance from the UTI Nifty Fund and are choosing
+              to do it in a cost efficient manner.</p>
+            <p>You could split the investment into two if not three separate sections.</p>
+            <ul>
+              <li>First ₹5,000,000 from the UTI Fund Investment goes into a Capital Gains Scheme Bond which is
+                offered through National Highway Authority of India (NHAI)  & Rural Electric Corp. (REC).
+              </li>
+              <li>Second split which could be any amount which you desire is necessary to build a home goes
+                into a Capital Gains Account Scheme.</li>
+              <li>Third split is left in the UTI Nifty Fund untouched to grow.</li>
+            </ul>
+            <p>Wait for the first ₹5,000,000 which is invested in the Capital Gains Scheme Bond to mature. It
+              has a maturity period of 3 years, after which you could invest the capital gained which is legal
+              and tax free into Fixed Deposit & Annuity Plans.</p>
+            <p>If you are building a home, you have a three year period before which you have to use the money
+              invested in the Capital Gains Account Scheme. You have to use it only for that purpose and the
+              government will make sure of it. So, build the house for you to live or better build one with
+              the sole intention of renting it.</p>
+            <p>The third section which we have left it in the UTI Nifty Fund could be taken after the first
+              investment in the Capital Gains Scheme Bond have matured, because the total aggregate maximum
+              investment allowed in these bonds are capped at ₹5,000,000. You can keep repeating this cycle to
+              retrieve the investment from the index funds tax free in India.</p>
+            <p>Else, you will be liable for taxes on the capital gains. We should make sure that wherever
+              possible we legally avoid all the taxes.</p>
+            <p>Indian government have provided us with EPF and PPF which could be considered as a boon. Other
+              countries do not have such schemes and we can consider ourselves lucky as the growth with in the
+              EPF & PPF are not taxed along with the invested capital.</p>
+            <p>Roth IRA & IRA are taxed one way or the other while ROTH IRA requires tax paid dollars to be
+              invested, traditional IRA requires the employee to pay tax upon withdrawal.</p>
+            <p>Further explanation is provided in the Part 27 : Investing in Index Funds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-blog-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="blog-tags">
+                  Tags:
+                  <span class="label label-success">Personal Finance</span>
+                </div>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+            <hr />
+            <card type="profile" plain>
+              <template slot="raw-content">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-avatar">
+                      <a href="#pablo">
+                        <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
+                      </a>
+                      <div class="ripple-container"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <h4 class="card-title">Nagarjun Nagesh</h4>
+                    <p class="description">
+                      Life lessons on Personal Finance which I learnt,
+                      implemented and seen the lives lived by my ancestors.
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-default pull-right btn-round">
+                      Follow
+                    </button>
+                  </div>
+                </div>
+              </template>
+            </card>
           </div>
         </div>
       </div>
     </div>
     <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="button-container">
-              <a href="#pablo" class="btn btn-success btn-round btn-lg">
-                <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-twitter btn-round"
-              >
-                <em class="fab fa-twitter"></em>
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-facebook btn-round"
-              >
-                <em class="fab fa-facebook-square"></em>
-              </a>
-              <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                <em class="fab fa-google"></em>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">The Castle Looks Different at Night...</h3>
-              <p>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more. We are here to make life better.
-                <br />
-                <br />
-                And now I look and look around and there’s so many Kanyes I've
-                been trying to figure out the bed design for the master bedroom
-                at our Hidden Hills compound... and thank you for turning my
-                personal jean jacket into a couture piece.
-              </p>
-              <p class="blockquote blockquote-primary">
-                “And thank you for turning my personal jean jacket into a
-                couture piece.”
-                <br />
-                <br />
-                <small> Kanye West, Producer. </small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
+        <div class="col-md-12">
+          <h2 class="title text-center">Similar Stories</h2>
+          <br />
+          <div class="blogs-1" id="blogs-1">
             <div class="row">
-              <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Over the span of the satellite record, Arctic sea ice has
-                    been declining significantly, while sea ice in the
-                    Antarctichas increased very slightly"
-                    <br />
-                    <br />
-                    <small>-NOAA</small>
-                  </p>
-                </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
-              </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures rise.
-                  But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Rest of the Story:</h3>
-              <p>
-                We are here to make life better. And now I look and look around
-                and there’s so many Kanyes I've been trying to figure out the
-                bed design for the master bedroom at our Hidden Hills
-                compound... and thank you for turning my personal jean jacket
-                into a couture piece. <br />
-                I speak yell scream directly at the old guard on behalf of the
-                future. daytime All respect prayers and love to Phife’s family
-                Thank you for so much inspiration.
-              </p>
-              <p>
-                Thank you Anna for the invite thank you to the whole Vogue team
-                And I love you like Kanye loves Kanye Pand Pand Panda I've been
-                trying to figure out the bed design for the master bedroom at
-                our Hidden Hills compound...The Pablo pop up was almost a pop up
-                of influence. All respect prayers and love to Phife’s family
-                Thank you for so much inspiration daytime I love this new Ferg
-                album! The Life of Pablo is now available for purchase I have a
-                dream. Thank you to everybody who made The Life of Pablo the
-                number 1 album in the world! I'm so proud of the nr #1 song in
-                the country. Panda! Good music 2016!
-              </p>
-              <p>
-                I love this new Ferg album! The Life of Pablo is now available
-                for purchase I have a dream. Thank you to everybody who made The
-                Life of Pablo the number 1 album in the world! I'm so proud of
-                the nr #1 song in the country. Panda! Good music 2016!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog-info">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-tags">
-                    Tags:
-                    <span class="label label-success">Photography</span>
-                    <span class="label label-success">Stories</span>
-                    <span class="label label-success">Castle</span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <a href="#pablo" class="btn btn-google btn-round pull-right">
-                    <em class="fab fa-google"></em> 232
-                  </a>
-                  <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                    <em class="fab fa-twitter"></em> 910
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-facebook btn-round pull-right"
-                  >
-                    <em class="fab fa-facebook-square"></em> 872
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <card type="profile" plain>
-                <template slot="raw-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <div class="card-avatar">
-                        <a href="#pablo">
-                          <img class="img img-raised" src="img/mike.jpg" />
-                        </a>
-                        <div class="ripple-container"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-8">
-                      <h4 class="card-title">Alec Thompson</h4>
-                      <p class="description">
-                        I've been trying to figure out the bed design for the
-                        master bedroom at our Hidden Hills compound...I like
-                        good music from Youtube.
-                      </p>
-                    </div>
-                    <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
-                        Follow
-                      </button>
-                    </div>
-                  </div>
-                </template>
-              </card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-comments">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="media-area">
-                <h3 class="title text-center">3 Comments</h3>
-                <comment
-                  v-for="comment in comments"
-                  :avatar="comment.avatar"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                  :key="comment.id"
-                >
-                </comment>
-              </div>
-              <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
-                  <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/olivia.jpg"
-                    />
-                  </div>
-                </a>
-                <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    v-model="form.comment"
-                    placeholder="Write a nice reply or go home..."
-                    rows="4"
-                  ></textarea>
-                  <div class="media-footer">
-                    <a href="#pablo" class="btn btn-success pull-right">
-                      <em class="now-ui-icons ui-1_send"></em> Reply
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- end media-post -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/examples/card-blog4.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Enterprise</h6>
-                          <h3 class="card-title">
-                            <a href="#pablo"
-                              >Warner Music Group buys concert discovery service
-                              Songkick</a
-                            >
-                          </h3>
-                          <p class="card-description">
-                            Warner Music Group announced today it’s acquiring
-                            the selected assets of the music platform Songkick,
-                            including its app for finding concerts and the
-                            company’s trademark.
-                          </p>
-                          <p class="author">
-                            by
-                            <a href="#pablo"> <b>Sarah Perez</b> </a>, 2 days
-                            ago
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
+              <div class="col-md-10 ml-auto mr-auto">
+                <card type="blog" plain>
+                  <template slot="raw-content">
                     <div class="row">
+                      <div class="col-md-5">
+                        <div class="card-image">
+                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
+                            alt="" />
+                        </div>
+                      </div>
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Startup
-                        </h6>
+                        <h6 class="category text-info">Personal Finance</h6>
                         <h3 class="card-title">
-                          <a href="#pablo"
-                            >Insticator raises $5.2M to help publishers</a
-                          >
+                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
                         </h3>
                         <p class="card-description">
-                          Insticator is announcing that it has raised $5.2
-                          million in Series A funding. The startup allows online
-                          publishers to add quizzes, polls and other interactive
-                          elements...
+                          It all starts with a dream to become successful in life. The dream has to be justified with
+                          a definiteness of purpose.....
                         </p>
                         <p class="author">
                           by
-                          <a href="#pablo"> <b>Anthony Ha</b> </a>, 5 days ago
+                          <b>Nagarjun Nagesh</b> , September 18, 2018
                         </p>
                       </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/examples/card-blog6.jpg"
-                          />
-                        </div>
+                    </div>
+                  </template>
+                </card>
+                <card type="blog" plain>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h6 class="category text-danger">
+                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                        Personal Finance
+                      </h6>
+                      <h3 class="card-title">
+                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
+                          Understanding your Habits</a>
+                      </h3>
+                      <p class="card-description">
+                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
+                        influence who we become is to a large extent from the outside.....
+                      </p>
+                      <p class="author">
+                        by
+                        <b>Nagarjun Nagesh</b>, September 18, 2018
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="card-image">
+                        <img class="img img-raised rounded"
+                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
                       </div>
                     </div>
-                  </card>
-                </div>
+                  </div>
+                </card>
               </div>
             </div>
           </div>
@@ -396,33 +197,7 @@ export default {
       form: {
         comment: "",
       },
-      comments: [
-        {
-          avatar: "img/james.jpg",
-          author: "Tina Andrew",
-          date: "7 minutes ago",
-          comment: `<p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                            <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>`,
-        },
-        {
-          avatar: "img/michael.jpg",
-          author: "John Camber",
-          date: "Yesterday",
-          comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                            <p> Don't forget, You're Awesome!</p>`,
-          replies: [
-            {
-              avatar: "img/julie.jpg",
-              author: "Tina Andrew",
-              date: "2 Days Ago",
-              comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                <p> Don't forget, You're Awesome!</p>`,
-              liked: true,
-              likes: 25,
-            },
-          ],
-        },
-      ],
+      comments: [],
     };
   },
   mounted() {

@@ -1,15 +1,12 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('/img/personal-finance/what-is-money.jpg')">
+      </div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">What is Money?</h2>
           </div>
         </div>
       </div>
@@ -19,24 +16,50 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#pablo" class="btn btn-success btn-round btn-lg">
+              <a href="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
               </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-twitter btn-round"
-              >
-                <em class="fab fa-twitter"></em>
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-facebook btn-round"
-              >
-                <em class="fab fa-facebook-square"></em>
-              </a>
-              <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                <em class="fab fa-google"></em>
-              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="article">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Do nothing, say nothing and be nothing and you'll never be criticized”
+                  <br />
+                  <br />
+                  <small> - Elbert Hubbard</small>
+                </p>
+              </blockquote>
+              <h3 class="title">Money, Love & Enemy...</h3>
+              <p>
+                These are some of the words which evoke extreme emotions.
+                <br />
+                <br />
+                Love is prevalent in the society. We learn to express them from the moment we are born. Nobody has to
+                expressly teach us how to love. They are embedded in our DNA.
+                <br />
+                <br />
+                However the same cannot be told for money. Ask yourself what is money?
+                <br />
+                <br />
+                Ask others “What is money?” Everyone has a different explanation for it. Some say “Money is the root of
+                all evil”.
+                <br />
+                <br />
+              </p>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “The love of money is the root of all evil”
+                  <br />
+                  <br />
+                  <small> - Bible, 1 Timothy 6:10</small>
+                </p>
+              </blockquote>
             </div>
           </div>
         </div>
@@ -45,94 +68,22 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">The Castle Looks Different at Night...</h3>
+              <h3 class="title">Love of Money:</h3>
               <p>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more. We are here to make life better.
-                <br />
-                <br />
-                And now I look and look around and there’s so many Kanyes I've
-                been trying to figure out the bed design for the master bedroom
-                at our Hidden Hills compound... and thank you for turning my
-                personal jean jacket into a couture piece.
+                Some are ashamed of not having enough money. Some are guilty of having a lot of money. Some are indeed
+                greedy. There are as many emotions as there are emotions themselves which are expressed when money comes
+                into play.
               </p>
-              <p class="blockquote blockquote-primary">
-                “And thank you for turning my personal jean jacket into a
-                couture piece.”
-                <br />
-                <br />
-                <small> Kanye West, Producer. </small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
-            <div class="row">
-              <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Over the span of the satellite record, Arctic sea ice has
-                    been declining significantly, while sea ice in the
-                    Antarctichas increased very slightly"
-                    <br />
-                    <br />
-                    <small>-NOAA</small>
-                  </p>
-                </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
-              </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
+              <p>Some are willing to trade something more valuable than money like their family, health, happiness, etc
+                as money has the power to create and destroy everything in its path.</p>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Money is a good servant but a bad master”
+                  <br />
+                  <br />
+                  <small> - Sir Francis Bacon</small>
                 </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures rise.
-                  But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-              </div>
+              </blockquote>
             </div>
           </div>
         </div>
@@ -141,34 +92,87 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Rest of the Story:</h3>
+              <h3 class="title">What is money?</h3>
               <p>
-                We are here to make life better. And now I look and look around
-                and there’s so many Kanyes I've been trying to figure out the
-                bed design for the master bedroom at our Hidden Hills
-                compound... and thank you for turning my personal jean jacket
-                into a couture piece. <br />
-                I speak yell scream directly at the old guard on behalf of the
-                future. daytime All respect prayers and love to Phife’s family
-                Thank you for so much inspiration.
+                Can you imagine the times without money? Imagine yourself there wanting salt in an era without money.
+                All you have is two bags of rice. When you go to the salt vendor he says “I already have enough rice
+                mate, bring me two live chickens, I’ll trade with you”. <br />
+                Things escalate quickly when the livestock vendor wants something else. It’s such a pain!
               </p>
               <p>
-                Thank you Anna for the invite thank you to the whole Vogue team
-                And I love you like Kanye loves Kanye Pand Pand Panda I've been
-                trying to figure out the bed design for the master bedroom at
-                our Hidden Hills compound...The Pablo pop up was almost a pop up
-                of influence. All respect prayers and love to Phife’s family
-                Thank you for so much inspiration daytime I love this new Ferg
-                album! The Life of Pablo is now available for purchase I have a
-                dream. Thank you to everybody who made The Life of Pablo the
-                number 1 album in the world! I'm so proud of the nr #1 song in
-                the country. Panda! Good music 2016!
+                Money liberates you from pain and provides the option to do whatever you want to do with it.
+              </p>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Money is freedom”
+                  <br />
+                  <br />
+                  <small></small>
+                </p>
+              </blockquote>
+              <p>
+                How you are willing to build the wealth is what differentiates one from the other. While choosing a
+                title for this book, I was perplexed by the choice of using “The Art of Building Your Wealth”. Building
+                your wealth requires vivid imagination & skill and expresses important feelings and emotions. If
+                building your wealth is not art what else is it?
               </p>
               <p>
-                I love this new Ferg album! The Life of Pablo is now available
-                for purchase I have a dream. Thank you to everybody who made The
-                Life of Pablo the number 1 album in the world! I'm so proud of
-                the nr #1 song in the country. Panda! Good music 2016!
+                Science is boring for many. Art feels beautiful & skillful. Only the experienced, well educated in the
+                art of personal finance can even think of building their wealth. You’ll see in the pages to come how to
+                build your wealth from scratch.
+              </p>
+              <p>
+                I always feel if you want to become like someone find out how they achieved it and follow their path.
+                You will reach there all by yourself.
+              </p>
+              <p>
+                Having been perplexed with the same questions and spending quite a couple of years learning about the
+                successful people I stumbled upon an important factor common with all the successful ones.
+              </p>
+              <p>
+                We all remember them for the work which they do without that they are nobody. What comes to your mind
+                when I say Elon Musk, Warren Buffett, Bill Gates, Tony Robbins, Mark Zuckerberg? Their contribution to
+                this society is humongous and they are an immense success.
+              </p>
+              <p>
+                I’ve been studying them and this is what I have found. Although their work life has to do nothing with
+                their personal life, it creates an opportunity for them to be successful. But wait, not all of them are
+                Donald Trumps & Mike Tysons. They are in the top 1%. What about the remaining 99% of the population?
+              </p>
+              <p>
+                How can they be successful? Heck! I am in the 99%. If only the top 1% can be successful in life, we are
+                all failures and I am too proud to declare it!
+              </p>
+              <p>
+                Success for most of us (Millennials) is building a home, buying a car, retiring with a lump sum of money
+                while traveling around the world.
+              </p>
+              <p>
+                Knowing how to achieve these is half the battle won! I developed four simple strategies to implement in
+                your life to make sure that you reach there and they are <b>Income, Debt, Savings & Investment
+                  Management Strategies.</b>
+              </p>
+              <p>
+                My promise to you is: If you choose to stick with me until the end, these four strategies have the power
+                to help you reach your financial freedom.
+              </p>
+              <p>
+                I detest to use the word win! As it brings the thought of losing to mind! If you win, someone else
+                loses. We the 99% often lose! That’s how we learn. But if you know the rules of money, you can keep
+                making a decent amount of money for a really long time and retire rich.
+              </p>
+              <p>
+                When I say Sylvia Bloom, does it ring a bell? I am sure it doesn’t. She was a frugal receptionist who
+                made a whopping $12 million dollars by the time she died.
+              </p>
+              <p>
+                She did it the slow way, She did not earn the lottery or win something huge along the way. She learned
+                the rules of money and she applied it to her life.
+              </p>
+              <p>
+                You can make it too. Any normal person has the ability to do just that if he or she is willing to. Life
+                is full of opportunities and those with a strong purpose and determination can achieve what Sylvia Bloom
+                has achieved.
               </p>
             </div>
           </div>
@@ -182,25 +186,10 @@
                 <div class="col-md-6">
                   <div class="blog-tags">
                     Tags:
-                    <span class="label label-success">Photography</span>
-                    <span class="label label-success">Stories</span>
-                    <span class="label label-success">Castle</span>
+                    <span class="label label-success">Personal Finance</span>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <a href="#pablo" class="btn btn-google btn-round pull-right">
-                    <em class="fab fa-google"></em> 232
-                  </a>
-                  <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                    <em class="fab fa-twitter"></em> 910
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-facebook btn-round pull-right"
-                  >
-                    <em class="fab fa-facebook-square"></em> 872
-                  </a>
-                </div>
+                <div class="col-md-6"></div>
               </div>
               <hr />
               <card type="profile" plain>
@@ -209,77 +198,26 @@
                     <div class="col-md-2">
                       <div class="card-avatar">
                         <a href="#pablo">
-                          <img class="img img-raised" src="img/mike.jpg" />
+                          <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
                         </a>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
                     <div class="col-md-8">
-                      <h4 class="card-title">Alec Thompson</h4>
+                      <h4 class="card-title">Nagarjun Nagesh</h4>
                       <p class="description">
-                        I've been trying to figure out the bed design for the
-                        master bedroom at our Hidden Hills compound...I like
-                        good music from Youtube.
+                        Life lessons on Personal Finance which I learnt,
+                        implemented and seen the lives lived by my ancestors.
                       </p>
                     </div>
                     <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
+                      <button type="button" class="btn btn-default pull-right btn-round">
                         Follow
                       </button>
                     </div>
                   </div>
                 </template>
               </card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-comments">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="media-area">
-                <h3 class="title text-center">3 Comments</h3>
-                <comment
-                  v-for="comment in comments"
-                  :avatar="comment.avatar"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                  :key="comment.id"
-                >
-                </comment>
-              </div>
-              <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
-                  <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/olivia.jpg"
-                    />
-                  </div>
-                </a>
-                <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    v-model="form.comment"
-                    placeholder="Write a nice reply or go home..."
-                    rows="4"
-                  ></textarea>
-                  <div class="media-footer">
-                    <a href="#pablo" class="btn btn-success pull-right">
-                      <em class="now-ui-icons ui-1_send"></em> Reply
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- end media-post -->
             </div>
           </div>
         </div>
@@ -297,31 +235,23 @@
                       <div class="row">
                         <div class="col-md-5">
                           <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/examples/card-blog4.jpg"
-                              alt=""
-                            />
+                            <img class="img img-raised rounded"
+                              src="img/personal-finance/self-motivation-a-necessity-for-success.jpg" alt="" />
                           </div>
                         </div>
                         <div class="col-md-7">
-                          <h6 class="category text-info">Enterprise</h6>
+                          <h6 class="category text-info">Personal Finance</h6>
                           <h3 class="card-title">
-                            <a href="#pablo"
-                              >Warner Music Group buys concert discovery service
-                              Songkick</a
-                            >
+                            <a href="/personal-finance/self-motivation-a-necessity-for-success/">Self-Motivation! A
+                              Necessity for Success</a>
                           </h3>
                           <p class="card-description">
-                            Warner Music Group announced today it’s acquiring
-                            the selected assets of the music platform Songkick,
-                            including its app for finding concerts and the
-                            company’s trademark.
+                            Self-Motivation. Some time that is the only thing you will have in order to push yourself
+                            towards success.....
                           </p>
                           <p class="author">
                             by
-                            <a href="#pablo"> <b>Sarah Perez</b> </a>, 2 days
-                            ago
+                            <b>Nagarjun Nagesh</b> , September 18, 2018
                           </p>
                         </div>
                       </div>
@@ -331,33 +261,25 @@
                     <div class="row">
                       <div class="col-md-7">
                         <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Startup
+                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                          Personal Finance
                         </h6>
                         <h3 class="card-title">
-                          <a href="#pablo"
-                            >Insticator raises $5.2M to help publishers</a
-                          >
+                          <a href="/personal-finance/where-should-we-begin/">Where should we Begin?</a>
                         </h3>
                         <p class="card-description">
-                          Insticator is announcing that it has raised $5.2
-                          million in Series A funding. The startup allows online
-                          publishers to add quizzes, polls and other interactive
-                          elements...
+                          We all have to start from wherever we are today. But
+                          to be financially successful.....
                         </p>
                         <p class="author">
                           by
-                          <a href="#pablo"> <b>Anthony Ha</b> </a>, 5 days ago
+                          <b>Nagarjun Nagesh</b>, September 18, 2018
                         </p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/examples/card-blog6.jpg"
-                          />
+                          <img class="img img-raised rounded" src="img/personal-finance/where-should-we-begin.jpg"
+                            alt="blog" />
                         </div>
                       </div>
                     </div>
@@ -396,33 +318,7 @@ export default {
       form: {
         comment: "",
       },
-      comments: [
-        {
-          avatar: "img/james.jpg",
-          author: "Tina Andrew",
-          date: "7 minutes ago",
-          comment: `<p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                            <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>`,
-        },
-        {
-          avatar: "img/michael.jpg",
-          author: "John Camber",
-          date: "Yesterday",
-          comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                            <p> Don't forget, You're Awesome!</p>`,
-          replies: [
-            {
-              avatar: "img/julie.jpg",
-              author: "Tina Andrew",
-              date: "2 Days Ago",
-              comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                <p> Don't forget, You're Awesome!</p>`,
-              liked: true,
-              likes: 25,
-            },
-          ],
-        },
-      ],
+      comments: [],
     };
   },
   mounted() {

@@ -231,16 +231,18 @@
                           <em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"
                           ></em>
-                          Psychology
+                          Search for the Good
                         </h6>
                         <h3 class="card-title">
-                          <a href="/psychology/is-racism-a-social-construct/"
-                            >Is Racism a Social Construct?</a
+                          <a
+                            href="/psychology/search-for-the-good/self-preservation/"
+                            >Self Preservation</a
                           >
                         </h3>
                         <p class="card-description">
-                          Racism could be a social construct or a learned
-                          behavior to a certain degree.....
+                          What is good? That is a hard thing to crack, right?
+                          That’s the most abstract word anyone has ever found.
+                          It has multiple meanings.....
                         </p>
                         <p class="author">
                           by
@@ -251,7 +253,7 @@
                         <div class="card-image">
                           <img
                             class="img img-raised rounded"
-                            src="img/psychology/bg-15.jpg"
+                            src="img/psychology/bg17.jpg"
                             alt="blog"
                           />
                         </div>

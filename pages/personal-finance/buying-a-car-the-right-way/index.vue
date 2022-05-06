@@ -1,15 +1,37 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"
-      ></div>
+      <div class="page-header-image"
+        style="background-image: url('/img/personal-finance/buying-a-car-the-right-way.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">Buying a Car the Right Way</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="article">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <p>Every plan, savings or budget is personalized and cannot be implemented by your neighbor. It
+              won’t be the right fit for them. So is your car.</p>
+            <ul>
+              <li>Which car should you buy? A Ferrari? A Toyota? or a Mini Cooper?</li>
+              <li>Do you want it new or don’t mind if it is a few years old?</li>
+              <li>Is a 2 seater enough for you? How about a 5 seater?</li>
+              <li>Do you want to buy a petrol or a diesel engine?</li>
+              <li>Do you usually travel long distances? Is it for driving within the city limits?</li>
+            </ul>
+            <p>You can personalize it even further by wanting a sunroof/convertible.</p>
+            <p>The concept of buying a car the right way depends on one’s financial situation. Ask yourself
+              before buying a car.</p>
+            <ul>
+              <li>Do I already have an emergency fund in place?</li>
+              <li>Are you going to pay all cash for the car?</li>
+            </ul>
+            <p>Both the answers to the above questions should be a yes before choosing to buy a car.</p>
           </div>
         </div>
       </div>
@@ -17,352 +39,168 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="button-container">
-              <a href="#pablo" class="btn btn-success btn-round btn-lg">
-                <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-twitter btn-round"
-              >
-                <em class="fab fa-twitter"></em>
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-facebook btn-round"
-              >
-                <em class="fab fa-facebook-square"></em>
-              </a>
-              <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                <em class="fab fa-google"></em>
-              </a>
-            </div>
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Why shouldn't you Pay for the Car with a Loan?</h3>
+            <p>The minute you take the car out of the showroom the price of the car goes down by a minimum of
+              30% to 50%.</p>
+            <p>If you have a loan you should be paying an interest on the loan. How much is it that you are
+              paying? And how long are you going to pay?</p>
+            <p>For the convenience of traveling in your car is it worth paying $200 / $300 every month excluding
+              fuel and parking charges?</p>
+            <p>Would you rather be a little less comfortable traveling on a public transport and saving $150 to
+              $250 till you have saved enough to buy a car?</p>
+            <p><b>Chances are that if you start the practice of saving the money to buy a car you will end up
+                buying a second-hand car.</b></p>
+            <p>And you will feel just as happy as buying a new car.</p>
+            <p>Choose to be financially free especially when it comes to paying for depreciating assets.</p>
+            <p><b>The general rule of thumb is to save one year’s worth of income for buying a car.</b></p>
+            <p>Is that not enough? Maybe you could choose a cheaper model and settle for a second hand or better
+              yet, increase your income!</p>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">The Castle Looks Different at Night...</h3>
-              <p>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more. We are here to make life better.
-                <br />
-                <br />
-                And now I look and look around and there’s so many Kanyes I've
-                been trying to figure out the bed design for the master bedroom
-                at our Hidden Hills compound... and thank you for turning my
-                personal jean jacket into a couture piece.
-              </p>
-              <p class="blockquote blockquote-primary">
-                “And thank you for turning my personal jean jacket into a
-                couture piece.”
-                <br />
-                <br />
-                <small> Kanye West, Producer. </small>
-              </p>
-            </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Comfor And Prestige</h3>
+            <p>We choose to buy a car because we want to be comfortable, not getting constrained by the time
+              limits of public transport and generally wanting to save time.</p>
+            <p>We will end up saving about one to a maximum of two hours every day by traveling in a car.</p>
+            <p><b>What Will You Use These Hours For?</b></p>
+            <p>Would you rather spend the time watching TV, Browsing / Cooking your tomorrow’s lunch?</p>
+            <p>An average man watches TV / uses a mobile phone for over 4 hours a day.</p>
+            <p>But browsing is pleasurable for us and for most of them waiting in traffic in a car is not.</p>
+            <p>Would you trade $250 every month for getting enough time to browse / cook / whatever you want to
+              do?</p>
+            <p>That’s exactly what you are doing when you buy a car which you can’t afford instead of traveling
+              in a public transport for a few years.</p>
+            <p>But I am getting a car am I not?</p>
+            <p>Yes. But is the car worth the money which you are paying for? It is depreciating every day, every
+              time you use and every extra mile it moves.</p>
+            <p>You are better off with a second-hand car with less mileage. It would do the same job and you
+              would end up not spending 50% more for the same car just because it was not used before.</p>
+            <p>People also buy a car for the prestige of owning it.</p>
+            <p>We all would like to be treated well and the people who judge you often judge you by the
+              appearances and it includes the car you drive.</p>
+            <p>What is the car that fits your standard and appeases your pride?</p>
+            <p>If you are from a middle class or having a rich background owning a car is a basic requirement
+              and is often taken for granted.</p>
+            <p>Do you earn as much and save as much?</p>
+            <p>The truth is if your financial situation is bad, as in case, you go into debt for buying a
+              depreciating asset and cannot repay it within the next 5 years, you don’t deserve to buy a car
+              as long as it is not absolutely impossible to commute without it.</p>
           </div>
         </div>
       </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
+    </div>
+    <div class="section section-blog-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
             <div class="row">
               <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Over the span of the satellite record, Arctic sea ice has
-                    been declining significantly, while sea ice in the
-                    Antarctichas increased very slightly"
-                    <br />
-                    <br />
-                    <small>-NOAA</small>
-                  </p>
+                <div class="blog-tags">
+                  Tags:
+                  <span class="label label-success">Personal Finance</span>
                 </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
               </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures rise.
-                  But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-              </div>
+              <div class="col-md-6"></div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Rest of the Story:</h3>
-              <p>
-                We are here to make life better. And now I look and look around
-                and there’s so many Kanyes I've been trying to figure out the
-                bed design for the master bedroom at our Hidden Hills
-                compound... and thank you for turning my personal jean jacket
-                into a couture piece. <br />
-                I speak yell scream directly at the old guard on behalf of the
-                future. daytime All respect prayers and love to Phife’s family
-                Thank you for so much inspiration.
-              </p>
-              <p>
-                Thank you Anna for the invite thank you to the whole Vogue team
-                And I love you like Kanye loves Kanye Pand Pand Panda I've been
-                trying to figure out the bed design for the master bedroom at
-                our Hidden Hills compound...The Pablo pop up was almost a pop up
-                of influence. All respect prayers and love to Phife’s family
-                Thank you for so much inspiration daytime I love this new Ferg
-                album! The Life of Pablo is now available for purchase I have a
-                dream. Thank you to everybody who made The Life of Pablo the
-                number 1 album in the world! I'm so proud of the nr #1 song in
-                the country. Panda! Good music 2016!
-              </p>
-              <p>
-                I love this new Ferg album! The Life of Pablo is now available
-                for purchase I have a dream. Thank you to everybody who made The
-                Life of Pablo the number 1 album in the world! I'm so proud of
-                the nr #1 song in the country. Panda! Good music 2016!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog-info">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-tags">
-                    Tags:
-                    <span class="label label-success">Photography</span>
-                    <span class="label label-success">Stories</span>
-                    <span class="label label-success">Castle</span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <a href="#pablo" class="btn btn-google btn-round pull-right">
-                    <em class="fab fa-google"></em> 232
-                  </a>
-                  <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                    <em class="fab fa-twitter"></em> 910
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-facebook btn-round pull-right"
-                  >
-                    <em class="fab fa-facebook-square"></em> 872
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <card type="profile" plain>
-                <template slot="raw-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <div class="card-avatar">
-                        <a href="#pablo">
-                          <img class="img img-raised" src="img/mike.jpg" />
-                        </a>
-                        <div class="ripple-container"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-8">
-                      <h4 class="card-title">Alec Thompson</h4>
-                      <p class="description">
-                        I've been trying to figure out the bed design for the
-                        master bedroom at our Hidden Hills compound...I like
-                        good music from Youtube.
-                      </p>
-                    </div>
-                    <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
-                        Follow
-                      </button>
+            <hr />
+            <card type="profile" plain>
+              <template slot="raw-content">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-avatar">
+                      <a href="#pablo">
+                        <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
+                      </a>
+                      <div class="ripple-container"></div>
                     </div>
                   </div>
-                </template>
-              </card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-comments">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="media-area">
-                <h3 class="title text-center">3 Comments</h3>
-                <comment
-                  v-for="comment in comments"
-                  :avatar="comment.avatar"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                  :key="comment.id"
-                >
-                </comment>
-              </div>
-              <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
-                  <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/olivia.jpg"
-                    />
+                  <div class="col-md-8">
+                    <h4 class="card-title">Nagarjun Nagesh</h4>
+                    <p class="description">
+                      Life lessons on Personal Finance which I learnt,
+                      implemented and seen the lives lived by my ancestors.
+                    </p>
                   </div>
-                </a>
-                <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    v-model="form.comment"
-                    placeholder="Write a nice reply or go home..."
-                    rows="4"
-                  ></textarea>
-                  <div class="media-footer">
-                    <a href="#pablo" class="btn btn-success pull-right">
-                      <em class="now-ui-icons ui-1_send"></em> Reply
-                    </a>
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-default pull-right btn-round">
+                      Follow
+                    </button>
                   </div>
                 </div>
-              </div>
-              <!-- end media-post -->
-            </div>
+              </template>
+            </card>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/examples/card-blog4.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Enterprise</h6>
-                          <h3 class="card-title">
-                            <a href="#pablo"
-                              >Warner Music Group buys concert discovery service
-                              Songkick</a
-                            >
-                          </h3>
-                          <p class="card-description">
-                            Warner Music Group announced today it’s acquiring
-                            the selected assets of the music platform Songkick,
-                            including its app for finding concerts and the
-                            company’s trademark.
-                          </p>
-                          <p class="author">
-                            by
-                            <a href="#pablo"> <b>Sarah Perez</b> </a>, 2 days
-                            ago
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="col-md-12">
+          <h2 class="title text-center">Similar Stories</h2>
+          <br />
+          <div class="blogs-1" id="blogs-1">
+            <div class="row">
+              <div class="col-md-10 ml-auto mr-auto">
+                <card type="blog" plain>
+                  <template slot="raw-content">
                     <div class="row">
+                      <div class="col-md-5">
+                        <div class="card-image">
+                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
+                            alt="" />
+                        </div>
+                      </div>
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Startup
-                        </h6>
+                        <h6 class="category text-info">Personal Finance</h6>
                         <h3 class="card-title">
-                          <a href="#pablo"
-                            >Insticator raises $5.2M to help publishers</a
-                          >
+                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
                         </h3>
                         <p class="card-description">
-                          Insticator is announcing that it has raised $5.2
-                          million in Series A funding. The startup allows online
-                          publishers to add quizzes, polls and other interactive
-                          elements...
+                          It all starts with a dream to become successful in life. The dream has to be justified with
+                          a definiteness of purpose.....
                         </p>
                         <p class="author">
                           by
-                          <a href="#pablo"> <b>Anthony Ha</b> </a>, 5 days ago
+                          <b>Nagarjun Nagesh</b> , September 18, 2018
                         </p>
                       </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/examples/card-blog6.jpg"
-                          />
-                        </div>
+                    </div>
+                  </template>
+                </card>
+                <card type="blog" plain>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h6 class="category text-danger">
+                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                        Personal Finance
+                      </h6>
+                      <h3 class="card-title">
+                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
+                          Understanding your Habits</a>
+                      </h3>
+                      <p class="card-description">
+                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
+                        influence who we become is to a large extent from the outside.....
+                      </p>
+                      <p class="author">
+                        by
+                        <b>Nagarjun Nagesh</b>, September 18, 2018
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="card-image">
+                        <img class="img img-raised rounded"
+                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
                       </div>
                     </div>
-                  </card>
-                </div>
+                  </div>
+                </card>
               </div>
             </div>
           </div>
@@ -396,33 +234,7 @@ export default {
       form: {
         comment: "",
       },
-      comments: [
-        {
-          avatar: "img/james.jpg",
-          author: "Tina Andrew",
-          date: "7 minutes ago",
-          comment: `<p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                            <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>`,
-        },
-        {
-          avatar: "img/michael.jpg",
-          author: "John Camber",
-          date: "Yesterday",
-          comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                            <p> Don't forget, You're Awesome!</p>`,
-          replies: [
-            {
-              avatar: "img/julie.jpg",
-              author: "Tina Andrew",
-              date: "2 Days Ago",
-              comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                <p> Don't forget, You're Awesome!</p>`,
-              liked: true,
-              likes: 25,
-            },
-          ],
-        },
-      ],
+      comments: [],
     };
   },
   mounted() {
