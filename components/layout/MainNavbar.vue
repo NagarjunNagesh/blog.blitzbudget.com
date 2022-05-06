@@ -36,7 +36,7 @@
       <li class="nav-item">
         <a
           class="nav-link btn btn-default btn-neutral"
-          href="https://www.blitzbudget.com/signin"
+          href="https://app.blitzbudget.com/signin"
           target="_blank"
         >
           <p>Sign in</p>
