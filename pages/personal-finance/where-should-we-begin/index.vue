@@ -1,14 +1,12 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/personal-finance/bg-1.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('/img/personal-finance/where-should-we-begin.jpg')">
+      </div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Why the Rich get Richer?</h2>
+            <h2 class="title">Where should we Begin?</h2>
           </div>
         </div>
       </div>
@@ -29,223 +27,41 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Certainly, the possibility of living...</h3>
+              <h3 class="title">We all have to start from wherever we are today...</h3>
               <p>
-                in a civilized world develops the opportunity for inequality
-                <br />
-                <br />
-                The opportunists seize every opportunity to make a profit.
-                <br />
-                <br />
-                They deserve every single penny they make out of it while the
-                others stay in ignorance of these opportunities.
-                <br />
-                <br />
-                There are two factors at play here:
+                But to be financially successful where do we start from? Let’s find out, Which statement resonates with
+                you?
                 <br />
                 <br />
               </p>
               <ul>
-                <li>Leverage</li>
-                <li>Ignorance</li>
-              </ul>
-              <p>
-                <br />
-                <br />
-                Though the opportunity was available to all of them, only the
-                opportunist were able to see the opportunity at hand.
-                <br />
-                <br />
-                This is only made possible with the help of Leverage.
-                <br />
-                <br />
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
-            <div class="row">
-              <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Leverage in simple terms is to
-                    <b>use something to a maximum advantage.</b>"
-                    <br />
-                    <br />
-                    <small></small>
-                  </p>
-                </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
-              </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>Leverage</h3>
-                <p>
-                  Let’s say that there is an opportunity to make money by
-                  cleaning a house. You could do it in a number of ways.
-                </p>
-                <ul>
-                  <li>
-                    Use a plain old broom and a mop to clean the house (1 hour)
-                  </li>
-                  <li>Use a vacuum cleaner to clean the house (30 min)</li>
-                  <li>Use an automated robotic cleaner (Automated)</li>
-                </ul>
-                <p>What does this mean financially?</p>
-                <ul>
-                  <li>You could spend one hour to clean the house (Free)</li>
-                  <li>
-                    You could hire someone to do it for you ($10.62 per hour)
-                  </li>
-                  <li>
-                    You could also buy a vacuum cleaner to make it easier ($60 –
-                    $200)
-                  </li>
-                  <li>
-                    You could buy an automated robotic cleaner ($200 – $1000)
-                  </li>
-                </ul>
-                <p>
-                  Depending on your region and country, all these figures will
-                  vary but the point remains that you are saving time/money
-                  depending on what you are willing to choose.
-                </p>
-                <ul>
-                  <li>You could spend one hour to clean the house (Free)</li>
-                  <li>
-                    If you prioritize your time, you would be choosing to hire
-                    someone to do the house cleaning for you (Automated /
-                    Manual).
-                  </li>
-                  <li>
-                    If you prioritize your money, you would be cleaning it
-                    yourself.
-                  </li>
-                </ul>
-                <p>
-                  Leverages here are Vacuum Cleaner, Robotic Cleaners, and Man
-                  Power.
-                </p>
-                <p>Let’s take a financial example this time.</p>
-                <p>
-                  I have a $100 in my bank account and you have a $100 million
-                  in your bank account.
-                </p>
-                <p>
-                  We both choose to invest it in a low-risk index fund which
-                  yields a moderate 8% annual return on investment.
-                </p>
-                <p>
-                  After a year, My initial $100 would have become $108 while
-                  your $100 million would have become $108 million.
-                </p>
-                <p>
-                  Even though we both had equal opportunity, you were able to
-                  make the most of the index fund investment.
-                </p>
-                <p>What is the Leverage here?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Capital:</h3>
-              <p>
-                To add insult to injury, I’ve earned all of my $100 while you
-                have inherited your $100 million. <br />
-                Now, I may feel life is unequal!
-              </p>
-              <p>In reality, it is not.</p>
-              <p>
-                Your parents may have worked hard and deserved every penny of
-                what they have earned and then passed it on to you.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Ignorance:</h3>
-              <p class="blockquote blockquote-primary">
-                “Ignorance is bliss”
-                <br />
-                <br />
-                <small> Unknown. </small>
-              </p>
-              <p>
-                If you are unaware of an unpleasant situation, you cannot be
-                troubled by it. <br />
-                Initially, the wealth gap between you and me was $99,999,900.
-              </p>
-              <p>
-                After a year, the wealth gap between you and me has widened to
-                $107,999,892.
-              </p>
-              <p>
-                A classic example of
-                <b>Rich getting richer, poor becoming poorer</b>.
-              </p>
-              <p>
-                While this fact is true, inflation is also catching up to eat up
-                what I’ve earned in interest, along with tax payment to the
-                government and costs involved with the fund.
-              </p>
-              <p>
-                The real return on investment could be anywhere between $2 – $6
-                while you could be looking forward to earning anywhere between
-                $2 million to $6 million.
-              </p>
-              <p>
-                Your parents might have worked hard; learnt along the way to
-                become the best in their fields to accumulate and provide you a
-                $100 million. While mine did nothing and provided me with a
-                total inheritance of $0.
-              </p>
-              <p>
-                It is in every parent’s interest to ensure that their children
-                have every bit of advantage in this world.
-              </p>
-              <p>
-                Meanwhile, if I ensure that I spend every little penny that I
-                have left and leave my children with a net inheritance of $0 I
-                ensure misery to my children.
-              </p>
-              <p>
-                Again a classic example of
-                <b>Rich getting richer, poor becoming poorer.</b>
-              </p>
-              <p>What can we learn here?</p>
-              <ul>
-                <li>The lesser the resources, the harder it is to save.</li>
-                <li>The more the money, the easier it is to save.</li>
-                <li>I spend everything which I earn and invest.</li>
                 <li>
-                  You could never imagine spending $8 million a year. So, you
-                  end up investing it again.
+                  I am already doing whatever it takes but could barely get through life.
                 </li>
+                <li>
+                  I live a darn good life and don’t want to think about financial success.
+                </li>
+                <li>I have a million dollars! A billion dollars! Invested in a long-term passive income stream yielding
+                  14% a year.</li>
               </ul>
+              <p>
+                <br />
+                <br />
+                Our limiting beliefs demotivate us from achieving, Our ego doesn’t let us accept the reality, find out
+                where you are now and accept the facts. Now it is time to take action. Why don’t we begin with simple
+                actionable steps?. Let’s see.
+                <br />
+                <br />
+                Definitiveness of Purpose
+                <br />
+                <br />
+                If there is one thing that you could adopt from this book it would be this.You need a definite purpose
+                for every goal; without a purpose we will be like a boat drifting along the sea without a destination.
+                Why do you want to be financially successful? What is the drive that motivates you to take action? Don’t
+                have a definite drive to motivate yourself to take action? “Find your drive! ”
+                <br />
+                <br />
+              </p>
             </div>
           </div>
         </div>
@@ -254,75 +70,175 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Your First Million is the Hardest:</h3>
+              <h3 class="title">What's your story?:</h3>
               <p>
-                If you are determined enough and are motivated sufficiently. You
-                will eventually earn your first million in the 30 + years of
-                your career. <br />
-                Always remember
+                The story that you build around the motive to be financially successful is what is driving you to
+                achieve and if you build a strong enough story that you constantly keep thinking about, it is one step
+                closer to achieving success.Everyone would love to be financially successful. What is it that sets the
+                ones who actually achieve financial success apart? Often the financial success is a byproduct of a
+                successful career or business. The career success or business success is a by-product of opportunity and
+                preparation. Don’t ever subscribe to the thought that it is pure luck. The preparation is a by-product
+                of motivation and perseverance. Motivation and Perseverance are derived from reason. The reason is
+                derived from the story you tell yourself.
               </p>
-              <p>Earn -> Save -> Invest -> Repeat</p>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Luck is what happens when preparation meets opportunity”
+                  <br />
+                  <br />
+                  <small> - Seneca, A Roman Philosopher</small>
+                </p>
+              </blockquote>
+              <p>What is your story? Do you want to be financially successful because you wanted to be significant in
+                life? Do you want money to grow to provide food and shelter for your family? As Tony Robbins in “Awaken
+                The Giant Within” put it – “Everything that we do, we do for a reason. Everything we do is due to a need
+                to avoid pain or to gain pleasure”.</p>
               <p>
-                It is the only recipe which promises the attainment of your
-                financial goals.
+                What is your pain or pleasure that is motivating you to move towards the financial success dream?
               </p>
-              <p>But don’t people who invest end up losing money?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Plan</h3>
               <p>
-                These are the people who do not do their homework before
-                investing.
+                With purpose sternly in place, what is the plan that you have right now that will move you towards the
+                financial success dream? The natural outcome of definiteness of purpose is motivation and passion to
+                achieve the dream. Utilize the motivation to plan the path which you would love to take. People are
+                their best expression of themselves when they do what they love. It is extremely hard to be successful
+                at what you do when you hate what you are doing. <br />
+                Learn to love what you are doing. Become extremely good at it, better than anyone else in your field.
+                Have the confidence to acknowledge the dream.
               </p>
               <p>
-                Just like other industries, the Investment sectors are full of
-                gold diggers. You must be aware of it and make sound investment
-                decisions with the least risk.
+                I do not know what to plan for! I am not sure if I will achieve what I am planning for. What do I do?
               </p>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Dream is not that which you see while sleeping. It is something that does not let you sleep”
+                  <br />
+                  <br />
+                  <small> - A P J Abdul Kalam</small>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Action:</h3>
               <p>
-                In order to be aware of what makes an investment sound, you need
-                to keep learning about the art of making money.
+                Having a definite purpose in life and a plan to achieve your dream will lead you to automatically take
+                massive action. <br />
+                Are you a procrastinator? Let us have a look at how to save more money for tomorrow. An awesome strategy
+                implemented by Shlomo Benartzi called Save More Tomorrow.
               </p>
+              <p>There are techniques which yielded great wealth to the man in the ancient city of Babylon by simply
+                saving one-tenth of what he has earned for his future and his family.</p>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Gold cometh gladly and in increasing quantity to any man who will put by not less than one-tenth of
+                  his earnings to create an estate for his future and that of his family”
+                  <br />
+                  <br />
+                  <small> - The Richest Man in Babylon by George Samuel Clason</small>
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Discipline:</h3>
+              <blockquote>
+                <p class="blockquote blockquote-succes">
+                  “Self-discipline is your ability to systematically and progressively work towards a goal and achieve
+                  it”
+                  <br />
+                  <br />
+                  <small> - The Neuropsychology of Self Discipline by Sybervision</small>
+                </p>
+              </blockquote>
               <p>
-                Be inquisitive; strive to learn; every little experience is a
-                lesson on what works and what does not.
-              </p>
-              <p class="blockquote blockquote-primary">
-                “Ignorance is not bliss when it comes to investing”"
+                Discipline to continuously strive and complete the journey. Take continuous action till the dream is
+                achieved. What will I do if I am not disciplined enough? We can change it, we will cover the topic
+                later. Are you particularly interested in automating your success and never having to worry about it?
                 <br />
+                As David Bach says “Who has the discipline to continuously save for years? Automate the process!”. For
+                those of you who would like to automate the process of saving & investing, “The Automatic Millionaire”
+                by David Bach is the answer. Let’s analyze it in the coming chapters
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Overcoming Myopia:</h3>
+              <p>
+                How could my myopia have anything to do with personal financial freedom? It doesn’t. However, it has got
+                everything to do with purpose, planning, taking action and being disciplined.
                 <br />
-                <small></small>
+                A young dumb and 18-year old version of me thought “Studying in less light might make my eyes stronger”.
+                Continuing to do so for about a year, I found out that I could no longer see the blackboard in the
+                classroom.
               </p>
               <p>
-                It would generally take me 2 – 3 generations if I am lucky to
-                get from where I am today to catch up with say $100 million net
-                worth if everything goes right.
+                I can vividly remember the terrifying experience of no longer being able to see clearly. I reported that
+                to my class teacher, who suggested me to wear glasses. Without a doubt, I was diagnosed with myopia
+                -0.75 in my right eye and -1.00 in my left eye way back in 2008.
               </p>
               <p>
-                But if enough people like me think that inequality is the root
-                of all evil and decide to revolt against it, maybe we can throw
-                away the current government and manage to press the reset button
-                on the inequality.
+                Fast forward to 2016, I have a -1.75 in the right eye and -2.00 in the left eye. Up until then, I was
+                cool with wearing glasses and identified myself as a person wearing glasses.
               </p>
               <p>
-                When the civilizations start building a society again, it is
-                inevitable that the inequality will breed again.
+                I remember reading the book, “Spontaneous evolution: our positive future” by Bruce Lipton and had a
+                revelation for the first time in my life. I knew something was wrong with wearing glasses. If I had a
+                fever, Doctor would prescribe some medicine and the fever would go away in a few days.
               </p>
               <p>
-                According to Walter Scheidel, a professor of Roman History at
-                Stanford University and the author of “The Great Leveler”, there
-                are only four factors which have the ability to reset the
-                problem of inequality –
-                <b>war, disease, State collapse and revolution</b>. But as soon
-                as the devastation is over, income inequality builds again.
+                Why doesn’t the same happen to myopia? I thought maybe glasses were contributing to the increase in
+                myopia. To my surprise, I found some websites like endmyopia which motivated people to remove their
+                glasses if they have a low prescription.
               </p>
               <p>
-                In the process of destroying inequality, we will risk destroying
-                the whole civilization as we know it. Simple to start from the
-                scratch again.
+                What was the downside? It takes years to reverse myopia, Luckily, I had developed myopia during my
+                teenage and not previously. If I had developed it in my childhood, my eyeballs would have grown to
+                accommodate for the spectacle power.
               </p>
               <p>
-                Do you really want to reset all the achievements that your
-                country has gone through simply because you do not have the
-                patience to wait until the money compounds to $100 million after
-                2 – 3 generations?
+                So, I removed my specs for the first time in my life on March 27, 2017
+              </p>
+              <ul>
+                <li><em>Motivation</em> - To reverse myopia and to be independent of glasses</li>
+                <li><em>Purpose</em> - I know wearing spectacles is being dependant on it forever, For some reason, I
+                  also felt having such a dependency would be a hurdle to propel me forward in my career path. I
+                  believed it strongly (I realize Sundar Pichai wears specs).</li>
+                <li><em>Plan</em> - Remove the specs, Try to relax my eyes as much as possible and never wear it again.
+                </li>
+                <li><em>Discipline</em> - I never wore it again. Full stop.</li>
+              </ul>
+              <p>
+                As of July 30, 2018, my myopia has reduced from the previous -1.75 right eye and -2 left eye to -0.5
+                right eye and -1 left eye (Clinically Tested). A clear victory against progressing myopia. I am
+                expecting to have myopia eliminated by 2020.
+              </p>
+              <p>
+                If I had never imagined that wearing spectacles would make me look a little more dependent than others
+                who do not wear spectacles, I would never have done this experiment in the first place.
               </p>
             </div>
           </div>
@@ -348,11 +264,7 @@
                     <div class="col-md-2">
                       <div class="card-avatar">
                         <a href="#pablo">
-                          <img
-                            class="img img-raised"
-                            src="img/authors/nagarjun.jpg"
-                            alt="author"
-                          />
+                          <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
                         </a>
                         <div class="ripple-container"></div>
                       </div>
@@ -365,10 +277,7 @@
                       </p>
                     </div>
                     <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
+                      <button type="button" class="btn btn-default pull-right btn-round">
                         Follow
                       </button>
                     </div>
@@ -392,23 +301,16 @@
                       <div class="row">
                         <div class="col-md-5">
                           <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/personal-finance/where-should-we-begin.jpg"
-                              alt=""
-                            />
+                            <img class="img img-raised rounded" src="img/personal-finance/what-is-money.jpg" alt="" />
                           </div>
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance</h6>
                           <h3 class="card-title">
-                            <a href="/personal-finance/where-should-we-begin/"
-                              >Where should we Begin?</a
-                            >
+                            <a href="/personal-finance/what-is-money/">What is Money?</a>
                           </h3>
                           <p class="card-description">
-                            We all have to start from wherever we are today. But
-                            to be financially successful....
+                            Do nothing, say nothing and be nothing and you'll never be criticized....
                           </p>
                           <p class="author">
                             by
@@ -422,19 +324,15 @@
                     <div class="row">
                       <div class="col-md-7">
                         <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
+                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
                           Personal Finance
                         </h6>
                         <h3 class="card-title">
-                          <a href="/personal-finance/what-is-money/"
-                            >What is Money?</a
-                          >
+                          <a href="/personal-finance/why-the-rich-get-richer/">Why the Rich get Richer?</a>
                         </h3>
                         <p class="card-description">
-                          “Do nothing, say nothing and be nothing and you'll
-                          never be criticized”.....
+                          Certainly, the possibility of living in a civilized world develops the opportunity for
+                          inequality.....
                         </p>
                         <p class="author">
                           by
@@ -443,11 +341,7 @@
                       </div>
                       <div class="col-md-5">
                         <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/personal-finance/what-is-money.jpg"
-                            alt="blog"
-                          />
+                          <img class="img img-raised rounded" src="img/personal-finance/bg-1.jpg" alt="blog" />
                         </div>
                       </div>
                     </div>

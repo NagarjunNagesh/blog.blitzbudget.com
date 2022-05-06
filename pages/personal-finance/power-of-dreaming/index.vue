@@ -1,15 +1,27 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('/img/personal-finance/power-of-dreaming.jpg')">
+      </div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">The Power of Dreaming</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="article">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">It all starts with a dream to become successful in life...</h3>
+            <p>The dream has to be justified with a
+              definiteness of purpose. The purpose then drives us to plan and to take action. Keep repeating
+              the action with discipline and there you have it! A glimpse of the path to success.</p>
+            <p>Assuming you are dreaming to become successful in the field that you love, you would find it
+              relatively easy to learn from your mistakes. Learning from the mistakes fine tunes your skills &
+              improves it to an extent that you become more and more valuable day by day.</p>
           </div>
         </div>
       </div>
@@ -17,352 +29,217 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="button-container">
-              <a href="#pablo" class="btn btn-success btn-round btn-lg">
-                <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-twitter btn-round"
-              >
-                <em class="fab fa-twitter"></em>
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-facebook btn-round"
-              >
-                <em class="fab fa-facebook-square"></em>
-              </a>
-              <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                <em class="fab fa-google"></em>
-              </a>
-            </div>
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">What if I am really Comfortale where I am?</h3>
+            <p>You should start attending seminars by Tony Robbins or Harv Eker. They have the habit of making
+              you realize your false perceptions. They make you really uncomfortable and uncomfortable is what
+              we want everybody to feel. That’s when people start taking action and start moving forward in
+              life towards success.</p>
+            <p>Feeling uncomfortable about your current situation is the best thing that could happen to you.
+            </p>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">The Castle Looks Different at Night...</h3>
-              <p>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more. We are here to make life better.
-                <br />
-                <br />
-                And now I look and look around and there’s so many Kanyes I've
-                been trying to figure out the bed design for the master bedroom
-                at our Hidden Hills compound... and thank you for turning my
-                personal jean jacket into a couture piece.
-              </p>
-              <p class="blockquote blockquote-primary">
-                “And thank you for turning my personal jean jacket into a
-                couture piece.”
-                <br />
-                <br />
-                <small> Kanye West, Producer. </small>
-              </p>
-            </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">How do you become Successful in Life</h3>
+            <p>You have probably heard that you have to provide value. Value also means helping people solve a
+              problem. It has to be in your area of expertise.</p>
+            <p>How do you find an opportunity to solve a problem? Chris Guillebeau, Author of “$100 startup” has
+              some really good insights.</p>
+            <ul>
+              <li>Inefficiency in the market can be compensated by your product/services.</li>
+              <li>The advent of new technology or opportunity. For example – Android and play store in the
+                late 2000’s.</li>
+              <li>Being efficient and talented in your area of expertise.</li>
+              <li>Providing customer what they want and not what you think they want.</li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Does providing Value make you successful?</h3>
+            <p>No. It simply provides you with an opportunity to earn. To become successful, you should be the
+              kind of person that people think about in order to resolve that problem. “Losing my virginity”
+              by Richard Branson has some perfect suggestions.</p>
+            <ul>
+              <li>Make a positive difference in people’s life. Doing good for others without expecting
+                anything in return at times is good for business.</li>
+              <li>Believe in your Ideas and be the best you could possibly be in business/personal life.</li>
+              <li>Have fun along the way to success and always look after your team.</li>
+              <li>Never give up.</li>
+              <li><b>Active Listening</b> - Take notes when necessary and keep facing challenges.</li>
+              <li><b>Hire Your Weaknesses</b> – Delegate and spend more time with your family. Always listen
+                to your families opinions and then make your own decisions.</li>
+              <li><b>Go Offline</b> – Turn Off your Laptop and iPhone before you engage with the world every
+                day. Embark on the journey of your life and experience it to the fullest.</li>
+              <li><b>Communicate, Collaborate And Then Communicate More</b> – Always remember to convey the
+                ideas in a simplistic term.</li>
+              <li><b>Do What You Love</b> – surround yourself with people you love and people who love you.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">The Real Price of not doing What you Love</h3>
+            <p>I vividly remember the first time when one of my colleagues introduced me to the website
+              wishandfly.com - an interesting concept in which the traveler pays a set amount of money, in
+              this case, €150 per traveler and the traveler does not know where he/she is traveling before 48
+              hours of the date of travel.</p>
+            <p>The moment, I laid my eyes on it. I knew it had a great potential in India and wanted to create a
+              website for exactly this purpose. I was sure that it would be a great success. There began a
+              journey of surprisetours.in. It took me nearly 3 months to finish the website and that meant
+              that I did not learn anything about personal finance during those three months.</p>
+            <p>What next? I am in Spain, trying to run a surprise tours travel agency in India. Will it work
+              out? it might. That would mean that I have to be available over the phone, provide a valid
+              address, register the business, start a business account and market the website.</p>
+            <p>Will I be a millionaire the next day?  Nop. I was enthusiastic about the opportunity to create
+              the website but gave up on it as it was practically not viable since I was in Spain. It would
+              mean that I spend a fortune to set up and start the business and most likely hire people and
+              manage them remotely.</p>
+            <p>I gave up on it after three months. The website is still live earning a total of ₹0 for the past
+              four months. Then, I diverted my attention back to readorb.com. It is the one thing which I am
+              certain that I will get back to, no matter what. I have practically experienced it.</p>
+            <p>Readorb is what I love, without learning about personal finance, I am a failure in my personal
+              life. It is too important to give up. While learning about personal finance, this is the way
+              that I would like to give back to the community. The website and all of its contents are free.
+            </p>
+            <p>What’s the big deal in running a website right? It’s hardly giving back to the community. Try to
+              do the same as a part-time job while also learning about personal finance. The content has to be
+              a quality one else people would never visit it. There are thousands of financial websites out
+              there. The last website which could be a success is Readorb and I am aware of that. Every
+              business has to have its own niche. Mine is a personal financial plan for millennials and I know
+              it works. How? I am a millennial myself.</p>
+            <p>All the personal financial advice provided here are tried and tested. Only out of the experience.
+              Paving a clear financial path and planning for it is half the job done. The other half is to
+              actually execute the formulated plan.</p>
+            <p>So, I gave up on surprise tours and I am back on learning about personal finance. I love learning
+              about personal finance and just because there was an opportunity in India regarding surprise
+              tours does not mean that I will succeed in it. Unless I love the fact of running a travel agency
+              and am passionate about it, I will never be a success. In fact, I will be a failure.</p>
+            <p>Lesson well learnt: <b>Do only what you love and do it consistently.</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-blog-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
             <div class="row">
               <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Over the span of the satellite record, Arctic sea ice has
-                    been declining significantly, while sea ice in the
-                    Antarctichas increased very slightly"
-                    <br />
-                    <br />
-                    <small>-NOAA</small>
-                  </p>
+                <div class="blog-tags">
+                  Tags:
+                  <span class="label label-success">Personal Finance</span>
                 </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
               </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures rise.
-                  But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-              </div>
+              <div class="col-md-6"></div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Rest of the Story:</h3>
-              <p>
-                We are here to make life better. And now I look and look around
-                and there’s so many Kanyes I've been trying to figure out the
-                bed design for the master bedroom at our Hidden Hills
-                compound... and thank you for turning my personal jean jacket
-                into a couture piece. <br />
-                I speak yell scream directly at the old guard on behalf of the
-                future. daytime All respect prayers and love to Phife’s family
-                Thank you for so much inspiration.
-              </p>
-              <p>
-                Thank you Anna for the invite thank you to the whole Vogue team
-                And I love you like Kanye loves Kanye Pand Pand Panda I've been
-                trying to figure out the bed design for the master bedroom at
-                our Hidden Hills compound...The Pablo pop up was almost a pop up
-                of influence. All respect prayers and love to Phife’s family
-                Thank you for so much inspiration daytime I love this new Ferg
-                album! The Life of Pablo is now available for purchase I have a
-                dream. Thank you to everybody who made The Life of Pablo the
-                number 1 album in the world! I'm so proud of the nr #1 song in
-                the country. Panda! Good music 2016!
-              </p>
-              <p>
-                I love this new Ferg album! The Life of Pablo is now available
-                for purchase I have a dream. Thank you to everybody who made The
-                Life of Pablo the number 1 album in the world! I'm so proud of
-                the nr #1 song in the country. Panda! Good music 2016!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog-info">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-tags">
-                    Tags:
-                    <span class="label label-success">Photography</span>
-                    <span class="label label-success">Stories</span>
-                    <span class="label label-success">Castle</span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <a href="#pablo" class="btn btn-google btn-round pull-right">
-                    <em class="fab fa-google"></em> 232
-                  </a>
-                  <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                    <em class="fab fa-twitter"></em> 910
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-facebook btn-round pull-right"
-                  >
-                    <em class="fab fa-facebook-square"></em> 872
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <card type="profile" plain>
-                <template slot="raw-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <div class="card-avatar">
-                        <a href="#pablo">
-                          <img class="img img-raised" src="img/mike.jpg" />
-                        </a>
-                        <div class="ripple-container"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-8">
-                      <h4 class="card-title">Alec Thompson</h4>
-                      <p class="description">
-                        I've been trying to figure out the bed design for the
-                        master bedroom at our Hidden Hills compound...I like
-                        good music from Youtube.
-                      </p>
-                    </div>
-                    <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
-                        Follow
-                      </button>
+            <hr />
+            <card type="profile" plain>
+              <template slot="raw-content">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-avatar">
+                      <a href="#pablo">
+                        <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
+                      </a>
+                      <div class="ripple-container"></div>
                     </div>
                   </div>
-                </template>
-              </card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-comments">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="media-area">
-                <h3 class="title text-center">3 Comments</h3>
-                <comment
-                  v-for="comment in comments"
-                  :avatar="comment.avatar"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                  :key="comment.id"
-                >
-                </comment>
-              </div>
-              <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
-                  <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/olivia.jpg"
-                    />
+                  <div class="col-md-8">
+                    <h4 class="card-title">Nagarjun Nagesh</h4>
+                    <p class="description">
+                      Life lessons on Personal Finance which I learnt,
+                      implemented and seen the lives lived by my ancestors.
+                    </p>
                   </div>
-                </a>
-                <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    v-model="form.comment"
-                    placeholder="Write a nice reply or go home..."
-                    rows="4"
-                  ></textarea>
-                  <div class="media-footer">
-                    <a href="#pablo" class="btn btn-success pull-right">
-                      <em class="now-ui-icons ui-1_send"></em> Reply
-                    </a>
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-default pull-right btn-round">
+                      Follow
+                    </button>
                   </div>
                 </div>
-              </div>
-              <!-- end media-post -->
-            </div>
+              </template>
+            </card>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/examples/card-blog4.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Enterprise</h6>
-                          <h3 class="card-title">
-                            <a href="#pablo"
-                              >Warner Music Group buys concert discovery service
-                              Songkick</a
-                            >
-                          </h3>
-                          <p class="card-description">
-                            Warner Music Group announced today it’s acquiring
-                            the selected assets of the music platform Songkick,
-                            including its app for finding concerts and the
-                            company’s trademark.
-                          </p>
-                          <p class="author">
-                            by
-                            <a href="#pablo"> <b>Sarah Perez</b> </a>, 2 days
-                            ago
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="col-md-12">
+          <h2 class="title text-center">Similar Stories</h2>
+          <br />
+          <div class="blogs-1" id="blogs-1">
+            <div class="row">
+              <div class="col-md-10 ml-auto mr-auto">
+                <card type="blog" plain>
+                  <template slot="raw-content">
                     <div class="row">
+                      <div class="col-md-5">
+                        <div class="card-image">
+                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
+                            alt="" />
+                        </div>
+                      </div>
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Startup
-                        </h6>
+                        <h6 class="category text-info">Personal Finance</h6>
                         <h3 class="card-title">
-                          <a href="#pablo"
-                            >Insticator raises $5.2M to help publishers</a
-                          >
+                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
                         </h3>
                         <p class="card-description">
-                          Insticator is announcing that it has raised $5.2
-                          million in Series A funding. The startup allows online
-                          publishers to add quizzes, polls and other interactive
-                          elements...
+                          It all starts with a dream to become successful in life. The dream has to be justified with
+                          a definiteness of purpose.....
                         </p>
                         <p class="author">
                           by
-                          <a href="#pablo"> <b>Anthony Ha</b> </a>, 5 days ago
+                          <b>Nagarjun Nagesh</b> , September 18, 2018
                         </p>
                       </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/examples/card-blog6.jpg"
-                          />
-                        </div>
+                    </div>
+                  </template>
+                </card>
+                <card type="blog" plain>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h6 class="category text-danger">
+                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                        Personal Finance
+                      </h6>
+                      <h3 class="card-title">
+                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
+                          Understanding your Habits</a>
+                      </h3>
+                      <p class="card-description">
+                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
+                        influence who we become is to a large extent from the outside.....
+                      </p>
+                      <p class="author">
+                        by
+                        <b>Nagarjun Nagesh</b>, September 18, 2018
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="card-image">
+                        <img class="img img-raised rounded"
+                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
                       </div>
                     </div>
-                  </card>
-                </div>
+                  </div>
+                </card>
               </div>
             </div>
           </div>
@@ -396,33 +273,7 @@ export default {
       form: {
         comment: "",
       },
-      comments: [
-        {
-          avatar: "img/james.jpg",
-          author: "Tina Andrew",
-          date: "7 minutes ago",
-          comment: `<p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                            <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>`,
-        },
-        {
-          avatar: "img/michael.jpg",
-          author: "John Camber",
-          date: "Yesterday",
-          comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                            <p> Don't forget, You're Awesome!</p>`,
-          replies: [
-            {
-              avatar: "img/julie.jpg",
-              author: "Tina Andrew",
-              date: "2 Days Ago",
-              comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                <p> Don't forget, You're Awesome!</p>`,
-              liked: true,
-              likes: 25,
-            },
-          ],
-        },
-      ],
+      comments: [],
     };
   },
   mounted() {

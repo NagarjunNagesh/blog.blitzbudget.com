@@ -1,15 +1,41 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"
-      ></div>
+      <div class="page-header-image"
+        style="background-image: url('/img/personal-finance/debt-analysis-analysing-your-financial-past.jpg')">
+      </div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">Debt Analysis: Analysing your Financial Past?</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="article">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <p>How much are you in debt? You need to analyze the past. If you are in debt make sure you do not
+              stack up anymore. That’s half the battle against debt won! The need to stop stalking up more
+              debt has to come from within.</p>
+            <p>Knowledge of how the money work is the first step against personal debt. Click the link below to
+              know the basic mechanics of how the money machine works as explained by Ray Dalio (67th Richest
+              Man in the world)</p>
+            <p><a href='https://youtu.be/PHe0bXAIuk0'>How the economic money machine workds</a></p>
+            <p>How do you find out how the economic system works? Become an insider and know the rules before
+              you get in the game.</p>
+            <blockquote>
+              <p class="blockquote blockquote-success">“When I look into the future, it is so bright that it
+                burns my eyes”<br /><br /><small>Oprah Winfrey</small></p>
+            </blockquote>
+            <p>Most people overestimate what they can do in a year and underestimate what they can achieve in a
+              decade according to Tony Robbins from the book “Money - master the game”.</p>
+            <p>Let’s analyze the types of debt starting with a credit card.</p>
+            <blockquote>
+              <p class="blockquote blockquote-success">“You have to know the rules of the game and then play
+                better than anyone else”<br /><br /><small>Albert Einstein</small></p>
+            </blockquote>
           </div>
         </div>
       </div>
@@ -17,352 +43,195 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="button-container">
-              <a href="#pablo" class="btn btn-success btn-round btn-lg">
-                <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-twitter btn-round"
-              >
-                <em class="fab fa-twitter"></em>
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-facebook btn-round"
-              >
-                <em class="fab fa-facebook-square"></em>
-              </a>
-              <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                <em class="fab fa-google"></em>
-              </a>
-            </div>
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Credit Card Debt</h3>
+            <p>How many credit cards do you have? And how much do you owe to the credit card companies? Credit
+              cards are meant to be short-term debts and it was never meant to be paid off over a year, God
+              forbid for a decade. Do you know how much you are paying as an interest on that credit? It is
+              close to 18%. That’s 20 dollars for every 100 dollars you borrow.</p>
+            <p>Credit card companies flock to provide one for every person out there. They want you to buy
+              something from credit card and hopefully not repay it immediately. If you do then you are not
+              making any money for the credit card companies. This is often the first debt to repay.</p>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">The Castle Looks Different at Night...</h3>
-              <p>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more. We are here to make life better.
-                <br />
-                <br />
-                And now I look and look around and there’s so many Kanyes I've
-                been trying to figure out the bed design for the master bedroom
-                at our Hidden Hills compound... and thank you for turning my
-                personal jean jacket into a couture piece.
-              </p>
-              <p class="blockquote blockquote-primary">
-                “And thank you for turning my personal jean jacket into a
-                couture piece.”
-                <br />
-                <br />
-                <small> Kanye West, Producer. </small>
-              </p>
-            </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Education Loan</h3>
+            <p><b>Young and In Debt</b> – people who are in debt due to educational loan should aim for
+              financial security by clearing off the loan. Education loan is the single largest loan repayment
+              apart from the home loan for every individual out there. Most of them are in debt till their
+              neck. The second loan that has to be repaid is the educational loan. There is a sense of freedom
+              and achievement while repaying every loan that we ever took.</p>
+            <p>People take $40,000 in loan and choose to repay it for the next 15 years in installments. Have
+              you ever calculated how much are you paying by the end of the repayment tenure? It will cost 2
+              to 2 and half times the original amount if the loan is taken over 15 years or more.</p>
+            <p>Indian banks provide an opportunity to borrow for a period of 15 years while starting your
+              repayment after you complete your studies without any cap but needs a collateral to be
+              submitted.</p>
+            <p>For education loans provided within the country, the maximum amount of 7.5 lakhs can be provided
+              with security for a period of 8 years of repayment with a gestation period of 6 years.</p>
+            <p>For example, If you borrow 4 lakh rupees without any security for an education loan and start
+              repaying them after the five year gestation period with an interest rate of 12% per annum (P.A),
+              you would be paying double the amount borrowed by the end of the repayment tenure.</p>
           </div>
         </div>
       </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Hoam Loan</h3>
+            <p>Your financial planner, real estate agent and accountant all call your house an asset. But in
+              reality, it is a liability according to the book title “Rich Dad Poor Dad” by Robert Kiyosaki.
+              Although I would choose to say it is a security and not a liability. He takes a very simple
+              approach. Anything that puts money in your pocket is an asset and anything that takes money away
+              from your pocket is a liability.</p>
+            <p>He also says that if you choose to rent your home to tenants and loose money it's a liability.
+              That’s only if the money you take from the tenants is less than the money you repay to the banks
+              for the home loan.</p>
+            <p>If you haven’t paid for the home in full and have a loan for the home, it is an asset for the
+              bank and a liability for you according to the book. Although the thought is extreme you can
+              choose to take it as a security. Your home is in the security bucket.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Car Loan</h3>
+            <blockquote>
+              <p class="blockquote blockquote-success">“Bad debt is a debt that makes you poor such as credit
+                card debt, car loans, and more. This is the type of debt used to buy
+                liabilities”<br /><br /><small>Robert Kiyosaki</small></p>
+            </blockquote>
+            <p>If there is absolutely one thing that you shouldn’t take a loan to buy, it is a car. The car is
+              our one deadly commodity that loses value the minute you drive it outside the store. Most cars
+              lose 30% of the initial value but it could be more depending on the demand or the lack of it.
+            </p>
+            <p>Second-hand cars are always the best choice if you ask me as the second hands do not lose a lot
+              of value when you choose to sell it. Everybody changes their car at least once in their
+              lifetime. Their average lifetime of a car at the maximum is 250,000 miles. Keep that in mind the
+              next time you buy a car.</p>
+            <p>What is your financial position? How much have you borrowed so far? How long will it take before
+              you repay the loan? What is the percentage of income that goes to your loan repayment after
+              taxes? Remember you are choosing to spend your future income today by borrowing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-blog-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
             <div class="row">
               <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Over the span of the satellite record, Arctic sea ice has
-                    been declining significantly, while sea ice in the
-                    Antarctichas increased very slightly"
-                    <br />
-                    <br />
-                    <small>-NOAA</small>
-                  </p>
+                <div class="blog-tags">
+                  Tags:
+                  <span class="label label-success">Personal Finance</span>
                 </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
               </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures rise.
-                  But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-              </div>
+              <div class="col-md-6"></div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Rest of the Story:</h3>
-              <p>
-                We are here to make life better. And now I look and look around
-                and there’s so many Kanyes I've been trying to figure out the
-                bed design for the master bedroom at our Hidden Hills
-                compound... and thank you for turning my personal jean jacket
-                into a couture piece. <br />
-                I speak yell scream directly at the old guard on behalf of the
-                future. daytime All respect prayers and love to Phife’s family
-                Thank you for so much inspiration.
-              </p>
-              <p>
-                Thank you Anna for the invite thank you to the whole Vogue team
-                And I love you like Kanye loves Kanye Pand Pand Panda I've been
-                trying to figure out the bed design for the master bedroom at
-                our Hidden Hills compound...The Pablo pop up was almost a pop up
-                of influence. All respect prayers and love to Phife’s family
-                Thank you for so much inspiration daytime I love this new Ferg
-                album! The Life of Pablo is now available for purchase I have a
-                dream. Thank you to everybody who made The Life of Pablo the
-                number 1 album in the world! I'm so proud of the nr #1 song in
-                the country. Panda! Good music 2016!
-              </p>
-              <p>
-                I love this new Ferg album! The Life of Pablo is now available
-                for purchase I have a dream. Thank you to everybody who made The
-                Life of Pablo the number 1 album in the world! I'm so proud of
-                the nr #1 song in the country. Panda! Good music 2016!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog-info">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-tags">
-                    Tags:
-                    <span class="label label-success">Photography</span>
-                    <span class="label label-success">Stories</span>
-                    <span class="label label-success">Castle</span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <a href="#pablo" class="btn btn-google btn-round pull-right">
-                    <em class="fab fa-google"></em> 232
-                  </a>
-                  <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                    <em class="fab fa-twitter"></em> 910
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-facebook btn-round pull-right"
-                  >
-                    <em class="fab fa-facebook-square"></em> 872
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <card type="profile" plain>
-                <template slot="raw-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <div class="card-avatar">
-                        <a href="#pablo">
-                          <img class="img img-raised" src="img/mike.jpg" />
-                        </a>
-                        <div class="ripple-container"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-8">
-                      <h4 class="card-title">Alec Thompson</h4>
-                      <p class="description">
-                        I've been trying to figure out the bed design for the
-                        master bedroom at our Hidden Hills compound...I like
-                        good music from Youtube.
-                      </p>
-                    </div>
-                    <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
-                        Follow
-                      </button>
+            <hr />
+            <card type="profile" plain>
+              <template slot="raw-content">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-avatar">
+                      <a href="#pablo">
+                        <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
+                      </a>
+                      <div class="ripple-container"></div>
                     </div>
                   </div>
-                </template>
-              </card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-comments">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="media-area">
-                <h3 class="title text-center">3 Comments</h3>
-                <comment
-                  v-for="comment in comments"
-                  :avatar="comment.avatar"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                  :key="comment.id"
-                >
-                </comment>
-              </div>
-              <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
-                  <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/olivia.jpg"
-                    />
+                  <div class="col-md-8">
+                    <h4 class="card-title">Nagarjun Nagesh</h4>
+                    <p class="description">
+                      Life lessons on Personal Finance which I learnt,
+                      implemented and seen the lives lived by my ancestors.
+                    </p>
                   </div>
-                </a>
-                <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    v-model="form.comment"
-                    placeholder="Write a nice reply or go home..."
-                    rows="4"
-                  ></textarea>
-                  <div class="media-footer">
-                    <a href="#pablo" class="btn btn-success pull-right">
-                      <em class="now-ui-icons ui-1_send"></em> Reply
-                    </a>
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-default pull-right btn-round">
+                      Follow
+                    </button>
                   </div>
                 </div>
-              </div>
-              <!-- end media-post -->
-            </div>
+              </template>
+            </card>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/examples/card-blog4.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Enterprise</h6>
-                          <h3 class="card-title">
-                            <a href="#pablo"
-                              >Warner Music Group buys concert discovery service
-                              Songkick</a
-                            >
-                          </h3>
-                          <p class="card-description">
-                            Warner Music Group announced today it’s acquiring
-                            the selected assets of the music platform Songkick,
-                            including its app for finding concerts and the
-                            company’s trademark.
-                          </p>
-                          <p class="author">
-                            by
-                            <a href="#pablo"> <b>Sarah Perez</b> </a>, 2 days
-                            ago
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="col-md-12">
+          <h2 class="title text-center">Similar Stories</h2>
+          <br />
+          <div class="blogs-1" id="blogs-1">
+            <div class="row">
+              <div class="col-md-10 ml-auto mr-auto">
+                <card type="blog" plain>
+                  <template slot="raw-content">
                     <div class="row">
+                      <div class="col-md-5">
+                        <div class="card-image">
+                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
+                            alt="" />
+                        </div>
+                      </div>
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Startup
-                        </h6>
+                        <h6 class="category text-info">Personal Finance</h6>
                         <h3 class="card-title">
-                          <a href="#pablo"
-                            >Insticator raises $5.2M to help publishers</a
-                          >
+                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
                         </h3>
                         <p class="card-description">
-                          Insticator is announcing that it has raised $5.2
-                          million in Series A funding. The startup allows online
-                          publishers to add quizzes, polls and other interactive
-                          elements...
+                          It all starts with a dream to become successful in life. The dream has to be justified with
+                          a definiteness of purpose.....
                         </p>
                         <p class="author">
                           by
-                          <a href="#pablo"> <b>Anthony Ha</b> </a>, 5 days ago
+                          <b>Nagarjun Nagesh</b> , September 18, 2018
                         </p>
                       </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/examples/card-blog6.jpg"
-                          />
-                        </div>
+                    </div>
+                  </template>
+                </card>
+                <card type="blog" plain>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h6 class="category text-danger">
+                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                        Personal Finance
+                      </h6>
+                      <h3 class="card-title">
+                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
+                          Understanding your Habits</a>
+                      </h3>
+                      <p class="card-description">
+                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
+                        influence who we become is to a large extent from the outside.....
+                      </p>
+                      <p class="author">
+                        by
+                        <b>Nagarjun Nagesh</b>, September 18, 2018
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="card-image">
+                        <img class="img img-raised rounded"
+                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
                       </div>
                     </div>
-                  </card>
-                </div>
+                  </div>
+                </card>
               </div>
             </div>
           </div>
@@ -396,33 +265,7 @@ export default {
       form: {
         comment: "",
       },
-      comments: [
-        {
-          avatar: "img/james.jpg",
-          author: "Tina Andrew",
-          date: "7 minutes ago",
-          comment: `<p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                            <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>`,
-        },
-        {
-          avatar: "img/michael.jpg",
-          author: "John Camber",
-          date: "Yesterday",
-          comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                            <p> Don't forget, You're Awesome!</p>`,
-          replies: [
-            {
-              avatar: "img/julie.jpg",
-              author: "Tina Andrew",
-              date: "2 Days Ago",
-              comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                <p> Don't forget, You're Awesome!</p>`,
-              liked: true,
-              likes: 25,
-            },
-          ],
-        },
-      ],
+      comments: [],
     };
   },
   mounted() {

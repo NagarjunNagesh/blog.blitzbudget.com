@@ -1,15 +1,30 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg24.jpg')"
-      ></div>
+      <div class="page-header-image"
+        style="background-image: url('/img/personal-finance/find-what-drives-you-to-achieve.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">WeChat Lucky Money</h2>
-            <h4>WeChat launched in 2013.</h4>
+            <h2 class="title">Find what Drives you to Achieve?</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="article">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <p>Let’s find out what drives us to achieve. A good number of people do the jobs they do not love to
+              earn the riches they desire. If you have just enough determination, passion and desire to
+              achieve and consistently outperform, financial success will be the byproduct. But we all know
+              the person who works for more than 10 hours a day.</p>
+            <p>There are two perspectives to look at it. Either they are not efficient at finishing the work
+              within the stipulated time or they are extremely good at what they do. Hence the manager prefers
+              the hard worker to do the heavy lifting. The former might get fired and later might get to stay
+              in the same position for years. What? Being extremely efficient is not enough to prosper? The
+              fact is that the employee is more valuable to the business where he is. So how to prosper at
+              work/business? Become an outlier!</p>
           </div>
         </div>
       </div>
@@ -17,352 +32,259 @@
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="button-container">
-              <a href="#pablo" class="btn btn-success btn-round btn-lg">
-                <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-twitter btn-round"
-              >
-                <em class="fab fa-twitter"></em>
-              </a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-lg btn-facebook btn-round"
-              >
-                <em class="fab fa-facebook-square"></em>
-              </a>
-              <a href="#pablo" class="btn btn-icon btn-lg btn-google btn-round">
-                <em class="fab fa-google"></em>
-              </a>
-            </div>
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Outliers</h3>
+            <p>“Outliers: The Story of Success” by Malcolm Gladwell holds the some of the answers we need to
+              find our drive. Malcolm analyses the success of Bill Gates and the rock band Beatles. The
+              ability to gain 10,000 hours of practice at a very young age when the computers could only be
+              found in universities is what led Bill Gates to success.</p>
+            <p>Apart from intelligence, talent also plays a role in the success many people hold. The key point
+              here is the determination and the motivation to learn is what lead Bill Gates to gain the 10,000
+              hours of practice at a very young age.</p>
+            <p>It takes approximately a decade to gain the practice time mentioned above. Do you have the
+              determination and the drive to do what you love and stay on course for a decade to start
+              becoming an outlier?</p>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">The Castle Looks Different at Night...</h3>
-              <p>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more. We are here to make life better.
-                <br />
-                <br />
-                And now I look and look around and there’s so many Kanyes I've
-                been trying to figure out the bed design for the master bedroom
-                at our Hidden Hills compound... and thank you for turning my
-                personal jean jacket into a couture piece.
-              </p>
-              <p class="blockquote blockquote-primary">
-                “And thank you for turning my personal jean jacket into a
-                couture piece.”
-                <br />
-                <br />
-                <small> Kanye West, Producer. </small>
-              </p>
-            </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Passion</h3>
+            <p>What is the job that you would love to do? The one thing which makes you look forward to
+              tomorrow. Have you ever jumped out of the bed the next day morning looking forward to doing
+              something? What is that? That’s one of the things you are really passionate about.</p>
+            <p>To become truly successful never do anything just for money; do it with love. Find the career
+              which you are passionate about.</p>
+            <blockquote>
+              <p class="blockquote blockquote-success">“You need passion to overcome obstacles and setbacks in
+                life”<br /><br /><small>Think Big and Kick Ass” by Donald Trump and Bill Zanker</small></p>
+            </blockquote>
+            <p>Do what you love most; do it till you get 10,000 hours of practice. Provide value along the way.
+              After all being passionate about playing video games is not providing value to others.</p>
+            <p>The ability to monetize on your passion is a skill to master. <b>Be valuable to others in a field
+                which you are passionate about with more than 10,000 hours of practice and people will die
+                to work with you or be your customer.</b></p>
+            <blockquote>
+              <p class="blockquote blockquote-success">“The only person you are destined to become is the
+                person you decide to be.”<br /><br /><small>Ralph Waldo Emerson</small></p>
+            </blockquote>
           </div>
         </div>
       </div>
-      <div class="section section-blog col-md-10 ml-auto mr-auto">
-        <div class="container">
-          <div class="section-story-overview">
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Value</h3>
+            <p>Become more valuable to others. Providing value is at the core of being successful. Do 100% of
+              your current job and 50% of your boss’ job to grow to the next level in your career.</p>
+            <p>What do I do if I am running a business? Be more valuable to others than anyone in your field.
+              Provide more in usage value to others. Be the best in your field. Constantly strive to provide
+              value.</p>
+            <blockquote>
+              <p class="blockquote blockquote-success">“Strive not to be a success but rather to be of
+                value”<br /><br /><small>Albert Einstein</small></p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h3 class="title">Desires of a Laptop Technician</h3>
+            <p>In India, sometimes we do not get what we want in our lives. I always wanted to be a software
+              engineer. Back in 2008, during my high school, I was really good at computer science. I would
+              often solve all the problems proposed by the teacher and would always rank first in the exams.
+            </p>
+            <p>We were given an opportunity to choose our university degrees. I wanted to take B.E in IT and was
+              pretty stern about it. My parents thought that enrolling me in B.E Electronics and
+              Communications Engineering would be a better option! Yes! Such things happen in India; I am not
+              sure where else but definitely in India.</p>
+            <p>My parent's arguments were that choosing ECE would broaden my horizons and possibilities of
+              landing  at a lucrative job after graduation. They were right. I was offered a job at Cognizant
+              Technology Solutions. It was a dream for me. I always wanted to work for CTS and was planning on
+              joining it. I thought my life was settled. An uncle of mine is working for CTS for the past 16
+              years. Who could ask for something more right? I did.</p>
+            <p>After getting an offer letter from CTS which I was eagerly waiting for since my first year in
+              college and after attaining the goal, the fun was finally over. I wanted more; so I applied for
+              masters in the UK and got that too.</p>
+            <p>Why did I apply? I wanted to see the other end of the world and know what’s out there! The
+              initial visa for the education in the UK is one year and four months. I loved the change in the
+              culture and the freedom which the UK had offered. By all means, I considered myself a successful
+              graduate.  All of my friends except a handful have flunked and have returned to their home
+              countries.</p>
+            <p>My visa was due to expire in the next few months. I wanted more of UK; so I applied for an MBA
+              course in London; I had no intention of completing it. It was supposed to provide me with enough
+              time to search for a job in the UK. Meanwhile I got a fulltime job as a laptop technician in
+              Coventry.</p>
+            <p>Staying in the UK and experiencing the newly obtained freedom had obstructed my vision
+              spectacularly. I wasted more than 8 months searching for a job while also being a laptop
+              technician.</p>
+            <p>I had all the right intentions to do my best as a laptop technician in Coventry but my heart was
+              always towards obtaining a corporate job as a control systems engineer or better a software
+              engineer.</p>
+            <p>This prevented me from being the best expression of myself as a laptop technician. Even though I
+              thought I was doing the best, I could hardly satisfy the owner. During the six months, I topped
+              up once to a wrong number for a customer costing the company £20.</p>
+            <p>To put it into perspective, it was half of my daily income, then. I proved to be an expensive
+              bargain for the mobile shop. So, they had to let me go after 6 months. I truly felt that I was
+              not worthy of obtaining a corporate job. If I cannot work and satisfy a mobile shop owner, how
+              could I truly satisfy a multinational company?</p>
+            <p>Later, I was offered another Graduate Software Engineer job in Kings Lynn. Just what I wanted.
+              So, I borrowed a total sum of £1500 from my parents to migrate from Coventry to Kings Lynn.</p>
+            <p>Life suddenly became colorful. I was motivated to do whatever best I could do and to be my best.
+              For the first few months, the company wanted me to be in the production line, actually
+              manufacturing the product.</p>
+            <p>I gladly accepted it. All, I wanted was a job and honestly if I can be a graduate software
+              engineer it did not matter. They knew very well that I just graduated from the university and
+              did not have any experience as a software engineer.</p>
+            <p>I proved to be too expensive for the company as the company could hire the same talent for 30%
+              less salary. The UK would not allow me to be hired for such a low salary as it is a prerequisite
+              to obtain my visa. So, I had to be let go off!</p>
+            <p>“Don’t ask me, didn’t the company already know?” I was either too naive or they utilized me big
+              time. I paid for the visa; I paid for migrating the house. Honestly, they had nothing to lose.
+            </p>
+            <p>“I got fired again! Wow! I am truly unworthy”. I convinced myself that the UK did not want me
+              there. So, I had booked a one-way ticket to India. I did not want to waste another 8 months
+              looking for a job and waste my parent's money.</p>
+            <p>After finding a job in India, I wanted to be valuable to the organization. The company took me as
+              an unpaid intern. So, I learned different programming languages during my training. Finally, I
+              thought of myself as worthy of working in a software industry since I was starting to get ahold
+              of what programming actually is. Just then, the company with which I was working became bankrupt
+              and everyone in the company was let go!</p>
+            <p>Fantastic! The world is conspiring against me. Why can’t I hold a job for more than a year?</p>
+            <p>Lessons learned so far: </p>
+            <p><b>If you work for a company just for money, you will never be able to be the best expression of
+                yourself</b>. You will be fired for underperformance. You will also be unhappy while working
+              there.</p>
+            <p><b>If you are overpaid for your underperformance, you will become too expensive for the
+                company</b> and they would have to let you go; even if it is the only job which you wanted
+              all your life. Unless you are valuable and be more valuable than what they are actually paying
+              you. You are not worthy!</p>
+            <p><b>Even after you become valuable, the world could conspire against you</b> and throw you to
+              trash. Don't think the world has ended!</p>
+            <p>All these were the best things that could ever have happened to me. They were the most valuable
+              lessons which life could teach me.</p>
+            <p>If I am not worthy, no company would keep me there. I would be fired immediately. So, I
+              constantly strive to learn and be on top of all the technologies.</p>
+            <p>I always ensure that my manager is happy with my performance and strive to improve and deliver
+              better.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-blog-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
             <div class="row">
               <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
-                  <!-- First image on the left side -->
-                  <p class="blockquote blockquote-primary">
-                    "Over the span of the satellite record, Arctic sea ice has
-                    been declining significantly, while sea ice in the
-                    Antarctichas increased very slightly"
-                    <br />
-                    <br />
-                    <small>-NOAA</small>
-                  </p>
+                <div class="blog-tags">
+                  Tags:
+                  <span class="label label-success">Personal Finance</span>
                 </div>
-                <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
               </div>
-              <div class="col-md-5">
-                <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
-                <h3>
-                  So what does the new record for the lowest level of winter ice
-                  actually mean
-                </h3>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-                <p>
-                  For a start, it does not automatically follow that a record
-                  amount of ice will melt this summer. More important for
-                  determining the size of the annual thaw is the state of the
-                  weather as the midnight sun approaches and temperatures rise.
-                  But over the more than 30 years of satellite records,
-                  scientists have observed a clear pattern of decline,
-                  decade-by-decade.
-                </p>
-                <p>
-                  The Arctic Ocean freezes every winter and much of the sea-ice
-                  then thaws every summer, and that process will continue
-                  whatever happens with climate change. Even if the Arctic
-                  continues to be one of the fastest-warming regions of the
-                  world, it will always be plunged into bitterly cold polar dark
-                  every winter. And year-by-year, for all kinds of natural
-                  reasons, there’s huge variety of the state of the ice.
-                </p>
-              </div>
+              <div class="col-md-6"></div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h3 class="title">Rest of the Story:</h3>
-              <p>
-                We are here to make life better. And now I look and look around
-                and there’s so many Kanyes I've been trying to figure out the
-                bed design for the master bedroom at our Hidden Hills
-                compound... and thank you for turning my personal jean jacket
-                into a couture piece. <br />
-                I speak yell scream directly at the old guard on behalf of the
-                future. daytime All respect prayers and love to Phife’s family
-                Thank you for so much inspiration.
-              </p>
-              <p>
-                Thank you Anna for the invite thank you to the whole Vogue team
-                And I love you like Kanye loves Kanye Pand Pand Panda I've been
-                trying to figure out the bed design for the master bedroom at
-                our Hidden Hills compound...The Pablo pop up was almost a pop up
-                of influence. All respect prayers and love to Phife’s family
-                Thank you for so much inspiration daytime I love this new Ferg
-                album! The Life of Pablo is now available for purchase I have a
-                dream. Thank you to everybody who made The Life of Pablo the
-                number 1 album in the world! I'm so proud of the nr #1 song in
-                the country. Panda! Good music 2016!
-              </p>
-              <p>
-                I love this new Ferg album! The Life of Pablo is now available
-                for purchase I have a dream. Thank you to everybody who made The
-                Life of Pablo the number 1 album in the world! I'm so proud of
-                the nr #1 song in the country. Panda! Good music 2016!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-blog-info">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="blog-tags">
-                    Tags:
-                    <span class="label label-success">Photography</span>
-                    <span class="label label-success">Stories</span>
-                    <span class="label label-success">Castle</span>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <a href="#pablo" class="btn btn-google btn-round pull-right">
-                    <em class="fab fa-google"></em> 232
-                  </a>
-                  <a href="#pablo" class="btn btn-twitter btn-round pull-right">
-                    <em class="fab fa-twitter"></em> 910
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-facebook btn-round pull-right"
-                  >
-                    <em class="fab fa-facebook-square"></em> 872
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <card type="profile" plain>
-                <template slot="raw-content">
-                  <div class="row">
-                    <div class="col-md-2">
-                      <div class="card-avatar">
-                        <a href="#pablo">
-                          <img class="img img-raised" src="img/mike.jpg" />
-                        </a>
-                        <div class="ripple-container"></div>
-                      </div>
-                    </div>
-                    <div class="col-md-8">
-                      <h4 class="card-title">Alec Thompson</h4>
-                      <p class="description">
-                        I've been trying to figure out the bed design for the
-                        master bedroom at our Hidden Hills compound...I like
-                        good music from Youtube.
-                      </p>
-                    </div>
-                    <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
-                        Follow
-                      </button>
+            <hr />
+            <card type="profile" plain>
+              <template slot="raw-content">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="card-avatar">
+                      <a href="#pablo">
+                        <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
+                      </a>
+                      <div class="ripple-container"></div>
                     </div>
                   </div>
-                </template>
-              </card>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section section-comments">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-              <div class="media-area">
-                <h3 class="title text-center">3 Comments</h3>
-                <comment
-                  v-for="comment in comments"
-                  :avatar="comment.avatar"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                  :key="comment.id"
-                >
-                </comment>
-              </div>
-              <h3 class="title text-center">Post your comment</h3>
-              <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
-                  <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/olivia.jpg"
-                    />
+                  <div class="col-md-8">
+                    <h4 class="card-title">Nagarjun Nagesh</h4>
+                    <p class="description">
+                      Life lessons on Personal Finance which I learnt,
+                      implemented and seen the lives lived by my ancestors.
+                    </p>
                   </div>
-                </a>
-                <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    v-model="form.comment"
-                    placeholder="Write a nice reply or go home..."
-                    rows="4"
-                  ></textarea>
-                  <div class="media-footer">
-                    <a href="#pablo" class="btn btn-success pull-right">
-                      <em class="now-ui-icons ui-1_send"></em> Reply
-                    </a>
+                  <div class="col-md-2">
+                    <button type="button" class="btn btn-default pull-right btn-round">
+                      Follow
+                    </button>
                   </div>
                 </div>
-              </div>
-              <!-- end media-post -->
-            </div>
+              </template>
+            </card>
           </div>
         </div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/examples/card-blog4.jpg"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Enterprise</h6>
-                          <h3 class="card-title">
-                            <a href="#pablo"
-                              >Warner Music Group buys concert discovery service
-                              Songkick</a
-                            >
-                          </h3>
-                          <p class="card-description">
-                            Warner Music Group announced today it’s acquiring
-                            the selected assets of the music platform Songkick,
-                            including its app for finding concerts and the
-                            company’s trademark.
-                          </p>
-                          <p class="author">
-                            by
-                            <a href="#pablo"> <b>Sarah Perez</b> </a>, 2 days
-                            ago
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="col-md-12">
+          <h2 class="title text-center">Similar Stories</h2>
+          <br />
+          <div class="blogs-1" id="blogs-1">
+            <div class="row">
+              <div class="col-md-10 ml-auto mr-auto">
+                <card type="blog" plain>
+                  <template slot="raw-content">
                     <div class="row">
+                      <div class="col-md-5">
+                        <div class="card-image">
+                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
+                            alt="" />
+                        </div>
+                      </div>
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Startup
-                        </h6>
+                        <h6 class="category text-info">Personal Finance</h6>
                         <h3 class="card-title">
-                          <a href="#pablo"
-                            >Insticator raises $5.2M to help publishers</a
-                          >
+                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
                         </h3>
                         <p class="card-description">
-                          Insticator is announcing that it has raised $5.2
-                          million in Series A funding. The startup allows online
-                          publishers to add quizzes, polls and other interactive
-                          elements...
+                          It all starts with a dream to become successful in life. The dream has to be justified with
+                          a definiteness of purpose.....
                         </p>
                         <p class="author">
                           by
-                          <a href="#pablo"> <b>Anthony Ha</b> </a>, 5 days ago
+                          <b>Nagarjun Nagesh</b> , September 18, 2018
                         </p>
                       </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/examples/card-blog6.jpg"
-                          />
-                        </div>
+                    </div>
+                  </template>
+                </card>
+                <card type="blog" plain>
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h6 class="category text-danger">
+                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                        Personal Finance
+                      </h6>
+                      <h3 class="card-title">
+                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
+                          Understanding your Habits</a>
+                      </h3>
+                      <p class="card-description">
+                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
+                        influence who we become is to a large extent from the outside.....
+                      </p>
+                      <p class="author">
+                        by
+                        <b>Nagarjun Nagesh</b>, September 18, 2018
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="card-image">
+                        <img class="img img-raised rounded"
+                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
                       </div>
                     </div>
-                  </card>
-                </div>
+                  </div>
+                </card>
               </div>
             </div>
           </div>
@@ -396,33 +318,7 @@ export default {
       form: {
         comment: "",
       },
-      comments: [
-        {
-          avatar: "img/james.jpg",
-          author: "Tina Andrew",
-          date: "7 minutes ago",
-          comment: `<p>Chance too good. God level bars. I'm so proud of @LifeOfDesiigner #1 song in the country. Panda! Don't be scared of the truth because we need to restart the human foundation in truth I stand with the most humility. We are so blessed!</p>
-                            <p>All praises and blessings to the families of people who never gave up on dreams. Don't forget, You're Awesome!</p>`,
-        },
-        {
-          avatar: "img/michael.jpg",
-          author: "John Camber",
-          date: "Yesterday",
-          comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                            <p> Don't forget, You're Awesome!</p>`,
-          replies: [
-            {
-              avatar: "img/julie.jpg",
-              author: "Tina Andrew",
-              date: "2 Days Ago",
-              comment: `<p>Hello guys, nice to have you on the platform! There will be a lot of great stuff coming soon. We will keep you posted for the latest news.</p>
-                                <p> Don't forget, You're Awesome!</p>`,
-              liked: true,
-              likes: 25,
-            },
-          ],
-        },
-      ],
+      comments: [],
     };
   },
   mounted() {
