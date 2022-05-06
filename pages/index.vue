@@ -9,7 +9,8 @@
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">
-              A Place for Entrepreneurs to Share and Discover New Stories
+              A Place to learn about personal finance and live an independant
+              life.
             </h2>
           </div>
         </div>
@@ -22,27 +23,30 @@
             <card
               type="background"
               class="card-fashion"
-              style="background-image: url('img/project10.jpg')"
+              style="background-image: url('img/personal-finance/bg-1.jpg')"
             >
               <div class="card-title text-left">
                 <h2>
-                  <a href="#pablo">
-                    The world's biggest yacht sets sail. It has lasers.
+                  <a href="/personal-finance/why-the-rich-get-richer/">
+                    Why the Rich get Richer?
                   </a>
                 </h2>
               </div>
               <div class="card-footer text-left">
                 <div class="stats">
                   <span>
-                    <em class="now-ui-icons users_circle-08"></em>Nicholas
-                    Deleon
+                    <em class="now-ui-icons users_circle-08"></em>Nagarjun
+                    Nagesh
                   </span>
                   <span>
-                    <em class="now-ui-icons tech_watch-time"></em> June 2, 2017
+                    <em class="now-ui-icons tech_watch-time"></em> September 18,
+                    2018
                   </span>
                 </div>
                 <div class="stats-link pull-right">
-                  <a href="#pablo" class="footer-link">Yachts</a>
+                  <a href="/personal-finance" class="footer-link"
+                    >Personal Finance</a
+                  >
                 </div>
               </div>
             </card>
@@ -51,8 +55,8 @@
             <div class="card card-fashion">
               <div class="card-title">
                 <h4>
-                  <a href="#pablo">
-                    Why Early Sailors Were Stalled for Millennia in the...
+                  <a href="/personal-finance/where-should-we-begin/">
+                    Where should we Begin?
                   </a>
                 </h4>
               </div>
@@ -60,16 +64,16 @@
                 <div class="card-footer">
                   <div class="stats">
                     <span>
-                      <em class="now-ui-icons users_circle-08"></em>Jon Russell
+                      <em class="now-ui-icons users_circle-08"></em>Nagarjun
+                      Nagesh
                     </span>
                     <span>
-                      <em class="now-ui-icons tech_watch-time"></em> June 2,
-                      2017
+                      <em class="now-ui-icons tech_watch-time"></em> September
+                      18, 2018
                     </span>
                   </div>
                   <div class="stats-link pull-right">
-                    <a href="#pablo">Sea</a>&sbquo;
-                    <a href="#pablo">Magazine</a>
+                    <a href="/personal-finance">Personal Finance</a>
                   </div>
                 </div>
               </div>
@@ -79,7 +83,9 @@
             <card
               type="background"
               class="card-fashion"
-              style="background-image: url('img/project11.jpg')"
+              style="
+                background-image: url('img/personal-finance/where-should-we-begin.jpg');
+              "
             >
             </card>
           </div>
@@ -89,7 +95,9 @@
             <card
               type="background"
               class="card-fashion"
-              style="background-image: url('img/project12.jpg')"
+              style="
+                background-image: url('img/personal-finance/what-is-money.jpg');
+              "
             >
             </card>
           </div>
@@ -97,23 +105,25 @@
             <div class="card card-fashion arrow-left">
               <div class="card-title">
                 <h4>
-                  <a href="#pablo"> My Depressing Summers in Belize </a>
+                  <a href="/personal-finance/what-is-money/">
+                    What is Money?
+                  </a>
                 </h4>
               </div>
               <div class="card-body">
                 <div class="card-footer">
                   <div class="stats">
                     <span>
-                      <em class="now-ui-icons users_circle-08"></em>John Bruno
+                      <em class="now-ui-icons users_circle-08"></em>Nagarjun
+                      Nagesh
                     </span>
                     <span>
-                      <em class="now-ui-icons tech_watch-time"></em> June 2,
-                      2017
+                      <em class="now-ui-icons tech_watch-time"></em> September
+                      18, 2018
                     </span>
                   </div>
                   <div class="stats-link pull-right">
-                    <a href="#pablo">Opinion</a>&sbquo;
-                    <a href="#pablo">Outdoor</a>
+                    <a href="/personal-finance">Perosnal Finance</a>
                   </div>
                 </div>
               </div>
@@ -123,24 +133,33 @@
             <card
               type="background"
               class="card-fashion"
-              style="background-image: url('img/project13.jpg')"
+              style="
+                background-image: url('img/personal-finance/self-motivation-a-necessity-for-success.jpg');
+              "
             >
               <div class="card-title text-left">
                 <h2>
-                  <a href="#pablo">China Wants Fish, So Africa Goes Hungry</a>
+                  <a
+                    href="/personal-finance/self-motivation-a-necessity-for-success/"
+                    >Self-Motivation! A Necessity for Success</a
+                  >
                 </h2>
               </div>
               <div class="card-footer text-left">
                 <div class="stats">
                   <span>
-                    <em class="now-ui-icons users_circle-08"></em>Joanna Klein
+                    <em class="now-ui-icons users_circle-08"></em>Nagarjun
+                    Nagesh
                   </span>
                   <span>
-                    <em class="now-ui-icons tech_watch-time"></em> June 2, 2017
+                    <em class="now-ui-icons tech_watch-time"></em> March 28,
+                    2022
                   </span>
                 </div>
                 <div class="stats-link pull-right">
-                  <a href="#pablo" class="footer-link">People</a>
+                  <a href="/personal-finance" class="footer-link"
+                    >Personal Finance</a
+                  >&sbquo;
                 </div>
               </div>
             </card>
@@ -159,28 +178,28 @@
                 <img
                   slot="image"
                   class="img rounded img-raised"
-                  src="img/bg5.jpg"
+                  src="img/personal-finance/power-of-dreaming.jpg"
+                  alt="Dream"
                 />
-                <h6 class="category text-info">Enterprise</h6>
+                <h6 class="category text-info">Personal Finance</h6>
                 <h4 class="card-title">
-                  <a href="#pablo"
-                    >Autodesk looks to future of 3D printing with Project
-                    Escher</a
+                  <a href="/personal-finance/power-of-dreaming/"
+                    >The Power of Dreaming</a
                   >
                 </h4>
                 <p class="card-description">
-                  Like so many organizations these days, Autodesk is a company
-                  in transition. It was until recently a traditional boxed
-                  software company selling licenses.
-                  <a href="#pablo"> Read More </a>
+                  It all starts with a dream to become successful in life. The
+                  dream has to be justified with a definiteness of purpose. The
+                  purpose then drives us to plan and to take action.
+                  <a href="/personal-finance/power-of-dreaming/"> Read More </a>
                 </p>
                 <div class="author">
                   <img
-                    v-lazy="'img/olivia.jpg'"
+                    v-lazy="'img/authors/nagarjun.jpg'"
                     alt="..."
                     class="avatar img-raised"
                   />
-                  <span>Anna Spark</span>
+                  <span>Nagarjun</span>
                 </div>
               </card>
             </div>
@@ -189,298 +208,77 @@
                 <img
                   slot="image"
                   class="img rounded img-raised"
-                  src="img/bg27.jpg"
+                  src="img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
+                  alt="BMW"
                 />
-                <h6 class="category text-success">Startups</h6>
+                <h6 class="category text-success">Personal Finance</h6>
                 <h4 class="card-title">
-                  <a href="#pablo"
-                    >Lyft launching cross-platform service this week</a
+                  <a href="/personal-finance/are-you-rich-if-you-own-a-bmw/"
+                    >Are you Rich if you own a BMW?</a
                   >
                 </h4>
                 <p class="card-description">
-                  Like so many organizations these days, Autodesk is a company
-                  in transition. It was until recently a traditional boxed
-                  software company selling licenses.
-                  <a href="#pablo"> Read More </a>
+                  The majority of millionaires own their cars rather than lease.
+                  Approximately 1 in 4 hold the current years model but another
+                  25 % have a model that is a four-year-old model.
+                  <a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">
+                    Read More
+                  </a>
                 </p>
                 <div class="author">
                   <img
-                    v-lazy="'img/michael.jpg'"
+                    v-lazy="'img/authors/nagarjun.jpg'"
                     alt="..."
                     class="avatar img-raised"
                   />
-                  <span>John Black</span>
+                  <span>Nagarjun</span>
                 </div>
               </card>
             </div>
             <div class="col-md-4">
               <div class="card card-plain card-blog">
                 <div class="card-image">
-                  <a href="#pablo">
-                    <img class="img rounded img-raised" src="img/bg21.jpg" />
+                  <a href="/psychology/the-truth-about-white-lies/">
+                    <img
+                      class="img rounded img-raised"
+                      src="img/psychology/bg18.jpg"
+                      alt="Lies"
+                    />
                   </a>
                 </div>
                 <div class="card-body">
                   <h6 class="category text-danger">
-                    <em class="now-ui-icons media-2_sound-wave"></em> Enterprise
+                    <em class="now-ui-icons media-2_sound-wave"></em> Psychology
                   </h6>
                   <h4 class="card-title">
-                    <a href="#pablo"
-                      >6 insights into the French Fashion landscape</a
+                    <a href="/psychology/the-truth-about-white-lies/"
+                      >The Truth about White Lies</a
                     >
                   </h4>
                   <p class="card-description">
-                    Like so many organizations these days, Autodesk is a company
-                    in transition. It was until recently a traditional boxed
-                    software company selling licenses.
-                    <a href="#pablo"> Read More </a>
+                    Once we establish ourselves as a person who would not shy
+                    away from saying white lies as long as we get what we
+                    want/prevent bad things from happening by telling the truth.
+                    <a href="/psychology/the-truth-about-white-lies/">
+                      Read More
+                    </a>
                   </p>
 
                   <div class="author">
                     <img
-                      v-lazy="'img/james.jpg'"
+                      v-lazy="'img/authors/nagarjun.jpg'"
                       alt="..."
                       class="avatar img-raised"
                     />
-                    <span>James Newman</span>
+                    <span>Nagarjun</span>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section pt-0 pb-0">
-        <div
-          class="team-3 section-image"
-          style="background-image: url('img/bg26.jpg')"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 ml-auto mr-auto text-center">
-                <h2 class="title">Our little team.</h2>
-                <h4 class="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information.
-                </h4>
-              </div>
-              <div class="col-xl-6 col-lg-7 ml-auto mr-auto">
-                <card type="profile">
-                  <div slot="raw-content" class="row">
-                    <div class="col-md-5">
-                      <div class="card-image">
-                        <a href="#pablo">
-                          <img class="img" src="img/olivia.jpg" />
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body">
-                        <h3 class="card-title">Ariana Hazel</h3>
-                        <h6 class="category text-success">Fashion Designer</h6>
-                        <p class="card-description">
-                          Happiness resides not in possessions, and not in gold,
-                          happiness dwells in the soul...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </card>
-              </div>
-              <div class="col-xl-6 col-lg-7 ml-auto mr-auto">
-                <card type="profile">
-                  <div slot="raw-content" class="row">
-                    <div class="col-md-5">
-                      <div class="card-image">
-                        <a href="#pablo">
-                          <img class="img" src="img/james.jpg" />
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body">
-                        <h3 class="card-title">Ryan Samuel</h3>
-                        <h6 class="category text-success">
-                          Financial Examiner
-                        </h6>
-                        <p class="card-description">
-                          Today you are you! That is truer than true! There is
-                          no one alive who is you-er than you!..
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </card>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="subscribe-line subscribe-line-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h4 class="title">Get Tips &amp; Tricks every Week!</h4>
-              <p class="description">
-                Join our newsletter and get news in your inbox every week! We
-                hate spam too, so no worries about this.
-              </p>
-            </div>
-            <div class="col-md-6">
-              <card plain class="card-form-horizontal">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <fg-input
-                      addon-left-icon="now-ui-icons ui-1_email-85"
-                      placeholder="Email Name..."
-                    >
-                    </fg-input>
-                  </div>
-                  <div class="col-sm-4">
-                    <n-button type="success" round block>Subscribe </n-button>
-                  </div>
-                </div>
-              </card>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="footer" data-background-color="black">
-      <div class="container">
-        <div class="content">
-          <div class="row">
-            <div class="col-md-2">
-              <h5>About Us</h5>
-              <ul class="links-vertical">
-                <li>
-                  <a href="#pablo" class="text-muted"> Blog </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> About Us </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> Presentation </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> Contact Us </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-2">
-              <h5>Market</h5>
-              <ul class="links-vertical">
-                <li>
-                  <a href="#pablo" class="text-muted"> Sales FAQ </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> How to Register </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> Sell Goods </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> Receive Payment </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> Transactions Issues </a>
-                </li>
-                <li>
-                  <a href="#pablo" class="text-muted"> Affiliates Program </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h5>Social Feed</h5>
-              <div class="social-feed">
-                <div class="feed-line">
-                  <em class="fab fa-twitter"></em>
-                  <p>How to handle ethical disagreements with your clients.</p>
-                </div>
-                <div class="feed-line">
-                  <em class="fab fa-twitter"></em>
-                  <p>The tangible benefits of designing at 1x pixel density.</p>
-                </div>
-                <div class="feed-line">
-                  <em class="fab fa-facebook-square"></em>
-                  <p>
-                    A collection of 25 stunning sites that you can use for
-                    inspiration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <h5>Follow Us</h5>
-              <ul class="social-buttons">
-                <li>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-neutral btn-twitter btn-round"
-                  >
-                    <em class="fab fa-twitter"></em>
-                  </a>
-                  &nbsp;
-                </li>
-                <li>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-neutral btn-facebook btn-round"
-                  >
-                    <em class="fab fa-facebook-square"></em>
-                  </a>
-                  &nbsp;
-                </li>
-                <li>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-neutral btn-dribbble btn-round"
-                  >
-                    <em class="fab fa-dribbble"></em>
-                  </a>
-                  &nbsp;
-                </li>
-                <li>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-neutral btn-google btn-round"
-                  >
-                    <em class="fab fa-google-plus"></em>
-                  </a>
-                  &nbsp;
-                </li>
-                <li>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-neutral btn-instagram btn-round"
-                  >
-                    <em class="fab fa-instagram"></em>
-                  </a>
-                  &nbsp;
-                </li>
-              </ul>
-              <h5>
-                <small>Numbers Don't Lie</small>
-              </h5>
-              <h5>
-                14.521
-                <small class="text-muted">Freelancers</small>
-              </h5>
-              <h5>
-                1.423.183
-                <small class="text-muted">Transactions</small>
-              </h5>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="copyright">
-          Copyright &copy;
-          {{ year }} Creative Tim All Rights Reserved.
-        </div>
-      </div>
-    </footer>
   </div>
 </template>
 <script>
@@ -488,7 +286,7 @@ import { Card, Button, FormGroupInput } from "@/components";
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-posts",
-  layout: "default-no-footer",
+  layout: "default",
   components: {
     Card,
     [Button.name]: Button,
