@@ -21,3 +21,7 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
+## General guide of buuilding a Nuxt Project
+
+`https://dev.to/leesmith/static-sites-powered-by-nuxt-and-aws-2hp7`
+
