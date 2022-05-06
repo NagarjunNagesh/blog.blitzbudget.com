@@ -1,44 +1,24 @@
 <template>
-  <navbar
-    position="fixed"
-    :transparent="transparent"
-    :color-on-scroll="colorOnScroll"
-    menu-classes="ml-auto"
-  >
+  <navbar position="fixed" :transparent="transparent" :color-on-scroll="colorOnScroll" menu-classes="ml-auto">
     <template slot-scope="{}">
       <nuxt-link v-popover:popover1 class="navbar-brand" to="/">
         BlitzBudget Blog
       </nuxt-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="300"
-        trigger="hover"
-      >
+      <el-popover ref="popover1" popper-class="popover" placement="bottom" width="300" trigger="hover">
         <div class="popover-body">Created by BlitzBudget.</div>
       </el-popover>
     </template>
     <template slot="navbar-menu">
-      <drop-down
-        tag="li"
-        title="Categories"
-        icon="now-ui-icons design_app"
-        class="nav-item"
-      >
-        <nav-link to="/personal-finance">
-          <em class="now-ui-icons design_image"></em> Personal Finance
-        </nav-link>
-        <nav-link to="/psychology">
-          <em class="now-ui-icons business_chart-pie-36"></em> Psychology
-        </nav-link>
-      </drop-down>
+      <ul class="navbar-nav mr-5">
+        <li class="nav-item">
+          <a class="nav-link" href="/personal-finance"> Personal Finance </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/psychology"> Psychology </a>
+        </li>
+      </ul>
       <li class="nav-item">
-        <a
-          class="nav-link btn btn-default btn-neutral"
-          href="https://app.blitzbudget.com/signin"
-          target="_blank"
-        >
+        <a class="nav-link btn btn-default btn-neutral" href="https://app.blitzbudget.com/signin" target="_blank">
           <p>Sign in</p>
         </a>
       </li>

@@ -1,10 +1,7 @@
 <template>
   <div class="wrapper blog-posts">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg44.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('img/bg44.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -16,154 +13,661 @@
         </div>
       </div>
     </div>
-    <div class="projects-4">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/personal-finance/bg-1.jpg')"
-            >
-              <div class="card-title text-left">
-                <h2>
-                  <a href="/personal-finance/why-the-rich-get-richer/">
-                    Why the Rich get Richer?
-                  </a>
-                </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 ml-auto mr-auto">
+          <h2 class="title">Personal Finance</h2><br />
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/what-is-money.jpg" alt="Personal Finance 1: What is money?" /></div>
               </div>
-              <div class="card-footer text-left">
-                <div class="stats">
-                  <span>
-                    <em class="now-ui-icons users_circle-08"></em>Nagarjun
-                    Nagesh
-                  </span>
-                  <span>
-                    <em class="now-ui-icons tech_watch-time"></em> September 18,
-                    2018
-                  </span>
-                </div>
-                <div class="stats-link pull-right">
-                  <a href="/personal-finance" class="footer-link"
-                    >Personal Finance</a
-                  >
-                </div>
-              </div>
-            </card>
-          </div>
-          <div class="col-md-3 px-0">
-            <div class="card card-fashion">
-              <div class="card-title">
-                <h4>
-                  <a href="/personal-finance/where-should-we-begin/">
-                    Where should we Begin?
-                  </a>
-                </h4>
-              </div>
-              <div class="card-body">
-                <div class="card-footer">
-                  <div class="stats">
-                    <span>
-                      <em class="now-ui-icons users_circle-08"></em>Nagarjun
-                      Nagesh
-                    </span>
-                    <span>
-                      <em class="now-ui-icons tech_watch-time"></em> September
-                      18, 2018
-                    </span>
-                  </div>
-                  <div class="stats-link pull-right">
-                    <a href="/personal-finance">Personal Finance</a>
-                  </div>
-                </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/what-is-money/">Personal Finance 1: What is Money?</a>
+                </h3>
+                <p class="card-description">These are some of the words which evoke extreme emotions. Love is prevalent
+                  in the society. We learn to express them from the moment we are born. Nobody has to
+                  expressly teach us how to love. They are embedded in our DNA. However the same cannot be told for
+                  money. Ask yourself what is money?<a href="/personal-finance/what-is-money/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="
-                background-image: url('img/personal-finance/where-should-we-begin.jpg');
-              "
-            >
-            </card>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="
-                background-image: url('img/personal-finance/what-is-money.jpg');
-              "
-            >
-            </card>
-          </div>
-          <div class="col-md-3 px-0">
-            <div class="card card-fashion arrow-left">
-              <div class="card-title">
-                <h4>
-                  <a href="/personal-finance/what-is-money/">
-                    What is Money?
-                  </a>
-                </h4>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/where-should-we-begin.jpg"
+                    alt="Personal Finance 2: Where should we Begin?" /></div>
               </div>
-              <div class="card-body">
-                <div class="card-footer">
-                  <div class="stats">
-                    <span>
-                      <em class="now-ui-icons users_circle-08"></em>Nagarjun
-                      Nagesh
-                    </span>
-                    <span>
-                      <em class="now-ui-icons tech_watch-time"></em> September
-                      18, 2018
-                    </span>
-                  </div>
-                  <div class="stats-link pull-right">
-                    <a href="/personal-finance">Perosnal Finance</a>
-                  </div>
-                </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/where-should-we-begin/">Personal Finance 2: Where
+                    should we
+                    Begin?</a></h3>
+                <p class="card-description">We all have to start from wherever we are today. But to be financially
+                  successful where do we start from? Let’s find out, Which statement resonates with
+                  you?<a href="/personal-finance/where-should-we-begin/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
               </div>
             </div>
-          </div>
-          <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="
-                background-image: url('img/personal-finance/self-motivation-a-necessity-for-success.jpg');
-              "
-            >
-              <div class="card-title text-left">
-                <h2>
-                  <a
-                    href="/personal-finance/self-motivation-a-necessity-for-success/"
-                    >Self-Motivation! A Necessity for Success</a
-                  >
-                </h2>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" src="/img/personal-finance/bg-1.jpg"
+                    alt="Personal Finance 3: Why the Rich get Richer?" /></div>
               </div>
-              <div class="card-footer text-left">
-                <div class="stats">
-                  <span>
-                    <em class="now-ui-icons users_circle-08"></em>Nagarjun
-                    Nagesh
-                  </span>
-                  <span>
-                    <em class="now-ui-icons tech_watch-time"></em> March 28,
-                    2022
-                  </span>
-                </div>
-                <div class="stats-link pull-right">
-                  <a href="/personal-finance" class="footer-link"
-                    >Personal Finance</a
-                  >&sbquo;
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/why-the-rich-get-richer/">Personal Finance 3: Why the
+                    Rich
+                    get Richer?</a></h3>
+                <p class="card-description">Certainly, the possibility of living in a civilized world develops the
+                  opportunity for inequality. The opportunists seize every opportunity to make a profit. They deserve
+                  every single penny they make out of it while the
+                  others stay in ignorance of these opportunities.<a href="/personal-finance/why-the-rich-get-richer/">
+                    Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
+                    alt="Personal Finance 4: Are you Rich if you own a BMW?" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal Finance 4:
+                    Are you
+                    Rich if you own a BMW?</a></h3>
+                <p class="card-description">While studying my master’s in Coventry University, I used to live with 5
+                  other friends of which 3
+                  of them were really big fans of cars. As far as I know, we all come from a middle class family who
+                  could not afford to sponsor our
+                  living expenses in UK with the income from India.<a
+                    href="/personal-finance/are-you-rich-if-you-own-a-bmw/"> Read More </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/is-your-home-an-asset-or-liability.jpg"
+                    alt="Personal Finance 5: Is your Home an Asset or a Liability?" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/is-your-home-an-asset-or-liability/">Personal Finance
+                    5: Is
+                    your Home an Asset or a Liability?</a></h3>
+                <p class="card-description">We call it home because we live there with our loved ones; else it is a
+                  house, a real estate
+                  property, an asset or a liability. Your financial planner / real estate agent calls your home an
+                  asset. But what is the difference between an asset and a liability in the first place? Is your
+                  home an asset or a liability? Well, you are going to pay a rent for the house you are living in
+                  if you do not own that house.<a href="/personal-finance/is-your-home-an-asset-or-liability/"> Read
+                    More
+                  </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/self-analysis-understanding-your-habits.jpg"
+                    alt="Personal Finance 6: Self Analysis! Understanding your habits?" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/self-analysis-understanding-your-habits/">Personal
+                    Finance
+                    6: Self Analysis! Understanding your habits?</a></h3>
+                <p class="card-description">We were born helpless, unable to speak or feed ourselves on our own. The
+                  factors that influence who we become is to a large extent from the outside. Isn’t it? Yes but we all
+                  know the one person who despite all their circumstances succeeded to a large extent.
+                  <a href="/personal-finance/self-analysis-understanding-your-habits/"> Read
+                    More
+                  </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/self-motivation-a-necessity-for-success.jpg"
+                    alt="Personal Finance 7: Self Motivation! A necessity for success?" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/self-motivation-a-necessity-for-success/">Personal
+                    Finance
+                    7: Self Motivation! A necessity for success?</a></h3>
+                <p class="card-description">Self-Motivation. Some time that is the only thing you will have in order to
+                  push yourself towards success. Waking up every day feeling that you are causing a positive
+                  change in other people’s life and making it better for everybody as a community can be a motivator.
+                  Purpose can be the biggest motivator at times of hardship.<a
+                    href="/personal-finance/self-motivation-a-necessity-for-success/"> Read
+                    More
+                  </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/find-your-desire-for-financial-freedom.jpg"
+                    alt="Personal Finance 8: Find your desire for Financial Freedom" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/find-your-desire-for-financial-freedom/">Personal
+                    Finance
+                    8: Find your desire for Financial Freedom</a></h3>
+                <p class="card-description">Why do human beings do what they do? Why do we need to be financially free?
+                  Some of them make a
+                  killing. Some sacrifice their life in the hope of providing a better life for their children. People
+                  are pushed by needs. There are five needs which foster the desire for financial freedom.
+                  They are the most fundamental needs and everyone has a collection of these needs.<a
+                    href="/personal-finance/find-your-desire-for-financial-freedom/"> Read
+                    More
+                  </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/find-what-drives-you-to-achieve.jpg"
+                    alt="Personal Finance 9: Find what Drives you to Achieve" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/find-what-drives-you-to-achieve/">Personal Finance 9:
+                    Find
+                    what Drives you to Achieve</a></h3>
+                <p class="card-description">Let’s find out what drives us to achieve. A good number of people do the
+                  jobs they do not love to
+                  earn the riches they desire. If you have just enough determination, passion and desire to
+                  achieve and consistently outperform, financial success will be the byproduct. But we all know
+                  the person who works for more than 10 hours a day.<a
+                    href="/personal-finance/find-what-drives-you-to-achieve/"> Read More </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/include-your-partner.jpg"
+                    alt="Personal Finance 10: Include your Partner" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/include-your-partner/">Personal Finance 10: Include
+                    your
+                    Partner</a></h3>
+                <p class="card-description">Your partner is one of the most influential people in your life. The
+                  importance of having a right
+                  partner in life is realized in the emotional and financial aspect of your life. With increasing
+                  equality towards women even in the developing nations, it is an eventuality that
+                  they will be treated equally to men around the world, a safer world where they have equal
+                  rights.<a href="/personal-finance/include-your-partner/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/power-of-dreaming.jpg"
+                    alt="Personal Finance 11: The Power of Dreaming" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/power-of-dreaming/">Personal Finance 11: The Power of
+                    Dreaming</a></h3>
+                <p class="card-description">The dream has to be justified with a
+                  definiteness of purpose. The purpose then drives us to plan and to take action. Keep repeating
+                  the action with discipline and there you have it! A glimpse of the path to success. Assuming you are
+                  dreaming to become successful in the field that you love, you would find it
+                  relatively easy to learn from your mistakes. Learning from the mistakes fine tunes your skills &
+                  improves it to an extent that you become more and more valuable day by day.<a
+                    href="/personal-finance/power-of-dreaming/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/do-you-really-need-a-budget-to-become-financially-free.jpg"
+                    alt="Personal Finance 12: Do you really need a budget to become Financially Free?" />
                 </div>
               </div>
-            </card>
-          </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a
+                    href="/personal-finance/do-you-really-need-a-budget-to-become-financially-free/">Personal
+                    Finance 12:
+                    Do you really need a budget to become Financially Free?</a></h3>
+                <p class="card-description">We all love freedom. Doesn’t budgeting restrict our freedom of spending?
+                  Yes, it does restrict our freedom to spend. That’s the whole point but it will not feel that way
+                  when you get used to the budget.The initial inertia required to start practicing to budget is minimal.
+                  But how many of them stick
+                  to the budget every month? What about one year? 10 years and your lifetime?<a
+                    href="/personal-finance/do-you-really-need-a-budget-to-become-financially-free/"> Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/i-cannot-save-a-penny-more.jpg"
+                    alt="Personal Finance 13: I cannot save a Penny More" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/i-cannot-save-a-penny-more/">Personal Finance 13: I
+                    cannot
+                    save a Penny More</a></h3>
+                <p class="card-description">Why aren’t people saving? You’ll start saving money when your future needs
+                  become more important than your current desires. People spend on things which they do not need. One
+                  could easily avoid regular restaurant expenses
+                  by cooking from home. That’s the reason why people are not saving. Your current wants outweigh
+                  the necessity to save more for tomorrow.<a href="/personal-finance/i-cannot-save-a-penny-more/">
+                    Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/income-allocation-strategy.jpg"
+                    alt="Personal Finance 14: Income Allocation Strategy" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/income-allocation-strategy/">Personal Finance 14:
+                    Income
+                    Allocation Strategy</a></h3>
+                <p class="card-description">The income allocation blueprint is a suggestion to allocate a certain
+                  portion of your income. This income allocation suggestion works really well when you include your
+                  partner as well. To
+                  prevent you from calculating all the budgeting allocation yourself. To help you understand the
+                  strategy better, all of the components mentioned in the strategy is
+                  broken down and explained in bullet points.<a href="/personal-finance/income-allocation-strategy/">
+                    Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/emergency-fund-why-is-it-important.jpg"
+                    alt="Personal Finance 15: Emergency Fund: Why is it important?" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/emergency-fund-why-is-it-important/">Personal Finance
+                    15:
+                    Emergency Fund: Why is it important?</a></h3>
+                <p class="card-description">Have you ever noticed that we keep staring at someone for no reason? It
+                  makes everyone
+                  uncomfortable. We only do so when the emotions are strong enough and even then rarely consistently
+                  unless the
+                  other reciprocates. Other 4 senses do not have this intimate interaction. Any other species which
+                  relies on smell or
+                  hearing does not have this intimate emotional interaction.<a
+                    href="/personal-finance/emergency-fund-why-is-it-important/"> Read More
+                  </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/debt-analysis-analysing-your-financial-past.jpg"
+                    alt="Personal Finance 16: Debt Analysis: Analysing Your Financial Past?" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal
+                    Finance 16: Debt Analysis: Analysing Your Financial Past?</a></h3>
+                <p class="card-description">How much are you in debt? You need to analyze the past. If you are in debt
+                  make sure you do not
+                  stack up anymore. That’s half the battle against debt won! The need to stop stalking up more
+                  debt has to come from within. Knowledge of how the money work is the first step against personal debt.
+                  Click the link below to
+                  know the basic mechanics of how the money machine works as explained by Ray Dalio (67th Richest
+                  Man in the world)<a href="/personal-finance/debt-analysis-analysing-your-financial-past/">
+                    Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/debt-management-strategy.jpg"
+                    alt="Personal Finance 17: Debt Management Strategy" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/debt-management-strategy/">Personal Finance 17: Debt
+                    Management Strategy</a></h3>
+                <p class="card-description">Debt management requires your utmost commitment to get rid of debt. The
+                  first step in making sure
+                  that you start reducing your debt is an emergency fund. You need to accumulate six months of your
+                  income as an emergency fund before venturing into debt
+                  repayments. You do not know what is going to happen the next month.<a
+                    href="/personal-finance/debt-management-strategy/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/credit-cards-how-to-increase-your-credit-score.jpg"
+                    alt="Personal Finance 18: Credit Cards: How to Increase your Credit Score" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a
+                    href="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal
+                    Finance 18: Credit Cards: How to Increase your Credit Score</a></h3>
+                <p class="card-description">If a credit card is a bad tool to be used for spending on budget and
+                  repaying the borrowed amount
+                  immediately, then we are talking about having no credit score. If one does not have any credit score
+                  then you will not be granted any loan or probably a minimum
+                  loan amount.<a href="/personal-finance/credit-cards-how-to-increase-your-credit-score/">
+                    Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/home-loan-is-it-a-boon-in-disguise.jpg"
+                    alt="Personal Finance 19: Home Loan: Is it a Boon in Disguise" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/home-loan-is-it-a-boon-in-disguise/">Personal Finance
+                    19:
+                    Home Loan: Is it a Boon in Disguise</a></h3>
+                <p class="card-description">It all starts with a dream of having a roof on top of one’s head for the
+                  sake of their family. But many end up not being able to afford to buy a home with cash. Liberate your
+                  income by stepping down the expenses or stepping up your salary. Start saving a
+                  substantial portion of your salary towards owning a home.<a
+                    href="/personal-finance/home-loan-is-it-a-boon-in-disguise/"> Read More
+                  </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/savings-management-strategy.jpg"
+                    alt="Personal Finance 20: Savings Management Strategy" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/savings-management-strategy/">Personal Finance 20:
+                    Savings
+                    Management Strategy</a></h3>
+                <p class="card-description">Short-term investment vessel includes your car as well. Car is a
+                  depreciating asset but you could put
+                  the money in a fixed deposit till you accumulate an adequate amount in order to buy a car.  The last
+                  thing which you should be doing is to buy a car on a loan. Save your allocated budget as a recurring
+                  deposit if you are in India or in a fixed deposit. Keep it
+                  safe and risk-free.<a href="/personal-finance/savings-management-strategy/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom.jpg"
+                    alt="Personal Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a
+                    href="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/">Personal
+                    Finance
+                    21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom</a></h3>
+                <p class="card-description">Why do people think saving is the key to wealth when the most wealthy people
+                  didn’t get to the
+                  top by saving? A really good question. But it lacks depth. Do you really think that a really talented
+                  could
+                  achieve peak wealth with the effort which he alone put? The answer is NO. We all know that even the
+                  most talented person could only reach the pinnacle of wealth with the
+                  help of their relatives.<a
+                    href="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/"> Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/how-to-save-your-way-to-achieve-your-dream.jpg"
+                    alt="Personal Finance 22: How to Save Your Way to Achieve Your Dream" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/how-to-save-your-way-to-achieve-your-dream/">Personal
+                    Finance 22: How to Save Your Way to Achieve Your Dream</a></h3>
+                <p class="card-description">There is one thing that we know with certainty, i.e. in today’s economic
+                  situation a single
+                  steady income stream is not enough to sustain a family. Feudalism supported loyalty; The Lord provided
+                  land and safety in exchange for service and
+                  loyalty. Communism supported equality; Every person is equal economically and hence ensure
+                  everyone is suffering in equal misery or enjoys equal benefits.<a
+                    href="/personal-finance/how-to-save-your-way-to-achieve-your-dream/">
+                    Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/buying-a-car-the-right-way.jpg"
+                    alt="Personal Finance 23: Buying a Car the Right Way" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/buying-a-car-the-right-way/">Personal Finance 23:
+                    Buying a
+                    Car the Right Way</a></h3>
+                <p class="card-description">Every plan, savings or budget is personalized and cannot be implemented by
+                  your neighbor. It
+                  won’t be the right fit for them. So is your car.Which car should you buy? A Ferrari? A Toyota? or a
+                  Mini Cooper? Do you want it new or don’t mind if it is a few years old? Is a 2 seater enough for you?
+                  How about a 5 seater?<a href="/personal-finance/buying-a-car-the-right-way/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/never-kill-your-golden-goose.jpg"
+                    alt="Personl Finance 24: Never Kill Your Golden Goose" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/never-kill-your-golden-goose/">Personl Finance 24:
+                    Never
+                    Kill Your Golden Goose</a></h3>
+                <p class="card-description">What does secured capital mean? It means <b>Minimum Risk and Maximum
+                    Security</b> to me. These are the most common ways to kill your Golden Goose. Bad investment thereby
+                  losing the capital and potential return. Secured capital and promised return but you spend your
+                  interest earned.<a href="/personal-finance/never-kill-your-golden-goose/"> Read More </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five.jpg"
+                    alt="Personl Finance 25: Financial Goals to Achieve Before You Turn 35" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a
+                    href="/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five/">Personl
+                    Finance 25:
+                    Financial Goals to Achieve Before You Turn 35</a></h3>
+                <p class="card-description">You must have come across a recent study which suggests that you must have
+                  saved twice your
+                  annual salary before you reach the age of 35 in order to ensure that you retire by 67 having to
+                  live a similar lifestyle afterward. As many agree and as many disagree, The fact still remains
+                  the same.<a href="/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five/"> Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/investment-management-strategy.jpg"
+                    alt="Personl Finance 26: Investment Management Strategy" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/investment-management-strategy/">Personl Finance 26:
+                    Investment Management Strategy</a></h3>
+                <p class="card-description">The investment management strategy has to be personalized and should satisfy
+                  your need. For this reason, I do not provide a tailor made strategy which could satisfy everyone's
+                  needs. The above mentioned strategy is a sample blueprint which could be implemented by any individual
+                  in India.<a href="/personal-finance/investment-management-strategy/"> Read More </a>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/investing-in-mutual-funds.jpg"
+                    alt="Personl Finance 27: Investing in Mutual Funds" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/investing-in-mutual-funds/">Personl Finance 27:
+                    Investing
+                    in Mutual Funds</a></h3>
+                <p class="card-description">Mutual funds also known as actively managed funds are the most sorted out
+                  forms of investments by
+                  the public. The general interest towards the mutual fund being “You do not know the rules of investing
+                  in a
+                  mutual fund; let the professionals take care of your money and we will beat the market.”<a
+                    href="/personal-finance/investing-in-mutual-funds/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/investing-in-index-funds.jpg"
+                    alt="Personl Finance 28: Investing in Index Funds" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/investing-in-index-funds/">Personl Finance 28:
+                    Investing in
+                    Index Funds</a></h3>
+                <p class="card-description">Index funds are low-cost funds which do not require any active management.
+                  They typically follow an index and their primary agenda is to reduce the tracking error of the
+                  fund. A really good index fund has a minimum tracking error. Since they do not need any fund managers
+                  the cost of managing the funds are really low as well.<a
+                    href="/personal-finance/investing-in-index-funds/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/personal-finance/investing-in-fixed-deposits.jpg"
+                    alt="Personl Finance 29: Investing in Fixed Deposits" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/personal-finance/investing-in-fixed-deposits/">Personl Finance 29:
+                    Investing
+                    in Fixed Deposits</a></h3>
+                <p class="card-description">These are one of the most common forms of investment in the developing
+                  nations, although not
+                  common among developed nations. These play an important role when it comes to managing emergency
+                  funds. They are also the least sort after forms of investments but are a good fit for emergency
+                  funds.<a href="/personal-finance/investing-in-fixed-deposits/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
         </div>
       </div>
     </div>
@@ -175,17 +679,11 @@
           <div class="row">
             <div class="col-md-4">
               <card type="blog" plain>
-                <img
-                  slot="image"
-                  class="img rounded img-raised"
-                  src="img/personal-finance/power-of-dreaming.jpg"
-                  alt="Dream"
-                />
+                <img slot="image" class="img rounded img-raised" src="img/personal-finance/power-of-dreaming.jpg"
+                  alt="Dream" />
                 <h6 class="category text-info">Personal Finance</h6>
                 <h4 class="card-title">
-                  <a href="/personal-finance/power-of-dreaming/"
-                    >The Power of Dreaming</a
-                  >
+                  <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
                 </h4>
                 <p class="card-description">
                   It all starts with a dream to become successful in life. The
@@ -194,28 +692,18 @@
                   <a href="/personal-finance/power-of-dreaming/"> Read More </a>
                 </p>
                 <div class="author">
-                  <img
-                    v-lazy="'img/authors/nagarjun.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/authors/nagarjun.jpg'" alt="..." class="avatar img-raised" />
                   <span>Nagarjun</span>
                 </div>
               </card>
             </div>
             <div class="col-md-4">
               <card type="blog" plain>
-                <img
-                  slot="image"
-                  class="img rounded img-raised"
-                  src="img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
-                  alt="BMW"
-                />
+                <img slot="image" class="img rounded img-raised"
+                  src="img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg" alt="BMW" />
                 <h6 class="category text-success">Personal Finance</h6>
                 <h4 class="card-title">
-                  <a href="/personal-finance/are-you-rich-if-you-own-a-bmw/"
-                    >Are you Rich if you own a BMW?</a
-                  >
+                  <a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">Are you Rich if you own a BMW?</a>
                 </h4>
                 <p class="card-description">
                   The majority of millionaires own their cars rather than lease.
@@ -226,11 +714,7 @@
                   </a>
                 </p>
                 <div class="author">
-                  <img
-                    v-lazy="'img/authors/nagarjun.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/authors/nagarjun.jpg'" alt="..." class="avatar img-raised" />
                   <span>Nagarjun</span>
                 </div>
               </card>
@@ -239,11 +723,7 @@
               <div class="card card-plain card-blog">
                 <div class="card-image">
                   <a href="/psychology/the-truth-about-white-lies/">
-                    <img
-                      class="img rounded img-raised"
-                      src="img/psychology/bg18.jpg"
-                      alt="Lies"
-                    />
+                    <img class="img rounded img-raised" src="img/psychology/bg18.jpg" alt="Lies" />
                   </a>
                 </div>
                 <div class="card-body">
@@ -251,9 +731,7 @@
                     <em class="now-ui-icons media-2_sound-wave"></em> Psychology
                   </h6>
                   <h4 class="card-title">
-                    <a href="/psychology/the-truth-about-white-lies/"
-                      >The Truth about White Lies</a
-                    >
+                    <a href="/psychology/the-truth-about-white-lies/">The Truth about White Lies</a>
                   </h4>
                   <p class="card-description">
                     Once we establish ourselves as a person who would not shy
@@ -265,11 +743,7 @@
                   </p>
 
                   <div class="author">
-                    <img
-                      v-lazy="'img/authors/nagarjun.jpg'"
-                      alt="..."
-                      class="avatar img-raised"
-                    />
+                    <img v-lazy="'img/authors/nagarjun.jpg'" alt="..." class="avatar img-raised" />
                     <span>Nagarjun</span>
                   </div>
                 </div>

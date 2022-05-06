@@ -34,45 +34,58 @@
             <p>The table below explains how you could have saved up to 3.6 times your annual income assuming
               that your salary is $35,000 and that you save $300 every month.</p>
             <table>
+              <thead>
+                <tr>
+                  <th scope="col">Stock</th>
+
+                  <th scope="col">Type of Investment</th>
+
+                  <th scope="col">Start Date</th>
+
+                  <th scope="col">End Date</th>
+
+                  <th scope="col">Dollar Cost Averaging Interval</th>
+
+                  <th scope="col">Amount to Invest Every Month</th>
+
+                  <th scope="col">Initial Investment</th>
+
+                  <th scope="col">Total Invested Capital</th>
+
+                  <th scope="col">Annual Return (%)</th>
+
+                  <th scope="col">Final Net Worth</th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
-                  <td>Stock</td>
                   <td>AAPL</td>
                 </tr>
                 <tr>
-                  <td>Type of Investment</td>
                   <td>Dollar Cost Averaging</td>
                 </tr>
                 <tr>
-                  <td>Start Date</td>
                   <td>07/11/2008</td>
                 </tr>
                 <tr>
-                  <td>End Date</td>
                   <td>03/27/2018</td>
                 </tr>
                 <tr>
-                  <td>Dollar Cost Averaging Interval</td>
                   <td>1 month</td>
                 </tr>
                 <tr>
-                  <td>Amount to Invest Every Month</td>
                   <td>$300</td>
                 </tr>
                 <tr>
-                  <td>Initial Investment</td>
                   <td>$300</td>
                 </tr>
                 <tr>
-                  <td>Total Invested Capital</td>
                   <td>$35,100.00</td>
                 </tr>
                 <tr>
-                  <td>Annual Return (%)</td>
                   <td>25.29%</td>
                 </tr>
                 <tr>
-                  <td>Final Net Worth</td>
                   <td>$128,032.03</td>
                 </tr>
               </tbody>
@@ -164,10 +177,10 @@
             <table>
               <thead>
                 <tr>
-                  <th>Year</th>
-                  <th>Year Interest</th>
-                  <th>Total Deposits</th>
-                  <th>Balance</th>
+                  <th scope="col">Year</th>
+                  <th scope="col">Year Interest</th>
+                  <th scope="col">Total Deposits</th>
+                  <th scope="col">Balance</th>
                 </tr>
               </thead>
               <tbody>
