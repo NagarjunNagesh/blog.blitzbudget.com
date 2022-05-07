@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div class="page-header-image" style="background-image: url('img/psychology/bg-op-1.jpg')"></div>
+      <div class="page-header-image" style="background-image: url('img/psychology/arlong.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
