@@ -18,7 +18,7 @@
         </li>
       </ul>
       <li class="nav-item">
-        <a class="nav-link btn btn-default btn-neutral" href="https://app.blitzbudget.com/signin" target="_blank">
+        <a class="nav-link btn btn-default btn-neutral" href="https://app.blitzbudget.com/login" target="_blank">
           <p>Sign in</p>
         </a>
       </li>
