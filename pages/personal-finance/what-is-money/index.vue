@@ -230,57 +230,42 @@
             <div class="blogs-1" id="blogs-1">
               <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
+                  <card type="blog" plain><template slot="raw-content">
                       <div class="row">
                         <div class="col-md-5">
-                          <div class="card-image">
-                            <img class="img img-raised rounded"
-                              src="img/personal-finance/self-motivation-a-necessity-for-success.jpg" alt="" />
-                          </div>
+                          <div class="card-image"><img class="img img-raised rounded"
+                              src="/img/personal-finance/where-should-we-begin.jpg"
+                              alt="Personal Finance 2: Where should we Begin?" /></div>
                         </div>
                         <div class="col-md-7">
-                          <h6 class="category text-info">Personal Finance</h6>
-                          <h3 class="card-title">
-                            <a href="/personal-finance/self-motivation-a-necessity-for-success/">Self-Motivation! A
-                              Necessity for Success</a>
-                          </h3>
-                          <p class="card-description">
-                            Self-Motivation. Some time that is the only thing you will have in order to push yourself
-                            towards success.....
-                          </p>
-                          <p class="author">
-                            by
-                            <b>Nagarjun Nagesh</b> , September 18, 2018
-                          </p>
+                          <h6 class="category text-info">Personal Finance 2: Where should we Begin?</h6>
+                          <h3 class="card-title"><a href="/personal-finance/where-should-we-begin/">Personal Finance 2:
+                              Where should we Begin?</a></h3>
+                          <p class="card-description">We all have to start from wherever we are today. But to be
+                            financially successful....</p>
+                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                         </div>
                       </div>
-                    </template>
-                  </card>
+                    </template></card>
                   <card type="blog" plain>
                     <div class="row">
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                          Personal Finance
-                        </h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/where-should-we-begin/">Where should we Begin?</a>
-                        </h3>
-                        <p class="card-description">
-                          We all have to start from wherever we are today. But
-                          to be financially successful.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b>, September 18, 2018
-                        </p>
+                        <h6 class="category text-danger"><em
+                            class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                        <h3 class="card-title"><a href="/personal-finance/investing-in-fixed-deposits/">Personl
+                            Finance
+                            29: Investing in Fixed Deposits</a></h3>
+                        <p class="card-description">These are one of the most common forms of investment in the
+                          developing
+                          nations, although not common among developed nations. These play an important role when it
+                          comes
+                          to managing emergency funds.</p>
+                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="img/personal-finance/where-should-we-begin.jpg"
-                            alt="blog" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/investing-in-fixed-deposits.jpg"
+                            alt="Personl Finance 29: Investing in Fixed Deposits" /></div>
                       </div>
                     </div>
                   </card>

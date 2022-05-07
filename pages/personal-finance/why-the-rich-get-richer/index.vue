@@ -1,10 +1,7 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/personal-finance/bg-1.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('img/personal-finance/bg-1.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -69,10 +66,7 @@
           <div class="section-story-overview">
             <div class="row">
               <div class="col-md-6">
-                <div
-                  class="image-container image-left"
-                  style="background-image: url('img/bg35.jpg')"
-                >
+                <div class="image-container image-left" style="background-image: url('img/bg35.jpg')">
                   <!-- First image on the left side -->
                   <p class="blockquote blockquote-primary">
                     "Leverage in simple terms is to
@@ -83,17 +77,11 @@
                   </p>
                 </div>
                 <!-- Second image on the left side of the article -->
-                <div
-                  class="image-container image-left-bottom"
-                  style="background-image: url('img/bg29.jpg')"
-                ></div>
+                <div class="image-container image-left-bottom" style="background-image: url('img/bg29.jpg')"></div>
               </div>
               <div class="col-md-5">
                 <!-- First image on the right side, above the article -->
-                <div
-                  class="image-container image-right"
-                  style="background-image: url('img/project16.jpg')"
-                ></div>
+                <div class="image-container image-right" style="background-image: url('img/project16.jpg')"></div>
                 <h3>Leverage</h3>
                 <p>
                   Let’s say that there is an opportunity to make money by
@@ -348,11 +336,7 @@
                     <div class="col-md-2">
                       <div class="card-avatar">
                         <a href="#pablo">
-                          <img
-                            class="img img-raised"
-                            src="img/authors/nagarjun.jpg"
-                            alt="author"
-                          />
+                          <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
                         </a>
                         <div class="ripple-container"></div>
                       </div>
@@ -365,10 +349,7 @@
                       </p>
                     </div>
                     <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
+                      <button type="button" class="btn btn-default pull-right btn-round">
                         Follow
                       </button>
                     </div>
@@ -387,33 +368,21 @@
             <div class="blogs-1" id="blogs-1">
               <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
+                  <card type="blog" plain><template slot="raw-content">
                       <div class="row">
                         <div class="col-md-5">
-                          <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/personal-finance/where-should-we-begin.jpg"
-                              alt=""
-                            />
-                          </div>
+                          <div class="card-image"><img class="img img-raised rounded"
+                              src="/img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
+                              alt="Personal Finance 4: Are you Rich if you own a BMW?" /></div>
                         </div>
                         <div class="col-md-7">
-                          <h6 class="category text-info">Personal Finance</h6>
-                          <h3 class="card-title">
-                            <a href="/personal-finance/where-should-we-begin/"
-                              >Where should we Begin?</a
-                            >
-                          </h3>
-                          <p class="card-description">
-                            We all have to start from wherever we are today. But
-                            to be financially successful....
-                          </p>
-                          <p class="author">
-                            by
-                            <b>Nagarjun Nagesh</b> , September 18, 2018
-                          </p>
+                          <h6 class="category text-info">Personal Finance 4: Are you Rich if you own a BMW?</h6>
+                          <h3 class="card-title"><a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal
+                              Finance 4: Are you Rich if you own a BMW?</a></h3>
+                          <p class="card-description">Can somebody be dead broke and still own a BMW? Yes, anybody can
+                            be
+                            dead broke and still own a BMW according to the book – “The Millionaire Next Door”.</p>
+                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                         </div>
                       </div>
                     </template>
@@ -421,34 +390,20 @@
                   <card type="blog" plain>
                     <div class="row">
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
-                          Personal Finance
-                        </h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/what-is-money/"
-                            >What is Money?</a
-                          >
-                        </h3>
-                        <p class="card-description">
-                          “Do nothing, say nothing and be nothing and you'll
-                          never be criticized”.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b>, September 18, 2018
-                        </p>
+                        <h6 class="category text-danger"><em
+                            class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                        <h3 class="card-title"><a href="/personal-finance/where-should-we-begin/">Personal Finance 2:
+                            Where
+                            should we Begin?</a></h3>
+                        <p class="card-description">We all have to start from wherever we are today. But to be
+                          financially
+                          successful....</p>
+                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/personal-finance/what-is-money.jpg"
-                            alt="blog"
-                          />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/where-should-we-begin.jpg"
+                            alt="Personal Finance 2: Where should we Begin?" /></div>
                       </div>
                     </div>
                   </card>

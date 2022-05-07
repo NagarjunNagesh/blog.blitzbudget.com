@@ -345,56 +345,42 @@
             <div class="blogs-1" id="blogs-1">
               <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
+                  <card type="blog" plain><template slot="raw-content">
                       <div class="row">
                         <div class="col-md-5">
-                          <div class="card-image">
-                            <img class="img img-raised rounded"
-                              src="img/personal-finance/self-motivation-a-necessity-for-success.jpg" alt="" />
-                          </div>
+                          <div class="card-image"><img class="img img-raised rounded"
+                              src="/img/personal-finance/self-motivation-a-necessity-for-success.jpg"
+                              alt="Personal Finance 7: Self Motivation! A necessity for success?" /></div>
                         </div>
                         <div class="col-md-7">
-                          <h6 class="category text-info">Personal Finance</h6>
-                          <h3 class="card-title">
-                            <a href="/personal-finance/self-motivation-a-necessity-for-success/">Self-Motivation! A
-                              Necessity for Success</a>
-                          </h3>
-                          <p class="card-description">
-                            Self-Motivation. Some time that is the only thing you will have in order to push yourself
-                            towards success.....
-                          </p>
-                          <p class="author">
-                            by
-                            <b>Nagarjun Nagesh</b> , September 18, 2018
-                          </p>
+                          <h6 class="category text-info">Personal Finance 7: Self Motivation! A necessity for success?
+                          </h6>
+                          <h3 class="card-title"><a
+                              href="/personal-finance/self-motivation-a-necessity-for-success/">Personal Finance 7:
+                              Self Motivation! A necessity for success?</a></h3>
+                          <p class="card-description">Self-Motivation. Some time that is the only thing you will have in
+                            order to push yourself towards success</p>
+                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                         </div>
                       </div>
-                    </template>
-                  </card>
+                    </template></card>
                   <card type="blog" plain>
                     <div class="row">
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                          Personal Finance
-                        </h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/savings-management-strategy/">Savings Management Strategy</a>
-                        </h3>
-                        <p class="card-description">
-                          Savings management strategy is by far the simplest yet hard to implement amongst all the
-                          strategies.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b>, September 18, 2018
-                        </p>
+                        <h6 class="category text-danger"><em
+                            class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                        <h3 class="card-title"><a href="/personal-finance/is-your-home-an-asset-or-liability/">Personal
+                            Finance 5: Is your Home an Asset or a Liability?</a></h3>
+                        <p class="card-description">We call it home because we live there with our loved ones; else it
+                          is a
+                          house, a real estate property, an asset or a liability. Your financial planner / real estate
+                          agent calls your home an asset. But what is the difference</p>
+                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="img/bg21.jpg" alt="blog" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/is-your-home-an-asset-or-liability.jpg"
+                            alt="Personal Finance 5: Is your Home an Asset or a Liability?" /></div>
                       </div>
                     </div>
                   </card>

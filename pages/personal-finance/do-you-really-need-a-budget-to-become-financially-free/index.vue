@@ -213,57 +213,40 @@
           <div class="blogs-1" id="blogs-1">
             <div class="row">
               <div class="col-md-10 ml-auto mr-auto">
-                <card type="blog" plain>
-                  <template slot="raw-content">
+                <card type="blog" plain><template slot="raw-content">
                     <div class="row">
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
-                            alt="" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/i-cannot-save-a-penny-more.jpg"
+                            alt="Personal Finance 13: I cannot save a Penny More" /></div>
                       </div>
                       <div class="col-md-7">
-                        <h6 class="category text-info">Personal Finance</h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
-                        </h3>
-                        <p class="card-description">
-                          It all starts with a dream to become successful in life. The dream has to be justified with
-                          a definiteness of purpose.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b> , September 18, 2018
-                        </p>
+                        <h6 class="category text-info">Personal Finance 13: I cannot save a Penny More</h6>
+                        <h3 class="card-title"><a href="/personal-finance/i-cannot-save-a-penny-more/">Personal Finance
+                            13: I cannot save a Penny More</a></h3>
+                        <p class="card-description">Why aren’t people saving? You’ll start saving money when your future
+                          needs become more important than your current desires.</p>
+                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                       </div>
                     </div>
-                  </template>
-                </card>
+                  </template></card>
                 <card type="blog" plain>
                   <div class="row">
                     <div class="col-md-7">
-                      <h6 class="category text-danger">
-                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                        Personal Finance
-                      </h6>
-                      <h3 class="card-title">
-                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
-                          Understanding your Habits</a>
-                      </h3>
-                      <p class="card-description">
-                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
-                        influence who we become is to a large extent from the outside.....
-                      </p>
-                      <p class="author">
-                        by
-                        <b>Nagarjun Nagesh</b>, September 18, 2018
-                      </p>
+                      <h6 class="category text-danger"><em
+                          class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                      <h3 class="card-title"><a href="/personal-finance/power-of-dreaming/">Personal Finance 11: The
+                          Power
+                          of Dreaming</a></h3>
+                      <p class="card-description">The dream has to be justified with a definiteness of purpose. The
+                        purpose then drives us to plan and to take action. Keep repeating the action with discipline and
+                        there you have it</p>
+                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
-                      <div class="card-image">
-                        <img class="img img-raised rounded"
-                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
-                      </div>
+                      <div class="card-image"><img class="img img-raised rounded"
+                          src="/img/personal-finance/power-of-dreaming.jpg"
+                          alt="Personal Finance 11: The Power of Dreaming" /></div>
                     </div>
                   </div>
                 </card>

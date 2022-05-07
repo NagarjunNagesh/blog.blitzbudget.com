@@ -603,57 +603,40 @@
           <div class="blogs-1" id="blogs-1">
             <div class="row">
               <div class="col-md-10 ml-auto mr-auto">
-                <card type="blog" plain>
-                  <template slot="raw-content">
+                <card type="blog" plain><template slot="raw-content">
                     <div class="row">
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
-                            alt="" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/savings-management-strategy.jpg"
+                            alt="Personal Finance 20: Savings Management Strategy" /></div>
                       </div>
                       <div class="col-md-7">
-                        <h6 class="category text-info">Personal Finance</h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
-                        </h3>
-                        <p class="card-description">
-                          It all starts with a dream to become successful in life. The dream has to be justified with
-                          a definiteness of purpose.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b> , September 18, 2018
-                        </p>
+                        <h6 class="category text-info">Personal Finance 20: Savings Management Strategy</h6>
+                        <h3 class="card-title"><a href="/personal-finance/savings-management-strategy/">Personal Finance
+                            20: Savings Management Strategy</a></h3>
+                        <p class="card-description">Savings management strategy is by far the simplest yet hard to
+                          implement amongst all the strategies. It demands that you change your mentality and destroy
+                          the previously held notions of money.</p>
+                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                       </div>
                     </div>
-                  </template>
-                </card>
+                  </template></card>
                 <card type="blog" plain>
                   <div class="row">
                     <div class="col-md-7">
-                      <h6 class="category text-danger">
-                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                        Personal Finance
-                      </h6>
-                      <h3 class="card-title">
-                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
-                          Understanding your Habits</a>
-                      </h3>
-                      <p class="card-description">
-                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
-                        influence who we become is to a large extent from the outside.....
-                      </p>
-                      <p class="author">
-                        by
-                        <b>Nagarjun Nagesh</b>, September 18, 2018
-                      </p>
+                      <h6 class="category text-danger"><em
+                          class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                      <h3 class="card-title"><a
+                          href="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal Finance
+                          18: Credit Cards: How to Increase your Credit Score</a></h3>
+                      <p class="card-description">If a credit card is a bad tool to be used for spending on budget and
+                        repaying the borrowed amount immediately, then we are talking about having no credit score.</p>
+                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
-                      <div class="card-image">
-                        <img class="img img-raised rounded"
-                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
-                      </div>
+                      <div class="card-image"><img class="img img-raised rounded"
+                          src="/img/personal-finance/credit-cards-how-to-increase-your-credit-score.jpg"
+                          alt="Personal Finance 18: Credit Cards: How to Increase your Credit Score" /></div>
                     </div>
                   </div>
                 </card>
