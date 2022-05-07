@@ -143,57 +143,41 @@
           <div class="blogs-1" id="blogs-1">
             <div class="row">
               <div class="col-md-10 ml-auto mr-auto">
-                <card type="blog" plain>
-                  <template slot="raw-content">
+                <card type="blog" plain><template slot="raw-content">
                     <div class="row">
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
-                            alt="" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/self-analysis-understanding-your-habits.jpg"
+                            alt="Personal Finance 6: Self Analysis! Understanding your habits?" /></div>
                       </div>
                       <div class="col-md-7">
-                        <h6 class="category text-info">Personal Finance</h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
-                        </h3>
-                        <p class="card-description">
-                          It all starts with a dream to become successful in life. The dream has to be justified with
-                          a definiteness of purpose.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b> , September 18, 2018
-                        </p>
+                        <h6 class="category text-info">Personal Finance 6: Self Analysis! Understanding your habits?
+                        </h6>
+                        <h3 class="card-title"><a
+                            href="/personal-finance/self-analysis-understanding-your-habits/">Personal Finance 6:
+                            Self Analysis! Understanding your habits?</a></h3>
+                        <p class="card-description">We were born helpless, unable to speak or feed ourselves on our own.
+                          The factors that influence who we become is to a large extent from the outside</p>
+                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                       </div>
                     </div>
-                  </template>
-                </card>
+                  </template></card>
                 <card type="blog" plain>
                   <div class="row">
                     <div class="col-md-7">
-                      <h6 class="category text-danger">
-                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                        Personal Finance
-                      </h6>
-                      <h3 class="card-title">
-                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
-                          Understanding your Habits</a>
-                      </h3>
-                      <p class="card-description">
-                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
-                        influence who we become is to a large extent from the outside.....
-                      </p>
-                      <p class="author">
-                        by
-                        <b>Nagarjun Nagesh</b>, September 18, 2018
-                      </p>
+                      <h6 class="category text-danger"><em
+                          class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                      <h3 class="card-title"><a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal Finance
+                          4: Are you Rich if you own a BMW?</a></h3>
+                      <p class="card-description">Can somebody be dead broke and still own a BMW? Yes, anybody can be
+                        dead
+                        broke and still own a BMW according to the book – “The Millionaire Next Door”.</p>
+                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
-                      <div class="card-image">
-                        <img class="img img-raised rounded"
-                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
-                      </div>
+                      <div class="card-image"><img class="img img-raised rounded"
+                          src="/img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
+                          alt="Personal Finance 4: Are you Rich if you own a BMW?" /></div>
                     </div>
                   </div>
                 </card>

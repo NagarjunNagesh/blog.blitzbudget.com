@@ -248,57 +248,39 @@
           <div class="blogs-1" id="blogs-1">
             <div class="row">
               <div class="col-md-10 ml-auto mr-auto">
-                <card type="blog" plain>
-                  <template slot="raw-content">
+                <card type="blog" plain><template slot="raw-content">
                     <div class="row">
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
-                            alt="" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/buying-a-car-the-right-way.jpg"
+                            alt="Personal Finance 23: Buying a Car the Right Way" /></div>
                       </div>
                       <div class="col-md-7">
-                        <h6 class="category text-info">Personal Finance</h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
-                        </h3>
-                        <p class="card-description">
-                          It all starts with a dream to become successful in life. The dream has to be justified with
-                          a definiteness of purpose.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b> , September 18, 2018
-                        </p>
+                        <h6 class="category text-info">Personal Finance 23: Buying a Car the Right Way</h6>
+                        <h3 class="card-title"><a href="/personal-finance/buying-a-car-the-right-way/">Personal Finance
+                            23: Buying a Car the Right Way</a></h3>
+                        <p class="card-description">Every plan, savings or budget is personalized and cannot be
+                          implemented by your neighbor. It won’t be the right fit for them. So is your car.</p>
+                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                       </div>
                     </div>
-                  </template>
-                </card>
+                  </template></card>
                 <card type="blog" plain>
                   <div class="row">
                     <div class="col-md-7">
-                      <h6 class="category text-danger">
-                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                        Personal Finance
-                      </h6>
-                      <h3 class="card-title">
-                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
-                          Understanding your Habits</a>
-                      </h3>
-                      <p class="card-description">
-                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
-                        influence who we become is to a large extent from the outside.....
-                      </p>
-                      <p class="author">
-                        by
-                        <b>Nagarjun Nagesh</b>, September 18, 2018
-                      </p>
+                      <h6 class="category text-danger"><em
+                          class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                      <h3 class="card-title"><a
+                          href="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/">Personal
+                          Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom</a></h3>
+                      <p class="card-description">Why do people think saving is the key to wealth when the most wealthy
+                        people didn’t get to the top by saving?</p>
+                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
-                      <div class="card-image">
-                        <img class="img img-raised rounded"
-                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
-                      </div>
+                      <div class="card-image"><img class="img img-raised rounded"
+                          src="/img/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom.jpg"
+                          alt="Personal Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom" /></div>
                     </div>
                   </div>
                 </card>

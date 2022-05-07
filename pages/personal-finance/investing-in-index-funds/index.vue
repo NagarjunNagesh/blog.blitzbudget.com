@@ -380,57 +380,40 @@
           <div class="blogs-1" id="blogs-1">
             <div class="row">
               <div class="col-md-10 ml-auto mr-auto">
-                <card type="blog" plain>
-                  <template slot="raw-content">
+                <card type="blog" plain><template slot="raw-content">
                     <div class="row">
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="/img/personal-finance/power-of-dreaming.jpg"
-                            alt="" />
-                        </div>
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/investing-in-mutual-funds.jpg"
+                            alt="Personl Finance 27: Investing in Mutual Funds" /></div>
                       </div>
                       <div class="col-md-7">
-                        <h6 class="category text-info">Personal Finance</h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/power-of-dreaming/">The Power of Dreaming</a>
-                        </h3>
-                        <p class="card-description">
-                          It all starts with a dream to become successful in life. The dream has to be justified with
-                          a definiteness of purpose.....
-                        </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b> , September 18, 2018
-                        </p>
+                        <h6 class="category text-info">Personl Finance 27: Investing in Mutual Funds</h6>
+                        <h3 class="card-title"><a href="/personal-finance/investing-in-mutual-funds/">Personl Finance
+                            27: Investing in Mutual Funds</a></h3>
+                        <p class="card-description">Mutual funds also known as actively managed funds are the most
+                          sorted out forms of investments by the public.</p>
+                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                       </div>
                     </div>
-                  </template>
-                </card>
+                  </template></card>
                 <card type="blog" plain>
                   <div class="row">
                     <div class="col-md-7">
-                      <h6 class="category text-danger">
-                        <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                        Personal Finance
-                      </h6>
-                      <h3 class="card-title">
-                        <a href="/personal-finance/self-analysis-understanding-your-habits/">Self-Analysis!
-                          Understanding your Habits</a>
-                      </h3>
-                      <p class="card-description">
-                        We were born helpless, unable to speak or feed ourselves on our own. The factors that
-                        influence who we become is to a large extent from the outside.....
-                      </p>
-                      <p class="author">
-                        by
-                        <b>Nagarjun Nagesh</b>, September 18, 2018
-                      </p>
+                      <h6 class="category text-danger"><em
+                          class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                      <h3 class="card-title"><a
+                          href="/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five/">Personl
+                          Finance 25: Financial Goals to Achieve Before You Turn 35</a></h3>
+                      <p class="card-description">Why do human beings do what they do? Why do we need to be financially
+                        free? Some of them make a killing. Some sacrifice their life in the hope of providing a better
+                        life for their children.</p>
+                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
-                      <div class="card-image">
-                        <img class="img img-raised rounded"
-                          src="img/personal-finance/self-analysis-understanding-your-habits.jpg" alt="blog" />
-                      </div>
+                      <div class="card-image"><img class="img img-raised rounded"
+                          src="/img/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five.jpg"
+                          alt="Personl Finance 25: Financial Goals to Achieve Before You Turn 35" /></div>
                     </div>
                   </div>
                 </card>

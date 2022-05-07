@@ -296,52 +296,39 @@
             <div class="blogs-1" id="blogs-1">
               <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
+                  <card type="blog" plain><template slot="raw-content">
                       <div class="row">
                         <div class="col-md-5">
-                          <div class="card-image">
-                            <img class="img img-raised rounded" src="img/personal-finance/what-is-money.jpg" alt="" />
-                          </div>
+                          <div class="card-image"><img class="img img-raised rounded"
+                              src="/img/personal-finance/why-the-rich-get-richer.jpg"
+                              alt="Personal Finance 3: Why the Rich get Richer?" /></div>
                         </div>
                         <div class="col-md-7">
-                          <h6 class="category text-info">Personal Finance</h6>
-                          <h3 class="card-title">
-                            <a href="/personal-finance/what-is-money/">What is Money?</a>
-                          </h3>
-                          <p class="card-description">
-                            Do nothing, say nothing and be nothing and you'll never be criticized....
-                          </p>
-                          <p class="author">
-                            by
-                            <b>Nagarjun Nagesh</b> , September 18, 2018
-                          </p>
+                          <h6 class="category text-info">Personal Finance 3: Why the Rich get Richer?</h6>
+                          <h3 class="card-title"><a href="/personal-finance/why-the-rich-get-richer/">Personal Finance
+                              3:
+                              Why the Rich get Richer?</a></h3>
+                          <p class="card-description">Certainly, the possibility of living in a civilized world develops
+                            the opportunity for inequality</p>
+                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
                         </div>
                       </div>
-                    </template>
-                  </card>
+                    </template></card>
                   <card type="blog" plain>
                     <div class="row">
                       <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                          Personal Finance
-                        </h6>
-                        <h3 class="card-title">
-                          <a href="/personal-finance/why-the-rich-get-richer/">Why the Rich get Richer?</a>
-                        </h3>
-                        <p class="card-description">
-                          Certainly, the possibility of living in a civilized world develops the opportunity for
-                          inequality.....
+                        <h6 class="category text-danger"><em
+                            class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
+                        <h3 class="card-title"><a href="/personal-finance/what-is-money/">Personal Finance 1: What is
+                            Money?</a></h3>
+                        <p class="card-description">“Do nothing, say nothing and be nothing and you'll never be
+                          criticized”
                         </p>
-                        <p class="author">
-                          by
-                          <b>Nagarjun Nagesh</b>, September 18, 2018
-                        </p>
+                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="img/personal-finance/bg-1.jpg" alt="blog" />
+                        <div class="card-image"><img class="img img-raised rounded"
+                            src="/img/personal-finance/what-is-money.jpg" alt="Personal Finance 1: What is Money?" />
                         </div>
                       </div>
                     </div>
