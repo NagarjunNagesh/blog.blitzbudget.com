@@ -1,10 +1,7 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/psychology/bg-op-2.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('img/psychology/bg-op-2.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -186,11 +183,7 @@
                     <div class="col-md-2">
                       <div class="card-avatar">
                         <a href="#pablo">
-                          <img
-                            class="img img-raised"
-                            src="img/authors/nagarjun.jpg"
-                            alt="author"
-                          />
+                          <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
                         </a>
                         <div class="ripple-container"></div>
                       </div>
@@ -203,10 +196,7 @@
                       </p>
                     </div>
                     <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
+                      <button type="button" class="btn btn-default pull-right btn-round">
                         Follow
                       </button>
                     </div>
@@ -230,27 +220,24 @@
                       <div class="row">
                         <div class="col-md-5">
                           <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/psychology/bg-15.jpg"
-                              alt=""
-                            />
+                            <img class="img img-raised rounded" src="img/psychology/nami.jpg" alt="" />
                           </div>
                         </div>
                         <div class="col-md-7">
-                          <h6 class="category text-info">Psychology</h6>
+                          <h6 class="category text-danger">
+                            <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
+                            Psychology
+                          </h6>
                           <h3 class="card-title">
-                            <a href="/psychology/is-racism-a-social-construct/"
-                              >Is Racism a Social Construct?</a
-                            >
+                            <a href="/psychology/one-piece/nami/">One Piece: Nami</a>
                           </h3>
                           <p class="card-description">
-                            Racism could be a social construct or a learned
-                            behavior to a certain degree....
+                            Nami is an interesting character. She is an orphan adopted by Bellemere a retired marine
+                            officer who is very tough on her adopted children......
                           </p>
                           <p class="author">
                             by
-                            <b>Nagarjun Nagesh</b> , March 30, 2022
+                            <b>Nagarjun Nagesh</b>, May 01, 2022
                           </p>
                         </div>
                       </div>
@@ -260,15 +247,11 @@
                     <div class="row">
                       <div class="col-md-7">
                         <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
+                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
                           Search for the Good
                         </h6>
                         <h3 class="card-title">
-                          <a href="/psychology/pursuit-of-problem-solving/"
-                            >Pursuit of Problem Solving?</a
-                          >
+                          <a href="/psychology/pursuit-of-problem-solving/">Pursuit of Problem Solving?</a>
                         </h3>
                         <p class="card-description">
                           The mere fact that we are focusing on something and
@@ -282,11 +265,7 @@
                       </div>
                       <div class="col-md-5">
                         <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/psychology/bg16.jpg"
-                            alt="blog"
-                          />
+                          <img class="img img-raised rounded" src="img/psychology/bg16.jpg" alt="blog" />
                         </div>
                       </div>
                     </div>
