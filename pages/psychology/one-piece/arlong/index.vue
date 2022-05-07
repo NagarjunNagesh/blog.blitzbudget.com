@@ -30,69 +30,89 @@
               <p>
                 and practically considered as a brother of Jinbei in the
                 past before they split. Arlong was the leader who proposed the ideology of hatred and acted upon it and
-                as a result became a beacon for those who equally harbored hatred in their heart for all the human.
-
-                Naturally after the death of their captain Tiger, they formed the Arlong pirates and ravaged human
+                as a result became a beacon for those who equally harbored hatred in their heart for all the
+                human.
+                <br />
+                <br />
+                Naturally after the death of their captain Tiger, they formed the Arlong pirates and
+                ravaged human
                 villages. As per Jinbeis account he was a slave before being released by Jinbei. A person who already
                 hates all man kind for the atrocities committed against the fishmen was enslaved and even though he was
                 released in the end because of Jinbei, his hatred only seemed to have gotten to the point that he wanted
                 to act upon it.
-
-                As a result it feels like hatred became vengeance as a result of slavery, vengeance became revenge.
-
-                We can see the revenge in the formation of the Arlong pirates only for the purpose of reigning over the
+                <br />
+                <br />
+                As a result it feels like hatred became vengeance as a result of slavery,
+                vengeance became revenge.
+                <br />
+                <br /> We can see the revenge in the formation of the Arlong pirates
+                only for the purpose of reigning over the
                 man kind.
-
-                Revenge no matter how noble only brings one to hell. No amount of suffering justifies hurting innocent
-                people. A generalized hatred toward all man kind is not justifiable.
-
-                These generalized hatred are only possible in real life scenarios with some kind of belief systems where
+                <br />
+                <br /> Revenge no matter how noble only brings one to hell. No amount of suffering
+                justifies hurting innocent
+                people. A generalized hatred toward all man kind is not justifiable.<br /> <br /> These generalized
+                hatred are only possible in real life scenarios with some kind of belief systems where
                 the communists consider capitalists as monsters and one religion considers other religion as invalid.
                 This seems to be a race discrimination , demonization and reduction. All of this seems happens in real
                 life.
-
-                But what we see here is how someone can develop a generalized hatred towards other race, religion or
+                <br />
+                <br /> But what we see here is how someone can develop a generalized hatred towards other
+                race, religion or
                 ideology.
-
-                As a result Nami suffered and lived in hell for the majority of her life, forced to betray herself and
+                <br />
+                <br /> As a result Nami suffered and lived in hell for the majority of her life, forced
+                to betray herself and
                 live a life of a thief inorder to save her village. Imagine the misery someone will feel as a result of
                 betraying themselves but she did not develop a generalized hatred towards all fish men and not even
                 towards Jinbei who freed Arlong and as a result Arlong made a lot of villages suffer for years.
-
-                This shows the difference between Nami and Arlong. Where she had learnt to isolate the person and not
+                <br />
+                <br />
+                This shows the difference between Nami and Arlong. Where she had learnt to isolate the person and
+                not
                 generalize the character with the whole race. It takes a different level of ideology and belief to
                 become that person.
-
-                When people do that they are just focusing all their hatred on the innocent because they are weaker than
+                <br />
+                <br /> When people do that they are just focusing all their hatred on the
+                innocent because they are weaker than
                 Arlong but are not strong enough to fight with the Celestial Dragons and win. In a lot of ways they are
                 slaves to their past and cowards who are simply making them feel superior over the weaker ones. Only
                 thugs do that!!
-
-                And Arlong wanted to enslave Nami for the rest of her life because she was so good at charting maps.
+                <br />
+                <br /> And Arlong wanted to enslave Nami for the rest of her life because she was
+                so good at charting maps.
                 That is true enslavement against their will. I don’t think it is the best way to navigate in the world.
                 It would make people not trust on their own crew.
                 It seems that what happens and Nami is requested to prove her allegiance to Arlong pirates by killing
                 Usopp.
-
-                Nami only needs to make the Arlong pirates think that she killed Usopp but we can’t blame her as well
+                <br />
+                <br />
+                Nami only needs to make the Arlong pirates think that she killed Usopp but we can’t
+                blame her as well
                 because Usopp was forced into a corner and would have been killed anyway.
-
-                Arlong does not flinch killing another human but is devastated when he sees fishmen in the brink of
+                <br />
+                <br /> Arlong does not
+                flinch killing another human but is devastated when he sees fishmen in the brink of
                 death and gets really aggravated seeing the state of Arlong park. It shows his ego and his care for the
                 fishmen but a demon to humans would get exactly that in return for destroying all the villages he is in
                 control over.
-
-                He is also Cunning enough to ask 100,000 berry for every adult and 50,000 berry for every children for
+                <br />
+                <br /> He is also Cunning enough to ask 100,000 berry for every adult and 50,000
+                berry for every children for
                 them to stay alive. I am pretty sure that this ideology was copied from the Celestial Dragons a where
                 they request a royalty for staying in MarieJois.
-
-                Arlong has a dream of becoming a pirate who has charted all the seas with the help of Nami and becoming
+                <br />
+                <br /> Arlong has a dream of becoming a pirate
+                who has charted all the seas with the help of Nami and becoming
                 even stronger to as much territory as possible.
-
-                Inorder to continue to stay in power he bribes the navy. The bribery is also an act of corrupting the
+                <br />
+                <br /> Inorder to continue to stay in power he
+                bribes the navy. The bribery is also an act of corrupting the
                 existing system and not shying from propagating what is wrong inorder to get what Arlong wants.
-
-                All of this makes him propagate hatred out to the entire world and ensure generalized suffering to
+                <br />
+                <br />
+                All of this makes him propagate hatred out to the entire world and ensure generalized suffering
+                to
                 everyone weaker than him. This alone is enough to ensure that he would not survive for long with this
                 attitude. Luffy seems to be the one who defeats Arlong and frees the villages in control of Arlong.
               </p>
