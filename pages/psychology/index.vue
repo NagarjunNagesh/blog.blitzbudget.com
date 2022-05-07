@@ -181,6 +181,112 @@
           <card type="blog" plain>
             <div class="row">
               <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" src="/img/psychology/nami.jpg"
+                    alt="One Piece: Nami" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/psychology/one-piece/nami/">One Piece: Nami</a>
+                </h3>
+                <p class="card-description">Nami is an interesting character. She is an orphan adopted by Bellemere a
+                  retired marine
+                  officer who is very tough on her adopted children.<a href="/psychology/one-piece/nami/"> Read More
+                  </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" src="/img/psychology/vinsmoke-sanji.jpg"
+                    alt="One Piece: Vinsmoke Sanji" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/psychology/one-piece/vinsmoke-sanji/">One Piece: Vinsmoke Sanji</a>
+                </h3>
+                <p class="card-description">Sanji, A chef in Baratie is a peculiar character in the sense
+                  that he is introduced to Luffy as this
+                  Chef who will feed any enemy<a href="/psychology/one-piece/vinsmoke-sanji/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" src="/img/psychology/warlord-jinbei.jpg"
+                    alt="One Piece: Warlord Jinbei" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/psychology/one-piece/warlord-jinbei/">One Piece: Warlord Jinbei</a>
+                </h3>
+                <p class="card-description">A fish-men karate expert and a former warlord now a part of the Straw hat
+                  pirate crew is
+                  one of the noblest of characters in One Piece<a href="/psychology/one-piece/warlord-jinbei/"> Read
+                    More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" src="/img/psychology/god-usopp.jpg"
+                    alt="One Piece: God Usopp" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/psychology/one-piece/god-usopp/">One Piece: God Usopp</a>
+                </h3>
+                <p class="card-description">His father Yasopp became a pirate and his mother died due to illness. it
+                  must have
+                  been really hard for Usopp to realize that the only two people that would care for him
+                  endlessly have<a href="/psychology/one-piece/god-usopp/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded"
+                    src="/img/psychology/devil-child-nico-robin.jpg" alt="One Piece: Devil Child Nico Robin" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/psychology/one-piece/devil-child-nico-robin/">One Piece: Devil Child
+                    Nico Robin</a>
+                </h3>
+                <p class="card-description">I think Nico Robin will be connecting Luffy with the Revolutionary army in
+                  the future as Nico Robin was training with the Revolutionary army for 2 years.<a
+                    href="/psychology/one-piece/devil-child-nico-robin/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" src="/img/psychology/arlong.jpg"
+                    alt="One Piece: Arlong" /></div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title"><a href="/psychology/one-piece/arlong/">One Piece: Arlong</a>
+                </h3>
+                <p class="card-description">One considered as a member of the Sun Pirates and practically considered as
+                  a brother of
+                  Jinbei in the past before they split.<a href="/psychology/one-piece/arlong/"> Read More </a></p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
+          <card type="blog" plain>
+            <div class="row">
+              <div class="col-md-4">
                 <div class="card-image"><img class="img img-raised rounded" src="/img/psychology/bg-op-2.jpg"
                     alt="One Piece: Roronova Zoro" />
                 </div>
