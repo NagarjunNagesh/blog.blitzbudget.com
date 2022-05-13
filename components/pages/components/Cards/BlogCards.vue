@@ -21,11 +21,7 @@
               </p>
               <div class="card-footer">
                 <div class="author">
-                  <img
-                    v-lazy="'img/julie.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/julie.jpg'" alt="..." class="avatar img-raised" />
                   <span>Susan B. Anthony</span>
                 </div>
                 <div class="stats stats-right">
@@ -40,7 +36,7 @@
                 <em class="now-ui-icons business_bulb-63"></em> Focus
               </h6>
               <h5 class="card-title">
-                <a href="#nuk">Stay Focused: Train Your Brain</a>
+                <nuxt-link to="#nuk">Stay Focused: Train Your Brain</nuxt-link>
               </h5>
               <p class="card-description">
                 Our brains are finely attuned to distraction, so today's digital
@@ -52,7 +48,7 @@
                 <em class="now-ui-icons media-2_sound-wave"></em> Trending
               </h6>
               <h5 class="card-title">
-                <a href="#pablo">Here Be Dragons</a>
+                <nuxt-link to="#pablo">Here Be Dragons</nuxt-link>
               </h5>
               <p class="card-description">
                 An immersive production studio focused on virtual reality
@@ -61,11 +57,7 @@
               </p>
               <div class="card-footer">
                 <div class="author">
-                  <img
-                    v-lazy="'img/olivia.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/olivia.jpg'" alt="..." class="avatar img-raised" />
                   <span>Lord Alex</span>
                 </div>
                 <div class="stats stats-right">
@@ -81,7 +73,7 @@
                 <em class="fab fa-apple"></em> New Apps
               </h6>
               <h4 class="card-title">
-                <a href="#nuk">FiftyThree Files For Paper</a>
+                <nuxt-link to="#nuk">FiftyThree Files For Paper</nuxt-link>
               </h4>
               <p class="card-description">
                 Yesterday, as Facebook launched its news reader app Paper,
@@ -103,11 +95,7 @@
               </p>
               <div class="card-footer">
                 <div class="author">
-                  <img
-                    v-lazy="'img/julie.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/julie.jpg'" alt="..." class="avatar img-raised" />
                   <span>Mike John</span>
                 </div>
                 <div class="stats stats-right">
@@ -125,11 +113,7 @@
               </p>
               <div class="card-footer">
                 <div class="author">
-                  <img
-                    v-lazy="'img/james.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/james.jpg'" alt="..." class="avatar img-raised" />
                   <span>Tania Andrew</span>
                 </div>
                 <div class="stats stats-right">
@@ -141,11 +125,7 @@
           </div>
           <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-0">
             <card type="blog" card-body-classes="text-center">
-              <img
-                slot="image"
-                class="img rounded"
-                src="img/examples/card-blog6.jpg"
-              />
+              <img slot="image" class="img rounded" src="img/examples/card-blog6.jpg" />
               <h6 class="category text-danger">
                 <em class="now-ui-icons media-2_sound-wave"></em> Business
               </h6>
@@ -166,9 +146,7 @@
                 <em class="now-ui-icons media-1_camera-compact"></em> Photo
               </h6>
               <h5 class="card-title">
-                <a href="#pablo"
-                  >Indispensible to nature photography: the hide</a
-                >
+                <nuxt-link to="#pablo">Indispensible to nature photography: the hide</nuxt-link>
               </h5>
               <div class="card-footer">
                 <div class="stats stats-right">
@@ -176,11 +154,7 @@
                   <em class="now-ui-icons files_single-copy-04"></em> 45
                 </div>
                 <div class="author">
-                  <img
-                    v-lazy="'img/james.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/james.jpg'" alt="..." class="avatar img-raised" />
                   <span>Devin Coldewey</span>
                 </div>
               </div>
@@ -192,14 +166,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 px-0">
-          <div
-            class="card card-fashion card-background"
-            style="background-image: url('img/bg26.jpg')"
-          >
+          <div class="card card-fashion card-background" style="background-image: url('img/bg26.jpg')">
             <div class="card-body">
               <div class="card-title text-left">
                 <h2>
-                  <a href="#pablo"> Walk of shame - Latest Urban Trend </a>
+                  <nuxt-link to="#pablo"> Walk of shame - Latest Urban Trend </nuxt-link>
                 </h2>
               </div>
               <div class="card-footer text-left">
@@ -212,7 +183,7 @@
                   </span>
                 </div>
                 <div class="stats-link pull-right">
-                  <a href="#pablo" class="footer-link">People</a>
+                  <nuxt-link to="#pablo" class="footer-link">People</nuxt-link>
                 </div>
               </div>
             </div>
@@ -222,7 +193,7 @@
           <div class="card-container">
             <div class="card card-fashion">
               <h4 class="card-title">
-                <a href="#pablo"> The view from south Texas in one Picture </a>
+                <nuxt-link to="#pablo"> The view from south Texas in one Picture </nuxt-link>
               </h4>
               <div class="card-body">
                 <div class="card-footer">
@@ -236,18 +207,15 @@
                     </span>
                   </div>
                   <div class="stats-link pull-right">
-                    <a href="#pablo">Mountains</a>&sbquo;
-                    <a href="#pablo">Outdoor</a>
+                    <nuxt-link to="#pablo">Mountains</nuxt-link>&sbquo;
+                    <nuxt-link to="#pablo">Outdoor</nuxt-link>
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              class="card card-fashion card-background"
-              style="
+            <div class="card card-fashion card-background" style="
                 background-image: url('https:///mvpwp.com/demo/nowwp/wp-content/uploads/sites/6/2017/06/a-james-donovan-180375.jpg');
-              "
-            ></div>
+              "></div>
           </div>
         </div>
       </div>

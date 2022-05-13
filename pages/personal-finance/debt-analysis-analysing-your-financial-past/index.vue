@@ -22,7 +22,9 @@
             <p>Knowledge of how the money work is the first step against personal debt. Click the link below to
               know the basic mechanics of how the money machine works as explained by Ray Dalio (67th Richest
               Man in the world)</p>
-            <p><a href='https://youtu.be/PHe0bXAIuk0'>How the economic money machine workds</a></p>
+            <p>
+              <nuxt-link href='https://youtu.be/PHe0bXAIuk0'>How the economic money machine workds</nuxt-link>
+            </p>
             <p>How do you find out how the economic system works? Become an insider and know the rules before
               you get in the game.</p>
             <blockquote>
@@ -61,7 +63,7 @@
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
             <h3 class="title">Education Loan</h3>
-            <p><b>Young and In Debt</b> – people who are in debt due to educational loan should aim for
+            <p><strong>Young and In Debt</strong> – people who are in debt due to educational loan should aim for
               financial security by clearing off the loan. Education loan is the single largest loan repayment
               apart from the home loan for every individual out there. Most of them are in debt till their
               neck. The second loan that has to be repaid is the educational loan. There is a sense of freedom
@@ -145,9 +147,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -187,11 +189,13 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 17: Debt Management Strategy</h6>
-                        <h3 class="card-title"><a href="/personal-finance/debt-management-strategy/">Personal Finance
-                            17: Debt Management Strategy</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/debt-management-strategy/">Personal Finance
+                            17: Debt Management Strategy</nuxt-link>
+                        </h3>
                         <p class="card-description">Debt management requires your utmost commitment to get rid of debt.
                           The first step in making sure that you start reducing your debt is an emergency fund.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -200,13 +204,15 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/emergency-fund-why-is-it-important/">Personal
-                          Finance 15: Emergency Fund: Why is it important?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/emergency-fund-why-is-it-important/">Personal
+                          Finance 15: Emergency Fund: Why is it important?</nuxt-link>
+                      </h3>
                       <p class="card-description">Have you ever noticed that we keep staring at someone for no reason?
                         It
                         makes everyone uncomfortable. We only do so when the emotions are strong enough and even then
                         rarely consistently unless the other reciprocates.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

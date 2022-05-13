@@ -1,10 +1,7 @@
 <template>
   <div class="wrapper blog-post">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/psychology/bg-op-1.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('img/psychology/bg-op-1.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -18,9 +15,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -197,13 +194,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
-                          <img
-                            class="img img-raised"
-                            src="img/authors/nagarjun.jpg"
-                            alt="author"
-                          />
-                        </a>
+                        <nuxt-link to="#pablo">
+                          <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -215,10 +208,7 @@
                       </p>
                     </div>
                     <div class="col-md-2">
-                      <button
-                        type="button"
-                        class="btn btn-default pull-right btn-round"
-                      >
+                      <button type="button" class="btn btn-default pull-right btn-round">
                         Follow
                       </button>
                     </div>
@@ -242,19 +232,13 @@
                       <div class="row">
                         <div class="col-md-5">
                           <div class="card-image">
-                            <img
-                              class="img img-raised rounded"
-                              src="img/psychology/bg-op-2.jpg"
-                              alt=""
-                            />
+                            <img class="img img-raised rounded" src="img/psychology/bg-op-2.jpg" alt="" />
                           </div>
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Psychology</h6>
                           <h3 class="card-title">
-                            <a href="/psychology/one-piece/roronoa-zoro/"
-                              >One Piece: Roronoa Zoro</a
-                            >
+                            <nuxt-link to="/psychology/one-piece/roronoa-zoro/">One Piece: Roronoa Zoro</nuxt-link>
                           </h3>
                           <p class="card-description">
                             Some of the most easy-to-understand characters in
@@ -262,7 +246,7 @@
                           </p>
                           <p class="author">
                             by
-                            <b>Nagarjun Nagesh</b> , March 30, 2022
+                            <strong>Nagarjun Nagesh</strong> , March 30, 2022
                           </p>
                         </div>
                       </div>
@@ -272,15 +256,12 @@
                     <div class="row">
                       <div class="col-md-7">
                         <h6 class="category text-danger">
-                          <em
-                            class="now-ui-icons now-ui-icons media-2_sound-wave"
-                          ></em>
+                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
                           Search for the Good
                         </h6>
                         <h3 class="card-title">
-                          <a href="/psychology/pursuit-of-problem-solving/"
-                            >Pursuit of Problem Solving?</a
-                          >
+                          <nuxt-link to="/psychology/pursuit-of-problem-solving/">Pursuit of Problem Solving?
+                          </nuxt-link>
                         </h3>
                         <p class="card-description">
                           The mere fact that we are focusing on something and
@@ -289,16 +270,12 @@
                         </p>
                         <p class="author">
                           by
-                          <b>Nagarjun Nagesh</b>, March 30, 2022
+                          <strong>Nagarjun Nagesh</strong>, March 30, 2022
                         </p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image">
-                          <img
-                            class="img img-raised rounded"
-                            src="img/psychology/bg16.jpg"
-                            alt="blog"
-                          />
+                          <img class="img img-raised rounded" src="img/psychology/bg16.jpg" alt="blog" />
                         </div>
                       </div>
                     </div>

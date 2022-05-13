@@ -286,8 +286,8 @@
               Everyone looks to him as a person who had missed the opportunity to be someone better.</p>
             <p>Kevin acknowledges the fact as well. He often regrets leaving Dubai and says “My junior is now
               managing the whole physiotherapist department. If only I had been there!”</p>
-            <p><b>It is sometimes wise to plant your roots and settle down in a single place if you know you are
-                doing reasonably good there.</b></p>
+            <p><strong>It is sometimes wise to plant your roots and settle down in a single place if you know you are
+                doing reasonably good there.</strong></p>
             <p>It makes sense then to say “The grass is not always greener on the other side; It may seem to,
               but in reality, it is not”.</p>
           </div>
@@ -313,9 +313,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -357,12 +357,14 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 21: Mark Zuckerberg Didn’t Save His Way To
                           Financial Freedom</h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/">Personal
-                            Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/">
+                            Personal
+                            Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom</nuxt-link>
+                        </h3>
                         <p class="card-description">Why do people think saving is the key to wealth when the most
                           wealthy people didn’t get to the top by saving?</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -371,12 +373,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/home-loan-is-it-a-boon-in-disguise/">Personal
-                          Finance 19: Home Loan: Is it a Boon in Disguise</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/home-loan-is-it-a-boon-in-disguise/">Personal
+                          Finance 19: Home Loan: Is it a Boon in Disguise</nuxt-link>
+                      </h3>
                       <p class="card-description">It all starts with a dream of having a roof on top of one’s head for
                         the
                         sake of their family. But many end up not being able to afford to buy a home with cash.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

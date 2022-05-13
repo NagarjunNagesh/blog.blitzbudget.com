@@ -127,7 +127,7 @@
               well.</p>
             <p>You need to be a better person every day. Continually strive for excellence. Even then there are
               external factors which could drastically affect your possibility of becoming rich. So you need
-              the plain old <b>LUCK.</b></p>
+              the plain old <strong>LUCK.</strong></p>
           </div>
         </div>
       </div>
@@ -212,7 +212,7 @@
               Investment)</p>
             <p>If you produce > 10% return on investment you are bound to multiply your invested amount 5 times
               over in a 30-year span.</p>
-            <p>Remember, <b>Einstein’s Rule of 72:</b></p>
+            <p>Remember, <strong>Einstein’s Rule of 72:</strong></p>
             <blockquote>
               <p class="blockquote blockquote-success">Interest Earned x Years Required = 72</p>
             </blockquote>
@@ -324,7 +324,7 @@
               </tr>
             </table>
             <p>To reduce the error factor, I use a customized version of Einstein’s rule of 72 which I had
-              developed. Let’s just call it <b>“Improvised Rule of 72”</b>.</p>
+              developed. Let’s just call it <strong>“Improvised Rule of 72”</strong>.</p>
             <p>If you know the number of years, then use this formula:</p>
             <blockquote>
               <p class="blockquote blockquote-success">Number of Years x Interest Rate = 72 + (28 / Number of
@@ -570,9 +570,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -612,12 +612,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 20: Savings Management Strategy</h6>
-                        <h3 class="card-title"><a href="/personal-finance/savings-management-strategy/">Personal Finance
-                            20: Savings Management Strategy</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/savings-management-strategy/">Personal Finance
+                            20: Savings Management Strategy</nuxt-link>
+                        </h3>
                         <p class="card-description">Savings management strategy is by far the simplest yet hard to
                           implement amongst all the strategies. It demands that you change your mentality and destroy
                           the previously held notions of money.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -626,12 +628,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal Finance
-                          18: Credit Cards: How to Increase your Credit Score</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal
+                          Finance
+                          18: Credit Cards: How to Increase your Credit Score</nuxt-link>
+                      </h3>
                       <p class="card-description">If a credit card is a bad tool to be used for spending on budget and
                         repaying the borrowed amount immediately, then we are talking about having no credit score.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

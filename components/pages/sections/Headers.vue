@@ -2,70 +2,55 @@
   <div class="cd-section" id="headers">
     <!--     *********     HEADER 1      *********      -->
     <div class="header-1">
-      <nav
-        class="
+      <nav class="
           navbar navbar-expand-lg navbar-transparent
           bg-success
           navbar-absolute
-        "
-      >
+        ">
         <div class="container">
           <div class="navbar-translate">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#example-navbar-success"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-success"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar bar1"></span>
               <span class="navbar-toggler-bar bar2"></span>
               <span class="navbar-toggler-bar bar3"></span>
             </button>
-            <a class="navbar-brand" href="#pablo">Creative Tim</a>
+            <nuxt-link class="navbar-brand" to="#pablo">Creative Tim</nuxt-link>
           </div>
           <div class="collapse navbar-collapse" id="example-navbar-success2">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#pablo"> Home </a>
+                <nuxt-link class="nav-link" to="#pablo"> Home </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> About Us </a>
+                <nuxt-link class="nav-link" to="#pablo"> About Us </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> Contact Us </a>
+                <nuxt-link class="nav-link" to="#pablo"> Contact Us </nuxt-link>
               </li>
             </ul>
             <ul class="nav navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/CreativeTim">
+                <nuxt-link class="nav-link" to="https://twitter.com/CreativeTim">
                   <em class="fab fa-twitter"></em>
-                </a>
+                </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.facebook.com/CreativeTim">
+                <nuxt-link class="nav-link" to="https://www.facebook.com/CreativeTim">
                   <em class="fab fa-facebook-square"></em>
-                </a>
+                </nuxt-link>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.instagram.com/CreativeTimOfficial"
-                >
+                <nuxt-link class="nav-link" to="https://www.instagram.com/CreativeTimOfficial">
                   <em class="fab fa-instagram"></em>
-                </a>
+                </nuxt-link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <div class="page-header header-filter">
-        <div
-          class="page-header-image"
-          style="background-image: url('img/bg16.jpg')"
-        ></div>
+        <div class="page-header-image" style="background-image: url('img/bg16.jpg')"></div>
         <div class="content-center">
           <div class="container">
             <div class="row">
@@ -80,27 +65,18 @@
                 </h4>
                 <br />
                 <div class="buttons">
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-link btn-neutral btn-lg"
-                  >
+                  <nuxt-link to="#pablo" class="btn btn-icon btn-link btn-neutral btn-lg">
                     <em class="fab fa-twitter"></em>
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-link btn-neutral btn-lg"
-                  >
+                  </nuxt-link>
+                  <nuxt-link to="#pablo" class="btn btn-icon btn-link btn-neutral btn-lg">
                     <em class="fab fa-facebook-square"></em>
-                  </a>
-                  <a
-                    href="#pablo"
-                    class="btn btn-icon btn-link btn-neutral btn-lg"
-                  >
+                  </nuxt-link>
+                  <nuxt-link to="#pablo" class="btn btn-icon btn-link btn-neutral btn-lg">
                     <em class="fab fa-get-pocket"></em>
-                  </a>
-                  <a href="#pablo" class="btn btn-info btn-lg mr-3">
+                  </nuxt-link>
+                  <nuxt-link to="#pablo" class="btn btn-info btn-lg mr-3">
                     Read More
-                  </a>
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -111,73 +87,58 @@
     <!--     *********    END HEADER 1      *********      -->
     <!--     *********     HEADER 2      *********      -->
     <div class="header-2">
-      <nav
-        class="
+      <nav class="
           navbar navbar-expand-lg navbar-transparent
           bg-success
           navbar-absolute
-        "
-      >
+        ">
         <div class="container">
           <div class="navbar-translate">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#example-navbar-success"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-success"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar bar1"></span>
               <span class="navbar-toggler-bar bar2"></span>
               <span class="navbar-toggler-bar bar3"></span>
             </button>
-            <a class="navbar-brand" href="#pablo">Creative Tim</a>
+            <nuxt-link class="navbar-brand" to="#pablo">Creative Tim</nuxt-link>
           </div>
           <div class="collapse navbar-collapse" id="example-navbar-success">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#pablo"> Home </a>
+                <nuxt-link class="nav-link" to="#pablo"> Home </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> About Us </a>
+                <nuxt-link class="nav-link" to="#pablo"> About Us </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> Products </a>
+                <nuxt-link class="nav-link" to="#pablo"> Products </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> Contact Us </a>
+                <nuxt-link class="nav-link" to="#pablo"> Contact Us </nuxt-link>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/CreativeTim">
+                <nuxt-link class="nav-link" to="https://twitter.com/CreativeTim">
                   <em class="fab fa-twitter"></em>
-                </a>
+                </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.facebook.com/CreativeTim">
+                <nuxt-link class="nav-link" to="https://www.facebook.com/CreativeTim">
                   <em class="fab fa-facebook-square"></em>
-                </a>
+                </nuxt-link>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://www.instagram.com/CreativeTimOfficial"
-                >
+                <nuxt-link class="nav-link" to="https://www.instagram.com/CreativeTimOfficial">
                   <em class="fab fa-instagram"></em>
-                </a>
+                </nuxt-link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <div class="page-header header-filter">
-        <div
-          class="page-header-image"
-          style="background-image: url('img/bg14.jpg')"
-        ></div>
+        <div class="page-header-image" style="background-image: url('img/bg14.jpg')"></div>
         <div class="content-center">
           <div class="container">
             <div class="row">
@@ -190,10 +151,7 @@
                 </h5>
               </div>
               <div class="col-md-10 ml-auto mr-auto">
-                <div
-                  class="card card-raised card-form-horizontal card-plain"
-                  data-background-color
-                >
+                <div class="card card-raised card-form-horizontal card-plain" data-background-color>
                   <div class="card-body">
                     <form method="" action="">
                       <div class="row">
@@ -201,18 +159,13 @@
                           <fg-input value="" placeholder="Full Name"></fg-input>
                         </div>
                         <div class="col-md-3">
-                          <fg-input
-                            value=""
-                            placeholder="Your Email"
-                          ></fg-input>
+                          <fg-input value="" placeholder="Your Email"></fg-input>
                         </div>
                         <div class="col-md-3">
                           <fg-input value="" placeholder="Password"></fg-input>
                         </div>
                         <div class="col-md-3">
-                          <n-button type="success" round block
-                            >Join Us</n-button
-                          >
+                          <n-button type="success" round block>Join Us</n-button>
                         </div>
                       </div>
                     </form>
@@ -227,40 +180,31 @@
     <!--     *********    END HEADER 2      *********      -->
     <!--     *********     HEADER 3      *********      -->
     <div class="header-3">
-      <nav
-        class="
+      <nav class="
           navbar navbar-expand-lg navbar-transparent
           bg-success
           navbar-absolute
-        "
-      >
+        ">
         <div class="container">
           <div class="navbar-translate">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#example-navbar-success"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-success"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar bar1"></span>
               <span class="navbar-toggler-bar bar2"></span>
               <span class="navbar-toggler-bar bar3"></span>
             </button>
-            <a class="navbar-brand" href="#pablo">Creative Tim</a>
+            <nuxt-link class="navbar-brand" to="#pablo">Creative Tim</nuxt-link>
           </div>
           <div class="collapse navbar-collapse" id="example-navbar-success">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#pablo"> Home </a>
+                <nuxt-link class="nav-link" to="#pablo"> Home </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> About Us </a>
+                <nuxt-link class="nav-link" to="#pablo"> About Us </nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pablo"> Contact Us </a>
+                <nuxt-link class="nav-link" to="#pablo"> Contact Us </nuxt-link>
               </li>
             </ul>
           </div>
@@ -269,22 +213,16 @@
       <el-carousel height="100vh">
         <el-carousel-item>
           <div class="page-header header-filter">
-            <div
-              class="page-header-image"
-              style="background-image: url('img/bg20.jpg')"
-            ></div>
+            <div class="page-header-image" style="background-image: url('img/bg20.jpg')"></div>
             <div class="content-center">
               <div class="container text-left">
                 <div class="content-center">
                   <div class="row">
                     <div class="col-md-5">
                       <div class="iframe-container">
-                        <iframe
-                          height="250"
+                        <iframe height="250"
                           src="https://www.youtube.com/embed/rmfmdKOLzVI?rel=0&amp;controls=0&amp;showinfo=0"
-                          frameborder="0"
-                          allowfullscreen
-                        ></iframe>
+                          frameborder="0" allowfullscreen></iframe>
                       </div>
                     </div>
                     <div class="col-md-6 ml-auto mr-auto text-right">
@@ -304,10 +242,7 @@
         </el-carousel-item>
         <el-carousel-item>
           <div class="page-header header-filter">
-            <div
-              class="page-header-image"
-              style="background-image: url('img/bg15.jpg')"
-            ></div>
+            <div class="page-header-image" style="background-image: url('img/bg15.jpg')"></div>
             <div class="content-center">
               <div class="container">
                 <div class="content-center">
@@ -323,42 +258,30 @@
                       <br />
                       <h5>Connect with us on:</h5>
                       <div class="buttons">
-                        <a
-                          href="#pablo"
-                          class="
+                        <nuxt-link to="#pablo" class="
                             btn btn-icon btn-neutral btn-danger btn-round
                             mt-2
-                          "
-                        >
+                          ">
                           <em class="fab fa-twitter"></em>
-                        </a>
-                        <a
-                          href="#pablo"
-                          class="
+                        </nuxt-link>
+                        <nuxt-link to="#pablo" class="
                             btn btn-icon btn-neutral btn-danger btn-round
                             mt-2
-                          "
-                        >
+                          ">
                           <em class="fab fa-facebook-square"></em>
-                        </a>
-                        <a
-                          href="#pablo"
-                          class="
+                        </nuxt-link>
+                        <nuxt-link to="#pablo" class="
                             btn btn-icon btn-neutral btn-danger btn-round
                             mt-2
-                          "
-                        >
+                          ">
                           <em class="fab fa-google-plus"></em>
-                        </a>
-                        <a
-                          href="#pablo"
-                          class="
+                        </nuxt-link>
+                        <nuxt-link to="#pablo" class="
                             btn btn-icon btn-neutral btn-danger btn-round
                             mt-2
-                          "
-                        >
+                          ">
                           <em class="fab fa-instagram"></em>
-                        </a>
+                        </nuxt-link>
                       </div>
                     </div>
                   </div>
@@ -369,10 +292,7 @@
         </el-carousel-item>
         <el-carousel-item>
           <div class="page-header header-filter">
-            <div
-              class="page-header-image"
-              style="background-image: url('img/bg17.jpg')"
-            ></div>
+            <div class="page-header-image" style="background-image: url('img/bg17.jpg')"></div>
             <div class="content-center">
               <div class="container">
                 <div class="content-center">
@@ -388,17 +308,14 @@
                       </h4>
                       <br />
                       <div class="buttons">
-                        <a
-                          href="#pablo"
-                          class="btn btn-neutral btn-success btn-lg mr-1"
-                        >
+                        <nuxt-link to="#pablo" class="btn btn-neutral btn-success btn-lg mr-1">
                           <em class="now-ui-icons files_single-copy-04"></em>
                           Read More..
-                        </a>
-                        <a href="#pablo" class="btn btn-success btn-lg">
+                        </nuxt-link>
+                        <nuxt-link to="#pablo" class="btn btn-success btn-lg">
                           <em class="now-ui-icons arrows-1_share-66"></em>
                           Subscribe
-                        </a>
+                        </nuxt-link>
                       </div>
                     </div>
                   </div>

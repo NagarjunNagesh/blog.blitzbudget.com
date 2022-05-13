@@ -1,10 +1,7 @@
 <template>
   <div class="wrapper blog-posts">
     <div class="page-header page-header-small rellax-header">
-      <div
-        class="page-header-image"
-        style="background-image: url('img/bg44.jpg')"
-      ></div>
+      <div class="page-header-image" style="background-image: url('img/bg44.jpg')"></div>
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -19,16 +16,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/psychology/bg17.jpg')"
-            >
+            <card type="background" class="card-fashion" style="background-image: url('img/psychology/bg17.jpg')">
               <div class="card-title text-left">
                 <h2>
-                  <a href="/psychology/search-for-the-good/self-preservation/">
+                  <nuxt-link to="/psychology/search-for-the-good/self-preservation/">
                     Search for the Good: Self Preservation
-                  </a>
+                  </nuxt-link>
                 </h2>
               </div>
               <div class="card-footer text-left">
@@ -43,7 +36,7 @@
                   </span>
                 </div>
                 <div class="stats-link pull-right">
-                  <a href="/psychology" class="footer-link">Psychology</a>
+                  <nuxt-link to="/psychology" class="footer-link">Psychology</nuxt-link>
                 </div>
               </div>
             </card>
@@ -52,9 +45,9 @@
             <div class="card card-fashion">
               <div class="card-title">
                 <h4>
-                  <a href="/psychology/is-racism-a-social-construct/">
+                  <nuxt-link to="/psychology/is-racism-a-social-construct/">
                     Is Racism a Social Construct?
-                  </a>
+                  </nuxt-link>
                 </h4>
               </div>
               <div class="card-body">
@@ -70,37 +63,29 @@
                     </span>
                   </div>
                   <div class="stats-link pull-right">
-                    <a href="/psychology">Psychology</a>
+                    <nuxt-link to="/psychology">Psychology</nuxt-link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-3 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/psychology/bg-15.jpg')"
-            >
+            <card type="background" class="card-fashion" style="background-image: url('img/psychology/bg-15.jpg')">
             </card>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/psychology/bg-op-1.jpg')"
-            >
+            <card type="background" class="card-fashion" style="background-image: url('img/psychology/bg-op-1.jpg')">
             </card>
           </div>
           <div class="col-md-3 px-0">
             <div class="card card-fashion arrow-left">
               <div class="card-title">
                 <h4>
-                  <a href="/psychology/one-piece/straw-hat-luffy/">
+                  <nuxt-link to="/psychology/one-piece/straw-hat-luffy/">
                     Straw Hat Luffy
-                  </a>
+                  </nuxt-link>
                 </h4>
               </div>
               <div class="card-body">
@@ -116,24 +101,19 @@
                     </span>
                   </div>
                   <div class="stats-link pull-right">
-                    <a href="/psychology">Psychology</a>&sbquo;
-                    <a href="/psychology/one-piece">One Piece</a>
+                    <nuxt-link to="/psychology">Psychology</nuxt-link>&sbquo;
+                    <nuxt-link to="/psychology/one-piece">One Piece</nuxt-link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/project13.jpg')"
-            >
+            <card type="background" class="card-fashion" style="background-image: url('img/project13.jpg')">
               <div class="card-title text-left">
                 <h2>
-                  <a href="/psychology/search-for-the-good/self-preservation/"
-                    >Search For the good: Self Preservation</a
-                  >
+                  <nuxt-link to="/psychology/search-for-the-good/self-preservation/">Search For the good: Self
+                    Preservation</nuxt-link>
                 </h2>
               </div>
               <div class="card-footer text-left">
@@ -148,9 +128,8 @@
                   </span>
                 </div>
                 <div class="stats-link pull-right">
-                  <a href="/psychology" class="footer-link">Psychology</a
-                  >&sbquo;
-                  <a href="/psychology/one-piece">One Piece</a>
+                  <nuxt-link to="/psychology" class="footer-link">Psychology</nuxt-link>&sbquo;
+                  <nuxt-link to="/psychology/one-piece">One Piece</nuxt-link>
                 </div>
               </div>
             </card>
@@ -166,62 +145,43 @@
           <div class="row">
             <div class="col-md-4">
               <card type="blog" plain>
-                <img
-                  slot="image"
-                  class="img rounded img-raised"
-                  src="img/personal-finance/power-of-dreaming.jpg"
-                  alt="Dream"
-                />
+                <img slot="image" class="img rounded img-raised" src="img/personal-finance/power-of-dreaming.jpg"
+                  alt="Dream" />
                 <h6 class="category text-info">Personal Finance</h6>
                 <h4 class="card-title">
-                  <a href="/personal-finance/power-of-dreaming/"
-                    >The Power of Dreaming</a
-                  >
+                  <nuxt-link to="/personal-finance/power-of-dreaming/">The Power of Dreaming</nuxt-link>
                 </h4>
                 <p class="card-description">
                   It all starts with a dream to become successful in life. The
                   dream has to be justified with a definiteness of purpose. The
                   purpose then drives us to plan and to take action.
-                  <a href="/personal-finance/power-of-dreaming/"> Read More </a>
+                  <nuxt-link to="/personal-finance/power-of-dreaming/"> Read More </nuxt-link>
                 </p>
                 <div class="author">
-                  <img
-                    v-lazy="'img/authors/nagarjun.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/authors/nagarjun.jpg'" alt="..." class="avatar img-raised" />
                   <span>Nagarjun</span>
                 </div>
               </card>
             </div>
             <div class="col-md-4">
               <card type="blog" plain>
-                <img
-                  slot="image"
-                  class="img rounded img-raised"
-                  src="img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg"
-                  alt="BMW"
-                />
+                <img slot="image" class="img rounded img-raised"
+                  src="img/personal-finance/are-you-rich-if-you-own-a-bmw.jpg" alt="BMW" />
                 <h6 class="category text-success">Personal Finance</h6>
                 <h4 class="card-title">
-                  <a href="/personal-finance/are-you-rich-if-you-own-a-bmw/"
-                    >Are you Rich if you own a BMW?</a
-                  >
+                  <nuxt-link to="/personal-finance/are-you-rich-if-you-own-a-bmw/">Are you Rich if you own a BMW?
+                  </nuxt-link>
                 </h4>
                 <p class="card-description">
                   The majority of millionaires own their cars rather than lease.
                   Approximately 1 in 4 hold the current years model but another
                   25 % have a model that is a four-year-old model.
-                  <a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">
+                  <nuxt-link to="/personal-finance/are-you-rich-if-you-own-a-bmw/">
                     Read More
-                  </a>
+                  </nuxt-link>
                 </p>
                 <div class="author">
-                  <img
-                    v-lazy="'img/authors/nagarjun.jpg'"
-                    alt="..."
-                    class="avatar img-raised"
-                  />
+                  <img v-lazy="'img/authors/nagarjun.jpg'" alt="..." class="avatar img-raised" />
                   <span>Nagarjun</span>
                 </div>
               </card>
@@ -229,38 +189,28 @@
             <div class="col-md-4">
               <div class="card card-plain card-blog">
                 <div class="card-image">
-                  <a href="/psychology/the-truth-about-white-lies/">
-                    <img
-                      class="img rounded img-raised"
-                      src="img/psychology/bg18.jpg"
-                      alt="Lies"
-                    />
-                  </a>
+                  <nuxt-link to="/psychology/the-truth-about-white-lies/">
+                    <img class="img rounded img-raised" src="img/psychology/bg18.jpg" alt="Lies" />
+                  </nuxt-link>
                 </div>
                 <div class="card-body">
                   <h6 class="category text-danger">
                     <em class="now-ui-icons media-2_sound-wave"></em> Psychology
                   </h6>
                   <h4 class="card-title">
-                    <a href="/psychology/the-truth-about-white-lies/"
-                      >The Truth about White Lies</a
-                    >
+                    <nuxt-link to="/psychology/the-truth-about-white-lies/">The Truth about White Lies</nuxt-link>
                   </h4>
                   <p class="card-description">
                     Once we establish ourselves as a person who would not shy
                     away from saying white lies as long as we get what we
                     want/prevent bad things from happening by telling the truth.
-                    <a href="/psychology/the-truth-about-white-lies/">
+                    <nuxt-link to="/psychology/the-truth-about-white-lies/">
                       Read More
-                    </a>
+                    </nuxt-link>
                   </p>
 
                   <div class="author">
-                    <img
-                      v-lazy="'img/authors/nagarjun.jpg'"
-                      alt="..."
-                      class="avatar img-raised"
-                    />
+                    <img v-lazy="'img/authors/nagarjun.jpg'" alt="..." class="avatar img-raised" />
                     <span>Nagarjun</span>
                   </div>
                 </div>

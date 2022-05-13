@@ -34,7 +34,7 @@
               <li>They include your groceries, every day travel expenses.</li>
               <li>As your income grows you could include your expenditure for hotel and holiday travels within
                 the food and travel allowances.</li>
-              <li>Food / travel expenses are better <b>spent on cash</b>.</li>
+              <li>Food / travel expenses are better <strong>spent on cash</strong>.</li>
             </ul>
           </div>
         </div>
@@ -214,9 +214,9 @@
             <p>John’s life is filled with tragedy. He now relies on his son who never intend to work.</p>
             <p>If there is one thing which could have changed their life, it was personal finance and budgeting.
             </p>
-            <p>I also know enough tragedies to <b>conclude that any person who is willing to work hard at an
+            <p>I also know enough tragedies to <strong>conclude that any person who is willing to work hard at an
                 early age with enough determination to succeed in life will build a strong financial base
-                for him and his family to prosper</b>.</p>
+                for him and his family to prosper</strong>.</p>
           </div>
         </div>
       </div>
@@ -240,9 +240,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -282,12 +282,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 15: Emergency Fund: Why is it important?</h6>
-                        <h3 class="card-title"><a href="/personal-finance/emergency-fund-why-is-it-important/">Personal
-                            Finance 15: Emergency Fund: Why is it important?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/emergency-fund-why-is-it-important/">Personal
+                            Finance 15: Emergency Fund: Why is it important?</nuxt-link>
+                        </h3>
                         <p class="card-description">Have you ever noticed that we keep staring at someone for no reason?
                           It makes everyone uncomfortable. We only do so when the emotions are strong enough and even
                           then rarely consistently unless the other reciprocates.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -296,12 +298,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/i-cannot-save-a-penny-more/">Personal Finance
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/i-cannot-save-a-penny-more/">Personal Finance
                           13:
-                          I cannot save a Penny More</a></h3>
+                          I cannot save a Penny More</nuxt-link>
+                      </h3>
                       <p class="card-description">Why aren’t people saving? You’ll start saving money when your future
                         needs become more important than your current desires.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

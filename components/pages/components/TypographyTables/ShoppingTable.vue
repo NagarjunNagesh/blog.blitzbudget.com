@@ -8,23 +8,13 @@
       </el-table-column>
       <el-table-column min-width="220" label="Product" align="left">
         <div class="td-name" slot-scope="{ row }">
-          <a href="#jacket">{{ row.title }}</a>
+          <nuxt-link to="#jacket">{{ row.title }}</nuxt-link>
           <br />
           <small>{{ row.description }}</small>
         </div>
       </el-table-column>
-      <el-table-column
-        min-width="80"
-        label="Color"
-        prop="color"
-        align="left"
-      ></el-table-column>
-      <el-table-column
-        min-width="60"
-        label="Size"
-        prop="size"
-        align="left"
-      ></el-table-column>
+      <el-table-column min-width="80" label="Color" prop="color" align="left"></el-table-column>
+      <el-table-column min-width="60" label="Size" prop="size" align="left"></el-table-column>
       <el-table-column min-width="180" label="Price" header-align="right">
         <div slot-scope="{ row }" class="td-number">
           <small>€</small>
@@ -35,18 +25,10 @@
         <div slot-scope="{ row }" class="td-number">
           {{ row.quantity }}
           <div class="btn-group">
-            <n-button
-              type="info"
-              size="sm"
-              @click.native="decreaseQuantity(row)"
-            >
+            <n-button type="info" size="sm" @click.native="decreaseQuantity(row)">
               <em class="now-ui-icons ui-1_simple-delete"></em>
             </n-button>
-            <n-button
-              type="info"
-              size="sm"
-              @click.native="increaseQuantity(row)"
-            >
+            <n-button type="info" size="sm" @click.native="increaseQuantity(row)">
               <em class="now-ui-icons ui-1_simple-add"></em>
             </n-button>
           </div>
@@ -73,13 +55,7 @@
         {{ shoppingTotal }}
       </div>
       <div class="text-right">
-        <button
-          type="button"
-          rel="tooltip"
-          class="btn btn-info btn-round"
-          data-original-title=""
-          title=""
-        >
+        <button type="button" rel="tooltip" class="btn btn-info btn-round" data-original-title="" title="">
           Complete Purchase
           <em class="now-ui-icons arrows-1_minimal-right"></em>
         </button>

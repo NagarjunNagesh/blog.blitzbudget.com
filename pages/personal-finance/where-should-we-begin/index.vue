@@ -16,9 +16,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -263,9 +263,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -305,12 +305,14 @@
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 3: Why the Rich get Richer?</h6>
-                          <h3 class="card-title"><a href="/personal-finance/why-the-rich-get-richer/">Personal Finance
+                          <h3 class="card-title">
+                            <nuxt-link to="/personal-finance/why-the-rich-get-richer/">Personal Finance
                               3:
-                              Why the Rich get Richer?</a></h3>
+                              Why the Rich get Richer?</nuxt-link>
+                          </h3>
                           <p class="card-description">Certainly, the possibility of living in a civilized world develops
                             the opportunity for inequality</p>
-                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                          <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                         </div>
                       </div>
                     </template></card>
@@ -319,12 +321,14 @@
                       <div class="col-md-7">
                         <h6 class="category text-danger"><em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                        <h3 class="card-title"><a href="/personal-finance/what-is-money/">Personal Finance 1: What is
-                            Money?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/what-is-money/">Personal Finance 1: What is
+                            Money?</nuxt-link>
+                        </h3>
                         <p class="card-description">“Do nothing, say nothing and be nothing and you'll never be
                           criticized”
                         </p>
-                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                        <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image"><img class="img img-raised rounded"

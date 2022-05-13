@@ -55,10 +55,7 @@
     </div>
     <!--     *********    END FEATURES 1      *********      -->
     <!--     *********     FEATURES 2      *********      -->
-    <div
-      class="features-2 section-image"
-      style="background-image: url('img/bg22.jpg')"
-    >
+    <div class="features-2 section-image" style="background-image: url('img/bg22.jpg')">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-8 mr-auto ml-auto">
@@ -178,12 +175,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <card
-              type="background"
-              raised
-              color="transparent"
-              style="background-image: url('img/bg24.jpg')"
-            >
+            <card type="background" raised color="transparent" style="background-image: url('img/bg24.jpg')">
               <template slot="info">
                 <div class="icon icon-white">
                   <em class="now-ui-icons business_bulb-63"></em>
@@ -194,18 +186,13 @@
                     Your designer will come back to you with an initial set of
                     ideas.
                   </p>
-                  <a href="#pablo" class="ml-3">Find more...</a>
+                  <nuxt-link to="#pablo" class="ml-3">Find more...</nuxt-link>
                 </div>
               </template>
             </card>
           </div>
           <div class="col-md-4">
-            <card
-              type="background"
-              raised
-              color="transparent"
-              style="background-image: url('img/bg23.jpg')"
-            >
+            <card type="background" raised color="transparent" style="background-image: url('img/bg23.jpg')">
               <template slot="info">
                 <div class="icon icon-white">
                   <em class="now-ui-icons business_badge"></em>
@@ -216,18 +203,13 @@
                     Havenly interior designers are vetted professionals and real
                     people.
                   </p>
-                  <a href="#pablo">Find more...</a>
+                  <nuxt-link to="#pablo">Find more...</nuxt-link>
                 </div>
               </template>
             </card>
           </div>
           <div class="col-md-4">
-            <card
-              type="background"
-              raised
-              color="transparenr"
-              style="background-image: url('img/bg25.jpg')"
-            >
+            <card type="background" raised color="transparenr" style="background-image: url('img/bg25.jpg')">
               <template slot="info">
                 <div class="icon icon-white">
                   <em class="now-ui-icons location_map-big"></em>
@@ -238,7 +220,7 @@
                     Share a floor plan, and we'll create a visualization of your
                     room.
                   </p>
-                  <a href="#pablo" class="ml-3">Find more...</a>
+                  <nuxt-link to="#pablo" class="ml-3">Find more...</nuxt-link>
                 </div>
               </template>
             </card>
@@ -382,10 +364,7 @@
     </div>
     <!--     *********    END FEATURES 6      *********      -->
     <!--     *********     FEATURES 7      *********      -->
-    <div
-      class="features-7 section-image"
-      style="background-image: url('img/bg11.jpg')"
-    >
+    <div class="features-7 section-image" style="background-image: url('img/bg11.jpg')">
       <div class="col-md-8 mr-auto ml-auto text-center">
         <h2 class="title">Working is a pleasure</h2>
         <h4 class="description">
@@ -448,10 +427,7 @@
     </div>
     <!--     *********    END FEATURES 7      *********      -->
     <!--     *********     FEATURES 8      *********      -->
-    <div
-      class="features-8 section-image"
-      style="background-image: url('img/bg30.jpg')"
-    >
+    <div class="features-8 section-image" style="background-image: url('img/bg30.jpg')">
       <div class="col-md-8 ml-auto mr-auto text-center">
         <h2 class="title">Working is a pleasure</h2>
         <h4 class="description">

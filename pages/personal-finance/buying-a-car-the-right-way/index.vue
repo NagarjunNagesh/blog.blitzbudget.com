@@ -49,11 +49,11 @@
               fuel and parking charges?</p>
             <p>Would you rather be a little less comfortable traveling on a public transport and saving $150 to
               $250 till you have saved enough to buy a car?</p>
-            <p><b>Chances are that if you start the practice of saving the money to buy a car you will end up
-                buying a second-hand car.</b></p>
+            <p><strong>Chances are that if you start the practice of saving the money to buy a car you will end up
+                buying a second-hand car.</strong></p>
             <p>And you will feel just as happy as buying a new car.</p>
             <p>Choose to be financially free especially when it comes to paying for depreciating assets.</p>
-            <p><b>The general rule of thumb is to save one year’s worth of income for buying a car.</b></p>
+            <p><strong>The general rule of thumb is to save one year’s worth of income for buying a car.</strong></p>
             <p>Is that not enough? Maybe you could choose a cheaper model and settle for a second hand or better
               yet, increase your income!</p>
           </div>
@@ -68,7 +68,7 @@
             <p>We choose to buy a car because we want to be comfortable, not getting constrained by the time
               limits of public transport and generally wanting to save time.</p>
             <p>We will end up saving about one to a maximum of two hours every day by traveling in a car.</p>
-            <p><b>What Will You Use These Hours For?</b></p>
+            <p><strong>What Will You Use These Hours For?</strong></p>
             <p>Would you rather spend the time watching TV, Browsing / Cooking your tomorrow’s lunch?</p>
             <p>An average man watches TV / uses a mobile phone for over 4 hours a day.</p>
             <p>But browsing is pleasurable for us and for most of them waiting in traffic in a car is not.</p>
@@ -114,9 +114,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -157,12 +157,14 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 22: How to Save Your Way to Achieve Your Dream
                         </h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/how-to-save-your-way-to-achieve-your-dream/">Personal Finance
-                            22: How to Save Your Way to Achieve Your Dream</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/how-to-save-your-way-to-achieve-your-dream/">Personal
+                            Finance
+                            22: How to Save Your Way to Achieve Your Dream</nuxt-link>
+                        </h3>
                         <p class="card-description">Why do people think saving is the key to wealth when the most
                           wealthy people didn’t get to the top by saving?</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -171,14 +173,16 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/savings-management-strategy/">Personal Finance
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/savings-management-strategy/">Personal Finance
                           20:
-                          Savings Management Strategy</a></h3>
+                          Savings Management Strategy</nuxt-link>
+                      </h3>
                       <p class="card-description">Savings management strategy is by far the simplest yet hard to
                         implement
                         amongst all the strategies. It demands that you change your mentality and destroy the previously
                         held notions of money.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

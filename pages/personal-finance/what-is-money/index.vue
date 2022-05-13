@@ -16,9 +16,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -149,8 +149,8 @@
               </p>
               <p>
                 Knowing how to achieve these is half the battle won! I developed four simple strategies to implement in
-                your life to make sure that you reach there and they are <b>Income, Debt, Savings & Investment
-                  Management Strategies.</b>
+                your life to make sure that you reach there and they are <strong>Income, Debt, Savings & Investment
+                  Management Strategies.</strong>
               </p>
               <p>
                 My promise to you is: If you choose to stick with me until the end, these four strategies have the power
@@ -197,9 +197,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -239,11 +239,13 @@
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 2: Where should we Begin?</h6>
-                          <h3 class="card-title"><a href="/personal-finance/where-should-we-begin/">Personal Finance 2:
-                              Where should we Begin?</a></h3>
+                          <h3 class="card-title">
+                            <nuxt-link to="/personal-finance/where-should-we-begin/">Personal Finance 2:
+                              Where should we Begin?</nuxt-link>
+                          </h3>
                           <p class="card-description">We all have to start from wherever we are today. But to be
                             financially successful....</p>
-                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                          <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                         </div>
                       </div>
                     </template></card>
@@ -252,15 +254,17 @@
                       <div class="col-md-7">
                         <h6 class="category text-danger"><em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                        <h3 class="card-title"><a href="/personal-finance/investing-in-fixed-deposits/">Personl
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/investing-in-fixed-deposits/">Personl
                             Finance
-                            29: Investing in Fixed Deposits</a></h3>
+                            29: Investing in Fixed Deposits</nuxt-link>
+                        </h3>
                         <p class="card-description">These are one of the most common forms of investment in the
                           developing
                           nations, although not common among developed nations. These play an important role when it
                           comes
                           to managing emergency funds.</p>
-                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                        <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image"><img class="img img-raised rounded"

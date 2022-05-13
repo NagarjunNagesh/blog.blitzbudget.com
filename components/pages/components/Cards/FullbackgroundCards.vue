@@ -22,7 +22,7 @@
                 </span>
               </div>
               <div class="stats-link pull-right">
-                <a href="#pablo" class="footer-link">Environment</a>
+                <nuxt-link to="#pablo" class="footer-link">Environment</nuxt-link>
               </div>
             </div>
           </card>
@@ -34,7 +34,7 @@
             </div>
             <div class="card-footer text-left">
               <div class="stats-link">
-                <a href="#pablo" class="footer-link">Environment</a>
+                <nuxt-link to="#pablo" class="footer-link">Environment</nuxt-link>
               </div>
               <div class="stats stats-right">
                 <span>

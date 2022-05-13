@@ -82,10 +82,10 @@
               never understood their intention of buying a car anyway let alone not completing the course.</p>
             <p>There were an exceptionally high number of students from his locality who did not finish their
               course while studying in UK when compared to students from other cities. I could attribute all
-              these to <b>personality, priority and lack of direction</b>.</p>
+              these to <strong>personality, priority and lack of direction</strong>.</p>
             <p>Their priorities were enjoying the time in UK while it lasted never bothering to attend the
               classes.</p>
-            <p><b>Never be like Jack or Jim, they are both currently jobless and aimless.</b></p>
+            <p><strong>Never be like Jack or Jim, they are both currently jobless and aimless.</strong></p>
             <p>Jim occasionally asks me for ₹5000 through messenger and I am swift to say no for I know the
               money is not going to a better use.</p>
           </div>
@@ -111,9 +111,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -153,12 +153,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 5: Is your Home an Asset or a Liability?</h6>
-                        <h3 class="card-title"><a href="/personal-finance/is-your-home-an-asset-or-liability/">Personal
-                            Finance 5: Is your Home an Asset or a Liability?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/is-your-home-an-asset-or-liability/">Personal
+                            Finance 5: Is your Home an Asset or a Liability?</nuxt-link>
+                        </h3>
                         <p class="card-description">We call it home because we live there with our loved ones; else it
                           is a house, a real estate property, an asset or a liability. Your financial planner / real
                           estate agent calls your home an asset. But what is the difference</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -167,12 +169,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/why-the-rich-get-richer/">Personal Finance 3:
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/why-the-rich-get-richer/">Personal Finance 3:
                           Why
-                          the Rich get Richer?</a></h3>
+                          the Rich get Richer?</nuxt-link>
+                      </h3>
                       <p class="card-description">Certainly, the possibility of living in a civilized world develops the
                         opportunity for inequality</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

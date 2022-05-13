@@ -1,11 +1,7 @@
 <template>
   <div class="cd-section" id="pricing">
     <!--     *********    PRICING 1     *********      -->
-    <div
-      class="pricing-1 section-image"
-      id="pricing-1"
-      style="background-image: url('img/pricing1.jpg')"
-    >
+    <div class="pricing-1 section-image" id="pricing-1" style="background-image: url('img/pricing1.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto text-center">
@@ -29,9 +25,7 @@
                 <li>Complete documentation</li>
                 <li>Working materials in Sketch</li>
               </ul>
-              <n-button type="warning" round class="btn-neutral"
-                >Add to Cart</n-button
-              >
+              <n-button type="warning" round class="btn-neutral">Add to Cart</n-button>
             </card>
           </div>
           <div class="col-md-3">
@@ -45,9 +39,7 @@
                 <li>Working materials in EPS</li>
                 <li>6 months access to the library</li>
               </ul>
-              <n-button type="success" round class="btn-success"
-                >Add to Cart</n-button
-              >
+              <n-button type="success" round class="btn-success">Add to Cart</n-button>
             </card>
           </div>
           <div class="col-md-3">
@@ -61,9 +53,7 @@
                 <li>Working materials in PSD</li>
                 <li>1 year access to the library</li>
               </ul>
-              <n-button type="success" round class="btn-neutral"
-                >Add to Cart</n-button
-              >
+              <n-button type="success" round class="btn-neutral">Add to Cart</n-button>
             </card>
           </div>
           <div class="col-md-3">
@@ -77,9 +67,7 @@
                 <li>Complete documentation</li>
                 <li>2GB cloud storage</li>
               </ul>
-              <n-button type="danger" round class="btn-neutral"
-                >Add to Cart</n-button
-              >
+              <n-button type="danger" round class="btn-neutral">Add to Cart</n-button>
             </card>
           </div>
         </div>
@@ -107,33 +95,28 @@
                 59
               </h1>
               <ul>
-                <li><b>10GB</b> Disk Space</li>
-                <li><b>100GB</b> Monthly Bandwidth</li>
-                <li><b>20</b> Email Accounts</li>
-                <li><b>Unlimited</b> subdomains</li>
+                <li><strong>10GB</strong> Disk Space</li>
+                <li><strong>100GB</strong> Monthly Bandwidth</li>
+                <li><strong>20</strong> Email Accounts</li>
+                <li><strong>Unlimited</strong> subdomains</li>
               </ul>
               <n-button type="success" round> Sign Up </n-button>
             </card>
           </div>
           <div class="col-md-4">
-            <card
-              type="pricing"
-              raised
-              class="card-background"
-              style="background-image: url('img/pricing2.jpg')"
-            >
+            <card type="pricing" raised class="card-background" style="background-image: url('img/pricing2.jpg')">
               <h6 class="category text-info">Professional</h6>
               <h1 class="card-title">
                 <small>$</small>
                 29
               </h1>
               <ul>
-                <li><b>5GB</b> Disk Space</li>
-                <li><b>50GB</b> Monthly Bandwidth</li>
-                <li><b>10</b> Email Accounts</li>
-                <li><b>Unlimited</b> subdomains</li>
+                <li><strong>5GB</strong> Disk Space</li>
+                <li><strong>50GB</strong> Monthly Bandwidth</li>
+                <li><strong>10</strong> Email Accounts</li>
+                <li><strong>Unlimited</strong> subdomains</li>
               </ul>
-              <a href="#pablo" class="btn btn-neutral btn-round"> Sign Up </a>
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-round"> Sign Up </nuxt-link>
             </card>
           </div>
           <div class="col-md-4">
@@ -144,14 +127,14 @@
                 17
               </h1>
               <ul>
-                <li><b>2GB</b> Disk Space</li>
-                <li><b>25GB</b> Monthly Bandwidth</li>
-                <li><b>5</b> Email Accounts</li>
-                <li><b>Unlimited</b> subdomains</li>
+                <li><strong>2GB</strong> Disk Space</li>
+                <li><strong>25GB</strong> Monthly Bandwidth</li>
+                <li><strong>5</strong> Email Accounts</li>
+                <li><strong>Unlimited</strong> subdomains</li>
               </ul>
-              <a href="#pablo" class="btn btn-success btn-round">
+              <nuxt-link to="#pablo" class="btn btn-success btn-round">
                 Get Started
-              </a>
+              </nuxt-link>
             </card>
           </div>
         </div>
@@ -159,11 +142,7 @@
     </div>
     <!--     *********    END PRICING 2      *********      -->
     <!--     *********    PRICING 3     *********      -->
-    <div
-      class="pricing-3 section-image"
-      style="background-image: url('img/pricing3.jpg')"
-      id="pricing-3"
-    >
+    <div class="pricing-3 section-image" style="background-image: url('img/pricing3.jpg')" id="pricing-3">
       <div class="container">
         <div class="row">
           <div class="col-md-6 ml-auto mr-auto text-center">
@@ -260,12 +239,9 @@
                 <li>Unlimited emails</li>
                 <li>Full Support</li>
               </ul>
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-success disabled btn-round"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-success disabled btn-round">
                 Current Plan
-              </a>
+              </nuxt-link>
             </card>
           </div>
           <div class="col-md-4">
@@ -283,9 +259,9 @@
                 <li>3 email</li>
                 <li>No Support</li>
               </ul>
-              <a href="#pablo" class="btn btn-warning btn-round">
+              <nuxt-link to="#pablo" class="btn btn-warning btn-round">
                 Upgrade Plan
-              </a>
+              </nuxt-link>
             </card>
           </div>
         </div>
@@ -293,11 +269,7 @@
     </div>
     <!--     *********    END PRICING 4      *********      -->
     <!--     *********    PRICING 5     *********      -->
-    <div
-      class="pricing-5 section-pricing-5 section-image"
-      id="pricing-5"
-      style="background-image: url('img/bg31.jpg')"
-    >
+    <div class="pricing-5 section-pricing-5 section-image" id="pricing-5" style="background-image: url('img/bg31.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -314,11 +286,7 @@
           </div>
           <div class="col-md-7 ml-auto mr-auto">
             <div class="tab-content tab-space">
-              <div
-                v-if="pricing5Tab === 'Expensive'"
-                class="tab-pane active"
-                id="personal"
-              >
+              <div v-if="pricing5Tab === 'Expensive'" class="tab-pane active" id="personal">
                 <div class="row">
                   <div class="col-md-6">
                     <card type="pricing" raised>
@@ -328,14 +296,14 @@
                         100
                       </h1>
                       <ul>
-                        <li><b>15</b> Projects</li>
-                        <li><b>5GB</b> Storage</li>
-                        <li><b>Unlimited</b> users</li>
-                        <li><b>No time</b> tracking</li>
+                        <li><strong>15</strong> Projects</li>
+                        <li><strong>5GB</strong> Storage</li>
+                        <li><strong>Unlimited</strong> users</li>
+                        <li><strong>No time</strong> tracking</li>
                       </ul>
-                      <a href="#pablo" class="btn btn-success btn-round">
+                      <nuxt-link to="#pablo" class="btn btn-success btn-round">
                         Buy Now!
-                      </a>
+                      </nuxt-link>
                     </card>
                   </div>
                   <div class="col-md-6">
@@ -346,14 +314,14 @@
                         120
                       </h1>
                       <ul>
-                        <li><b>25</b> Projects</li>
-                        <li><b>15GB</b> Storage</li>
-                        <li><b>Unlimited</b> users</li>
-                        <li><b>No time</b> tracking</li>
+                        <li><strong>25</strong> Projects</li>
+                        <li><strong>15GB</strong> Storage</li>
+                        <li><strong>Unlimited</strong> users</li>
+                        <li><strong>No time</strong> tracking</li>
                       </ul>
-                      <a href="#pablo" class="btn btn-success btn-round">
+                      <nuxt-link to="#pablo" class="btn btn-success btn-round">
                         Buy Now!
-                      </a>
+                      </nuxt-link>
                     </card>
                   </div>
                 </div>
@@ -368,14 +336,14 @@
                         20
                       </h1>
                       <ul>
-                        <li><b>5</b> Projects</li>
-                        <li><b>2GB</b> Storage</li>
-                        <li><b>Unlimited</b> users</li>
-                        <li><b>No time</b> tracking</li>
+                        <li><strong>5</strong> Projects</li>
+                        <li><strong>2GB</strong> Storage</li>
+                        <li><strong>Unlimited</strong> users</li>
+                        <li><strong>No time</strong> tracking</li>
                       </ul>
-                      <a href="#pablo" class="btn btn-success btn-round">
+                      <nuxt-link to="#pablo" class="btn btn-success btn-round">
                         Buy Now!
-                      </a>
+                      </nuxt-link>
                     </card>
                   </div>
                   <div class="col-md-6">
@@ -386,14 +354,14 @@
                         60
                       </h1>
                       <ul>
-                        <li><b>7</b> Projects</li>
-                        <li><b>3GB</b> Storage</li>
-                        <li><b>Unlimited</b> users</li>
-                        <li><b>No time</b> tracking</li>
+                        <li><strong>7</strong> Projects</li>
+                        <li><strong>3GB</strong> Storage</li>
+                        <li><strong>Unlimited</strong> users</li>
+                        <li><strong>No time</strong> tracking</li>
                       </ul>
-                      <a href="#pablo" class="btn btn-success btn-round">
+                      <nuxt-link to="#pablo" class="btn btn-success btn-round">
                         Buy Now!
-                      </a>
+                      </nuxt-link>
                     </card>
                   </div>
                 </div>

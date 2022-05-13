@@ -1,5 +1,5 @@
 <template>
-  <component :is="componentTag" class="n-badge" :class="`badge-${type}`" :href="href">
+  <component :is="componentTag" class="n-badge" :class="`badge-${type}`" :to="href">
     <slot></slot>
   </component>
 </template>

@@ -111,27 +111,15 @@
           </div>
           <div class="col-sm-2">
             <p class="category">Circle Image</p>
-            <img
-              v-lazy="'img/julie.jpg'"
-              alt="Circle Image"
-              class="rounded-circle"
-            />
+            <img v-lazy="'img/julie.jpg'" alt="Circle Image" class="rounded-circle" />
           </div>
           <div class="col-sm-2">
             <p class="category">Raised</p>
-            <img
-              v-lazy="'img/julie.jpg'"
-              alt="Raised Image"
-              class="rounded img-raised"
-            />
+            <img v-lazy="'img/julie.jpg'" alt="Raised Image" class="rounded img-raised" />
           </div>
           <div class="col-sm-2">
             <p class="category">Circle Raised</p>
-            <img
-              v-lazy="'img/julie.jpg'"
-              alt="Thumbnail Image"
-              class="rounded-circle img-raised"
-            />
+            <img v-lazy="'img/julie.jpg'" alt="Thumbnail Image" class="rounded-circle img-raised" />
           </div>
         </div>
       </div>
@@ -156,62 +144,28 @@
                 <div class="row">
                   <div class="col-sm-12">
                     <el-table :data="tableData">
-                      <el-table-column
-                        min-width="50"
-                        type="index"
-                      ></el-table-column>
-                      <el-table-column
-                        min-width="150"
-                        align="left"
-                        prop="name"
-                        label="Name"
-                      >
+                      <el-table-column min-width="50" type="index"></el-table-column>
+                      <el-table-column min-width="150" align="left" prop="name" label="Name">
                       </el-table-column>
-                      <el-table-column
-                        min-width="200"
-                        prop="job"
-                        align="left"
-                        label="Job Position"
-                      >
+                      <el-table-column min-width="200" prop="job" align="left" label="Job Position">
                       </el-table-column>
-                      <el-table-column
-                        min-width="150"
-                        prop="salary"
-                        align="left"
-                        label="Salary"
-                      >
+                      <el-table-column min-width="150" prop="salary" align="left" label="Salary">
                       </el-table-column>
-                      <el-table-column
-                        min-width="150"
-                        header-align="right"
-                        label="Actions"
-                      >
+                      <el-table-column min-width="150" header-align="right" label="Actions">
                         <div slot-scope="{}" class="text-right table-actions">
-                          <el-tooltip
-                            content="Info"
-                            :open-delay="300"
-                            placement="top"
-                          >
+                          <el-tooltip content="Info" :open-delay="300" placement="top">
                             <n-button type="info" size="sm" icon>
                               <em class="now-ui-icons users_single-02"></em>
                             </n-button>
                           </el-tooltip>
 
-                          <el-tooltip
-                            content="Settings"
-                            :open-delay="300"
-                            placement="top"
-                          >
+                          <el-tooltip content="Settings" :open-delay="300" placement="top">
                             <n-button type="success" size="sm" icon>
                               <em class="now-ui-icons ui-2_settings-90"></em>
                             </n-button>
                           </el-tooltip>
 
-                          <el-tooltip
-                            content="Delete"
-                            :open-delay="300"
-                            placement="top"
-                          >
+                          <el-tooltip content="Delete" :open-delay="300" placement="top">
                             <n-button type="danger" size="sm" icon>
                               <em class="now-ui-icons ui-1_simple-remove"></em>
                             </n-button>
@@ -274,41 +228,23 @@
                 <h3 class="title text-center">
                   <small>10 Comments</small>
                 </h3>
-                <comment
-                  v-for="(comment, index) in comments"
-                  :key="comment.author + index"
-                  :author="comment.author"
-                  :date="comment.date"
-                  :avatar="comment.avatar"
-                  :comment="comment.comment"
-                  :replies="comment.replies"
-                >
+                <comment v-for="(comment, index) in comments" :key="comment.author + index" :author="comment.author"
+                  :date="comment.date" :avatar="comment.avatar" :comment="comment.comment" :replies="comment.replies">
                   <template slot="actions">
                     <el-tooltip content="Reply To Comment" placement="top">
-                      <a
-                        href="#pablo"
-                        class="btn btn-success btn-neutral pull-right"
-                      >
+                      <nuxt-link to="#pablo" class="btn btn-success btn-neutral pull-right">
                         <em class="now-ui-icons ui-1_send"></em> Reply
-                      </a>
+                      </nuxt-link>
                     </el-tooltip>
-                    <a
-                      href="#pablo"
-                      :class="{ 'btn-default': !comment.liked }"
-                      class="btn btn-neutral pull-right"
-                    >
+                    <nuxt-link to="#pablo" :class="{ 'btn-default': !comment.liked }"
+                      class="btn btn-neutral pull-right">
                       <em class="now-ui-icons ui-2_favourite-28"></em>
                       {{ comment.likes }}
-                    </a>
+                    </nuxt-link>
                   </template>
                 </comment>
 
-                <n-pagination
-                  type="success"
-                  :page-count="3"
-                  class="justify-content-center"
-                  v-model="commentsPage"
-                >
+                <n-pagination type="success" :page-count="3" class="justify-content-center" v-model="commentsPage">
                 </n-pagination>
               </div>
               <h4 class="text-center">
@@ -317,21 +253,13 @@
                 <small class="text-muted">- Logged In User -</small>
               </h4>
               <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
+                <nuxt-link class="pull-left author" to="#pablo">
                   <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/james.jpg"
-                    />
+                    <img class="media-object img-raised" alt="64x64" src="img/james.jpg" />
                   </div>
-                </a>
+                </nuxt-link>
                 <div class="media-body">
-                  <textarea
-                    class="form-control"
-                    placeholder="Write some nice stuff or nothing..."
-                    rows="6"
-                  ></textarea>
+                  <textarea class="form-control" placeholder="Write some nice stuff or nothing..." rows="6"></textarea>
                   <div class="media-footer">
                     <n-button type="success" class="pull-right" wide>
                       Post Comment
@@ -346,15 +274,11 @@
                 <small class="text-muted">- Not Logged In User -</small>
               </h4>
               <div class="media media-post">
-                <a class="pull-left author" href="#pablo">
+                <nuxt-link class="pull-left author" to="#pablo">
                   <div class="avatar">
-                    <img
-                      class="media-object img-raised"
-                      alt="64x64"
-                      src="img/placeholder.jpg"
-                    />
+                    <img class="media-object img-raised" alt="64x64" src="img/placeholder.jpg" />
                   </div>
-                </a>
+                </nuxt-link>
                 <div class="media-body">
                   <form class="form">
                     <div class="row">
@@ -365,11 +289,8 @@
                         <fg-input placeholder="Your Email"> </fg-input>
                       </div>
                     </div>
-                    <textarea
-                      class="form-control"
-                      placeholder="Write some nice stuff or nothing..."
-                      rows="6"
-                    ></textarea>
+                    <textarea class="form-control" placeholder="Write some nice stuff or nothing..."
+                      rows="6"></textarea>
                     <div class="media-footer">
                       <h6 class="text-muted">Sign in with</h6>
                       <n-button icon round class="btn-twitter">

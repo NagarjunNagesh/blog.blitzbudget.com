@@ -17,9 +17,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -177,8 +177,8 @@
                 finance slowly.
               </p>
               <p>
-                Lesson learnt, <b>Never drain your willpower to do any act! Learn to motivate yourself to learn
-                  instead</b>.
+                Lesson learnt, <strong>Never drain your willpower to do any act! Learn to motivate yourself to learn
+                  instead</strong>.
               </p>
             </div>
           </div>
@@ -203,9 +203,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -245,13 +245,15 @@
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 8: Find your desire for Financial Freedom</h6>
-                          <h3 class="card-title"><a
-                              href="/personal-finance/find-your-desire-for-financial-freedom/">Personal Finance 8:
-                              Find your desire for Financial Freedom</a></h3>
+                          <h3 class="card-title">
+                            <nuxt-link to="/personal-finance/find-your-desire-for-financial-freedom/">Personal Finance
+                              8:
+                              Find your desire for Financial Freedom</nuxt-link>
+                          </h3>
                           <p class="card-description">Why do human beings do what they do? Why do we need to be
                             financially free? Some of them make a killing. Some sacrifice their life in the hope of
                             providing a better life for their children.</p>
-                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                          <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                         </div>
                       </div>
                     </template></card>
@@ -260,13 +262,14 @@
                       <div class="col-md-7">
                         <h6 class="category text-danger"><em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/self-analysis-understanding-your-habits/">Personal
-                            Finance 6: Self Analysis! Understanding your habits?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/self-analysis-understanding-your-habits/">Personal
+                            Finance 6: Self Analysis! Understanding your habits?</nuxt-link>
+                        </h3>
                         <p class="card-description">We were born helpless, unable to speak or feed ourselves on our own.
                           The
                           factors that influence who we become is to a large extent from the outside</p>
-                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                        <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image"><img class="img img-raised rounded"

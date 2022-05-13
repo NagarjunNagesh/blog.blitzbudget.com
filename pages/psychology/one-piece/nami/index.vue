@@ -15,9 +15,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -193,9 +193,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -238,8 +238,8 @@
                         <div class="col-md-7">
                           <h6 class="category text-info">Psychology</h6>
                           <h3 class="card-title">
-                            <a href="/psychology/one-piece/devil-child-nico-robin/">One Piece: Devil Child Nico
-                              Robin</a>
+                            <nuxt-link to="/psychology/one-piece/devil-child-nico-robin/">One Piece: Devil Child Nico
+                              Robin</nuxt-link>
                           </h3>
                           <p class="card-description">
                             I think Nico Robin will be connecting Luffy with the Revolutionary army in
@@ -247,7 +247,7 @@
                           </p>
                           <p class="author">
                             by
-                            <b>Nagarjun Nagesh</b> , May 01, 2022
+                            <strong>Nagarjun Nagesh</strong> , May 01, 2022
                           </p>
                         </div>
                       </div>
@@ -261,7 +261,7 @@
                           Psychology
                         </h6>
                         <h3 class="card-title">
-                          <a href="/psychology/one-piece/roronoa-zoro/">One Piece: Roronoa Zoro</a>
+                          <nuxt-link to="/psychology/one-piece/roronoa-zoro/">One Piece: Roronoa Zoro</nuxt-link>
                         </h3>
                         <p class="card-description">
                           Some of the most easy-to-understand characters in
@@ -269,7 +269,7 @@
                         </p>
                         <p class="author">
                           by
-                          <b>Nagarjun Nagesh</b>, May 01, 2022
+                          <strong>Nagarjun Nagesh</strong>, May 01, 2022
                         </p>
                       </div>
                       <div class="col-md-5">

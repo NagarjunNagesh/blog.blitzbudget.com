@@ -200,8 +200,8 @@
             <p>The risk would have been too much. The reward would have to proportionately outweigh the risk.
               That was made possible by increasing the streams of income in our family and having saved a
               comfortable emergency fund as a cushion to absorb the negative impacts of risk.</p>
-            <p>I could comfortably say that <b>emergency funds allow you the space to choose what you would
-                truly want, rather than be constrained by your circumstances</b>.</p>
+            <p>I could comfortably say that <strong>emergency funds allow you the space to choose what you would
+                truly want, rather than be constrained by your circumstances</strong>.</p>
             <p>I truly experienced the freedom of choice due to our opting to choose saving for emergencies. I
               believe you can experience the same when you have a comfortable cushion for yourself.</p>
           </div>
@@ -227,9 +227,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -270,13 +270,15 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 16: Debt Analysis: Analysing Your Financial
                           Past?</h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal Finance
-                            16: Debt Analysis: Analysing Your Financial Past?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal
+                            Finance
+                            16: Debt Analysis: Analysing Your Financial Past?</nuxt-link>
+                        </h3>
                         <p class="card-description">How much are you in debt? You need to analyze the past. If you are
                           in debt make sure you do not stack up anymore. That’s half the battle against debt won! The
                           need to stop stalking up more debt has to come from within.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -285,13 +287,15 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/income-allocation-strategy/">Personal Finance
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/income-allocation-strategy/">Personal Finance
                           14:
-                          Income Allocation Strategy</a></h3>
+                          Income Allocation Strategy</nuxt-link>
+                      </h3>
                       <p class="card-description">The income allocation blueprint is a suggestion to allocate a certain
                         portion of your income. This income allocation suggestion works really well when you include
                         your partner as well. To prevent you from calculating all the budgeting allocation yourself.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

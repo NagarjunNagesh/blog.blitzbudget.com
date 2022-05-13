@@ -141,9 +141,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -183,13 +183,15 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 14: Income Allocation Strategy</h6>
-                        <h3 class="card-title"><a href="/personal-finance/income-allocation-strategy/">Personal Finance
-                            14: Income Allocation Strategy</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/income-allocation-strategy/">Personal Finance
+                            14: Income Allocation Strategy</nuxt-link>
+                        </h3>
                         <p class="card-description">The income allocation blueprint is a suggestion to allocate a
                           certain portion of your income. This income allocation suggestion works really well when you
                           include your partner as well. To prevent you from calculating all the budgeting allocation
                           yourself.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -198,14 +200,16 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/do-you-really-need-a-budget-to-become-financially-free/">Personal
-                          Finance 12: Do you really need a budget to become Financially Free?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/do-you-really-need-a-budget-to-become-financially-free/">
+                          Personal
+                          Finance 12: Do you really need a budget to become Financially Free?</nuxt-link>
+                      </h3>
                       <p class="card-description">We all love freedom. Doesn’t budgeting restrict our freedom of
                         spending?
                         Yes, it does restrict our freedom to spend. That’s the whole point but it will not feel that way
                         when you get used to the budget.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

@@ -75,14 +75,14 @@
               <li>Believe in your Ideas and be the best you could possibly be in business/personal life.</li>
               <li>Have fun along the way to success and always look after your team.</li>
               <li>Never give up.</li>
-              <li><b>Active Listening</b> - Take notes when necessary and keep facing challenges.</li>
-              <li><b>Hire Your Weaknesses</b> – Delegate and spend more time with your family. Always listen
+              <li><strong>Active Listening</strong> - Take notes when necessary and keep facing challenges.</li>
+              <li><strong>Hire Your Weaknesses</strong> – Delegate and spend more time with your family. Always listen
                 to your families opinions and then make your own decisions.</li>
-              <li><b>Go Offline</b> – Turn Off your Laptop and iPhone before you engage with the world every
+              <li><strong>Go Offline</strong> – Turn Off your Laptop and iPhone before you engage with the world every
                 day. Embark on the journey of your life and experience it to the fullest.</li>
-              <li><b>Communicate, Collaborate And Then Communicate More</b> – Always remember to convey the
+              <li><strong>Communicate, Collaborate And Then Communicate More</strong> – Always remember to convey the
                 ideas in a simplistic term.</li>
-              <li><b>Do What You Love</b> – surround yourself with people you love and people who love you.
+              <li><strong>Do What You Love</strong> – surround yourself with people you love and people who love you.
               </li>
             </ul>
           </div>
@@ -129,7 +129,7 @@
               about personal finance and just because there was an opportunity in India regarding surprise
               tours does not mean that I will succeed in it. Unless I love the fact of running a travel agency
               and am passionate about it, I will never be a success. In fact, I will be a failure.</p>
-            <p>Lesson well learnt: <b>Do only what you love and do it consistently.</b></p>
+            <p>Lesson well learnt: <strong>Do only what you love and do it consistently.</strong></p>
           </div>
         </div>
       </div>
@@ -153,9 +153,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -197,13 +197,15 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 12: Do you really need a budget to become
                           Financially Free?</h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/do-you-really-need-a-budget-to-become-financially-free/">Personal
-                            Finance 12: Do you really need a budget to become Financially Free?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/do-you-really-need-a-budget-to-become-financially-free/">
+                            Personal
+                            Finance 12: Do you really need a budget to become Financially Free?</nuxt-link>
+                        </h3>
                         <p class="card-description">We all love freedom. Doesn’t budgeting restrict our freedom of
                           spending? Yes, it does restrict our freedom to spend. That’s the whole point but it will not
                           feel that way when you get used to the budget.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -212,12 +214,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/include-your-partner/">Personal Finance 10:
-                          Include your Partner</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/include-your-partner/">Personal Finance 10:
+                          Include your Partner</nuxt-link>
+                      </h3>
                       <p class="card-description">Your partner is one of the most influential people in your life. The
                         importance of having a right partner in life is realized in the emotional and financial aspect
                         of your life.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

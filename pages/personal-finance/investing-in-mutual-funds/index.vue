@@ -211,9 +211,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -253,12 +253,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personl Finance 26: Investment Management Strategy</h6>
-                        <h3 class="card-title"><a href="/personal-finance/investment-management-strategy/">Personl
-                            Finance 26: Investment Management Strategy</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/investment-management-strategy/">Personl
+                            Finance 26: Investment Management Strategy</nuxt-link>
+                        </h3>
                         <p class="card-description">The investment management strategy has to be personalized and should
                           satisfy your need. For this reason, I do not provide a tailor made strategy which could
                           satisfy everyone's needs.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -267,12 +269,15 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/never-kill-your-golden-goose/">Personl Finance
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/never-kill-your-golden-goose/">Personl Finance
                           24:
-                          Never Kill Your Golden Goose</a></h3>
-                      <p class="card-description">What does secured capital mean? It means <b>Minimum Risk and Maximum
-                          Security</b> to me.These are the most common ways to kill your Golden Goose.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                          Never Kill Your Golden Goose</nuxt-link>
+                      </h3>
+                      <p class="card-description">What does secured capital mean? It means <strong>Minimum Risk and
+                          Maximum
+                          Security</strong> to me.These are the most common ways to kill your Golden Goose.</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

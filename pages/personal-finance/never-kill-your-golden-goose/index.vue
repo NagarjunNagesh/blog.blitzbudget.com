@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
             <h3 class="title">What does secured capital mean? It means...</h3>
-            <p> <b>Minimum Risk and Maximum Security</b> to me.</p>
+            <p> <strong>Minimum Risk and Maximum Security</strong> to me.</p>
             <p>These are the most common ways to kill your Golden Goose.</p>
             <ul>
               <li>Bad investment thereby losing the capital and potential return.</li>
@@ -215,9 +215,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -257,11 +257,13 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 23: Buying a Car the Right Way</h6>
-                        <h3 class="card-title"><a href="/personal-finance/buying-a-car-the-right-way/">Personal Finance
-                            23: Buying a Car the Right Way</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/buying-a-car-the-right-way/">Personal Finance
+                            23: Buying a Car the Right Way</nuxt-link>
+                        </h3>
                         <p class="card-description">Every plan, savings or budget is personalized and cannot be
                           implemented by your neighbor. It won’t be the right fit for them. So is your car.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -270,12 +272,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/">Personal
-                          Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/mark-zuckerberg-didnt-save-his-way-to-financial-freedom/">
+                          Personal
+                          Finance 21: Mark Zuckerberg Didn’t Save His Way To Financial Freedom</nuxt-link>
+                      </h3>
                       <p class="card-description">Why do people think saving is the key to wealth when the most wealthy
                         people didn’t get to the top by saving?</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

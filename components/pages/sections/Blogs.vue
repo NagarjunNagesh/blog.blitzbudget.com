@@ -10,31 +10,26 @@
             <card type="blog" plain>
               <div class="row" slot="image">
                 <div class="col-md-5">
-                  <img
-                    class="img img-raised rounded"
-                    src="img/examples/card-blog4.jpg"
-                  />
+                  <img class="img img-raised rounded" src="img/examples/card-blog4.jpg" />
                 </div>
                 <div class="col-md-7">
                   <h6 class="category text-info">Enterprise</h6>
                   <h3 class="card-title">
-                    <a href="#pablo"
-                      >Warner Music Group buys concert discovery service
-                      Songkick</a
-                    >
+                    <nuxt-link to="#pablo">Warner Music Group buys concert discovery service
+                      Songkick</nuxt-link>
                   </h3>
                   <p class="card-description">
                     Warner Music Group announced today it’s acquiring the
                     selected assets of the music platform Songkick, including
                     its app for finding concerts and the company’s trademark.
                     Songkick has been involved in a lawsuit against the major…
-                    <a href="#pablo"> Read More </a>
+                    <nuxt-link to="#pablo"> Read More </nuxt-link>
                   </p>
                   <p class="author">
                     by
-                    <a href="#pablo">
-                      <b>Sarah Perez</b> </a
-                    >, 2 days ago
+                    <nuxt-link to="#pablo">
+                      <strong>Sarah Perez</strong>
+                    </nuxt-link>, 2 days ago
                   </p>
                 </div>
               </div>
@@ -43,15 +38,11 @@
               <div class="row">
                 <div class="col-md-7">
                   <h6 class="category text-danger">
-                    <em
-                      class="now-ui-icons now-ui-icons media-2_sound-wave"
-                    ></em>
+                    <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
                     Startup
                   </h6>
                   <h3 class="card-title">
-                    <a href="#pablo"
-                      >Insticator raises $5.2M to help publishers</a
-                    >
+                    <nuxt-link to="#pablo">Insticator raises $5.2M to help publishers</nuxt-link>
                   </h3>
                   <p class="card-description">
                     Insticator is announcing that it has raised $5.2 million in
@@ -59,21 +50,18 @@
                     add quizzes, polls and other interactive elements (either
                     created by Insticator or by the publisher themselves) to
                     their stories.
-                    <a href="#pablo"> Read More </a>
+                    <nuxt-link to="#pablo"> Read More </nuxt-link>
                   </p>
                   <p class="author">
                     by
-                    <a href="#pablo">
-                      <b>Anthony Ha</b> </a
-                    >, 5 days ago
+                    <nuxt-link to="#pablo">
+                      <strong>Anthony Ha</strong>
+                    </nuxt-link>, 5 days ago
                   </p>
                 </div>
                 <div class="col-md-5">
                   <div class="card-image">
-                    <img
-                      class="img img-raised rounded"
-                      src="img/examples/card-blog6.jpg"
-                    />
+                    <img class="img img-raised rounded" src="img/examples/card-blog6.jpg" />
                   </div>
                 </div>
               </div>
@@ -94,19 +82,14 @@
               <div class="col-md-5">
                 <card type="blog" plain>
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/examples/card-blog7.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/examples/card-blog7.jpg" />
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-info">Enterprise</h6>
                     <h5 class="card-title">
-                      <a href="#pablo"
-                        >Alexa brings hands-free TV to more devices</a
-                      >
+                      <nuxt-link to="#pablo">Alexa brings hands-free TV to more devices</nuxt-link>
                     </h5>
                     <p class="card-description">
                       Alexa’s latest trick is offering a hands-free TV viewing
@@ -114,7 +97,7 @@
                       their television, change inputs, fast forward, rewind and
                       more, without having to first invoke a specific skill, or
                       even press a button on their remote.
-                      <a href="#pablo">Read More </a>
+                      <nuxt-link to="#pablo">Read More </nuxt-link>
                     </p>
                   </div>
                 </card>
@@ -122,20 +105,15 @@
               <div class="col-md-5">
                 <card type="blog" plain>
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/examples/card-blog9.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/examples/card-blog9.jpg" />
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-success">M&A</h6>
                     <h5 class="card-title">
-                      <a href="#pablo"
-                        >Uber, Yandex combine ridesharing and UberEATS in
-                        $3.72B. JV</a
-                      >
+                      <nuxt-link to="#pablo">Uber, Yandex combine ridesharing and UberEATS in
+                        $3.72B. JV</nuxt-link>
                     </h5>
                     <p class="card-description">
                       As Uber works through a huge amount of internal management
@@ -143,7 +121,7 @@
                       rationalizing more of its international business. Today,
                       the company announced it will be combining its
                       rides-on-demand business and UberEATS.
-                      <a href="#pablo">Read More</a>
+                      <nuxt-link to="#pablo">Read More</nuxt-link>
                     </p>
                   </div>
                 </card>
@@ -153,26 +131,21 @@
               <div class="col-md-5">
                 <card type="blog" plain>
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/examples/card-blog16.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/examples/card-blog16.jpg" />
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-info">Music</h6>
                     <h5 class="card-title">
-                      <a href="#pablo"
-                        >The Affect Music Has On Different Teens</a
-                      >
+                      <nuxt-link to="#pablo">The Affect Music Has On Different Teens</nuxt-link>
                     </h5>
                     <p class="card-description">
                       Music is something that every person has his or her own
                       specific opinion about. Different people have different
                       taste, and various types of music have many ways of
                       leaving an impact on someone.
-                      <a href="#pablo">Read More </a>
+                      <nuxt-link to="#pablo">Read More </nuxt-link>
                     </p>
                   </div>
                 </card>
@@ -180,26 +153,21 @@
               <div class="col-md-5">
                 <card type="blog" plain>
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/examples/card-blog15.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/examples/card-blog15.jpg" />
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-success">Broadcasting</h6>
                     <h5 class="card-title">
-                      <a href="#pablo"
-                        >Radio networks to broadcast a common radio format</a
-                      >
+                      <nuxt-link to="#pablo">Radio networks to broadcast a common radio format</nuxt-link>
                     </h5>
                     <p class="card-description">
                       Radio broadcasting is a unidirectional wireless
                       transmission over radio waves intended to reach a wide
                       audience. Stations can be linked in radio networks to
                       broadcast a common radio format.
-                      <a href="#pablo"> Read More </a>
+                      <nuxt-link to="#pablo"> Read More </nuxt-link>
                     </p>
                   </div>
                 </card>
@@ -221,31 +189,22 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="card-image">
-                    <img
-                      class="img img-raised rounded"
-                      src="img/examples/card-blog10.jpg"
-                    />
+                    <img class="img img-raised rounded" src="img/examples/card-blog10.jpg" />
                   </div>
                 </div>
                 <div class="col-md-8">
                   <h3 class="card-title">
-                    <a href="#pablo"
-                      >Rover raised $65 million for pet sitting</a
-                    >
+                    <nuxt-link to="#pablo">Rover raised $65 million for pet sitting</nuxt-link>
                   </h3>
                   <p class="card-description">
                     Finding temporary housing for your dog should be as easy as
                     renting an Airbnb. That’s the idea behind Rover, which
                     raised $65 million to expand its pet sitting and dog-walking
                     businesses..
-                    <a href="#pablo"> Read More </a>
+                    <nuxt-link to="#pablo"> Read More </nuxt-link>
                   </p>
                   <div class="author">
-                    <img
-                      v-lazy="'img/olivia.jpg'"
-                      alt="..."
-                      class="avatar img-raised"
-                    />
+                    <img v-lazy="'img/olivia.jpg'" alt="..." class="avatar img-raised" />
                     <span>Katie Roof</span>
                   </div>
                 </div>
@@ -255,33 +214,24 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/examples/card-blog11.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/examples/card-blog11.jpg" />
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-8">
                   <h3 class="card-title">
-                    <a href="#pablo"
-                      >MateLabs mixes machine learning with IFTTT</a
-                    >
+                    <nuxt-link to="#pablo">MateLabs mixes machine learning with IFTTT</nuxt-link>
                   </h3>
                   <p class="card-description">
                     If you’ve ever wanted to train a machine learning model and
                     integrate it with IFTTT, you now can with a new offering
                     from MateLabs. MateVerse, a platform where novices can spin
                     out machine...
-                    <a href="#pablo"> Read More </a>
+                    <nuxt-link to="#pablo"> Read More </nuxt-link>
                   </p>
                   <div class="author">
-                    <img
-                      v-lazy="'img/james.jpg'"
-                      alt="..."
-                      class="avatar img-raised"
-                    />
+                    <img v-lazy="'img/james.jpg'" alt="..." class="avatar img-raised" />
                     <span>John Mannes</span>
                   </div>
                 </div>
@@ -291,33 +241,24 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/examples/card-blog12.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/examples/card-blog12.jpg" />
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-8">
                   <h3 class="card-title">
-                    <a href="#pablo"
-                      >US venture investment ticks up in Q2 2017</a
-                    >
+                    <nuxt-link to="#pablo">US venture investment ticks up in Q2 2017</nuxt-link>
                   </h3>
                   <p class="card-description">
                     Venture investment in U.S. startups rose sequentially in the
                     second quarter of 2017, boosted by large, late-stage
                     financings and a few outsized early-stage rounds in tech and
                     healthcare..
-                    <a href="#pablo"> Read More </a>
+                    <nuxt-link to="#pablo"> Read More </nuxt-link>
                   </p>
                   <div class="author">
-                    <img
-                      v-lazy="'img/michael.jpg'"
-                      alt="..."
-                      class="avatar img-raised"
-                    />
+                    <img v-lazy="'img/michael.jpg'" alt="..." class="avatar img-raised" />
                     <span>Devin Coldewey</span>
                   </div>
                 </div>
@@ -336,16 +277,13 @@
             <br />
             <card type="blog" plain>
               <div class="card-image">
-                <a href="#pablo">
-                  <img
-                    class="img img-raised rounded"
-                    src="img/examples/card-blog13.jpg"
-                  />
-                </a>
+                <nuxt-link to="#pablo">
+                  <img class="img img-raised rounded" src="img/examples/card-blog13.jpg" />
+                </nuxt-link>
               </div>
               <h6 class="category text-info">Fashion</h6>
               <h3 class="card-title">
-                <a href="#pablo">Groupon Moves Into Flash Fashion</a>
+                <nuxt-link to="#pablo">Groupon Moves Into Flash Fashion</nuxt-link>
               </h3>
               <h5 class="card-description">
                 More acquisitions for Groupon to widen the net of consumers
@@ -353,20 +291,17 @@
                 announcing the acquisition of ideeli, a flash fashion retailer,
                 for $43 million in...
               </h5>
-              <a href="#pablo" class="btn btn-success btn-round">Read More</a>
+              <nuxt-link to="#pablo" class="btn btn-success btn-round">Read More</nuxt-link>
             </card>
             <card type="blog" plain>
               <div class="card-image">
-                <a href="#pablo">
-                  <img
-                    class="img img-raised rounded"
-                    src="img/examples/card-blog14.jpg"
-                  />
-                </a>
+                <nuxt-link to="#pablo">
+                  <img class="img img-raised rounded" src="img/examples/card-blog14.jpg" />
+                </nuxt-link>
               </div>
               <h6 class="category text-success">Entertainment</h6>
               <h3 class="card-title">
-                <a href="#pablo">When music and technology collide</a>
+                <nuxt-link to="#pablo">When music and technology collide</nuxt-link>
               </h3>
               <h5 class="card-description">
                 Some might say that technology is killing the music industry.
@@ -374,7 +309,7 @@
                 music industry is evolving every day, and artists are embracing
                 technology in new and innovative ways...
               </h5>
-              <a href="#pablo" class="btn btn-success btn-round"> Read More</a>
+              <nuxt-link to="#pablo" class="btn btn-success btn-round"> Read More</nuxt-link>
             </card>
           </div>
         </div>
@@ -391,9 +326,9 @@
               <div class="col-md-4">
                 <div class="card card-blog">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img rounded" src="img/card-blog2.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-success">Features</h6>
@@ -406,11 +341,7 @@
                     </p>
                     <div class="card-footer">
                       <div class="author">
-                        <img
-                          v-lazy="'img/julie.jpg'"
-                          alt="..."
-                          class="avatar img-raised"
-                        />
+                        <img v-lazy="'img/julie.jpg'" alt="..." class="avatar img-raised" />
                         <span>Mike John</span>
                       </div>
                       <div class="stats stats-right">
@@ -424,12 +355,9 @@
               <div class="col-md-4">
                 <div class="card card-blog">
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img rounded"
-                        src="img/examples/card-blog18.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img rounded" src="img/examples/card-blog18.jpg" />
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-danger">Animals</h6>
@@ -442,11 +370,7 @@
                     </p>
                     <div class="card-footer">
                       <div class="author">
-                        <img
-                          v-lazy="'img/julie.jpg'"
-                          alt="..."
-                          class="avatar img-raised"
-                        />
+                        <img v-lazy="'img/julie.jpg'" alt="..." class="avatar img-raised" />
                         <span>Mike John</span>
                       </div>
                       <div class="stats stats-right">
@@ -460,12 +384,9 @@
               <div class="col-md-4">
                 <div class="card card-blog">
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img rounded"
-                        src="img/examples/card-blog17.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img rounded" src="img/examples/card-blog17.jpg" />
+                    </nuxt-link>
                   </div>
                   <div class="card-body">
                     <h6 class="category text-success">Cars</h6>
@@ -478,11 +399,7 @@
                     </p>
                     <div class="card-footer">
                       <div class="author">
-                        <img
-                          v-lazy="'img/olivia.jpg'"
-                          alt="..."
-                          class="avatar img-raised"
-                        />
+                        <img v-lazy="'img/olivia.jpg'" alt="..." class="avatar img-raised" />
                         <span>Johanna Zmud</span>
                       </div>
                       <div class="stats stats-right">
