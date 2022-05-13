@@ -11,83 +11,96 @@
         </div>
       </div>
     </div>
-    <div class="section" id="article">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <p>Can somebody be dead broke and still own a BMW? Yes, anybody can be dead broke and still own a
-              BMW according to the book – “The Millionaire Next Door”.</p>
-            <p>The majority of millionaires own their cars rather than lease. Approximately 1 in 4 hold the
-              current years model but another 25 % have a model that is a four-year-old model. What about the
-              millionaires who buy used cars? 33% of millionaires in the US buy used cars.</p>
-            <p>So what about all the millionaires who buy BMW’s? 68% of all the luxury car buyers are not
-              millionaires. In fact, the facts say that the people who trade old cars for the newer model owe
-              more in trade value than the market value. It is tough to get wealthy by doing stuff like that.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h3 class="title">Used Vehicle Prone Shopper (UVPS)</h3>
-            <p>The used vehicle prone sectors are 20% of all the millionaires. They are aggressive shoppers.
-              They get the best deals by shopping amongst private owners, dealers and leasing companies. This
-              segment recommends productive strategies which could be applied to all aspects of life. Their
-              life style patterns, financial habits and their attitude towards life itself is different and is
-              a must learn.</p>
-            <p>They are the most efficient sectors in transforming income into wealth than any other sectors of
-              vehicle acquisition groups. As a result, this sector is most likely to hold a six-figure salary
-              or more. Since the income is always in correlation to wealth accumulated they tend to be really
-              wealthy.</p>
-            <p>The UVPS are savers and tend to spend a lot less than others. They are most likely to become
-              Millionaires. People who are driving their BMW’S tend to be non-millionaires who live a
-              high-income lifestyle. They are in a race and often tend to be extremely broke. They have to
-              hold their current job to pay the monthly installments towards the BMW and their million dollars
-              home and often do not have the savings to hold their current lifestyle even for one month.</p>
-            <p>Do you want to buy a BMW? A brand new one? Can you settle for a second hand BMW that’s a decade
-              old? Are you a UVPS?</p>
+          <div class="col-md-12">
+            <div class="button-container">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
+                <em class="now-ui-icons text_align-left"></em> Read Article
+              </nuxt-link>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h3 class="title">The Man who sold his Real Estate Property to buy a Car</h3>
-            <p>While studying my master’s in Coventry University, I used to live with 5 other friends of which 3
-              of them were really big fans of cars.</p>
-            <p>As far as I know, we all come from a middle class family who could not afford to sponsor our
-              living expenses in UK with the income from India.</p>
-            <p>We have to work part time jobs to cover our expenses and occasionally request money from our
-              family. There are others who either sell their property/home or mortgage their only home and
-              come to UK in order to graduate.</p>
-            <ul>
-              <li>I was fortunate enough to be sponsored solely from my father's income.</li>
-              <li>Jack came to Coventry after selling his real estate property.</li>
-              <li>Jim had to borrow the money from bank after offering his only home as a collateral.</li>
-            </ul>
-            <p>What did they both do? Spend almost all the money funded for the education while not finishing
-              the course.</p>
-            <p>Meanwhile, in order to ease their discomfort, Jack bought a car which was seized by the police
-              during his journey to Cambridge for drunk and driving. He left the car in Cambridge because he
-              could not afford to pay the £400 fine for his £550 car. Alas! He did not have any insurance on
-              his car!</p>
-            <p>To put it into perspective, £550 was almost 1 and half months of expenses when we were living
-              there as students. He came to UK with a net £7000 or ₹700,000. </p>
-            <p>The Rupee was really down during 2013. A ₹100 was equal to £1. So, It was a hell lot of money! I
-              never understood their intention of buying a car anyway let alone not completing the course.</p>
-            <p>There were an exceptionally high number of students from his locality who did not finish their
-              course while studying in UK when compared to students from other cities. I could attribute all
-              these to <strong>personality, priority and lack of direction</strong>.</p>
-            <p>Their priorities were enjoying the time in UK while it lasted never bothering to attend the
-              classes.</p>
-            <p><strong>Never be like Jack or Jim, they are both currently jobless and aimless.</strong></p>
-            <p>Jim occasionally asks me for ₹5000 through messenger and I am swift to say no for I know the
-              money is not going to a better use.</p>
+      <div class="section" id="article">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <p>Can somebody be dead broke and still own a BMW? Yes, anybody can be dead broke and still own a
+                BMW according to the book – “The Millionaire Next Door”.</p>
+              <p>The majority of millionaires own their cars rather than lease. Approximately 1 in 4 hold the
+                current years model but another 25 % have a model that is a four-year-old model. What about the
+                millionaires who buy used cars? 33% of millionaires in the US buy used cars.</p>
+              <p>So what about all the millionaires who buy BMW’s? 68% of all the luxury car buyers are not
+                millionaires. In fact, the facts say that the people who trade old cars for the newer model owe
+                more in trade value than the market value. It is tough to get wealthy by doing stuff like that.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Used Vehicle Prone Shopper (UVPS)</h3>
+              <p>The used vehicle prone sectors are 20% of all the millionaires. They are aggressive shoppers.
+                They get the best deals by shopping amongst private owners, dealers and leasing companies. This
+                segment recommends productive strategies which could be applied to all aspects of life. Their
+                life style patterns, financial habits and their attitude towards life itself is different and is
+                a must learn.</p>
+              <p>They are the most efficient sectors in transforming income into wealth than any other sectors of
+                vehicle acquisition groups. As a result, this sector is most likely to hold a six-figure salary
+                or more. Since the income is always in correlation to wealth accumulated they tend to be really
+                wealthy.</p>
+              <p>The UVPS are savers and tend to spend a lot less than others. They are most likely to become
+                Millionaires. People who are driving their BMW’S tend to be non-millionaires who live a
+                high-income lifestyle. They are in a race and often tend to be extremely broke. They have to
+                hold their current job to pay the monthly installments towards the BMW and their million dollars
+                home and often do not have the savings to hold their current lifestyle even for one month.</p>
+              <p>Do you want to buy a BMW? A brand new one? Can you settle for a second hand BMW that’s a decade
+                old? Are you a UVPS?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">The Man who sold his Real Estate Property to buy a Car</h3>
+              <p>While studying my master’s in Coventry University, I used to live with 5 other friends of which 3
+                of them were really big fans of cars.</p>
+              <p>As far as I know, we all come from a middle class family who could not afford to sponsor our
+                living expenses in UK with the income from India.</p>
+              <p>We have to work part time jobs to cover our expenses and occasionally request money from our
+                family. There are others who either sell their property/home or mortgage their only home and
+                come to UK in order to graduate.</p>
+              <ul>
+                <li>I was fortunate enough to be sponsored solely from my father's income.</li>
+                <li>Jack came to Coventry after selling his real estate property.</li>
+                <li>Jim had to borrow the money from bank after offering his only home as a collateral.</li>
+              </ul>
+              <p>What did they both do? Spend almost all the money funded for the education while not finishing
+                the course.</p>
+              <p>Meanwhile, in order to ease their discomfort, Jack bought a car which was seized by the police
+                during his journey to Cambridge for drunk and driving. He left the car in Cambridge because he
+                could not afford to pay the £400 fine for his £550 car. Alas! He did not have any insurance on
+                his car!</p>
+              <p>To put it into perspective, £550 was almost 1 and half months of expenses when we were living
+                there as students. He came to UK with a net £7000 or ₹700,000. </p>
+              <p>The Rupee was really down during 2013. A ₹100 was equal to £1. So, It was a hell lot of money! I
+                never understood their intention of buying a car anyway let alone not completing the course.</p>
+              <p>There were an exceptionally high number of students from his locality who did not finish their
+                course while studying in UK when compared to students from other cities. I could attribute all
+                these to <strong>personality, priority and lack of direction</strong>.</p>
+              <p>Their priorities were enjoying the time in UK while it lasted never bothering to attend the
+                classes.</p>
+              <p><strong>Never be like Jack or Jim, they are both currently jobless and aimless.</strong></p>
+              <p>Jim occasionally asks me for ₹5000 through messenger and I am swift to say no for I know the
+                money is not going to a better use.</p>
+            </div>
           </div>
         </div>
       </div>

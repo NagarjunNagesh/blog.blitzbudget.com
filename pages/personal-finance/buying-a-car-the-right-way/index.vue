@@ -11,86 +11,99 @@
         </div>
       </div>
     </div>
-    <div class="section" id="article">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <p>Every plan, savings or budget is personalized and cannot be implemented by your neighbor. It
-              won’t be the right fit for them. So is your car.</p>
-            <ul>
-              <li>Which car should you buy? A Ferrari? A Toyota? or a Mini Cooper?</li>
-              <li>Do you want it new or don’t mind if it is a few years old?</li>
-              <li>Is a 2 seater enough for you? How about a 5 seater?</li>
-              <li>Do you want to buy a petrol or a diesel engine?</li>
-              <li>Do you usually travel long distances? Is it for driving within the city limits?</li>
-            </ul>
-            <p>You can personalize it even further by wanting a sunroof/convertible.</p>
-            <p>The concept of buying a car the right way depends on one’s financial situation. Ask yourself
-              before buying a car.</p>
-            <ul>
-              <li>Do I already have an emergency fund in place?</li>
-              <li>Are you going to pay all cash for the car?</li>
-            </ul>
-            <p>Both the answers to the above questions should be a yes before choosing to buy a car.</p>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h3 class="title">Why shouldn't you Pay for the Car with a Loan?</h3>
-            <p>The minute you take the car out of the showroom the price of the car goes down by a minimum of
-              30% to 50%.</p>
-            <p>If you have a loan you should be paying an interest on the loan. How much is it that you are
-              paying? And how long are you going to pay?</p>
-            <p>For the convenience of traveling in your car is it worth paying $200 / $300 every month excluding
-              fuel and parking charges?</p>
-            <p>Would you rather be a little less comfortable traveling on a public transport and saving $150 to
-              $250 till you have saved enough to buy a car?</p>
-            <p><strong>Chances are that if you start the practice of saving the money to buy a car you will end up
-                buying a second-hand car.</strong></p>
-            <p>And you will feel just as happy as buying a new car.</p>
-            <p>Choose to be financially free especially when it comes to paying for depreciating assets.</p>
-            <p><strong>The general rule of thumb is to save one year’s worth of income for buying a car.</strong></p>
-            <p>Is that not enough? Maybe you could choose a cheaper model and settle for a second hand or better
-              yet, increase your income!</p>
+          <div class="col-md-12">
+            <div class="button-container">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
+                <em class="now-ui-icons text_align-left"></em> Read Article
+              </nuxt-link>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h3 class="title">Comfor And Prestige</h3>
-            <p>We choose to buy a car because we want to be comfortable, not getting constrained by the time
-              limits of public transport and generally wanting to save time.</p>
-            <p>We will end up saving about one to a maximum of two hours every day by traveling in a car.</p>
-            <p><strong>What Will You Use These Hours For?</strong></p>
-            <p>Would you rather spend the time watching TV, Browsing / Cooking your tomorrow’s lunch?</p>
-            <p>An average man watches TV / uses a mobile phone for over 4 hours a day.</p>
-            <p>But browsing is pleasurable for us and for most of them waiting in traffic in a car is not.</p>
-            <p>Would you trade $250 every month for getting enough time to browse / cook / whatever you want to
-              do?</p>
-            <p>That’s exactly what you are doing when you buy a car which you can’t afford instead of traveling
-              in a public transport for a few years.</p>
-            <p>But I am getting a car am I not?</p>
-            <p>Yes. But is the car worth the money which you are paying for? It is depreciating every day, every
-              time you use and every extra mile it moves.</p>
-            <p>You are better off with a second-hand car with less mileage. It would do the same job and you
-              would end up not spending 50% more for the same car just because it was not used before.</p>
-            <p>People also buy a car for the prestige of owning it.</p>
-            <p>We all would like to be treated well and the people who judge you often judge you by the
-              appearances and it includes the car you drive.</p>
-            <p>What is the car that fits your standard and appeases your pride?</p>
-            <p>If you are from a middle class or having a rich background owning a car is a basic requirement
-              and is often taken for granted.</p>
-            <p>Do you earn as much and save as much?</p>
-            <p>The truth is if your financial situation is bad, as in case, you go into debt for buying a
-              depreciating asset and cannot repay it within the next 5 years, you don’t deserve to buy a car
-              as long as it is not absolutely impossible to commute without it.</p>
+      <div class="section" id="article">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <p>Every plan, savings or budget is personalized and cannot be implemented by your neighbor. It
+                won’t be the right fit for them. So is your car.</p>
+              <ul>
+                <li>Which car should you buy? A Ferrari? A Toyota? or a Mini Cooper?</li>
+                <li>Do you want it new or don’t mind if it is a few years old?</li>
+                <li>Is a 2 seater enough for you? How about a 5 seater?</li>
+                <li>Do you want to buy a petrol or a diesel engine?</li>
+                <li>Do you usually travel long distances? Is it for driving within the city limits?</li>
+              </ul>
+              <p>You can personalize it even further by wanting a sunroof/convertible.</p>
+              <p>The concept of buying a car the right way depends on one’s financial situation. Ask yourself
+                before buying a car.</p>
+              <ul>
+                <li>Do I already have an emergency fund in place?</li>
+                <li>Are you going to pay all cash for the car?</li>
+              </ul>
+              <p>Both the answers to the above questions should be a yes before choosing to buy a car.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Why shouldn't you Pay for the Car with a Loan?</h3>
+              <p>The minute you take the car out of the showroom the price of the car goes down by a minimum of
+                30% to 50%.</p>
+              <p>If you have a loan you should be paying an interest on the loan. How much is it that you are
+                paying? And how long are you going to pay?</p>
+              <p>For the convenience of traveling in your car is it worth paying $200 / $300 every month excluding
+                fuel and parking charges?</p>
+              <p>Would you rather be a little less comfortable traveling on a public transport and saving $150 to
+                $250 till you have saved enough to buy a car?</p>
+              <p><strong>Chances are that if you start the practice of saving the money to buy a car you will end up
+                  buying a second-hand car.</strong></p>
+              <p>And you will feel just as happy as buying a new car.</p>
+              <p>Choose to be financially free especially when it comes to paying for depreciating assets.</p>
+              <p><strong>The general rule of thumb is to save one year’s worth of income for buying a car.</strong></p>
+              <p>Is that not enough? Maybe you could choose a cheaper model and settle for a second hand or better
+                yet, increase your income!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+              <h3 class="title">Comfor And Prestige</h3>
+              <p>We choose to buy a car because we want to be comfortable, not getting constrained by the time
+                limits of public transport and generally wanting to save time.</p>
+              <p>We will end up saving about one to a maximum of two hours every day by traveling in a car.</p>
+              <p><strong>What Will You Use These Hours For?</strong></p>
+              <p>Would you rather spend the time watching TV, Browsing / Cooking your tomorrow’s lunch?</p>
+              <p>An average man watches TV / uses a mobile phone for over 4 hours a day.</p>
+              <p>But browsing is pleasurable for us and for most of them waiting in traffic in a car is not.</p>
+              <p>Would you trade $250 every month for getting enough time to browse / cook / whatever you want to
+                do?</p>
+              <p>That’s exactly what you are doing when you buy a car which you can’t afford instead of traveling
+                in a public transport for a few years.</p>
+              <p>But I am getting a car am I not?</p>
+              <p>Yes. But is the car worth the money which you are paying for? It is depreciating every day, every
+                time you use and every extra mile it moves.</p>
+              <p>You are better off with a second-hand car with less mileage. It would do the same job and you
+                would end up not spending 50% more for the same car just because it was not used before.</p>
+              <p>People also buy a car for the prestige of owning it.</p>
+              <p>We all would like to be treated well and the people who judge you often judge you by the
+                appearances and it includes the car you drive.</p>
+              <p>What is the car that fits your standard and appeases your pride?</p>
+              <p>If you are from a middle class or having a rich background owning a car is a basic requirement
+                and is often taken for granted.</p>
+              <p>Do you earn as much and save as much?</p>
+              <p>The truth is if your financial situation is bad, as in case, you go into debt for buying a
+                depreciating asset and cannot repay it within the next 5 years, you don’t deserve to buy a car
+                as long as it is not absolutely impossible to commute without it.</p>
+            </div>
           </div>
         </div>
       </div>
