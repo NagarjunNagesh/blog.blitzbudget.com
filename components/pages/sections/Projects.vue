@@ -16,11 +16,8 @@
         </div>
         <div class="row">
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-background-product card-no-shadow"
-              style="background-image: url('img/project1.jpg')"
-            >
+            <card type="background" class="card-background-product card-no-shadow"
+              style="background-image: url('img/project1.jpg')">
               <h6 class="category">History</h6>
               <h3 class="card-title">The City Lost & Found</h3>
               <p class="card-description">
@@ -33,12 +30,8 @@
             </card>
           </div>
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              raised
-              class="card-background-product card-no-shadow"
-              style="background-image: url('img/project18.jpg')"
-            >
+            <card type="background" raised class="card-background-product card-no-shadow"
+              style="background-image: url('img/project18.jpg')">
               <h6 class="category">Satire</h6>
               <h3 class="card-title">A Confederacy of Dunces</h3>
               <p class="card-description">
@@ -51,11 +44,8 @@
             </card>
           </div>
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-background-product card-no-shadow"
-              style="background-image: url('img/project20.jpg')"
-            >
+            <card type="background" class="card-background-product card-no-shadow"
+              style="background-image: url('img/project20.jpg')">
               <h6 class="category">Fiction</h6>
               <h3 class="card-title">The Sun Also Rises</h3>
               <p class="card-description">
@@ -68,11 +58,8 @@
             </card>
           </div>
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-background-product card-no-shadow"
-              style="background-image: url('img/project19.jpg')"
-            >
+            <card type="background" class="card-background-product card-no-shadow"
+              style="background-image: url('img/project19.jpg')">
               <h6 class="category">Basic Civitas</h6>
               <h3 class="card-title">The Right Mistake</h3>
               <p class="card-description">
@@ -107,23 +94,14 @@
         <div class="row">
           <div class="col-md-4">
             <card plain>
-              <a
-                slot="image"
-                href="https:///www.creative-tim.com/product/now-ui-kit"
-                target="_blank"
-              >
-                <img
-                  class="img-raised rounded"
-                  src="https:///s3.amazonaws.com/creativetim_bucket/products/38/original/opt_mk_thumbnail.jpg?1458052306"
-                />
-              </a>
+              <nuxt-link slot="image" to="https:///www.creative-tim.com/product/now-ui-kit" target="_blank">
+                <img class="img-raised rounded"
+                  src="https:///s3.amazonaws.com/creativetim_bucket/products/38/original/opt_mk_thumbnail.jpg?1458052306" />
+              </nuxt-link>
 
-              <a
-                href="https:///www.creative-tim.com/product/now-ui-kit"
-                target="_blank"
-              >
+              <nuxt-link to="https:///www.creative-tim.com/product/now-ui-kit" target="_blank">
                 <h4 class="card-title">Now UI Kit Free</h4>
-              </a>
+              </nuxt-link>
               <h6 class="category text-success">Free UI Kit</h6>
               <p class="card-description">
                 Now UI Kit is a Free Bootstrap UI Kit with a fresh, new design
@@ -135,23 +113,15 @@
           </div>
           <div class="col-md-4">
             <card plain>
-              <a
-                slot="image"
-                href="https:///www.creative-tim.com/product/light-bootstrap-dashboard-pro"
-                target="_blank"
-              >
-                <img
-                  class="img-raised rounded"
-                  src="https:///s3.amazonaws.com/creativetim_bucket/products/34/original/opt_lbd_pro_thumbnail.jpg?1449352503"
-                />
-              </a>
+              <nuxt-link slot="image" to="https:///www.creative-tim.com/product/light-bootstrap-dashboard-pro"
+                target="_blank">
+                <img class="img-raised rounded"
+                  src="https:///s3.amazonaws.com/creativetim_bucket/products/34/original/opt_lbd_pro_thumbnail.jpg?1449352503" />
+              </nuxt-link>
 
-              <a
-                href="https:///www.creative-tim.com/product/light-bootstrap-dashboard-pro"
-                target="_blank"
-              >
+              <nuxt-link to="https:///www.creative-tim.com/product/light-bootstrap-dashboard-pro" target="_blank">
                 <h4 class="card-title">Light Bootstrap Dashboard</h4>
-              </a>
+              </nuxt-link>
               <h6 class="category text-success">Premium Template</h6>
               <p class="card-description">
                 Light Bootstrap Dashboard PRO is a Bootstrap Admin Theme
@@ -162,23 +132,14 @@
           </div>
           <div class="col-md-4">
             <card plain>
-              <a
-                slot="image"
-                href="https:///www.creative-tim.com/product/get-shit-done-pro"
-                target="_blank"
-              >
-                <img
-                  class="img-raised rounded"
-                  src="https:///s3.amazonaws.com/creativetim_bucket/products/26/original/opt_gsdk_new_thumbnail.jpg"
-                />
-              </a>
+              <nuxt-link slot="image" to="https:///www.creative-tim.com/product/get-shit-done-pro" target="_blank">
+                <img class="img-raised rounded"
+                  src="https:///s3.amazonaws.com/creativetim_bucket/products/26/original/opt_gsdk_new_thumbnail.jpg" />
+              </nuxt-link>
 
-              <a
-                href="https:///www.creative-tim.com/product/get-shit-done-pro"
-                target="_blank"
-              >
+              <nuxt-link to="https:///www.creative-tim.com/product/get-shit-done-pro" target="_blank">
                 <h4 class="card-title">Get Shit Done Kit PRO</h4>
-              </a>
+              </nuxt-link>
               <h6 class="category text-success">Premium UI Kit</h6>
               <p class="card-description">
                 Get Shit Done Kit Pro it's a Bootstrap Kit that comes with a
@@ -203,10 +164,7 @@
         <div class="section-story-overview">
           <div class="row">
             <div class="col-md-6">
-              <div
-                class="image-container image-left"
-                style="background-image: url('img/project4.jpg')"
-              >
+              <div class="image-container image-left" style="background-image: url('img/project4.jpg')">
                 <!-- First image on the left side -->
                 <p class="blockquote blockquote-success">
                   "Amber Interiors is available to assist in all aspects of a
@@ -217,10 +175,7 @@
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
-              <div
-                class="image-container image-right"
-                style="background-image: url('img/project21.jpg')"
-              ></div>
+              <div class="image-container image-right" style="background-image: url('img/project21.jpg')"></div>
               <h6 class="category text-success">Design</h6>
               <h4 class="card-title">Coco Kelley</h4>
               <p>
@@ -235,10 +190,7 @@
           <div class="row">
             <div class="col-md-6">
               <!-- First image on the left side -->
-              <div
-                class="image-container image-left"
-                style="background-image: url('img/project24.jpg')"
-              >
+              <div class="image-container image-left" style="background-image: url('img/project24.jpg')">
                 <p class="blockquote blockquote-success">
                   "We provide a simple, approachable way to decorate your
                   desired space with ease. Each e-décor is completely
@@ -248,10 +200,7 @@
             </div>
             <div class="col-md-5">
               <!-- First image on the right side, above the article -->
-              <div
-                class="image-container image-right"
-                style="background-image: url('img/project23.jpg')"
-              ></div>
+              <div class="image-container image-right" style="background-image: url('img/project23.jpg')"></div>
               <h6 class="category text-success">E-Decor</h6>
               <h4 class="card-title">Red Trad</h4>
               <p>
@@ -276,18 +225,14 @@
         </div>
         <div class="row">
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/project14.jpg')"
-            >
+            <card type="background" class="card-fashion" style="background-image: url('img/project14.jpg')">
               <div class="card-body">
                 <div class="card-title text-left">
                   <h2>
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       The “crazy idea that could lead to a big future
                       commission” project.
-                    </a>
+                    </nuxt-link>
                   </h2>
                 </div>
                 <div class="card-footer text-left">
@@ -305,14 +250,14 @@
             <div class="card-container">
               <div class="card card-fashion">
                 <div class="card-title">
-                  <a href="#pablo">
+                  <nuxt-link to="#pablo">
                     <h4>
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         The next time you’re on vacation, take advantage of all
                         the work you can get done...
-                      </a>
+                      </nuxt-link>
                     </h4>
-                  </a>
+                  </nuxt-link>
                 </div>
                 <div class="card-body">
                   <div class="card-footer">
@@ -325,11 +270,7 @@
                   </div>
                 </div>
               </div>
-              <card
-                type="background"
-                class="card-fashion"
-                style="background-image: url('img/project15.jpg')"
-              >
+              <card type="background" class="card-fashion" style="background-image: url('img/project15.jpg')">
               </card>
             </div>
           </div>
@@ -337,19 +278,15 @@
         <div class="row">
           <div class="col-md-6 px-0">
             <div class="card-container">
-              <card
-                type="background"
-                class="card-fashion"
-                style="background-image: url('img/project17.jpg')"
-              >
+              <card type="background" class="card-fashion" style="background-image: url('img/project17.jpg')">
               </card>
               <div class="card card-fashion arrow-left">
                 <div class="card-title">
                   <h4>
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       The elements of Agile Project Management have been around
                       for decades...
-                    </a>
+                    </nuxt-link>
                   </h4>
                 </div>
                 <div class="card-body">
@@ -366,14 +303,10 @@
             </div>
           </div>
           <div class="col-md-6 px-0">
-            <card
-              type="background"
-              class="card-fashion"
-              style="background-image: url('img/project16.jpg')"
-            >
+            <card type="background" class="card-fashion" style="background-image: url('img/project16.jpg')">
               <div class="card-title text-left">
                 <h2>
-                  <a href="#pablo">Performing a Project Premortem</a>
+                  <nuxt-link to="#pablo">Performing a Project Premortem</nuxt-link>
                 </h2>
               </div>
               <div class="card-footer text-left">
@@ -406,12 +339,8 @@
         </div>
         <div class="row">
           <div class="col-md-5 ml-auto">
-            <card
-              type="background"
-              raised
-              class="card-background-product"
-              style="background-image: url('img/project8.jpg')"
-            >
+            <card type="background" raised class="card-background-product"
+              style="background-image: url('img/project8.jpg')">
               <h2 class="card-title">Social Analytics</h2>
               <p class="card-description">
                 Insight to help you create, connect, and convert. Understand
@@ -422,59 +351,31 @@
             </card>
           </div>
           <div class="col-md-5 mr-auto">
-            <info-section
-              type="danger"
-              icon="now-ui-icons ui-2_chat-round"
-              title="Listen to Social Conversations"
-              description="Gain access to the demographics, psychographics, and location of unique people who talk about your brand."
-            />
+            <info-section type="danger" icon="now-ui-icons ui-2_chat-round" title="Listen to Social Conversations"
+              description="Gain access to the demographics, psychographics, and location of unique people who talk about your brand." />
 
-            <info-section
-              type="danger"
-              icon="now-ui-icons business_chart-pie-36"
-              title="Performance Analyze"
-              description="Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports."
-            />
+            <info-section type="danger" icon="now-ui-icons business_chart-pie-36" title="Performance Analyze"
+              description="Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights from easy-to-use reports." />
 
-            <info-section
-              type="danger"
-              icon="now-ui-icons design-2_ruler-pencil"
-              title="Social Conversions"
-              description="Track actions taken on your website that originated from social, and understand the impact on your bottom line."
-            />
+            <info-section type="danger" icon="now-ui-icons design-2_ruler-pencil" title="Social Conversions"
+              description="Track actions taken on your website that originated from social, and understand the impact on your bottom line." />
           </div>
         </div>
         <hr />
         <div class="row">
           <div class="col-md-5 ml-auto mt-5">
-            <info-section
-              type="warning"
-              icon="now-ui-icons users_single-02"
-              title="Work With Any Team"
-              description="Whether it’s for work or even the next family vacation, Trello helps your team."
-            />
+            <info-section type="warning" icon="now-ui-icons users_single-02" title="Work With Any Team"
+              description="Whether it’s for work or even the next family vacation, Trello helps your team." />
 
-            <info-section
-              type="warning"
-              icon="now-ui-icons business_chart-bar-32"
-              title="A Productivity Platform"
-              description="Integrate the apps your team already uses directly into your workflow."
-            />
+            <info-section type="warning" icon="now-ui-icons business_chart-bar-32" title="A Productivity Platform"
+              description="Integrate the apps your team already uses directly into your workflow." />
 
-            <info-section
-              type="warning"
-              icon="now-ui-icons arrows-1_refresh-69"
-              title="Always In Sync"
-              description="No matter where you are, Trello stays in sync across all of your devices."
-            />
+            <info-section type="warning" icon="now-ui-icons arrows-1_refresh-69" title="Always In Sync"
+              description="No matter where you are, Trello stays in sync across all of your devices." />
           </div>
           <div class="col-md-5 mr-auto">
-            <card
-              type="background"
-              raised
-              class="card-background-product"
-              style="background-image: url('img/project9.jpg')"
-            >
+            <card type="background" raised class="card-background-product"
+              style="background-image: url('img/project9.jpg')">
               <h2 class="card-title">Trello lets you work.</h2>
               <p class="card-description">
                 Trello’s boards, lists, and cards enable you to organize and

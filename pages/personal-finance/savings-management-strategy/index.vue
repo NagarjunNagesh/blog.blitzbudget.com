@@ -16,9 +16,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -421,8 +421,9 @@
                 confident that he would be able to do it.
               </p>
               <p>
-                What's your purpose of saving? Without it, don’t bother saving. <b>A purpose backed by strong emotion
-                  will push you to succeed in all aspects of your life</b>.
+                What's your purpose of saving? Without it, don’t bother saving. <strong>A purpose backed by strong
+                  emotion
+                  will push you to succeed in all aspects of your life</strong>.
               </p>
             </div>
           </div>
@@ -447,9 +448,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -489,14 +490,15 @@
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 19: Home Loan: Is it a Boon in Disguise</h6>
-                          <h3 class="card-title"><a
-                              href="/personal-finance/home-loan-is-it-a-boon-in-disguise/">Personal
-                              Finance 19: Home Loan: Is it a Boon in Disguise</a></h3>
+                          <h3 class="card-title">
+                            <nuxt-link to="/personal-finance/home-loan-is-it-a-boon-in-disguise/">Personal
+                              Finance 19: Home Loan: Is it a Boon in Disguise</nuxt-link>
+                          </h3>
                           <p class="card-description">It all starts with a dream of having a roof on top of one’s head
                             for
                             the sake of their family. But many end up not being able to afford to buy a home with cash.
                           </p>
-                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                          <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                         </div>
                       </div>
                     </template></card>
@@ -505,13 +507,15 @@
                       <div class="col-md-7">
                         <h6 class="category text-danger"><em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                        <h3 class="card-title"><a href="/personal-finance/debt-management-strategy/">Personal Finance
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/debt-management-strategy/">Personal Finance
                             17:
-                            Debt Management Strategy</a></h3>
+                            Debt Management Strategy</nuxt-link>
+                        </h3>
                         <p class="card-description">Debt management requires your utmost commitment to get rid of debt.
                           The
                           first step in making sure that you start reducing your debt is an emergency fund.</p>
-                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                        <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image"><img class="img img-raised rounded"

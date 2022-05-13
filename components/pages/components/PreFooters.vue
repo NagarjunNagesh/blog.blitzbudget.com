@@ -36,52 +36,34 @@
         <div class="container">
           <div class="row">
             <div class="col-md-2">
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-icon btn-twitter btn-footer"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-icon btn-twitter btn-footer">
                 <em class="fab fa-twitter"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-icon btn-facebook btn-footer"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-icon btn-facebook btn-footer">
                 <em class="fab fa-facebook-square"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-icon btn-google btn-footer"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-icon btn-google btn-footer">
                 <em class="fab fa-google-plus"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-icon btn-dribbble btn-footer"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-icon btn-dribbble btn-footer">
                 <em class="fab fa-dribbble"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-icon btn-youtube btn-footer"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-icon btn-youtube btn-footer">
                 <em class="fab fa-youtube"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a
-                href="#pablo"
-                class="btn btn-neutral btn-icon btn-instagram btn-footer"
-              >
+              <nuxt-link to="#pablo" class="btn btn-neutral btn-icon btn-instagram btn-footer">
                 <em class="fab fa-instagram"></em>
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -94,34 +76,34 @@
         <div class="container">
           <div class="row">
             <div class="col-md-2">
-              <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+              <nuxt-link to="#pablo" class="btn btn-simple btn-icon btn-footer">
                 <em class="fab fa-twitter"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+              <nuxt-link to="#pablo" class="btn btn-simple btn-icon btn-footer">
                 <em class="fab fa-facebook-square"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+              <nuxt-link to="#pablo" class="btn btn-simple btn-icon btn-footer">
                 <em class="fab fa-google-plus"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+              <nuxt-link to="#pablo" class="btn btn-simple btn-icon btn-footer">
                 <em class="fab fa-dribbble"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+              <nuxt-link to="#pablo" class="btn btn-simple btn-icon btn-footer">
                 <em class="fab fa-youtube"></em>
-              </a>
+              </nuxt-link>
             </div>
             <div class="col-md-2">
-              <a href="#pablo" class="btn btn-simple btn-icon btn-footer">
+              <nuxt-link to="#pablo" class="btn btn-simple btn-icon btn-footer">
                 <em class="fab fa-instagram"></em>
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -148,10 +130,7 @@
                   <form method="" action="">
                     <div class="row">
                       <div class="col-sm-8">
-                        <fg-input
-                          placeholder="Your Email..."
-                          addon-left-icon="now-ui-icons ui-1_email-85"
-                        >
+                        <fg-input placeholder="Your Email..." addon-left-icon="now-ui-icons ui-1_email-85">
                         </fg-input>
                       </div>
                       <div class="col-sm-4">
@@ -171,10 +150,7 @@
       <br />
       <br />
       <!--     *********    IMAGE SUBSCRIBE LINE     *********      -->
-      <div
-        class="subscribe-line subscribe-line-image"
-        style="background-image: url('img/bg7.jpg')"
-      >
+      <div class="subscribe-line subscribe-line-image" style="background-image: url('img/bg7.jpg')">
         <div class="container">
           <div class="row">
             <div class="col-md-6 ml-auto mr-auto">
@@ -190,10 +166,7 @@
                   <form method="" action="">
                     <div class="row">
                       <div class="col-sm-8">
-                        <fg-input
-                          placeholder="Your Email..."
-                          addon-left-icon="now-ui-icons ui-1_email-85"
-                        >
+                        <fg-input placeholder="Your Email..." addon-left-icon="now-ui-icons ui-1_email-85">
                         </fg-input>
                       </div>
                       <div class="col-sm-4">

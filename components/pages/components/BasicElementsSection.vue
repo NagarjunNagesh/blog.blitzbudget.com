@@ -371,17 +371,11 @@
             <fg-input value="Error Input" class="has-danger"></fg-input>
           </div>
           <div class="col-sm-6 col-lg-3">
-            <fg-input
-              addon-left-icon="now-ui-icons users_single-02"
-              placeholder="Left Nucleo Icon"
-            >
+            <fg-input addon-left-icon="now-ui-icons users_single-02" placeholder="Left Nucleo Icon">
             </fg-input>
           </div>
           <div class="col-sm-6 col-lg-3">
-            <fg-input
-              addon-right-icon="now-ui-icons users_single-02"
-              placeholder="Right Nucleo Icon"
-            >
+            <fg-input addon-right-icon="now-ui-icons users_single-02" placeholder="Right Nucleo Icon">
             </fg-input>
           </div>
         </div>
@@ -396,36 +390,17 @@
             </div>
             <div class="row">
               <div class="col-lg-6 col-md-8 col-sm-5">
-                <el-select
-                  class="select-success"
-                  v-model="singleSelect.value"
-                  placeholder="Single Option"
-                >
-                  <el-option
-                    v-for="option in singleSelect.options"
-                    class="select-success"
-                    :key="option.label"
-                    :value="option.value"
-                    :label="option.label"
-                  >
+                <el-select class="select-success" v-model="singleSelect.value" placeholder="Single Option">
+                  <el-option v-for="option in singleSelect.options" class="select-success" :key="option.label"
+                    :value="option.value" :label="option.label">
                   </el-option>
                 </el-select>
               </div>
               <div class="col-lg-6 col-md-8 col-sm-5">
-                <el-select
-                  class="select-success"
-                  multiple
-                  collapse-tags
-                  placeholder="Multiple Options"
-                  v-model="multiSelect.value"
-                >
-                  <el-option
-                    v-for="option in multiSelect.options"
-                    class="select-success"
-                    :key="option.value"
-                    :value="option.value"
-                    :label="option.label"
-                  >
+                <el-select class="select-success" multiple collapse-tags placeholder="Multiple Options"
+                  v-model="multiSelect.value">
+                  <el-option v-for="option in multiSelect.options" class="select-success" :key="option.value"
+                    :value="option.value" :label="option.label">
                   </el-option>
                 </el-select>
               </div>
@@ -438,34 +413,22 @@
             <div class="row">
               <div class="col-lg-5 col-md-8">
                 <drop-down>
-                  <n-button
-                    slot="title"
-                    class="dropdown-toggle"
-                    type="success"
-                    data-toggle="dropdown"
-                    round
-                  >
+                  <n-button slot="title" class="dropdown-toggle" type="success" data-toggle="dropdown" round>
                     Dropdown
                   </n-button>
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <nuxt-link class="dropdown-item" to="#">Action</nuxt-link>
+                  <nuxt-link class="dropdown-item" to="#">Another action</nuxt-link>
+                  <nuxt-link class="dropdown-item" to="#">Something else here</nuxt-link>
                 </drop-down>
               </div>
               <div class="col-lg-5 col-md-8">
                 <drop-down direction="up">
-                  <n-button
-                    slot="title"
-                    class="dropdown-toggle"
-                    type="success"
-                    data-toggle="dropdown"
-                    round
-                  >
+                  <n-button slot="title" class="dropdown-toggle" type="success" data-toggle="dropdown" round>
                     Dropdown
                   </n-button>
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <nuxt-link class="dropdown-item" to="#">Action</nuxt-link>
+                  <nuxt-link class="dropdown-item" to="#">Another action</nuxt-link>
+                  <nuxt-link class="dropdown-item" to="#">Something else here</nuxt-link>
                 </drop-down>
               </div>
             </div>
@@ -481,40 +444,20 @@
             <div class="title">
               <h4>Textarea</h4>
             </div>
-            <textarea
-              class="form-control"
-              name="name"
-              rows="4"
-              cols="80"
-              placeholder="You can write your text here..."
-            ></textarea>
+            <textarea class="form-control" name="name" rows="4" cols="80"
+              placeholder="You can write your text here..."></textarea>
           </div>
           <div class="col-md-6">
             <div class="title">
               <h4>Tags</h4>
             </div>
-            <el-tag
-              :key="tag"
-              v-for="tag in tags.dynamicTags"
-              size="small"
-              type="danger"
-              :closable="true"
-              :close-transition="false"
-              @close="handleClose(tag)"
-            >
+            <el-tag :key="tag" v-for="tag in tags.dynamicTags" size="small" type="danger" :closable="true"
+              :close-transition="false" @close="handleClose(tag)">
               {{ tag }}
             </el-tag>
 
-            <input
-              type="text"
-              placeholder="New Tag"
-              class="form-control input-new-tag"
-              v-model="tags.inputValue"
-              ref="saveTagInput"
-              size="mini"
-              @keyup.enter="handleInputConfirm"
-              @blur="handleInputConfirm"
-            />
+            <input type="text" placeholder="New Tag" class="form-control input-new-tag" v-model="tags.inputValue"
+              ref="saveTagInput" size="mini" @keyup.enter="handleInputConfirm" @blur="handleInputConfirm" />
           </div>
         </div>
       </div>
@@ -524,34 +467,22 @@
           <p class="category">Checkboxes</p>
           <n-checkbox v-model="checkboxes.unchecked">Unchecked</n-checkbox>
           <n-checkbox v-model="checkboxes.checked">Checked</n-checkbox>
-          <n-checkbox v-model="checkboxes.disabledUnchecked" disabled
-            >Disabled Unchecked</n-checkbox
-          >
-          <n-checkbox v-model="checkboxes.disabledChecked" disabled
-            >Disabled Checked</n-checkbox
-          >
+          <n-checkbox v-model="checkboxes.disabledUnchecked" disabled>Disabled Unchecked</n-checkbox>
+          <n-checkbox v-model="checkboxes.disabledChecked" disabled>Disabled Checked</n-checkbox>
         </div>
         <div class="col-sm-6 col-lg-3">
           <p class="category">Radios</p>
           <n-radio v-model="radios.radioOn" label="1">Radio is On</n-radio>
           <n-radio v-model="radios.radioOn" label="2">Radio is Off</n-radio>
 
-          <n-radio v-model="radios.radioOff" label="1" disabled
-            >Disabled radio is on</n-radio
-          >
-          <n-radio v-model="radios.radioOff" label="2" disabled
-            >Disabled radio is off</n-radio
-          >
+          <n-radio v-model="radios.radioOff" label="1" disabled>Disabled radio is on</n-radio>
+          <n-radio v-model="radios.radioOff" label="2" disabled>Disabled radio is off</n-radio>
         </div>
         <div class="col-sm-6 col-lg-3">
           <p class="category">Toggle buttons</p>
           <n-switch v-model="switches.defaultOn"></n-switch>
           <br />
-          <n-switch
-            v-model="switches.defaultOff"
-            on-text="ON"
-            off-text="OFF"
-          ></n-switch>
+          <n-switch v-model="switches.defaultOff" on-text="ON" off-text="OFF"></n-switch>
         </div>
         <div class="col-sm-6 col-lg-3">
           <p class="category">Sliders</p>

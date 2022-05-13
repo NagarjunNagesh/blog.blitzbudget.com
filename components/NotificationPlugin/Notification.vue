@@ -1,39 +1,20 @@
 <template>
-  <div
-    @click="tryClose"
-    data-notify="container"
-    class="alert open"
-    :class="[
-      { 'alert-with-icon': icon },
-      verticalAlign,
-      horizontalAlign,
-      alertType,
-    ]"
-    role="alert"
-    :style="customPosition"
-    data-notify-position="top-center"
-  >
-    <button
-      v-if="showClose"
-      type="button"
-      aria-hidden="true"
-      class="close col-xs-1"
-      data-notify="dismiss"
-      @click="close"
-    >
+  <div @click="tryClose" data-notify="container" class="alert open" :class="[
+    { 'alert-with-icon': icon },
+    verticalAlign,
+    horizontalAlign,
+    alertType,
+  ]" role="alert" :style="customPosition" data-notify-position="top-center">
+    <button v-if="showClose" type="button" aria-hidden="true" class="close col-xs-1" data-notify="dismiss"
+      @click="close">
       <em class="now-ui-icons ui-1_simple-remove"></em>
     </button>
 
     <span v-if="icon" data-notify="icon" :class="['alert-icon', icon]"></span>
     <span data-notify="message">
-      <span v-if="title" class="title"
-        ><b>{{ title }}<br /></b
-      ></span>
+      <span v-if="title" class="title"><strong>{{ title }}<br /></b></span>
       <span v-if="message" v-html="message"></span>
-      <content-render
-        v-if="!message && component"
-        :component="component"
-      ></content-render>
+      <content-render v-if="!message && component" :component="component"></content-render>
     </span>
   </div>
 </template>
@@ -174,9 +155,11 @@ export default {
     right: 0px;
     margin: 0 auto;
   }
+
   &.left {
     left: 20px;
   }
+
   &.right {
     right: 20px;
   }

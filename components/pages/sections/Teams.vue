@@ -24,12 +24,11 @@
                 he treats his inferiors, not his equals.
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-facebook-square"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em
+                    class="fab fa-facebook-square"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -44,15 +43,13 @@
                 I'm not sure about the universe.
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-facebook-square"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-google"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em
+                    class="fab fa-facebook-square"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-google"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -67,15 +64,12 @@
                 don't matter, and those who matter don't mind.
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-linkedin"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-linkedin"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -90,12 +84,10 @@
                 reality is finally better than your dreams.
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-google"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-success btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-google"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -118,67 +110,49 @@
         <div class="row">
           <div class="col-md-4">
             <card type="profile" plain>
-              <img
-                slot="image"
-                class="img img-raised rounded"
-                src="img/examples/card-profile1.jpg"
-              />
+              <img slot="image" class="img img-raised rounded" src="img/examples/card-profile1.jpg" />
 
               <h4 class="card-title">Sofia Scarlett</h4>
               <h6 class="category">Account Manager</h6>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-twitter btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-facebook btn-round"
-                  ><em class="fab fa-facebook-square"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-dribbble btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-twitter btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-facebook btn-round"><em
+                    class="fab fa-facebook-square"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-dribbble btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
           <div class="col-md-4">
             <card type="profile" plain>
-              <img
-                slot="image"
-                class="img img-raised rounded"
-                src="img/examples/card-profile2.jpg"
-              />
+              <img slot="image" class="img img-raised rounded" src="img/examples/card-profile2.jpg" />
 
               <h4 class="card-title">Lucas Jacob</h4>
               <h6 class="category">Aerospace Engineer</h6>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-dribbble btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-facebook btn-round"
-                  ><em class="fab fa-facebook-square"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-dribbble btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-facebook btn-round"><em
+                    class="fab fa-facebook-square"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
           <div class="col-md-4">
             <card type="profile" plain>
-              <img
-                slot="image"
-                class="img img-raised rounded"
-                src="img/examples/card-profile3.jpg"
-              />
+              <img slot="image" class="img img-raised rounded" src="img/examples/card-profile3.jpg" />
 
               <h4 class="card-title">Amelia Charlotte</h4>
               <h6 class="category">Photographer</h6>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-linkedin btn-round"
-                  ><em class="fab fa-linkedin"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-twitter btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-dribbble btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-linkedin btn-round"><em class="fab fa-linkedin"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-twitter btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-dribbble btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -187,10 +161,7 @@
     </div>
     <!--     *********    END TEAM 2      *********      -->
     <!--     *********    TEAM 3     *********      -->
-    <div
-      class="team-3 section-image"
-      style="background-image: url('img/project21.jpg')"
-    >
+    <div class="team-3 section-image" style="background-image: url('img/project21.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -207,9 +178,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img" src="img/olivia.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -230,9 +201,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img" src="img/james.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -253,9 +224,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img" src="img/michael.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -276,9 +247,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img" src="img/emily.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -316,12 +287,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/olivia.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/olivia.jpg" />
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -333,21 +301,13 @@
                       Sleep in the night......
                     </p>
                     <div class="card-footer">
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-twitter"
-                        ><em class="fab fa-twitter"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-facebook"
-                        ><em class="fab fa-facebook-square"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-google"
-                        ><em class="fab fa-google"></em
-                      ></a>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-twitter"><em
+                          class="fab fa-twitter"></em>
+                      </nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-facebook"><em
+                          class="fab fa-facebook-square"></em></nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-google"><em class="fab fa-google"></em>
+                      </nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -359,9 +319,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img img-raised rounded" src="img/emily.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -373,26 +333,15 @@
                       who receive it...
                     </p>
                     <div class="card-footer">
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-linkedin"
-                        ><em class="fab fa-linkedin"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-facebook"
-                        ><em class="fab fa-facebook-square"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-dribbble"
-                        ><em class="fab fa-dribbble"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-google"
-                        ><em class="fab fa-google"></em
-                      ></a>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-linkedin"><em
+                          class="fab fa-linkedin"></em>
+                      </nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-facebook"><em
+                          class="fab fa-facebook-square"></em></nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-dribbble"><em
+                          class="fab fa-dribbble"></em></nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-google"><em class="fab fa-google"></em>
+                      </nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -404,9 +353,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
+                    <nuxt-link to="#pablo">
                       <img class="img img-raised rounded" src="img/james.jpg" />
-                    </a>
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -418,21 +367,14 @@
                       will fall behind you...
                     </p>
                     <div class="card-footer">
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-youtube"
-                        ><em class="fab fa-youtube"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-twitter"
-                        ><em class="fab fa-twitter"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-instagram"
-                        ><em class="fab fa-instagram"></em
-                      ></a>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-youtube"><em
+                          class="fab fa-youtube"></em>
+                      </nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-twitter"><em
+                          class="fab fa-twitter"></em>
+                      </nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-instagram"><em
+                          class="fab fa-instagram"></em></nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -444,12 +386,9 @@
               <div slot="raw-content" class="row">
                 <div class="col-md-5">
                   <div class="card-image">
-                    <a href="#pablo">
-                      <img
-                        class="img img-raised rounded"
-                        src="img/michael.jpg"
-                      />
-                    </a>
+                    <nuxt-link to="#pablo">
+                      <img class="img img-raised rounded" src="img/michael.jpg" />
+                    </nuxt-link>
                   </div>
                 </div>
                 <div class="col-md-7">
@@ -461,21 +400,13 @@
                       certain of improving, and that's your own self...
                     </p>
                     <div class="card-footer">
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-linkedin"
-                        ><em class="fab fa-linkedin"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-facebook"
-                        ><em class="fab fa-facebook-square"></em
-                      ></a>
-                      <a
-                        href="#pablo"
-                        class="btn btn-icon btn-neutral btn-google"
-                        ><em class="fab fa-google"></em
-                      ></a>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-linkedin"><em
+                          class="fab fa-linkedin"></em>
+                      </nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-facebook"><em
+                          class="fab fa-facebook-square"></em></nuxt-link>
+                      <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-google"><em class="fab fa-google"></em>
+                      </nuxt-link>
                     </div>
                   </div>
                 </div>
@@ -487,10 +418,7 @@
     </div>
     <!--     *********    END TEAM 4      *********      -->
     <!--     *********    TEAM 5     *********      -->
-    <div
-      class="team-5 section-image"
-      style="background-image: url('img/project9.jpg')"
-    >
+    <div class="team-5 section-image" style="background-image: url('img/project9.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -513,15 +441,12 @@
                 yourself, in your way of thinking...
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-linkedin"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-linkedin"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -536,12 +461,10 @@
                 charming gardeners who make our souls blossom...
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>
@@ -556,15 +479,12 @@
                 was not my lips you kissed, but my soul...
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-dribbble"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-neutral btn-round"
-                  ><em class="fab fa-pinterest"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-dribbble"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-round"><em class="fab fa-pinterest"></em>
+                </nuxt-link>
               </div>
             </card>
           </div>

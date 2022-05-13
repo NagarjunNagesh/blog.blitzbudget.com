@@ -21,52 +21,29 @@
         </div>
         <div class="col-md-6 popover-buttons">
           <h4>Popovers</h4>
-          <el-popover
-            ref="popover1"
-            popper-class="popover popover-success"
-            placement="left"
-            width="200"
-            trigger="hover"
-          >
+          <el-popover ref="popover1" popper-class="popover popover-success" placement="left" width="200"
+            trigger="hover">
             <h3 class="popover-header">Popover On Left</h3>
             <div class="popover-body">
               Here will be some very useful information about his popover.
             </div>
           </el-popover>
 
-          <el-popover
-            ref="popover2"
-            popper-class="popover"
-            placement="top-start"
-            width="200"
-            trigger="hover"
-          >
+          <el-popover ref="popover2" popper-class="popover" placement="top-start" width="200" trigger="hover">
             <h3 class="popover-header">Popover On Top</h3>
             <div class="popover-body">
               Here will be some very useful information about his popover.
             </div>
           </el-popover>
 
-          <el-popover
-            ref="popover3"
-            popper-class="popover"
-            placement="right"
-            width="200"
-            trigger="hover"
-          >
+          <el-popover ref="popover3" popper-class="popover" placement="right" width="200" trigger="hover">
             <h3 class="popover-header">Popover On Right</h3>
             <div class="popover-body">
               Here will be some very useful information about his popover.
             </div>
           </el-popover>
 
-          <el-popover
-            ref="popover4"
-            popper-class="popover"
-            placement="bottom"
-            width="200"
-            trigger="hover"
-          >
+          <el-popover ref="popover4" popper-class="popover" placement="bottom" width="200" trigger="hover">
             <h3 class="popover-header">Popover On Bottom</h3>
             <div class="popover-body">
               Here will be some very useful information about his popover.
@@ -86,27 +63,16 @@
             <div class="col-md-6">
               <div class="datepicker-container">
                 <fg-input>
-                  <el-date-picker
-                    type="datetime"
-                    popper-class="date-picker date-picker-primary"
-                    placeholder="Date Time Picker"
-                    v-model="pickers.dateTimePicker"
-                  >
+                  <el-date-picker type="datetime" popper-class="date-picker date-picker-primary"
+                    placeholder="Date Time Picker" v-model="pickers.dateTimePicker">
                   </el-date-picker>
                 </fg-input>
                 <fg-input>
-                  <el-date-picker
-                    type="date"
-                    placeholder="Date Picker"
-                    v-model="pickers.datePicker"
-                  >
+                  <el-date-picker type="date" placeholder="Date Picker" v-model="pickers.datePicker">
                   </el-date-picker>
                 </fg-input>
                 <fg-input>
-                  <el-time-select
-                    placeholder="Time Picker"
-                    v-model="pickers.timePicker"
-                  >
+                  <el-time-select placeholder="Time Picker" v-model="pickers.timePicker">
                   </el-time-select>
                 </fg-input>
               </div>
@@ -175,28 +141,16 @@
         </div>
         <div class="col-md-6 tooltip-buttons">
           <h4>Tooltips</h4>
-          <el-tooltip
-            class="item"
-            content="Tooltip on the left"
-            placement="left"
-          >
+          <el-tooltip class="item" content="Tooltip on the left" placement="left">
             <n-button class="btn btn-default btn-tooltip">On left</n-button>
           </el-tooltip>
           <el-tooltip class="item" content="Tooltip on top" placement="top">
             <n-button class="btn btn-default btn-tooltip">On top</n-button>
           </el-tooltip>
-          <el-tooltip
-            class="item"
-            content="Tooltip on bottom"
-            placement="bottom"
-          >
+          <el-tooltip class="item" content="Tooltip on bottom" placement="bottom">
             <n-button class="btn btn-default btn-tooltip">On bottom</n-button>
           </el-tooltip>
-          <el-tooltip
-            class="item"
-            content="Tooltip on bottom"
-            placement="right"
-          >
+          <el-tooltip class="item" content="Tooltip on bottom" placement="right">
             <n-button class="btn btn-default btn-tooltip">On right</n-button>
           </el-tooltip>
           <div class="clearfix"></div>
@@ -218,18 +172,12 @@
       </p>
       <template slot="footer">
         <n-button>Nice Button</n-button>
-        <n-button type="danger" @click.native="modals.classic = false"
-          >Close</n-button
-        >
+        <n-button type="danger" @click.native="modals.classic = false">Close</n-button>
       </template>
     </modal>
 
     <!-- notice modal -->
-    <modal
-      :show.sync="modals.notice"
-      footerClasses="justify-content-center"
-      type="notice"
-    >
+    <modal :show.sync="modals.notice" footerClasses="justify-content-center" type="notice">
       <h5 slot="header" class="modal-title">How Do You Become an Affiliate?</h5>
       <template>
         <div class="instruction">
@@ -238,18 +186,14 @@
               <strong>1. Register</strong>
               <p class="description">
                 The first step is to create an account at
-                <a href="https:///www.creative-tim.com/">Creative Tim</a>. You
+                <nuxt-link to="https:///www.creative-tim.com/">Creative Tim</nuxt-link>. You
                 can choose a social network or go for the classic version,
                 whatever works best for you.
               </p>
             </div>
             <div class="col-md-4">
               <div class="picture">
-                <img
-                  v-lazy="'img/pricing1.jpg'"
-                  alt="Thumbnail Image"
-                  class="rounded img-raised"
-                />
+                <img v-lazy="'img/pricing1.jpg'" alt="Thumbnail Image" class="rounded img-raised" />
               </div>
             </div>
           </div>
@@ -260,18 +204,14 @@
               <strong>2. Apply</strong>
               <p class="description">
                 The first step is to create an account at
-                <a href="https:///www.creative-tim.com/">Creative Tim</a>. You
+                <nuxt-link to="https:///www.creative-tim.com/">Creative Tim</nuxt-link>. You
                 can choose a social network or go for the classic version,
                 whatever works best for you.
               </p>
             </div>
             <div class="col-md-4">
               <div class="picture">
-                <img
-                  v-lazy="'img/project9.jpg'"
-                  alt="Thumbnail Image"
-                  class="rounded img-raised"
-                />
+                <img v-lazy="'img/project9.jpg'" alt="Thumbnail Image" class="rounded img-raised" />
               </div>
             </div>
           </div>
@@ -282,48 +222,26 @@
         </p>
       </template>
       <div slot="footer" class="justify-content-center">
-        <n-button type="info" round @click.native="modals.notice = false"
-          >Sounds good!</n-button
-        >
+        <n-button type="info" round @click.native="modals.notice = false">Sounds good!</n-button>
       </div>
     </modal>
 
     <!-- small modal -->
-    <modal
-      :show.sync="modals.mini"
-      class="modal-success"
-      :show-close="false"
-      headerClasses="justify-content-center"
-      type="mini"
-    >
+    <modal :show.sync="modals.mini" class="modal-success" :show-close="false" headerClasses="justify-content-center"
+      type="mini">
       <div slot="header" class="modal-profile">
         <em class="now-ui-icons users_circle-08 text-success"></em>
       </div>
       <p>Always have an access to your profile</p>
       <template slot="footer">
         <n-button type="neutral" link>Back</n-button>
-        <n-button type="neutral" link @click.native="modals.mini = false"
-          >Close</n-button
-        >
+        <n-button type="neutral" link @click.native="modals.mini = false">Close</n-button>
       </template>
     </modal>
-    <modal
-      :show.sync="modals.login"
-      modal-classes="modal-login"
-      class="modal-success"
-    >
-      <div
-        class="card card-plain card-login"
-        data-background-color=""
-        slot="base-content"
-      >
+    <modal :show.sync="modals.login" modal-classes="modal-login" class="modal-success">
+      <div class="card card-plain card-login" data-background-color="" slot="base-content">
         <div class="modal-header justify-content-center">
-          <button
-            type="button"
-            class="close"
-            data-dismiss="modal"
-            aria-hidden="true"
-          >
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
             <em class="now-ui-icons ui-1_simple-remove"></em>
           </button>
           <div class="header header-primary text-center">
@@ -335,29 +253,18 @@
         <div class="modal-body">
           <form class="form" method="" action="">
             <div class="card-body">
-              <fg-input
-                class="no-border input-lg"
-                addon-left-icon="now-ui-icons users_circle-08"
-                placeholder="First Name..."
-              >
+              <fg-input class="no-border input-lg" addon-left-icon="now-ui-icons users_circle-08"
+                placeholder="First Name...">
               </fg-input>
 
-              <fg-input
-                class="no-border input-lg"
-                type="password"
-                addon-left-icon="now-ui-icons ui-1_lock-circle-open"
-                placeholder="Password..."
-              >
+              <fg-input class="no-border input-lg" type="password" addon-left-icon="now-ui-icons ui-1_lock-circle-open"
+                placeholder="Password...">
               </fg-input>
             </div>
           </form>
         </div>
         <div class="modal-footer text-center">
-          <a
-            href="#pablo"
-            class="btn btn-neutral btn-round btn-lg btn-block text-success"
-            >Get Started</a
-          >
+          <nuxt-link to="#pablo" class="btn btn-neutral btn-round btn-lg btn-block text-success">Get Started</nuxt-link>
         </div>
       </div>
     </modal>
@@ -406,10 +313,11 @@ export default {
 </script>
 <style lang="scss">
 #javascriptComponents {
+
   .modal-buttons,
   .popover-buttons,
   .tooltip-buttons {
-    .btn + .btn {
+    .btn+.btn {
       margin-left: 3px;
     }
   }

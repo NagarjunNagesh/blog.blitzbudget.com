@@ -139,8 +139,8 @@
             <p>These Indexes can be of great use to help you decide if it is the right time to buy a home in the
               area which you would like to. Some websites even have the option to choose year and price per
               square foot or square meter in the graph to accurately predict the price movement.</p>
-            <p>The major trend for the majority of the regions in India is downwards according to the <a
-                href='https://residex.nhbonline.org.in'>Residex</a> in 2017. So it would be the right move
+            <p>The major trend for the majority of the regions in India is downwards according to the <nuxt-link
+                href='https://residex.nhbonline.org.in'>Residex</nuxt-link> in 2017. So it would be the right move
               to buy a property in the coming years in India.</p>
           </div>
         </div>
@@ -264,14 +264,14 @@
               primary residence property with a loan not exceeding $453,100. The debtor should have a minimum
               credit score of 620.</p>
             <p>Should you really save up 30% of your income before buying a home?</p>
-            <p><b>No! Definitely not.</b></p>
+            <p><strong>No! Definitely not.</strong></p>
             <p>Let’s assume that you are buying a home worth $200,000. The minimum required down payment would
               then be $6000 which means that you will be taking a mortgage of $194,000.</p>
             <p>That is a considerable mortgage which attracts an average compound interest of 4.6%.</p>
             <p>Even if you choose to pay the mortgage in 360 installments which is a 30 year period, you would
               be paying around $1358 on a monthly basis which is substantial for an average person earning
               about $30,000 a year.</p>
-            <p>You would have paid around <b>$468,841.66</b> for a 30 year period.</p>
+            <p>You would have paid around <strong>$468,841.66</strong> for a 30 year period.</p>
             <p>How does it make sense to get a 3% down payment option then?</p>
             <p>Let's look at the bigger picture.</p>
             <ul>
@@ -338,9 +338,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -381,14 +381,15 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 18: Credit Cards: How to Increase your Credit
                           Score</h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal
-                            Finance 18: Credit Cards: How to Increase your Credit Score</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal
+                            Finance 18: Credit Cards: How to Increase your Credit Score</nuxt-link>
+                        </h3>
                         <p class="card-description">If a credit card is a bad tool to be used for spending on budget
                           and
                           repaying the borrowed amount immediately, then we are talking about having no credit score.
                         </p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -397,15 +398,17 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal Finance 16:
-                          Debt Analysis: Analysing Your Financial Past?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal Finance
+                          16:
+                          Debt Analysis: Analysing Your Financial Past?</nuxt-link>
+                      </h3>
                       <p class="card-description">How much are you in debt? You need to analyze the past. If you are
                         in
                         debt make sure you do not stack up anymore. That’s half the battle against debt won! The need
                         to
                         stop stalking up more debt has to come from within.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

@@ -299,9 +299,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -341,11 +341,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personl Finance 24: Never Kill Your Golden Goose</h6>
-                        <h3 class="card-title"><a href="/personal-finance/never-kill-your-golden-goose/">Personl Finance
-                            24: Never Kill Your Golden Goose</a></h3>
-                        <p class="card-description">What does secured capital mean? It means <b>Minimum Risk and Maximum
-                            Security</b> to me.These are the most common ways to kill your Golden Goose.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/never-kill-your-golden-goose/">Personl Finance
+                            24: Never Kill Your Golden Goose</nuxt-link>
+                        </h3>
+                        <p class="card-description">What does secured capital mean? It means <strong>Minimum Risk and
+                            Maximum
+                            Security</strong> to me.These are the most common ways to kill your Golden Goose.</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -354,12 +357,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/how-to-save-your-way-to-achieve-your-dream/">Personal Finance 22:
-                          How to Save Your Way to Achieve Your Dream</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/how-to-save-your-way-to-achieve-your-dream/">Personal Finance
+                          22:
+                          How to Save Your Way to Achieve Your Dream</nuxt-link>
+                      </h3>
                       <p class="card-description">Why do people think saving is the key to wealth when the most wealthy
                         people didn’t get to the top by saving?</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

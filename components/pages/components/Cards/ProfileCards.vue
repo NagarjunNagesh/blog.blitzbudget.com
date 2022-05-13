@@ -11,26 +11,18 @@
         <div class="col-md-6 col-lg-3">
           <card type="profile">
             <img slot="image" class="img rounded" src="img/julie.jpg" />
-            <a href="pablo">
+            <nuxt-link to="#pablo">
               <h4 class="card-title">Julie Andrew</h4>
-            </a>
+            </nuxt-link>
             <h6 class="card-category text-info">Web Designer</h6>
             <div class="card-footer">
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-lg btn-twitter"
-                ><em class="fab fa-twitter"></em
-              ></a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-lg btn-dribbble"
-                ><em class="fab fa-dribbble"></em
-              ></a>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-lg btn-instagram"
-                ><em class="fab fa-instagram"></em
-              ></a>
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-lg btn-twitter"><em
+                  class="fab fa-twitter"></em>
+              </nuxt-link>
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-lg btn-dribbble"><em
+                  class="fab fa-dribbble"></em></nuxt-link>
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-lg btn-instagram"><em
+                  class="fab fa-instagram"></em></nuxt-link>
             </div>
           </card>
         </div>
@@ -45,15 +37,13 @@
                 the platform, customer support and brand.
               </p>
               <div class="card-footer">
-                <a href="#pablo" class="btn btn-icon btn-twitter btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-facebook btn-round"
-                  ><em class="fab fa-facebook-square"></em
-                ></a>
-                <a href="#pablo" class="btn btn-icon btn-google btn-round"
-                  ><em class="fab fa-google"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-twitter btn-round"><em class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-facebook btn-round"><em
+                    class="fab fa-facebook-square"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-google btn-round"><em class="fab fa-google"></em>
+                </nuxt-link>
               </div>
             </div>
           </card>
@@ -68,7 +58,7 @@
                 Don't be scared of the truth because we need to restart the
                 human foundation in truth.
               </p>
-              <a href="#pablo" class="btn btn-success btn-round">Follow</a>
+              <nuxt-link to="#pablo" class="btn btn-success btn-round">Follow</nuxt-link>
             </div>
           </card>
         </div>
@@ -76,29 +66,21 @@
           <card type="profile">
             <div>
               <div class="card-avatar">
-                <a href="#pablo">
+                <nuxt-link to="#pablo">
                   <img class="img img-raised" src="img/olivia.jpg" />
-                </a>
+                </nuxt-link>
               </div>
               <h6 class="category text-gray">Growth Hacker</h6>
               <h4 class="card-title">Olivia Thompson</h4>
               <p class="card-description">"Work hard play harder."</p>
               <div class="card-footer">
-                <a
-                  href="#pablo"
-                  class="btn btn-icon btn-success btn-simple btn-round"
-                  ><em class="fab fa-twitter"></em
-                ></a>
-                <a
-                  href="#pablo"
-                  class="btn btn-icon btn-success btn-simple btn-round"
-                  ><em class="fab fa-facebook-square"></em
-                ></a>
-                <a
-                  href="#pablo"
-                  class="btn btn-icon btn-success btn-simple btn-round"
-                  ><em class="fab fa-google"></em
-                ></a>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-simple btn-round"><em
+                    class="fab fa-twitter"></em>
+                </nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-simple btn-round"><em
+                    class="fab fa-facebook-square"></em></nuxt-link>
+                <nuxt-link to="#pablo" class="btn btn-icon btn-success btn-simple btn-round"><em
+                    class="fab fa-google"></em></nuxt-link>
               </div>
             </div>
           </card>

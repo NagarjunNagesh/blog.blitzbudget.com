@@ -152,9 +152,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -195,13 +195,14 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 18: Credit Cards: How to Increase your Credit
                           Score</h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal
-                            Finance 18: Credit Cards: How to Increase your Credit Score</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/credit-cards-how-to-increase-your-credit-score/">Personal
+                            Finance 18: Credit Cards: How to Increase your Credit Score</nuxt-link>
+                        </h3>
                         <p class="card-description">If a credit card is a bad tool to be used for spending on budget and
                           repaying the borrowed amount immediately, then we are talking about having no credit score.
                         </p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -210,13 +211,15 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal Finance 16:
-                          Debt Analysis: Analysing Your Financial Past?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/debt-analysis-analysing-your-financial-past/">Personal Finance
+                          16:
+                          Debt Analysis: Analysing Your Financial Past?</nuxt-link>
+                      </h3>
                       <p class="card-description">How much are you in debt? You need to analyze the past. If you are in
                         debt make sure you do not stack up anymore. That’s half the battle against debt won! The need to
                         stop stalking up more debt has to come from within.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

@@ -17,9 +17,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -312,9 +312,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -355,12 +355,14 @@
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 7: Self Motivation! A necessity for success?
                           </h6>
-                          <h3 class="card-title"><a
-                              href="/personal-finance/self-motivation-a-necessity-for-success/">Personal Finance 7:
-                              Self Motivation! A necessity for success?</a></h3>
+                          <h3 class="card-title">
+                            <nuxt-link to="/personal-finance/self-motivation-a-necessity-for-success/">Personal Finance
+                              7:
+                              Self Motivation! A necessity for success?</nuxt-link>
+                          </h3>
                           <p class="card-description">Self-Motivation. Some time that is the only thing you will have in
                             order to push yourself towards success</p>
-                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                          <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                         </div>
                       </div>
                     </template></card>
@@ -369,13 +371,15 @@
                       <div class="col-md-7">
                         <h6 class="category text-danger"><em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                        <h3 class="card-title"><a href="/personal-finance/is-your-home-an-asset-or-liability/">Personal
-                            Finance 5: Is your Home an Asset or a Liability?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/is-your-home-an-asset-or-liability/">Personal
+                            Finance 5: Is your Home an Asset or a Liability?</nuxt-link>
+                        </h3>
                         <p class="card-description">We call it home because we live there with our loved ones; else it
                           is a
                           house, a real estate property, an asset or a liability. Your financial planner / real estate
                           agent calls your home an asset. But what is the difference</p>
-                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                        <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image"><img class="img img-raised rounded"

@@ -64,9 +64,9 @@
             </blockquote>
             <p>Do what you love most; do it till you get 10,000 hours of practice. Provide value along the way.
               After all being passionate about playing video games is not providing value to others.</p>
-            <p>The ability to monetize on your passion is a skill to master. <b>Be valuable to others in a field
+            <p>The ability to monetize on your passion is a skill to master. <strong>Be valuable to others in a field
                 which you are passionate about with more than 10,000 hours of practice and people will die
-                to work with you or be your customer.</b></p>
+                to work with you or be your customer.</strong></p>
             <blockquote>
               <p class="blockquote blockquote-success">“The only person you are destined to become is the
                 person you decide to be.”<br /><br /><small>Ralph Waldo Emerson</small></p>
@@ -160,14 +160,14 @@
               and everyone in the company was let go!</p>
             <p>Fantastic! The world is conspiring against me. Why can’t I hold a job for more than a year?</p>
             <p>Lessons learned so far: </p>
-            <p><b>If you work for a company just for money, you will never be able to be the best expression of
-                yourself</b>. You will be fired for underperformance. You will also be unhappy while working
+            <p><strong>If you work for a company just for money, you will never be able to be the best expression of
+                yourself</strong>. You will be fired for underperformance. You will also be unhappy while working
               there.</p>
-            <p><b>If you are overpaid for your underperformance, you will become too expensive for the
-                company</b> and they would have to let you go; even if it is the only job which you wanted
+            <p><strong>If you are overpaid for your underperformance, you will become too expensive for the
+                company</strong> and they would have to let you go; even if it is the only job which you wanted
               all your life. Unless you are valuable and be more valuable than what they are actually paying
               you. You are not worthy!</p>
-            <p><b>Even after you become valuable, the world could conspire against you</b> and throw you to
+            <p><strong>Even after you become valuable, the world could conspire against you</strong> and throw you to
               trash. Don't think the world has ended!</p>
             <p>All these were the best things that could ever have happened to me. They were the most valuable
               lessons which life could teach me.</p>
@@ -198,9 +198,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -240,12 +240,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 10: Include your Partner</h6>
-                        <h3 class="card-title"><a href="/personal-finance/include-your-partner/">Personal Finance 10:
-                            Include your Partner</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/include-your-partner/">Personal Finance 10:
+                            Include your Partner</nuxt-link>
+                        </h3>
                         <p class="card-description">Your partner is one of the most influential people in your life. The
                           importance of having a right partner in life is realized in the emotional and financial
                           aspect of your life.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -254,13 +256,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/find-your-desire-for-financial-freedom/">Personal
-                          Finance 8: Find your desire for Financial Freedom</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/find-your-desire-for-financial-freedom/">Personal
+                          Finance 8: Find your desire for Financial Freedom</nuxt-link>
+                      </h3>
                       <p class="card-description">Why do human beings do what they do? Why do we need to be financially
                         free? Some of them make a killing. Some sacrifice their life in the hope of providing a better
                         life for their children.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

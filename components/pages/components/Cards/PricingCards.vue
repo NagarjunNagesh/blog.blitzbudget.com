@@ -18,7 +18,7 @@
               This is good if your company size is between 100 and 299
               employees.
             </p>
-            <a href="#pablo" class="btn btn-success btn-round">Add to Cart</a>
+            <nuxt-link to="#pablo" class="btn btn-success btn-round">Add to Cart</nuxt-link>
           </card>
         </div>
         <div class="col-md-6 col-lg-3">
@@ -48,11 +48,7 @@
           </card>
         </div>
         <div class="col-md-6 col-lg-3">
-          <card
-            type="pricing"
-            class="card-background"
-            style="background-image: url('img/project12.jpg')"
-          >
+          <card type="pricing" class="card-background" style="background-image: url('img/project12.jpg')">
             <h6 class="category">Professional</h6>
             <div class="icon icon-success">
               <em class="now-ui-icons objects_spaceship"></em>

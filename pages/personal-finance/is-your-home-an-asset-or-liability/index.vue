@@ -110,9 +110,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -153,12 +153,14 @@
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 6: Self Analysis! Understanding your habits?
                         </h6>
-                        <h3 class="card-title"><a
-                            href="/personal-finance/self-analysis-understanding-your-habits/">Personal Finance 6:
-                            Self Analysis! Understanding your habits?</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/self-analysis-understanding-your-habits/">Personal Finance
+                            6:
+                            Self Analysis! Understanding your habits?</nuxt-link>
+                        </h3>
                         <p class="card-description">We were born helpless, unable to speak or feed ourselves on our own.
                           The factors that influence who we become is to a large extent from the outside</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -167,12 +169,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal Finance
-                          4: Are you Rich if you own a BMW?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal Finance
+                          4: Are you Rich if you own a BMW?</nuxt-link>
+                      </h3>
                       <p class="card-description">Can somebody be dead broke and still own a BMW? Yes, anybody can be
                         dead
                         broke and still own a BMW according to the book – “The Millionaire Next Door”.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

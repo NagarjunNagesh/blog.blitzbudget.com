@@ -15,9 +15,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="button-container">
-              <a href="#article" class="btn btn-success btn-round btn-lg">
+              <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-left"></em> Read Article
-              </a>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@
                   <!-- First image on the left side -->
                   <p class="blockquote blockquote-primary">
                     "Leverage in simple terms is to
-                    <b>use something to a maximum advantage.</b>"
+                    <strong>use something to a maximum advantage.</strong>"
                     <br />
                     <br />
                     <small></small>
@@ -193,7 +193,7 @@
               </p>
               <p>
                 A classic example of
-                <b>Rich getting richer, poor becoming poorer</b>.
+                <strong>Rich getting richer, poor becoming poorer</strong>.
               </p>
               <p>
                 While this fact is true, inflation is also catching up to eat up
@@ -222,7 +222,7 @@
               </p>
               <p>
                 Again a classic example of
-                <b>Rich getting richer, poor becoming poorer.</b>
+                <strong>Rich getting richer, poor becoming poorer.</strong>
               </p>
               <p>What can we learn here?</p>
               <ul>
@@ -298,7 +298,7 @@
                 Stanford University and the author of “The Great Leveler”, there
                 are only four factors which have the ability to reset the
                 problem of inequality –
-                <b>war, disease, State collapse and revolution</b>. But as soon
+                <strong>war, disease, State collapse and revolution</strong>. But as soon
                 as the devastation is over, income inequality builds again.
               </p>
               <p>
@@ -335,9 +335,9 @@
                   <div class="row">
                     <div class="col-md-2">
                       <div class="card-avatar">
-                        <a href="#pablo">
+                        <nuxt-link to="#pablo">
                           <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                        </a>
+                        </nuxt-link>
                         <div class="ripple-container"></div>
                       </div>
                     </div>
@@ -377,12 +377,14 @@
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 4: Are you Rich if you own a BMW?</h6>
-                          <h3 class="card-title"><a href="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal
-                              Finance 4: Are you Rich if you own a BMW?</a></h3>
+                          <h3 class="card-title">
+                            <nuxt-link to="/personal-finance/are-you-rich-if-you-own-a-bmw/">Personal
+                              Finance 4: Are you Rich if you own a BMW?</nuxt-link>
+                          </h3>
                           <p class="card-description">Can somebody be dead broke and still own a BMW? Yes, anybody can
                             be
                             dead broke and still own a BMW according to the book – “The Millionaire Next Door”.</p>
-                          <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                          <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                         </div>
                       </div>
                     </template>
@@ -392,13 +394,15 @@
                       <div class="col-md-7">
                         <h6 class="category text-danger"><em
                             class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                        <h3 class="card-title"><a href="/personal-finance/where-should-we-begin/">Personal Finance 2:
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/where-should-we-begin/">Personal Finance 2:
                             Where
-                            should we Begin?</a></h3>
+                            should we Begin?</nuxt-link>
+                        </h3>
                         <p class="card-description">We all have to start from wherever we are today. But to be
                           financially
                           successful....</p>
-                        <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                        <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                       </div>
                       <div class="col-md-5">
                         <div class="card-image"><img class="img img-raised rounded"

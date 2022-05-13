@@ -104,11 +104,13 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 17: Debt Management Strategy</h6>
-                        <h3 class="card-title"><a href="/personal-finance/debt-management-strategy/">Personal Finance
-                            17: Debt Management Strategy</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/debt-management-strategy/">Personal Finance
+                            17: Debt Management Strategy</nuxt-link>
+                        </h3>
                         <p class="card-description">Debt management requires your utmost commitment to get rid of debt.
                           The first step in making sure that you start reducing your debt is an emergency fund.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -117,13 +119,15 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/emergency-fund-why-is-it-important/">Personal
-                          Finance 15: Emergency Fund: Why is it important?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/emergency-fund-why-is-it-important/">Personal
+                          Finance 15: Emergency Fund: Why is it important?</nuxt-link>
+                      </h3>
                       <p class="card-description">Have you ever noticed that we keep staring at someone for no reason?
                         It
                         makes everyone uncomfortable. We only do so when the emotions are strong enough and even then
                         rarely consistently unless the other reciprocates.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

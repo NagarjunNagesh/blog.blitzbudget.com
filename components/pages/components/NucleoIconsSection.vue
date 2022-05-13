@@ -13,18 +13,10 @@
           <!-- <div class="nucleo-container">
                     <img v-lazy="'assetsimg/nucleo.svg'" alt="">
                 </div> -->
-          <a
-            href="nucleo-icons.html"
-            class="btn btn-success btn-round btn-lg"
-            target="_blank"
-            >View Demo Icons</a
-          >
-          <a
-            href="https://nucleoapp.com/?ref=1712"
-            class="btn btn-success btn-simple btn-round btn-lg"
-            target="_blank"
-            >View All Icons</a
-          >
+          <nuxt-link to="nucleo-icons.html" class="btn btn-success btn-round btn-lg" target="_blank">View Demo
+            Icons</a>
+            <nuxt-link to="https://nucleoapp.com/?ref=1712" class="btn btn-success btn-simple btn-round btn-lg"
+              target="_blank">View All Icons</a>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="icons-container">

@@ -227,9 +227,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -269,12 +269,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 11: The Power of Dreaming</h6>
-                        <h3 class="card-title"><a href="/personal-finance/power-of-dreaming/">Personal Finance 11: The
-                            Power of Dreaming</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/power-of-dreaming/">Personal Finance 11: The
+                            Power of Dreaming</nuxt-link>
+                        </h3>
                         <p class="card-description">The dream has to be justified with a definiteness of purpose. The
                           purpose then drives us to plan and to take action. Keep repeating the action with discipline
                           and there you have it</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -283,14 +285,16 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a href="/personal-finance/find-what-drives-you-to-achieve/">Personal
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/find-what-drives-you-to-achieve/">Personal
                           Finance
-                          9: Find what Drives you to Achieve</a></h3>
+                          9: Find what Drives you to Achieve</nuxt-link>
+                      </h3>
                       <p class="card-description">Let’s find out what drives us to achieve. A good number of people do
                         the
                         jobs they do not love to earn the riches they desire. If you have just enough determination,
                         passion and desire to achieve and consistently outperform,</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

@@ -9,50 +9,39 @@
       <!--     *********    SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
       <footer class="footer footer-white">
         <div class="container">
-          <a class="footer-brand" href="https:///www.creative-tim.com"
-            >Now Ui Kit PRO</a
-          >
+          <nuxt-link class="footer-brand" to="https:///www.creative-tim.com">Now Ui Kit PRO</nuxt-link>
           <ul class="pull-center">
             <li>
-              <a href="#pablo" class="nav-link"> Creative Tim </a>
+              <nuxt-link to="#pablo" class="nav-link"> Creative Tim </nuxt-link>
             </li>
             <li>
-              <a href="#pablo" class="nav-link"> About Us </a>
+              <nuxt-link to="#pablo" class="nav-link"> About Us </nuxt-link>
             </li>
             <li>
-              <a href="#pablo" class="nav-link"> Blog </a>
+              <nuxt-link to="#pablo" class="nav-link"> Blog </nuxt-link>
             </li>
             <li>
-              <a href="#pablo" class="nav-link"> Licenses </a>
+              <nuxt-link to="#pablo" class="nav-link"> Licenses </nuxt-link>
             </li>
           </ul>
           <ul class="social-buttons pull-right">
             <li>
-              <a
-                href="https://twitter.com/CreativeTim"
-                target="_blank"
-                class="btn btn-icon btn-neutral btn-twitter"
-              >
+              <nuxt-link to="https://twitter.com/CreativeTim" target="_blank"
+                class="btn btn-icon btn-neutral btn-twitter">
                 <em class="fab fa-twitter"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.facebook.com/CreativeTim"
-                target="_blank"
-                class="btn btn-icon btn-neutral btn-dribbble"
-              >
+              <nuxt-link to="https://www.facebook.com/CreativeTim" target="_blank"
+                class="btn btn-icon btn-neutral btn-dribbble">
                 <em class="fab fa-dribbble"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/CreativeTimOfficial"
-                target="_blank"
-                class="btn btn-icon btn-neutral btn-google"
-              >
+              <nuxt-link to="https://www.instagram.com/CreativeTimOfficial" target="_blank"
+                class="btn btn-icon btn-neutral btn-google">
                 <em class="fab fa-google-plus"></em>
-              </a>
+              </nuxt-link>
             </li>
           </ul>
         </div>
@@ -66,31 +55,24 @@
           <nav>
             <ul>
               <li>
-                <a href="https://www.creative-tim.com" class="nav-link">
+                <nuxt-link to="https://www.creative-tim.com" class="nav-link">
                   Creative Tim
-                </a>
+                </nuxt-link>
               </li>
               <li>
-                <a
-                  href="https:///presentation.creative-tim.com"
-                  class="nav-link"
-                >
+                <nuxt-link to="https:///presentation.creative-tim.com" class="nav-link">
                   About Us
-                </a>
+                </nuxt-link>
               </li>
               <li>
-                <a href="https:///blog.creative-tim.com" class="nav-link">
+                <nuxt-link to="https:///blog.creative-tim.com" class="nav-link">
                   Blog
-                </a>
+                </nuxt-link>
               </li>
               <li>
-                <a
-                  href="https://www.creative-tim.com/license"
-                  target="_blank"
-                  class="nav-link"
-                >
+                <nuxt-link to="https://www.creative-tim.com/license" target="_blank" class="nav-link">
                   License
-                </a>
+                </nuxt-link>
               </li>
             </ul>
           </nav>
@@ -98,18 +80,10 @@
             &copy;
             {{ year }}
             , Designed by
-            <a
-              href="https:///www.invisionapp.com"
-              target="_blank"
-              class="copyright-link"
-              >Invision</a
-            >. Coded by
-            <a
-              href="https://www.creative-tim.com"
-              target="_blank"
-              class="copyright-link"
-              >Creative Tim</a
-            >.
+            <nuxt-link to="https:///www.invisionapp.com" target="_blank" class="copyright-link">Invision</nuxt-link>.
+            Coded by
+            <nuxt-link to="https://www.creative-tim.com" target="_blank" class="copyright-link">Creative Tim</nuxt-link>
+            .
           </div>
         </div>
       </footer>
@@ -119,51 +93,41 @@
       <!--     *********    BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
       <footer class="footer" data-background-color="black">
         <div class="container">
-          <a class="footer-brand" href="#pablo">Now Ui Kit PRO</a>
+          <nuxt-link class="footer-brand" to="#pablo">Now Ui Kit PRO</nuxt-link>
           <ul class="pull-center">
             <li>
-              <a href="#pablo"> Blog </a>
+              <nuxt-link to="#pablo"> Blog </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Presentation </a>
+              <nuxt-link to="#pablo"> Presentation </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Discover </a>
+              <nuxt-link to="#pablo"> Discover </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Payment </a>
+              <nuxt-link to="#pablo"> Payment </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Contact Us </a>
+              <nuxt-link to="#pablo"> Contact Us </nuxt-link>
             </li>
           </ul>
           <ul class="social-buttons pull-right">
             <li>
-              <a
-                href="https://twitter.com/CreativeTim"
-                target="_blank"
-                class="btn btn-icon btn-link btn-neutral"
-              >
+              <nuxt-link to="https://twitter.com/CreativeTim" target="_blank" class="btn btn-icon btn-link btn-neutral">
                 <em class="fab fa-twitter"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.facebook.com/CreativeTim"
-                target="_blank"
-                class="btn btn-icon btn-neutral btn-link"
-              >
+              <nuxt-link to="https://www.facebook.com/CreativeTim" target="_blank"
+                class="btn btn-icon btn-neutral btn-link">
                 <em class="fab fa-facebook-square"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/CreativeTimOfficial"
-                target="_blank"
-                class="btn btn-icon btn-neutral btn-link"
-              >
+              <nuxt-link to="https://www.instagram.com/CreativeTimOfficial" target="_blank"
+                class="btn btn-icon btn-neutral btn-link">
                 <em class="fab fa-instagram"></em>
-              </a>
+              </nuxt-link>
             </li>
           </ul>
         </div>
@@ -215,46 +179,14 @@
               <div class="col-md-4">
                 <h5>Instagram Feed</h5>
                 <div class="gallery-feed">
-                  <img
-                    v-lazy="'img/olivia.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/james.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/michael.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/emily.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/marie.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/usher.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/mike.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
-                  <img
-                    v-lazy="'img/julie.jpg'"
-                    class="img img-raised rounded"
-                    alt=""
-                  />
+                  <img v-lazy="'img/olivia.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/james.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/michael.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/emily.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/marie.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/usher.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/mike.jpg'" class="img img-raised rounded" alt="" />
+                  <img v-lazy="'img/julie.jpg'" class="img img-raised rounded" alt="" />
                 </div>
               </div>
             </div>
@@ -262,19 +194,19 @@
           <hr />
           <ul class="pull-left">
             <li>
-              <a href="#pablo"> Blog </a>
+              <nuxt-link to="#pablo"> Blog </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Presentation </a>
+              <nuxt-link to="#pablo"> Presentation </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Discover </a>
+              <nuxt-link to="#pablo"> Discover </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Payment </a>
+              <nuxt-link to="#pablo"> Payment </nuxt-link>
             </li>
             <li>
-              <a href="#pablo"> Contact Us </a>
+              <nuxt-link to="#pablo"> Contact Us </nuxt-link>
             </li>
           </ul>
           <div class="copyright pull-right">
@@ -296,16 +228,16 @@
                 <h5>About Us</h5>
                 <ul class="links-vertical">
                   <li>
-                    <a href="#pablo" class="text-muted"> Blog </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Blog </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> About Us </a>
+                    <nuxt-link to="#pablo" class="text-muted"> About Us </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> Presentation </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Presentation </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> Contact Us </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Contact Us </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -313,24 +245,24 @@
                 <h5>Market</h5>
                 <ul class="links-vertical">
                   <li>
-                    <a href="#pablo" class="text-muted"> Sales FAQ </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Sales FAQ </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> How to Register </a>
+                    <nuxt-link to="#pablo" class="text-muted"> How to Register </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> Sell Goods </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Sell Goods </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> Receive Payment </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Receive Payment </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted">
+                    <nuxt-link to="#pablo" class="text-muted">
                       Transactions Issues
-                    </a>
+                    </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo" class="text-muted"> Affiliates Program </a>
+                    <nuxt-link to="#pablo" class="text-muted"> Affiliates Program </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -362,44 +294,29 @@
                 <h5>Follow Us</h5>
                 <ul class="social-buttons">
                   <li>
-                    <a
-                      href="#pablo"
-                      class="btn btn-icon btn-neutral btn-twitter btn-round"
-                    >
+                    <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-twitter btn-round">
                       <em class="fab fa-twitter"></em>
-                    </a>
+                    </nuxt-link>
                   </li>
                   <li>
-                    <a
-                      href="#pablo"
-                      class="btn btn-icon btn-neutral btn-facebook btn-round"
-                    >
+                    <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-facebook btn-round">
                       <em class="fab fa-facebook-square"></em>
-                    </a>
+                    </nuxt-link>
                   </li>
                   <li>
-                    <a
-                      href="#pablo"
-                      class="btn btn-icon btn-neutral btn-dribbble btn-round"
-                    >
+                    <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-dribbble btn-round">
                       <em class="fab fa-dribbble"></em>
-                    </a>
+                    </nuxt-link>
                   </li>
                   <li>
-                    <a
-                      href="#pablo"
-                      class="btn btn-icon btn-neutral btn-google btn-round"
-                    >
+                    <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-google btn-round">
                       <em class="fab fa-google-plus"></em>
-                    </a>
+                    </nuxt-link>
                   </li>
                   <li>
-                    <a
-                      href="#pablo"
-                      class="btn btn-icon btn-neutral btn-instagram btn-round"
-                    >
+                    <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-instagram btn-round">
                       <em class="fab fa-instagram"></em>
-                    </a>
+                    </nuxt-link>
                   </li>
                 </ul>
                 <h5>
@@ -433,9 +350,9 @@
           <div class="content">
             <div class="row">
               <div class="col-md-3">
-                <a href="#pablo">
+                <nuxt-link to="#pablo">
                   <h5>Now Ui Kit PRO</h5>
-                </a>
+                </nuxt-link>
                 <p>
                   Probably the best UI Kit in the world! We know you've been
                   waiting for it, so don't be shy!
@@ -445,16 +362,16 @@
                 <h5>About</h5>
                 <ul class="links-vertical">
                   <li>
-                    <a href="#pablo"> Blog </a>
+                    <nuxt-link to="#pablo"> Blog </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> About Us </a>
+                    <nuxt-link to="#pablo"> About Us </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Presentation </a>
+                    <nuxt-link to="#pablo"> Presentation </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Contact Us </a>
+                    <nuxt-link to="#pablo"> Contact Us </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -462,19 +379,19 @@
                 <h5>Market</h5>
                 <ul class="links-vertical">
                   <li>
-                    <a href="#pablo"> Sales FAQ </a>
+                    <nuxt-link to="#pablo"> Sales FAQ </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> How to Register </a>
+                    <nuxt-link to="#pablo"> How to Register </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Sell Goods </a>
+                    <nuxt-link to="#pablo"> Sell Goods </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Receive Payment </a>
+                    <nuxt-link to="#pablo"> Receive Payment </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Transactions Issues </a>
+                    <nuxt-link to="#pablo"> Transactions Issues </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -482,13 +399,13 @@
                 <h5>Legal</h5>
                 <ul class="links-vertical">
                   <li>
-                    <a href="#pablo"> Transactions FAQ </a>
+                    <nuxt-link to="#pablo"> Transactions FAQ </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Terms & Conditions </a>
+                    <nuxt-link to="#pablo"> Terms & Conditions </nuxt-link>
                   </li>
                   <li>
-                    <a href="#pablo"> Licenses </a>
+                    <nuxt-link to="#pablo"> Licenses </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -510,44 +427,29 @@
           <hr />
           <ul class="social-buttons">
             <li>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-twitter btn-lg"
-              >
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-twitter btn-lg">
                 <em class="fab fa-twitter"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-facebook btn-lg"
-              >
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-facebook btn-lg">
                 <em class="fab fa-facebook-square"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-dribbble btn-lg"
-              >
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-dribbble btn-lg">
                 <em class="fab fa-dribbble"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-google btn-lg"
-              >
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-google btn-lg">
                 <em class="fab fa-google-plus"></em>
-              </a>
+              </nuxt-link>
             </li>
             <li>
-              <a
-                href="#pablo"
-                class="btn btn-icon btn-neutral btn-youtube btn-lg"
-              >
+              <nuxt-link to="#pablo" class="btn btn-icon btn-neutral btn-youtube btn-lg">
                 <em class="fab fa-youtube"></em>
-              </a>
+              </nuxt-link>
             </li>
           </ul>
           <div class="copyright pull-center">

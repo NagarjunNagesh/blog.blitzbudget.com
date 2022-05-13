@@ -11,14 +11,14 @@
     <template slot="navbar-menu">
       <ul class="navbar-nav mr-5">
         <li class="nav-item">
-          <a class="nav-link" href="/personal-finance"> Personal Finance </a>
+          <nuxt-link class="nav-link" to="/personal-finance"> Personal Finance </nuxt-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/psychology"> Psychology </a>
+          <nuxt-link class="nav-link" to="/psychology"> Psychology </nuxt-link>
         </li>
       </ul>
       <li class="nav-item">
-        <a class="nav-link btn btn-default btn-neutral" href="https://app.blitzbudget.com/login" target="_blank">
+        <a class="nav-link btn btn-default btn-neutral" to="https://app.blitzbudget.com/login" target="_blank">
           <p>Sign in</p>
         </a>
       </li>

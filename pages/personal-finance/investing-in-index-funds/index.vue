@@ -347,9 +347,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -389,11 +389,13 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personl Finance 27: Investing in Mutual Funds</h6>
-                        <h3 class="card-title"><a href="/personal-finance/investing-in-mutual-funds/">Personl Finance
-                            27: Investing in Mutual Funds</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/investing-in-mutual-funds/">Personl Finance
+                            27: Investing in Mutual Funds</nuxt-link>
+                        </h3>
                         <p class="card-description">Mutual funds also known as actively managed funds are the most
                           sorted out forms of investments by the public.</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -402,13 +404,15 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five/">Personl
-                          Finance 25: Financial Goals to Achieve Before You Turn 35</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/financial-goals-to-achieve-before-you-turn-thirty-five/">
+                          Personl
+                          Finance 25: Financial Goals to Achieve Before You Turn 35</nuxt-link>
+                      </h3>
                       <p class="card-description">Why do human beings do what they do? Why do we need to be financially
                         free? Some of them make a killing. Some sacrifice their life in the hope of providing a better
                         life for their children.</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"

@@ -183,7 +183,7 @@
               defaults after obtaining the lump sum money.</p>
             <p>He was participating in a 20 member chit fund for a period of 20 months and it was informal.
               Meaning, no one can do anything if the organizer/subscribers default on the payment.</p>
-            <p>What is the advantage of an informal chit fund! <b>Tax…</b></p>
+            <p>What is the advantage of an informal chit fund! <strong>Tax…</strong></p>
             <p>You do not have to pay any taxes on the interest rates obtained.</p>
             <p>My friend being a patient chap as he is, chose to wait till the end of the 20 month tenure to
               receive the payment from the organizer.</p>
@@ -192,7 +192,8 @@
               to pay a set amount by electronic transfer every month.</p>
             <p>My friend received a total payment of ₹180,000 in total and the remaining ₹260,000 is nowhere to
               be seen. He might get the money in the next few months or years or he may not.</p>
-            <p>Only time knows the answer to this question. <b>Let’s analyse this situation financially.</b></p>
+            <p>Only time knows the answer to this question. <strong>Let’s analyse this situation financially.</strong>
+            </p>
             <p>He paid a total of ₹349,000 and is scheduled to receive an amount of ₹400,000. A total rate of
               return of 12.75% for a period of 20 months.</p>
             <p>What if he paid ₹20,000 every month as a recurring deposit to a bank in India. How much could he
@@ -235,8 +236,9 @@
             <p>The journey towards your personal financial success will teach you some life lessons which will
               be useful for a lifetime. Having said that, It is not a surprise that the lottery winners go
               bankrupt a few years after winning millions of dollars.</p>
-            <p><b>If you do not know how to save</b> or to multiply the money with a solid reason for the money
-              to stay with you, certainly <b>you will end up wasting the money</b> on things which you do not
+            <p><strong>If you do not know how to save</strong> or to multiply the money with a solid reason for the
+              money
+              to stay with you, certainly <strong>you will end up wasting the money</strong> on things which you do not
               need for a ridiculous price.</p>
           </div>
         </div>
@@ -261,9 +263,9 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <a href="#pablo">
+                      <nuxt-link to="#pablo">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
-                      </a>
+                      </nuxt-link>
                       <div class="ripple-container"></div>
                     </div>
                   </div>
@@ -303,12 +305,14 @@
                       </div>
                       <div class="col-md-7">
                         <h6 class="category text-info">Personal Finance 9: Find what Drives you to Achieve</h6>
-                        <h3 class="card-title"><a href="/personal-finance/find-what-drives-you-to-achieve/">Personal
-                            Finance 9: Find what Drives you to Achieve</a></h3>
+                        <h3 class="card-title">
+                          <nuxt-link to="/personal-finance/find-what-drives-you-to-achieve/">Personal
+                            Finance 9: Find what Drives you to Achieve</nuxt-link>
+                        </h3>
                         <p class="card-description">Let’s find out what drives us to achieve. A good number of people do
                           the jobs they do not love to earn the riches they desire. If you have just enough
                           determination, passion and desire to achieve and consistently outperform,</p>
-                        <p class="author">by<b>Nagarjun Nagesh</b> , September 18, 2018</p>
+                        <p class="author">by<strong>Nagarjun Nagesh</strong> , September 18, 2018</p>
                       </div>
                     </div>
                   </template></card>
@@ -317,13 +321,14 @@
                     <div class="col-md-7">
                       <h6 class="category text-danger"><em
                           class="now-ui-icons now-ui-icons media-2_sound-wave"></em>Personal Finance</h6>
-                      <h3 class="card-title"><a
-                          href="/personal-finance/self-motivation-a-necessity-for-success/">Personal
-                          Finance 7: Self Motivation! A necessity for success?</a></h3>
+                      <h3 class="card-title">
+                        <nuxt-link to="/personal-finance/self-motivation-a-necessity-for-success/">Personal
+                          Finance 7: Self Motivation! A necessity for success?</nuxt-link>
+                      </h3>
                       <p class="card-description">Self-Motivation. Some time that is the only thing you will have in
                         order
                         to push yourself towards success</p>
-                      <p class="author">by <b>Nagarjun Nagesh</b>, September 18, 2018</p>
+                      <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
                       <div class="card-image"><img class="img img-raised rounded"
