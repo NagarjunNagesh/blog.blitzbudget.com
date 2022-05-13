@@ -35,7 +35,7 @@
                 know the basic mechanics of how the money machine works as explained by Ray Dalio (67th Richest
                 Man in the world)</p>
               <p>
-                <nuxt-link href='https://youtu.be/PHe0bXAIuk0'>How the economic money machine workds</nuxt-link>
+                <a href='https://youtu.be/PHe0bXAIuk0'>How the economic money machine workds</a>
               </p>
               <p>How do you find out how the economic system works? Become an insider and know the rules before
                 you get in the game.</p>
