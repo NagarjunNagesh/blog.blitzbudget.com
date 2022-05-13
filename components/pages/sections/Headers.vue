@@ -31,17 +31,17 @@
             </ul>
             <ul class="nav navbar-nav">
               <li class="nav-item">
-                <nuxt-link class="nav-link" to="https://twitter.com/CreativeTim">
+                <nuxt-link class="nav-link" to="/">
                   <em class="fab fa-twitter"></em>
                 </nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-link" to="https://www.facebook.com/CreativeTim">
+                <nuxt-link class="nav-link" to="/">
                   <em class="fab fa-facebook-square"></em>
                 </nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-link" to="https://www.instagram.com/CreativeTimOfficial">
+                <nuxt-link class="nav-link" to="/">
                   <em class="fab fa-instagram"></em>
                 </nuxt-link>
               </li>
@@ -119,17 +119,17 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item">
-                <nuxt-link class="nav-link" to="https://twitter.com/CreativeTim">
+                <nuxt-link class="nav-link" to="/">
                   <em class="fab fa-twitter"></em>
                 </nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-link" to="https://www.facebook.com/CreativeTim">
+                <nuxt-link class="nav-link" to="/">
                   <em class="fab fa-facebook-square"></em>
                 </nuxt-link>
               </li>
               <li class="nav-item">
-                <nuxt-link class="nav-link" to="https://www.instagram.com/CreativeTimOfficial">
+                <nuxt-link class="nav-link" to="/">
                   <em class="fab fa-instagram"></em>
                 </nuxt-link>
               </li>
