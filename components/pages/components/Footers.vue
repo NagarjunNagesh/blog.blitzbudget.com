@@ -113,18 +113,18 @@
           </ul>
           <ul class="social-buttons pull-right">
             <li>
-              <nuxt-link to="https://twitter.com/CreativeTim" target="_blank" class="btn btn-icon btn-link btn-neutral">
+              <nuxt-link to="/" target="_blank" class="btn btn-icon btn-link btn-neutral">
                 <em class="fab fa-twitter"></em>
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link to="https://www.facebook.com/CreativeTim" target="_blank"
+              <nuxt-link to="/" target="_blank"
                 class="btn btn-icon btn-neutral btn-link">
                 <em class="fab fa-facebook-square"></em>
               </nuxt-link>
             </li>
             <li>
-              <nuxt-link to="https://www.instagram.com/CreativeTimOfficial" target="_blank"
+              <nuxt-link to="/" target="_blank"
                 class="btn btn-icon btn-neutral btn-link">
                 <em class="fab fa-instagram"></em>
               </nuxt-link>
