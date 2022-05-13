@@ -192,8 +192,7 @@
                       <p class="author">by <strong>Nagarjun Nagesh</strong>, September 18, 2018</p>
                     </div>
                     <div class="col-md-5">
-                      <div class="card-image"><img class="img img-raised rounded"
-                          src="/img/personal-finance/why-the-rich-get-richer.jpg"
+                      <div class="card-image"><img class="img img-raised rounded" src="/img/personal-finance/bg-1.jpg"
                           alt="Personal Finance 3: Why the Rich get Richer?" /></div>
                     </div>
                   </div>
