@@ -94,12 +94,12 @@
         <div class="row">
           <div class="col-md-4">
             <card plain>
-              <nuxt-link slot="image" to="https:///www.creative-tim.com/product/now-ui-kit" target="_blank">
+              <nuxt-link slot="image" to="/" target="_blank">
                 <img class="img-raised rounded"
                   src="https:///s3.amazonaws.com/creativetim_bucket/products/38/original/opt_mk_thumbnail.jpg?1458052306" />
               </nuxt-link>
 
-              <nuxt-link to="https:///www.creative-tim.com/product/now-ui-kit" target="_blank">
+              <nuxt-link to="/" target="_blank">
                 <h4 class="card-title">Now UI Kit Free</h4>
               </nuxt-link>
               <h6 class="category text-success">Free UI Kit</h6>
@@ -113,13 +113,12 @@
           </div>
           <div class="col-md-4">
             <card plain>
-              <nuxt-link slot="image" to="https:///www.creative-tim.com/product/light-bootstrap-dashboard-pro"
-                target="_blank">
+              <nuxt-link slot="image" to="/" target="_blank">
                 <img class="img-raised rounded"
                   src="https:///s3.amazonaws.com/creativetim_bucket/products/34/original/opt_lbd_pro_thumbnail.jpg?1449352503" />
               </nuxt-link>
 
-              <nuxt-link to="https:///www.creative-tim.com/product/light-bootstrap-dashboard-pro" target="_blank">
+              <nuxt-link to="/" target="_blank">
                 <h4 class="card-title">Light Bootstrap Dashboard</h4>
               </nuxt-link>
               <h6 class="category text-success">Premium Template</h6>
@@ -132,12 +131,12 @@
           </div>
           <div class="col-md-4">
             <card plain>
-              <nuxt-link slot="image" to="https:///www.creative-tim.com/product/get-shit-done-pro" target="_blank">
+              <nuxt-link slot="image" to="/" target="_blank">
                 <img class="img-raised rounded"
                   src="https:///s3.amazonaws.com/creativetim_bucket/products/26/original/opt_gsdk_new_thumbnail.jpg" />
               </nuxt-link>
 
-              <nuxt-link to="https:///www.creative-tim.com/product/get-shit-done-pro" target="_blank">
+              <nuxt-link to="/" target="_blank">
                 <h4 class="card-title">Get Shit Done Kit PRO</h4>
               </nuxt-link>
               <h6 class="category text-success">Premium UI Kit</h6>

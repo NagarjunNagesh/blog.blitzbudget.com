@@ -151,8 +151,8 @@
               <p>These Indexes can be of great use to help you decide if it is the right time to buy a home in the
                 area which you would like to. Some websites even have the option to choose year and price per
                 square foot or square meter in the graph to accurately predict the price movement.</p>
-              <p>The major trend for the majority of the regions in India is downwards according to the <nuxt-link
-                  href='https://residex.nhbonline.org.in'>Residex</nuxt-link> in 2017. So it would be the right move
+              <p>The major trend for the majority of the regions in India is downwards according to the <a
+                  href='https://residex.nhbonline.org.in'>Residex</a> in 2017. So it would be the right move
                 to buy a property in the coming years in India.</p>
             </div>
           </div>
@@ -351,7 +351,7 @@
                 <div class="row">
                   <div class="col-md-2">
                     <div class="card-avatar">
-                      <nuxt-link to="#pablo">
+                      <nuxt-link to="#">
                         <img class="img img-raised" src="img/authors/nagarjun.jpg" alt="author" />
                       </nuxt-link>
                       <div class="ripple-container"></div>
