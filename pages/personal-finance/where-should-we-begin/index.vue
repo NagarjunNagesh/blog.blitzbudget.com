@@ -300,8 +300,8 @@
                       <div class="row">
                         <div class="col-md-5">
                           <div class="card-image"><img class="img img-raised rounded"
-                              src="/img/personal-finance/why-the-rich-get-richer.jpg"
-                              alt="Personal Finance 3: Why the Rich get Richer?" /></div>
+                              src="/img/personal-finance/bg-1.jpg" alt="Personal Finance 3: Why the Rich get Richer?" />
+                          </div>
                         </div>
                         <div class="col-md-7">
                           <h6 class="category text-info">Personal Finance 3: Why the Rich get Richer?</h6>
