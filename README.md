@@ -2,6 +2,10 @@
 
 > Blog For BlitzBudget
 
+## Deployment Status
+
+[![Deploy to S3 Bucket](https://github.com/BlitzBudget/blog.blitzbudget.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/BlitzBudget/blog.blitzbudget.com/actions/workflows/deploy.yml)
+
 ## Build Setup
 
 ``` bash
