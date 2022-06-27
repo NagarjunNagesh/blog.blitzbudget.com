@@ -337,6 +337,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Emergency Fund: Why is it Important?',
+  },
   components: {
     Card,
     InfoSection,

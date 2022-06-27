@@ -288,6 +288,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Do you really need a budget to become Financially Free?',
+  },
   components: {
     Card,
     InfoSection,

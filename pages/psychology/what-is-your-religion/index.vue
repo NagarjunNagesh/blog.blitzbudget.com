@@ -294,6 +294,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'What is your Religion?',
+  },
   components: {
     Card,
     InfoSection,

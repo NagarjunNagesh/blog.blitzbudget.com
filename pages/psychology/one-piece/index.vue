@@ -228,6 +228,9 @@ import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-posts",
   layout: "default",
+  head: {
+    title: 'One Piece',
+  },
   components: {
     Card,
     [Button.name]: Button,

@@ -298,6 +298,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'The Truth about White Lies',
+  },
   components: {
     Card,
     InfoSection,

@@ -278,6 +278,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Why is the Sense of Morality more Important than Capitalism?',
+  },
   components: {
     Card,
     InfoSection,

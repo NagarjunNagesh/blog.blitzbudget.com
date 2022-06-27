@@ -258,6 +258,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Success can be attained with the right social circle',
+    },
     components: {
         Card,
         InfoSection,

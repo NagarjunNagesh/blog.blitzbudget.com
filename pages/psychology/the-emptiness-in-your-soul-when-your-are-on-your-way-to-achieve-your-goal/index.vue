@@ -205,15 +205,18 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'The emptiness in your soul when your are on your way to achieve your goal',
+    },
     components: {
-    Card,
-    InfoSection,
-    Badge,
-    Comment,
-    [Button.name]: Button,
-    [Checkbox.name]: Checkbox,
-    OtherBlogs
-},
+        Card,
+        InfoSection,
+        Badge,
+        Comment,
+        [Button.name]: Button,
+        [Checkbox.name]: Checkbox,
+        OtherBlogs
+    },
     data() {
         return {
             form: {

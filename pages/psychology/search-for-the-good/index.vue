@@ -229,6 +229,9 @@ import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-posts",
   layout: "default",
+  head: {
+    title: 'Search for the good',
+  },
   components: {
     Card,
     [Button.name]: Button,

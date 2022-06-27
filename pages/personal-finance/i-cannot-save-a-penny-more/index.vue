@@ -251,6 +251,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'I cannot save a Penny More',
+  },
   components: {
     Card,
     InfoSection,

@@ -263,6 +263,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'The Power of Dreaming',
+  },
   components: {
     Card,
     InfoSection,

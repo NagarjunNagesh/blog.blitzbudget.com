@@ -291,6 +291,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
     name: "blog-post",
+    head: {
+        title: 'One Piece: Warlord Jinbei',
+    },
     components: {
         Card,
         InfoSection,

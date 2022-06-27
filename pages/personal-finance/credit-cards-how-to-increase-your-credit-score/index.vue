@@ -261,6 +261,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Credit Cards: How to Increase your Credit Score',
+  },
   components: {
     Card,
     InfoSection,

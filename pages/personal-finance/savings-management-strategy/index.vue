@@ -545,6 +545,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Savings Management Strategy',
+  },
   components: {
     Card,
     InfoSection,

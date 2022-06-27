@@ -176,6 +176,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Can the need to be perfect stop you from achieving your dreams?',
+    },
     components: {
         Card,
         InfoSection,

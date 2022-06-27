@@ -288,6 +288,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'One Piece: Devil Child Nico Robin',
+  },
   components: {
     Card,
     InfoSection,

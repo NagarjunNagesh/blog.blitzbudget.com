@@ -371,6 +371,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Find your desire for Financial Freedom',
+  },
   components: {
     Card,
     InfoSection,

@@ -254,6 +254,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Debt Analysis: Analysing your Financial Past?',
+  },
   components: {
     Card,
     InfoSection,

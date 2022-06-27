@@ -187,6 +187,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Never Kill Your Goldent Goose',
+  },
   components: {
     Card,
     InfoSection,

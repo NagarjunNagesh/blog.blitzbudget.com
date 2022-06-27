@@ -5,7 +5,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Is competence the most important trait for success?</h2>
+                        <h2 class="title">Self consciousness</h2>
                     </div>
                 </div>
             </div>
@@ -26,102 +26,88 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h3 class="title">Just reminds me of the videos that...</h3>
-                            <p> I saw the other where Uncle Roger criticized Gordon
-                                Ramsay about making a dish!
+                            <h3 class="title">Being self-conscious is necessary...</h3>
+                            <p> We need to know where we are, how we look and be
+                                conscious of how we are doing what we are doing.
                                 <br>
                                 <br>
-                                It’s Gordon Ramsay man! He gets criticized for making a dish. It was so good to watch
-                                man!! And so damn funny!
+                                That is a bare minimum expected out of every human being and we all seem to do it pretty
+                                well in my estimation.
                                 <br>
                                 <br>
-                                If he gets criticized for his cooking be damn sure that you will be as well. It could be
-                                for fun, could be for whatever reason. People love criticizing others and for some
-                                reason man, it is soo much to watch someone being criticized when the criticism is
-                                funny!
+                                But what prevents us from being our full expression of ourselves also seems to be
+                                exactly that. When we are self-conscious that everyone is watching us the eerie
+                                uncomfortable feeling that we that arises from the bottom of the stomach is also what is
+                                preventing us from doing something stupid.
                                 <br>
                                 <br>
-                                I am sure it would have been hard for anyone to digest. Remember the Will Smith - Chris
-                                Rock slap incident in Oscar?
+                                That circuitry can be used to suppress you from expressing yourself In front of an
+                                intimidating crowd for the fear of portraying yourself as an idiot.
                                 <br>
                                 <br>
-                                He was a comedian! How do you do a comedy without making fun of something or someone?
-                                Society is just so sensitive. What’s gonna happen if you just laugh about it and move
-                                on.
+                                Or it could even be used in circumstances where we prevent ourselves from expressing any
+                                emotions and where we just try to be extremely professional.
                                 <br>
                                 <br>
-                                Maybe it hurts you a little bit. Somewhere in your ego. But, not as much as getting
-                                slapped in Oscar man! Not as much as getting slapped during an Oscar performance and
-                                having to get back to performing a comedy skit in Oscar.
+                                Being professional does not mean not being emotional. It took me a long time to
+                                understand that integrating emotions into the profession far outweighs the benefit of
+                                not being emotional at work.
                                 <br>
                                 <br>
-                                Damn! Hats off Chris!! When someone slaps that hard tears would involuntarily follow.
-                                But that guy was tough! Both physically and emotionally.
+                                It however does not mean that we can cry and act as if we cannot manage our emotions.
                                 <br>
                                 <br>
-                                He truly deserved claps for how well he handled that incident and just went back to
-                                doing the comedy. So good! So damn good!
+                                It was really hard to let go, maybe because I am an introvert and expressing emotions to
+                                colleagues and strangers just feels foreign, however, I was not born this way. I used to
+                                be the polar opposite of this character. Something changed after I was betrayed and
+                                cheated by people who I felt loved me. Only to know they never had.
                                 <br>
                                 <br>
-                                That’s what happens sometimes when you truly try to achieve. You get slapped in front of
-                                millions of people. It’s how well integrated you are man! If you are then you can come
-                                back even stronger than you were and just move on with life. But first, you would have
-                                to be able to forgive the person who slapped you.
+                                Then I closed up completely and prevented myself from being too expressive. That came
+                                from the fear of not wanting to go through what I had to go through. I was depressed
+                                continuously for like 6 months. Not to the extreme that I didn’t want to get out of bed
+                                but to the extent that I hated having any meaningful relationship and spent a lot of
+                                time alone and with nature.
                                 <br>
                                 <br>
-                                That would probably be the first step or not. Maybe the first step would have been to
-                                come back to senses about what had just happened. “ oh shit! Just got humiliated during
-                                Oscar performance”
+                                Being with nature somehow felt peaceful and curative. And after what I felt like a very
+                                long time, I could see people for who they were. At least I thought I did and started
+                                judging them for their authenticity of wanting to connect with me or my wife.
                                 <br>
                                 <br>
-                                I am pretty sure he snapped back to his performance mode without giving much thought to
-                                it. Because you can carry it to dark places man!! Want to see how??
+                                It prevented me from having a lot of friends and even at instances when they used to
+                                talk for hours, I was just listening and observing the whole room. Seeing people and
+                                their expressions and trying to figure out what was going through their minds. Coming to
+                                think of it, it was all to prevent myself from getting too attached to the wrong people
+                                in life. I had to develop this self-consciousness.
                                 <br>
                                 <br>
-                                “Oh my wife and kids and everyone I loved just watched me get slapped”
+                                Soon it crawled into every aspect of my life and I felt like I didn’t want to speak. A
+                                normal conversation just felt like a waste of time. I felt like I knew that given enough
+                                time they would all leave anyway and what is the point in trying to make a connection if
+                                that was eventual.
                                 <br>
                                 <br>
-                                “ Does that mean I did something wrong”
+                                All the while I was not living my life. Judging people and having figured out the
+                                reality of it was fine but not choosing to live in the moment and experience what people
+                                were experiencing was just too steal a price to pay for this. Slowly after consuming
+                                Jordan Peterson's content over the course of one and half years I started to change.
+                                Started to let go of all the futile backlogs that I had gathered and tried to be a
+                                person who would be loved and started to become vulnerable.
                                 <br>
                                 <br>
-                                “ No, I didn’t deserve to be slapped”
+                                All of that came from a different place now. I slowly started to help people when they
+                                asked me for something with the full intention of trying to help them achieve what they
+                                wanted to if they let me.
                                 <br>
                                 <br>
-                                “ why not slap him back”
+                                All of these made me much more satisfied than before. I started to express a lot of how
+                                I felt and put myself out there in front of people. I started to speak the truth about
+                                everything that I felt about people.
                                 <br>
                                 <br>
-                                “ God I didn’t deserve to be treated like that in front of others, I am the best person
-                                there is to be privileged to perform in the Oscar”
-                                <br>
-                                <br>
-                                And keep going until it reaches a place where you want to take revenge. I am telling you
-                                it takes you to a dark place man.
-                                <br>
-                                <br>
-                                Do you want to find out the darkest place on earth? It’s the comment section when we
-                                post a video of us doing something on Youtube.
-                                <br>
-                                <br>
-                                Or nowadays it’s Twitter!! Japan happened to be one of the First Nations to make online
-                                insults punishable up to one year in prison. A great step forward man.
-                                <br>
-                                <br>
-                                When you can create a user called “Darth Vader” and comment whatever you want. It does
-                                feel more powerful but it also traumatizes someone else if they happen to read it.
-                                <br>
-                                <br>
-                                But you know what is more powerful than that. Just snap back to yourself and tap into
-                                your soul and just keep going. That’s even better.
-                                <br>
-                                <br>
-                                You know what would happen. Those who would criticize would just continue criticizing
-                                and those who would produce would just keep producing.
-                                <br>
-                                <br>
-                                How can you go closer to perfection if you don’t try and fail the first 1000 times ??
-                                <br>
-                                <br>
-                                It’s a practical impossibility. What if you are born perfect? Hahaha!! Just kidding!!
+                                I truly think I have successfully transitioned to become a better person by letting go
+                                of being too self-conscious and being true to myself and only speaking the truth.
                             </p>
                         </div>
                     </div>
@@ -191,6 +177,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Self consciousness',
+    },
     components: {
         Card,
         InfoSection,

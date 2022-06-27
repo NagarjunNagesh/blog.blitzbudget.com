@@ -7,7 +7,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">The Power of Dreaming</h2>
+            <h2 class="title">Never Kill Your Golden Goose</h2>
           </div>
         </div>
       </div>
@@ -321,6 +321,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Never Kill Your Golden Goose',
+  },
   components: {
     Card,
     InfoSection,

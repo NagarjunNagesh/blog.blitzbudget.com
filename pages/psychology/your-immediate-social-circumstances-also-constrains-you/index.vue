@@ -186,6 +186,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Your immediate social circumstances also constrains you',
+    },
     components: {
         Card,
         InfoSection,

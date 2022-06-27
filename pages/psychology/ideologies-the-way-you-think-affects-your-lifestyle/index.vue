@@ -186,6 +186,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Ideologies: The way you think affects your life style',
+    },
     components: {
         Card,
         InfoSection,

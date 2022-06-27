@@ -200,6 +200,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Why should you just get started?',
+    },
     components: {
         Card,
         InfoSection,
