@@ -35,12 +35,14 @@
                                 getting what they want. Like when someone nudges you to do something that you wouldn't
                                 do otherwise and are not feeling comfortable doing it as much manipulation as directly
                                 forcing you by saying if not, I will expose your secrets.
-
+                                <br>
+                                <br>
                                 That is plain manipulation and it comes from a dark the need to be powerful over
                                 someone. When people finally catch these people some of them know that they are doing
                                 the wrong thing and thank the police for finally catching them and that they couldn't
                                 stop themselves and even keep them in prison forever or they would be doing it again.
-
+                                <br>
+                                <br>
                                 That dark untamed personality is scary and only comes out when we least expect it from
                                 someone. Under these circumstances, while we think that we have been caught red-handed,
                                 the best course of action would be to come out clean whenever possible and to seek help
@@ -52,7 +54,8 @@
                                 mentioned it by message only after losing hundreds of euros to them. I just asked him to
                                 cut the call and if the police come home to arrest you as a consequence we can see it
                                 then and that I shall be there to bail him.
-
+                                <br>
+                                <br>
                                 Life is hard man, And people play with our fears to take full advantage of it and gain
                                 as much as possible. Others make you insecure about your lack of knowledge and ascertain
                                 superiority of knowledge over you. If you had played DOTA or League of Legends, you
@@ -60,7 +63,8 @@
                                 cursing you till the game ends. I have always wondered if only they had used that time
                                 and effort to focus on the game. Maybe they could have turned the table around and won
                                 the game.
-
+                                <br>
+                                <br>
                                 They call you noob and whatnot! No one is born perfect and becomes a pro at anything in
                                 life. It takes months for us to even learn how to walk. It takes us around 2 - 3 years
                                 to learn how to efficiently play games with another kid. Of course, it is going to take
@@ -69,7 +73,8 @@
                                 we traverse our lives about the definition of perfection and excellence. And the more we
                                 learn, the more we realize that it is almost impossible to excel at something without
                                 letting others help us achieve it.
-
+                                <br>
+                                <br>
                                 And we need people to make us feel good about ourselves. When they feel ecstatic about
                                 what we just did. All of this is only possible if we do not subjugate, suppress and make
                                 others a slave but let people grow and learn with us to become better people and live a
@@ -80,9 +85,8 @@
                                 probably even if you grew up as neighbours the parents and the grandparents are not the
                                 same. This would ensure that life would turn out to be different. And as such any
                                 comparison is unnecessary and obsolete.
-
-
-
+                                <br>
+                                <br>
                             </p>
                         </div>
                     </div>
