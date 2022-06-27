@@ -409,6 +409,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Self-Analysis! Understanding your Habits',
+  },
   components: {
     Card,
     InfoSection,

@@ -152,6 +152,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'When someone has too much power over you',
+    },
     components: {
         Card,
         InfoSection,

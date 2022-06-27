@@ -406,6 +406,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Financial Goals to Achieve Before you turn Thirty Five',
+  },
   components: {
     Card,
     InfoSection,

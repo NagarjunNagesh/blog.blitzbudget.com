@@ -224,6 +224,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Buying a Car the Right Way',
+  },
   components: {
     Card,
     InfoSection,

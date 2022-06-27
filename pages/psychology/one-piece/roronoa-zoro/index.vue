@@ -292,6 +292,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'One Piece: Roronoa Zoro',
+  },
   components: {
     Card,
     InfoSection,

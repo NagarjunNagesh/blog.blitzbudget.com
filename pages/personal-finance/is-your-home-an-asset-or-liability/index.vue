@@ -218,6 +218,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Is your Home an Asset or Liability?',
+  },
   components: {
     Card,
     InfoSection,

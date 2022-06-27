@@ -217,6 +217,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Are you Rich if you own a BMW?',
+  },
   components: {
     Card,
     InfoSection,

@@ -201,6 +201,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Treat others in a way you yourself would like to be treated',
+    },
     components: {
         Card,
         InfoSection,

@@ -190,6 +190,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Greed, Power and Inequality',
+    },
     components: {
         Card,
         InfoSection,

@@ -299,6 +299,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Self-Motivation! A Necessity for Success',
+  },
   components: {
     Card,
     InfoSection,

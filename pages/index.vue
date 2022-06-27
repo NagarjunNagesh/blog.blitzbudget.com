@@ -233,6 +233,9 @@ import { Card, Button, FormGroupInput } from "@/components";
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-posts",
+  head: {
+    title: 'BlitzBudget Blog',
+  },
   layout: "default",
   components: {
     Card,

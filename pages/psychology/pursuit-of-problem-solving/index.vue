@@ -246,6 +246,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Pursuit of Problem Solving?',
+  },
   components: {
     Card,
     InfoSection,

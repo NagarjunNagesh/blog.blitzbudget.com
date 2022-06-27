@@ -844,6 +844,9 @@ import { Card, Button, FormGroupInput } from "@/components";
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-posts",
+  head: {
+    title: 'Personal Finance',
+  },
   layout: "default",
   components: {
     Card,

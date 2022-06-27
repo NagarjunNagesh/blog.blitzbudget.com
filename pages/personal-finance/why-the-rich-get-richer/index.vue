@@ -432,6 +432,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Why the Rich get Richer?',
+  },
   components: {
     Card,
     InfoSection,

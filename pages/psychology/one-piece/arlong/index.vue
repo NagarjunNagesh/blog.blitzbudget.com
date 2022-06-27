@@ -249,6 +249,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'One Piece: Arlong',
+  },
   components: {
     Card,
     InfoSection,

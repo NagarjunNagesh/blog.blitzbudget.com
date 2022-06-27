@@ -422,6 +422,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'How to Save Your Way to Achieve your Dream',
+  },
   components: {
     Card,
     InfoSection,

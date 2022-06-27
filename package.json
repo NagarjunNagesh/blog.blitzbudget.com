@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-now-ui-kit-pro",
+  "name": "BlitzBudget",
   "version": "1.1.0",
-  "description": "Nuxt Now UI Kit PRO - Premium Nuxt.js UI Kit for Bootstrap",
-  "author": "cristijora",
+  "description": "Blitzbudget blog wesbite for psychology and personal finance",
+  "author": "Nagarjun Nagesh",
   "private": true,
   "scripts": {
     "dev": "nuxt",

@@ -257,6 +257,9 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
+  head: {
+    title: 'Can a Smoke ask you to Not Smoke?',
+  },
   components: {
     Card,
     InfoSection,

@@ -169,15 +169,18 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Betrayal, Vengeance and Injustice',
+    },
     components: {
-    Card,
-    InfoSection,
-    Badge,
-    Comment,
-    [Button.name]: Button,
-    [Checkbox.name]: Checkbox,
-    OtherBlogs
-},
+        Card,
+        InfoSection,
+        Badge,
+        Comment,
+        [Button.name]: Button,
+        [Checkbox.name]: Checkbox,
+        OtherBlogs
+    },
     data() {
         return {
             form: {

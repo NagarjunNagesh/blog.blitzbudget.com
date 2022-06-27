@@ -192,6 +192,9 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
+    head: {
+        title: 'Is competence the most important trait for success?',
+    },
     components: {
         Card,
         InfoSection,
