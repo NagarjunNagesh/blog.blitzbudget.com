@@ -13,3 +13,6 @@ dist
 # DS Store Ignore
 */.DS_Store
 .DS_Store
+
+
+static/sw.js
