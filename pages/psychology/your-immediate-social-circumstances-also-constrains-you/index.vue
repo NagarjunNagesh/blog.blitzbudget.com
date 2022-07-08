@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="section">
-                <other-blogs :next="33" :previous="34"></other-blogs>
+                <other-blogs :next="33" :previous="1"></other-blogs>
             </div>
         </div>
     </div>
