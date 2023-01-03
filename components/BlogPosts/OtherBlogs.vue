@@ -84,6 +84,226 @@ export default {
             blogposts: [
                 {
                     "image": {
+                        "src": "img/psychology/an-enemy-with-multiple-faces.jpg",
+                        "alt": "An enemy with multiple faces"
+                    },
+                    "url": "/psychology/an-enemy-with-multiple-faces",
+                    "title": "An enemy with multiple faces",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "Sometimes I think about nature, and evolution and wonder how fruitfully we were all designed. So delicate that a virus can kill millions of us yet intelligent enough that if we maintain a healthy, body and soul we can reach the stars."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/change-your-personality-if-it-doesnt-serve-you.jpg",
+                        "alt": "Change your personality if it doesn’t serve you"
+                    },
+                    "url": "/psychology/change-your-personality-if-it-doesnt-serve-you",
+                    "title": "Change your personality if it doesn’t serve you",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "Can you imagine a particular aspect that defines who you are or have some personality traits that you can rely on during the worst of your times and that is how people see you and expect that behaviour in times of need?"
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/consistency-is-discipline.jpg",
+                        "alt": "Consistency is Discipline"
+                    },
+                    "url": "/psychology/consistency-is-discipline",
+                    "title": "Consistency is Discipline",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "For most of my childhood life, I thought that discipline equals obedience and I almost had a negative connotation attached to it as a result of it."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/dealing-with-anger-when-an-injustice-has-been-done-to-you.jpg",
+                        "alt": "Dealing with anger when an injustice has been done to you"
+                    },
+                    "url": "/psychology/dealing-with-anger-when-an-injustice-has-been-done-to-you",
+                    "title": "Dealing with anger when an injustice has been done to you",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "That is often the hardest to control at least personally. I am forced to deal with the immediacy of dealing with that and correcting it. When a false accusation has been made effectively making you the bad person then you immediately know that an injustice has been done towards you, or do you??"
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/expectations.jpg",
+                        "alt": "Expectations"
+                    },
+                    "url": "/psychology/expectations",
+                    "title": "Expectations",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "I have heard this phrase while living in India a million times. “expectations will lead to disappointments”. and that somehow resonated with me sometimes during the thirty years of my life and I started to believe that that might actually be true."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/how-to-channel-emotions-to-be-more-productive.jpg",
+                        "alt": "How to channel emotions to be more productive?"
+                    },
+                    "url": "/psychology/how-to-channel-emotions-to-be-more-productive",
+                    "title": "How to channel emotions to be more productive?",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "I’ve personally struggled with this a lot After consuming tonnes of personal self-improvement content. I finally came to the conclusion that I have been passionate about what I do and just keep pushing."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/how-to-know-when-you-are-being-manipulated.jpg",
+                        "alt": "How to know when you are being manipulated?"
+                    },
+                    "url": "/psychology/how-to-know-when-you-are-being-manipulated",
+                    "title": "How to know when you are being manipulated?",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "It is so easy to say that you should move away from bad people and try to focus only on surrounding yourself with good people. Guess what, I was more times in a more manipulative relationship than most of you guys and I"
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/identity.jpg",
+                        "alt": "Identity"
+                    },
+                    "url": "/psychology/identity",
+                    "title": "Identity",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "I am writing this because most of us cannot afford to screw up in life. And screwing up would mean we lose the only possible way to redeem ourselves and that would essentially mean that we had lost "
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/impersonation-syndrome.jpg",
+                        "alt": "Impersonation Syndrome"
+                    },
+                    "url": "/psychology/impersonation-syndrome",
+                    "title": "Impersonation Syndrome",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "The path to an enduring future comes from understanding that you are insufficient because there is still suffering in your world, knowing what could be done to alleviate that suffering"
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/insecurites.jpg",
+                        "alt": "Insecurites"
+                    },
+                    "url": "/psychology/insecurites",
+                    "title": "Insecurites",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "Now that’s a dangerous one. We all seem to have them but sometimes it’s so intrinsic that one might not even notice that at times we seek validation from outside to cure our insecurities without even realizing we are having them."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/learn-to-let-go-of-the-need-to-control.jpg",
+                        "alt": "Learn to let go of the need to control"
+                    },
+                    "url": "/psychology/learn-to-let-go-of-the-need-to-control",
+                    "title": "Learn to let go of the need to control",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "We are often held responsible for the words that we sputter. That is a reasonable expectation from us. If only we could all do what we had promised or keep all the New Years' resolutions"
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/poker-face.jpg",
+                        "alt": "Poker Face"
+                    },
+                    "url": "/psychology/poker-face",
+                    "title": "Poker Face",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "When in difficult situations we are forced to have difficult conversations with other human beings and that would be a part of human social necessity."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/self-worth.jpg",
+                        "alt": "Self worth"
+                    },
+                    "url": "/psychology/self-worth",
+                    "title": "Self worth",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "The self-confidence with which some people carry themselves has always made me wonder if they were faking it. I knew that I had it once but lost it after coming to Spain and searching for it outside."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/the-art-of-deception.jpg",
+                        "alt": "The art of Deception"
+                    },
+                    "url": "/psychology/the-art-of-deception",
+                    "title": "The art of Deception",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "When someone lies to you, it is a subtle way of warping the truth and seeing if you buy it or not. Imagine if you had bought into that idea of warped truth. It means that you cannot see through their deception."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/the-importance-of-routine.jpg",
+                        "alt": "The importance of routine"
+                    },
+                    "url": "/psychology/the-importance-of-routine",
+                    "title": "The importance of routine",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "Lately, we have been 24-hour fasting on alternate days and that required our lives to be organized in such a way that it had never been required ever before."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/the-physiology-of-feeling-motivated.jpg",
+                        "alt": "The physiology of feeling motivated"
+                    },
+                    "url": "/psychology/the-physiology-of-feeling-motivated",
+                    "title": "The physiology of feeling motivated",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "I've seen people attribute motivating people to some kind of an undesired attribute to go after but I really think feeling motivated is a precursor to taking action towards your goal."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/the-ways-desire-express-themselves.jpg",
+                        "alt": "The ways Desire express themselves"
+                    },
+                    "url": "/psychology/the-ways-desire-express-themselves",
+                    "title": "The ways Desire express themselves",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "I have recently been admiring the forms that desire takes and how they manifest themselves differently in different sorts of people."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/what-you-believe-yourself-to-be-is-the-one-you-will-be.jpg",
+                        "alt": "What you believe yourself to be is the one you will be"
+                    },
+                    "url": "/psychology/what-you-believe-yourself-to-be-is-the-one-you-will-be",
+                    "title": "What you believe yourself to be is the one you will be",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "What you believe yourself to be is the one you will be in the future. There is no denying it. What others say about you should have no power over you. It only has power when there is doubt."
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/why-i-couldnt-keep-up-with-my-new-years-resolution.jpg",
+                        "alt": "Why I couldn’t keep up with my New Years resolution?"
+                    },
+                    "url": "/psychology/why-i-couldnt-keep-up-with-my-new-years-resolution",
+                    "title": "Why I couldn’t keep up with my New Years resolution?",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "Video games!! They were an integral part of my life from my childhood. I started playing the games in the era of Prince of Persia. How many of you guys have played it? I used to play a lot of it. Actually, I played a lot of games, Dangerous Dave, Contra, Shooting duck"
+                },
+                {
+                    "image": {
+                        "src": "img/psychology/why-we-all-suffer.jpg",
+                        "alt": "Why we all suffer?"
+                    },
+                    "url": "/psychology/why-we-all-suffer",
+                    "title": "Why we all suffer?",
+                    "tag": "Psychology",
+                    "date": "Jan 03, 2023",
+                    "description": "There is an inherent sense of suffering that encompasses all our living beings. Bogged down by the circumstances without which we could live freely without restrictions and achieve what we had dreamed of achieving."
+                },
+                {
+                    "image": {
                         "src": "img/psychology/can-you-be-vulnerable.jpg",
                         "alt": "Can you be Vulnerable?"
                     },
@@ -465,4 +685,5 @@ export default {
 };
 </script>
 <style>
+
 </style>
