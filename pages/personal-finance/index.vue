@@ -17,6 +17,27 @@
       <div class="row">
         <div class="col-md-10 ml-auto mr-auto">
           <h2 class="title">Personal Finance</h2><br />
+          <card type="blog" plain v-for="post in blogposts" :key="post.url">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-image"><img class="img img-raised rounded" :src="post.image.src"
+                    :alt="post.image.alt" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <h3 class="card-title">
+                  <nuxt-link :to="post.url">{{ post.title }}</nuxt-link>
+                </h3>
+                <p class="card-description">
+                  {{ post.description }}<nuxt-link :to="post.url">
+                    Read
+                    More </nuxt-link>
+                </p>
+                <div class="author"><img v-lazy="'img/authors/nagarjun.jpg'" alt="..."
+                    class="avatar img-raised"><span>Nagarjun Nagesh</span></div>
+              </div>
+            </div>
+          </card>
           <card type="blog" plain>
             <div class="row">
               <div class="col-md-4">
@@ -856,6 +877,19 @@ export default {
   data() {
     return {
       year: new Date().getFullYear(),
+      blogposts: [
+        {
+          "image": {
+            "src": "img/psychology/should-you-buy-crypto-currency.jpg",
+            "alt": "Should you buy Crypto Currency?"
+          },
+          "url": "/psychology/should-you-buy-crypto-currency",
+          "title": "Should you buy Crypto Currency?",
+          "tag": "Psychology",
+          "date": "Jan 03, 2023",
+          "description": "People all around us constantly shouting to buy Crypto including Tom Bilyeu and Robert Kiyosaki author of Rich Dad and poor dad. Understand that those who shout are using crypto as a way to either save a portion of their portfolio of investments"
+        }
+      ]
     };
   },
   mounted() {
@@ -864,4 +898,5 @@ export default {
 };
 </script>
 <style>
+
 </style>
