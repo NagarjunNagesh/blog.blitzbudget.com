@@ -1,7 +1,8 @@
 <template>
     <div class="wrapper blog-post">
         <div class="page-header page-header-small rellax-header">
-            <div class="page-header-image" style="background-image: url('img/psychology/consistency-is-discipline.jpg')"></div>
+            <div class="page-header-image" style="background-image: url('img/psychology/consistency-is-discipline.jpg')">
+            </div>
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
@@ -28,49 +29,50 @@
                         <div class="col-md-8 ml-auto mr-auto">
                             <h3 class="title">For most of my childhood life, I thought...</h3>
                             <p>
-                                that discipline equals obedience and I almost
-                                had a negative connotation attached to it as a result of it.
+                                I held the belief that discipline was synonymous with obedience. This
+                                perception led me to develop a negative connotation associated with discipline.
                                 <br>
                                 <br>
-                                When someone goes to the military they are disciplined. In the sense that they become
-                                more organized and start doing things at the same time every day no matter what they
-                                feel. There is a feeling of thoughtlessness attached to it.
+                                When we think of individuals in the military, we often describe them as disciplined. We see
+                                them as organized and adhering to strict schedules, regardless of how they feel. This sense
+                                of discipline is often accompanied by a feeling of thoughtlessness.
                                 <br>
                                 <br>
-                                It took Jordan Peterson to change the way I think about discipline now. The way I see
-                                discipline now is the way bill gates and Steve Jobs have made it mentioned in their
-                                interviews.
+                                However, my perspective on discipline changed when I encountered the teachings of Jordan
+                                Peterson. He reshaped my understanding of discipline, aligning it with the ideas expressed
+                                by visionaries like Bill Gates and Steve Jobs in their interviews.
                                 <br>
                                 <br>
-                                It was the focus! The focus and the passion to make it happen. There is no focus without
-                                discipline. Focus is aiming at one thing and moving forward irrespective of what others
-                                might say. And the role passion plays is equally important in the sense that we are not
-                                deterred when people doubt us and hence we keep the focus on where we want to go and
-                                keep pushing no matter what!
+                                Discipline, I now realize, is about focus. It is the unwavering dedication and passion to
+                                achieve a specific goal. True focus requires discipline. It involves setting our sights on a
+                                singular objective and moving forward despite any doubts or criticisms from others. Passion
+                                also plays a vital role by providing the drive to persevere, undeterred by the doubts of
+                                those around us. It allows us to maintain our focus and keep pushing forward, regardless of
+                                the obstacles we encounter.
                                 <br>
                                 <br>
-                                That is what will help us reach our destination. And on the way, Jordan says in his
-                                lectures that we will get new information and slightly change our goals. And that it is
-                                not your initial goal that you set that matters but the willingness to adapt and yet
-                                keep pushing until you reach the goal that truly matters in the face of adversity.
+                                This combination of focus, discipline, and passion is what propels us towards our
+                                destination. Along the way, as Jordan Peterson mentions in his lectures, we may encounter
+                                new information that causes us to adjust our goals slightly. It's not the initial goal that
+                                matters most, but rather our willingness to adapt and continue pushing forward until we
+                                achieve what truly matters in the face of adversity.
                                 <br>
                                 <br>
-                                If you find something that you are passionate about. Something that revitalizes your
-                                existence and gives meaning to you and helps others around you directly or indirectly we
-                                can call that passion. It will enable you to keep pushing and yet make you happy
-                                irrespective. It is like seeing a mother to a newborn in the western nations, they look
-                                absolutely devastated and destroyed yet there is a smile on their face that you had
-                                never ever seen before.
+                                When we discover something we are truly passionate about, something that revitalizes our
+                                existence and brings meaning to our lives, we can identify it as true passion. This passion
+                                fuels our drive and allows us to persevere, finding fulfillment even in the midst of
+                                challenges. It's akin to witnessing a mother with her newborn in Western nations—despite the
+                                exhaustion and challenges, there's a smile on her face like never before.
                                 <br>
                                 <br>
-                                That’s what I call relentless passion, it truly gives meaning to existence. Such a
-                                passion coupled with focus, discipline, willingness to adapt, and ditch what fails will
-                                make one successful no matter what regardless of one’s circumstances.
+                                This is what I call relentless passion. It gives profound meaning to our existence. When
+                                coupled with focus, discipline, the willingness to adapt, and the ability to let go of what
+                                doesn't serve us, it paves the way for success, regardless of our circumstances.
                                 <br>
                                 <br>
-                                The thrownness of life when we do not choose our mothers, fathers, circumstances, our
-                                country yet we can be sure that will leave an impact on the world in one way or another.
-                                that is assured!
+                                Life is thrust upon us without the ability to choose our mothers, fathers, or the
+                                circumstances we are born into. Yet, we can be certain that our actions and choices will
+                                leave an impact on the world in one way or another. That much is assured.
                                 <br>
                                 <br>
                             </p>
@@ -167,6 +169,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>
