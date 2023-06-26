@@ -5,7 +5,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Identity</h2>
+                        <h2 class="title">{{ head.title }}</h2>
                     </div>
                 </div>
             </div>
@@ -22,112 +22,120 @@
                     </div>
                 </div>
             </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section" id="article">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
                             <h3 class="title">I am writing this because most of us cannot...</h3>
                             <p>
-                                afford to screw up in life. And screwing up
-                                would mean we lose the only possible way to redeem ourselves and that would essentially
-                                mean that we had lost a precious 5-year or 10-year period during which we could have
-                                really improved ourselves and worked to take a couple of steps up the ladder of
+                                Affording to screw up in life is something most of us cannot do. Screwing up would mean
+                                losing the only possible way to redeem ourselves, essentially wasting a precious 5-year or
+                                10-year period during which we could have truly improved ourselves and worked our way up the
                                 hierarchy.
                                 <br>
                                 <br>
-                                Some people might think, Nah! That’s not me! I am privileged. To them I say truly are
-                                you the one percent or the top 20 percent who can really afford to live a life without
-                                stressing too much about perfection or at least not making a mistake in the first place.
+                                Some people might think, "Nah! That’s not me! I am privileged." To them, I say, "Are you
+                                part of the one percent or the top 20 percent who can afford to live a life without
+                                stressing too much about perfection or at least not making a mistake in the first place?"
                                 <br>
                                 <br>
-                                Most of the people at the bottom end of the hierarchy are the ones who can neither
-                                afford to make a mistake nor are willing to stop making them. And education is probably
-                                the only way out for them. But educating ourselves that the north is south and the south
-                                is north will only do more harm than good. You will know in your core that it is wrong
-                                because no matter what you do the world would seem to resist you and prevent you from
-                                propagating towards your goal.
+                                Most people at the bottom end of the hierarchy cannot afford to make a mistake and are
+                                unwilling to stop making them. Education is probably the only way out for them. However,
+                                educating ourselves that the north is south and the south is north will only do more harm
+                                than good. Deep down, you will know it is wrong because no matter what you do, the world
+                                will seem to resist you and prevent you from progressing towards your goals.
                                 <br>
                                 <br>
-                                Take it to the extreme then any action aligned towards the dark or the opposite would
-                                make you lose everything you ever had and are ever going to have. Including your future
-                                potential. For example, dying or going to prison among others.
+                                Taking it to the extreme, any action aligned towards darkness or the opposite would make you
+                                lose everything you ever had and will have, including your future potential. For example,
+                                dying or going to prison, among others.
                                 <br>
                                 <br>
-                                What is the true meaning of education then? Trying to understand that as a human we are
-                                not capable of making our lives better all by ourselves. We need people around us,
-                                mentors, and loved ones, even in the form of movies, vlogs and books. That you can get
-                                inspired by and start moving towards your goal.
+                                So, what is the true meaning of education? It's about understanding that as humans, we are
+                                not capable of making our lives better all by ourselves. We need people around us—mentors,
+                                loved ones, and even inspiration from movies, vlogs, and books—to help us start moving
+                                towards our goals.
                                 <br>
                                 <br>
-                                That then implicitly means that you have to align towards the highest possible good in
-                                Jordan Peterson's words. Then focus on learning how to get there from where you are and
-                                along the way we meet different sets of people. Some are completely aligned with your
-                                thoughts and feeling. Someone with whom you could really connect and get things going
-                                without any friction.
+                                This implicitly means that we have to align ourselves towards the highest possible good, as
+                                Jordan Peterson puts it. We need to focus on learning how to get there from where we are,
+                                and along the way, we meet different sets of people. Some are completely aligned with our
+                                thoughts and feelings, people with whom we can connect and collaborate smoothly.
                                 <br>
                                 <br>
-                                And there are others, the vast majority of the people with whom we may not be as
-                                connected due to innate differences and circumstances, language barriers and a plethora
-                                of other things that could differentiate one human being and another. It is with those
-                                that we first start slowly mingling under a common circumstance, try to understand that
-                                difference a little more and truly understand where it is that they are coming from.
+                                On the other hand, there are others—the vast majority—with whom we may not feel as connected
+                                due to innate differences, circumstances, language barriers, and many other things that
+                                differentiate one human being from another. With these individuals, we start by slowly
+                                mingling under common circumstances, trying to understand their differences a little more
+                                and truly grasping where they are coming from.
                                 <br>
                                 <br>
-                                And it is through those differences that we often find out most of the time that what
-                                they are doing makes more sense than what we have been doing and then we start learning
-                                and imitating them. To try and understand what we get as a result of this new behaviour.
-                                As a result, we become better people.
+                                It is through these differences that we often realize that what they are doing makes more
+                                sense than what we have been doing. We start learning and imitating them, seeking to
+                                understand the results of this new behavior. As a result, we become better individuals.
                                 <br>
                                 <br>
-                                It could even be from a movie. All of these require tolerance of the differences and
-                                above all true empathy and understanding from which the other person comes from. In that
-                                sense, tolerance is letting things slide but you are not truly convinced that what they
-                                are doing is right. But if you truly are convinced that you are right and if the other
-                                person means so much to you. And they should matter much more than your necessity to
-                                project yourself as a NICE person. Then you guys could have a true discussion from which
-                                Maybe a new understanding can arise.
+                                Inspiration can come from various sources, even from movies. All of these require tolerance
+                                of differences and, above all, true empathy and understanding of where the other person
+                                comes from. Tolerance means letting things slide, but deep down, you may not be truly
+                                convinced that what they are doing is right. However, if you genuinely believe that the
+                                other person means a lot to you and should matter more than your need to project yourself as
+                                a "nice" person, then you can engage in a true discussion that may lead to a new
+                                understanding.
                                 <br>
                                 <br>
-                                That sense of open-mindedness is very hard to derive without knowledge and wisdom. True
-                                wisdom comes from exploring different sets of behaviours and understanding where you
-                                could potentially arrive if you had incorporated them into yourself.
+                                That sense of open-mindedness is very hard to achieve without knowledge and wisdom. True
+                                wisdom comes from exploring different sets of behaviors and understanding where you could
+                                potentially arrive if you incorporated them into yourself.
                                 <br>
                                 <br>
-                                That would truly mean that you could become whoever you chose to be without feeling like
-                                an imposter. You only feel like an imposter if the new knowledge has not truly convinced
-                                you yet. If you start feeling like that then start to see examples of why not to
-                                incorporate this new behaviour into yourself and understand the true counter-arguments
-                                that arise out of that conversation thereby factoring in the pros and cons of that new
-                                knowledge.
+                                This would truly mean that you could become whoever you choose to be without feeling like an
+                                imposter. You only feel like an imposter if the new knowledge has not truly convinced you
+                                yet. If you start feeling that way, then look for examples of why not to incorporate this
+                                new behavior into yourself and understand the true counter-arguments that arise from that
+                                conversation. Factor in the pros and cons of that new knowledge.
                                 <br>
                                 <br>
-                                Like it or not, everything starts with action, it could be a subconscious impulse or
-                                thought. Then that repetitive thought becomes a habit, then the habit becomes behaviour
-                                and behaviour becomes an identity. You are a person who does this or that. If it has
-                                reached that far into yourself then it might be really hard to isolate yourself from
-                                being that person, it might feel completely foreign to you. But trust me that feeling
-                                will come to pass and you will start to feel normal again after a while.
+                                Whether you like it or not, everything starts with action. It could be a subconscious
+                                impulse or thought. Then, that repetitive thought becomes a habit, the habit becomes
+                                behavior, and behavior becomes an identity. You become a person who does this or that. If it
+                                has reached that point within you, it might be really hard to detach yourself from being
+                                that person; it might feel completely foreign to you. But trust me, that feeling will pass,
+                                and after a while, you will start feeling normal again.
                                 <br>
                                 <br>
-                                But that too requires awareness of the new behaviour and continuous learning and
-                                adapting. It might seem like a lot of work but like it or not we are already doing it
-                                implicitly or subconsciously all the time! You might as well be cognizant of that fact.
+                                However, this also requires awareness of the new behavior and continuous learning and
+                                adapting. It might seem like a lot of work, but whether you like it or not, we are already
+                                doing it implicitly or subconsciously all the time! You might as well be aware of that fact.
                                 <br>
                                 <br>
-                                That new behaviour would have consequences, and those consequences might be that you
-                                will start losing old friends who no longer think you are what they thought you were.
-                                You might start living a better life. That would mean that you would have to destroy the
-                                destructive habits. And understand the underlying impulse driving you towards that
-                                destructive behaviour.
+                                That new behavior will have consequences, and those consequences might include losing old
+                                friends who no longer see you as they thought you were. You might start living a better
+                                life, which means you will have to let go of destructive habits and understand the
+                                underlying impulse driving you towards that destructive behavior.
                                 <br>
                                 <br>
-                                The whole aura behind the destructive behaviour is that they are enticing to do right
-                                now but repeat them 1000 times then they would take you to a very dark place out of
-                                which not even god can take you before you destroy yourself in it.
+                                The whole allure behind destructive behavior is that it may seem enticing in the moment, but
+                                if repeated 1000 times, it will take you to a very dark place from which not even God can
+                                rescue you before you destroy yourself in it.
                                 <br>
                                 <br>
-                                Truly understand that your identity is your iterations of repeated actions due to a
-                                subconscious impulse.
+                                Truly understand that your identity is the result of iterations of repeated actions driven
+                                by subconscious impulses.
                             </p>
                         </div>
                     </div>
@@ -198,7 +206,7 @@ import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
     head: {
-        title: 'Should you forgive?',
+        title: 'Identity',
     },
     components: {
         Card,
@@ -211,6 +219,7 @@ export default {
     },
     data() {
         return {
+            audioPath: "https://audio.blitzbudget.com/psychology/identity.mp3",
             form: {
                 comment: "",
             },
@@ -222,6 +231,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>

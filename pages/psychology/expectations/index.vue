@@ -5,7 +5,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Expectations</h2>
+                        <h2 class="title">{{ head.title }}</h2>
                     </div>
                 </div>
             </div>
@@ -22,6 +22,20 @@
                     </div>
                 </div>
             </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section" id="article">
                 <div class="container">
                     <div class="row">
@@ -33,7 +47,7 @@
                                 <br>
                             </p>
                             <blockquote>
-                                <p class="blockquote blockquote-success">“expectations will lead to disappointments” 
+                                <p class="blockquote blockquote-success">“expectations will lead to disappointments”
                                 </p>
                             </blockquote>
                             <p>
@@ -70,12 +84,12 @@
                                 <br>
                                 I had tried to use these two statements combined to try and achieve something that I
                                 really wanted to achieve in life and it had ensured that the possibility of achieving is
-                                maximized while minimizing the disappointment that might come from not being to achieve
+                                maximized while minimizing the disappointment that might come from not being able to achieve
                                 the goal.
                                 <br>
                                 <br>
-                                Applying this in practice I have also misunderstood it as not having been excited about
-                                the possible outcome of your effort but holding it down and toning it down until you
+                                Applying this in practice, I have also misunderstood it as not having been excited about
+                                the possible outcome of my effort but holding it down and toning it down until I
                                 achieve it.
                                 <br>
                                 <br>
@@ -102,29 +116,29 @@
                                 <br>
                                 I had to own the above sentence as well. I will do a selfless action to help somebody in
                                 need if I do not know and mentally experience the pain and suffering of the other person
-                                while being in their shoe and truly wanted to avoid the pain for this other being.
+                                while being in their shoes and truly wanted to avoid the pain for this other being.
                                 <br>
                                 <br>
-                                And that somehow makes me feel good about myself. I do not know why but it does. That
+                                And that somehow makes me feel good about myself. I do not know why, but it does. That
                                 feeling is sometimes what people crave. If doing that makes you feel extremely
-                                miserable. I guarantee you that neither I nor anyone would be doing it. That is how
+                                miserable, I guarantee you that neither I nor anyone would be doing it. That is how
                                 selfless action serves us.
                                 <br>
                                 <br>
-                                I guess as Jordan Peterson says “the selfless action of sharing is saving for the future
-                                by giving a pound of current food source to ensure that they might do the same in the
-                                future when they hunt something” though those were not his exact words. That’s how I
-                                understood.
+                                I guess as Jordan Peterson says, “the selfless action of sharing is saving for the future
+                                by giving a pound of the current food source to ensure that they might do the same in the
+                                future when they hunt something,” though those were not his exact words. That’s how I
+                                understood it.
                                 <br>
                                 <br>
-                                I guess that brings us back to emotions. All actions can disappoint us and we should
+                                I guess that brings us back to emotions. All actions can disappoint us, and we should
                                 never let ourselves convince ourselves that no action is the best course of action or no
                                 plan is the best course through life because something worse than disappointment is not
                                 being excited about your future.
                                 <br>
                                 <br>
-                                That is a true killer of joy. What is there to live for. If we truly do not believe our
-                                future self will be better off than our current self ??!
+                                That is a true killer of joy. What is there to live for if we truly do not believe our
+                                future self will be better off than our current self?!
                                 <br>
                                 <br>
                             </p>
@@ -197,7 +211,7 @@ import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
     head: {
-        title: 'Should you forgive?',
+        title: 'Expectations',
     },
     components: {
         Card,
@@ -210,6 +224,7 @@ export default {
     },
     data() {
         return {
+            audioPath: "https://audio.blitzbudget.com/psychology/expectations.mp3",
             form: {
                 comment: "",
             },
@@ -221,6 +236,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>

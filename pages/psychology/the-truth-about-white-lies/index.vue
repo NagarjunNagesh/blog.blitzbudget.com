@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">The Truth about White Lies</h2>
+            <h2 class="title">{{ head.title }}</h2>
           </div>
         </div>
       </div>
@@ -22,6 +22,20 @@
           </div>
         </div>
       </div>
+      <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
       <div class="section" id="article">
         <div class="container">
           <div class="row">
@@ -215,73 +229,7 @@
         </div>
       </div>
       <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img class="img img-raised rounded" src="img/psychology/bg18.jpg" alt="" />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Psychology</h6>
-                          <h3 class="card-title">
-                            <nuxt-link to="/psychology/pursuit-of-problem-solving/">Pursuit of Problem Solving?
-                            </nuxt-link>
-                          </h3>
-                          <p class="card-description">
-                            The mere fact that we are focusing on something and
-                            the limitation that it imposes on us ensures that
-                            other problems.....
-                          </p>
-                          <p class="author">
-                            by
-                            <strong>Nagarjun Nagesh</strong> , March 30, 2022
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
-                    <div class="row">
-                      <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                          Search for the Good
-                        </h6>
-                        <h3 class="card-title">
-                          <nuxt-link to="/psychology/search-for-the-good/self-preservation/">Self Preservation
-                          </nuxt-link>
-                        </h3>
-                        <p class="card-description">
-                          What is good? That is a hard thing to crack, right?
-                          That’s the most abstract word anyone has ever found.
-                          It has multiple meanings.....
-                        </p>
-                        <p class="author">
-                          by
-                          <strong>Nagarjun Nagesh</strong>, March 30, 2022
-                        </p>
-                      </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="img/psychology/bg17.jpg" alt="blog" />
-                        </div>
-                      </div>
-                    </div>
-                  </card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <other-blogs :next="18" :previous="19"></other-blogs>
       </div>
     </div>
   </div>
@@ -296,6 +244,7 @@ import {
   Checkbox,
 } from "@/components";
 import initParallax from "@/utils/initParallax";
+import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
   name: "blog-post",
   head: {
@@ -308,9 +257,11 @@ export default {
     Comment,
     [Button.name]: Button,
     [Checkbox.name]: Checkbox,
+    OtherBlogs
   },
   data() {
     return {
+      audioPath: "https://audio.blitzbudget.com/psychology/the-truth-about-white-lies.mp3",
       form: {
         comment: "",
       },

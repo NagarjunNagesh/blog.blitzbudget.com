@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">One Piece: Roronoa Zoro</h2>
+            <h2 class="title">{{ head.title }}</h2>
           </div>
         </div>
       </div>
@@ -22,6 +22,20 @@
           </div>
         </div>
       </div>
+      <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
       <div class="section" id="article">
         <div class="container">
           <div class="row">
@@ -305,6 +319,7 @@ export default {
   },
   data() {
     return {
+      audioPath: "https://audio.blitzbudget.com/psychology/an-enemy-with-multiple-faces.mp3",
       form: {
         comment: "",
       },

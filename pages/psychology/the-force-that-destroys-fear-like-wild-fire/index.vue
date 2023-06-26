@@ -7,7 +7,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">The force that destroys fear like wild fire</h2>
+                        <h2 class="title">{{ head.title }}</h2>
                     </div>
                 </div>
             </div>
@@ -24,13 +24,27 @@
                     </div>
                 </div>
             </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section" id="article">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h3 class="title">Sometimes what I had faced when trying...</h3>
+                            <h3 class="title">The opposite of fear is courage...</h3>
                             <p>
-                                The opposite of fear is courage, right? When people ask you to be courageous despite the
+                                right? When people ask you to be courageous despite the
                                 fear what they truly mean is that you would have been willing to channel your fear into
                                 paying more attention and factoring in that being ignorant about danger is what causes
                                 fear.
@@ -211,6 +225,7 @@ export default {
     },
     data() {
         return {
+            audioPath: "https://audio.blitzbudget.com/psychology/the-force-that-destroys-fear-like-wild-fire.mp3",
             form: {
                 comment: "",
             },
@@ -222,5 +237,4 @@ export default {
     },
 };
 </script>
-<style>
-</style>
+<style></style>
