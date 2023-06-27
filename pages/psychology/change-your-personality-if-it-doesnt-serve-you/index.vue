@@ -7,7 +7,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Change your personality if it doesn’t serve you</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -20,6 +20,20 @@
                             <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                                 <em class="now-ui-icons text_align-left"></em> Read Article
                             </nuxt-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -198,9 +212,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Should you forgive?',
-    },
     components: {
         Card,
         InfoSection,
@@ -210,8 +221,15 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Change your personality if it doesn’t serve you',
+            audioPath: "https://audio.blitzbudget.com/psychology/change-your-personality-if-it-doesnt-serve-you.mp3",
             form: {
                 comment: "",
             },

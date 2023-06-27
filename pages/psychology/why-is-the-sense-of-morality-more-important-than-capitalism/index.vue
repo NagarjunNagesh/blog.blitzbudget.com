@@ -5,8 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Why is the Sense of Morality</h2>
-            <h4>more Important than Capitalism?</h4>
+            <h2 class="title">{{ pageTitle }}</h2>
           </div>
         </div>
       </div>
@@ -19,6 +18,20 @@
               <nuxt-link to="#" class="btn btn-success btn-round btn-lg">
                 <em class="now-ui-icons text_align-center"></em> Read Article
               </nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="button-container">
+                <audio controls color="primary">
+                  <source :src="audioPath" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
             </div>
           </div>
         </div>
@@ -197,71 +210,7 @@
         </div>
       </div>
       <div class="section">
-        <div class="container">
-          <div class="col-md-12">
-            <h2 class="title text-center">Similar Stories</h2>
-            <br />
-            <div class="blogs-1" id="blogs-1">
-              <div class="row">
-                <div class="col-md-10 ml-auto mr-auto">
-                  <card type="blog" plain>
-                    <template slot="raw-content">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="card-image">
-                            <img class="img img-raised rounded" src="img/psychology/bg19.jpg" alt="" />
-                          </div>
-                        </div>
-                        <div class="col-md-7">
-                          <h6 class="category text-info">Psychology</h6>
-                          <h3 class="card-title">
-                            <nuxt-link to="/psychology/what-is-your-religion/">What is your Religion?</nuxt-link>
-                          </h3>
-                          <p class="card-description">
-                            The need for religion and god is intrinsic in most
-                            people. Once the god is destroyed then we are in
-                            chaos.
-                          </p>
-                          <p class="author">
-                            by
-                            <strong>Nagarjun Nagesh</strong> , March 30, 2022
-                          </p>
-                        </div>
-                      </div>
-                    </template>
-                  </card>
-                  <card type="blog" plain>
-                    <div class="row">
-                      <div class="col-md-7">
-                        <h6 class="category text-danger">
-                          <em class="now-ui-icons now-ui-icons media-2_sound-wave"></em>
-                          Psychology
-                        </h6>
-                        <h3 class="card-title">
-                          <nuxt-link to="/psychology/the-truth-about-white-lies/">The Truth about White Lies</nuxt-link>
-                        </h3>
-                        <p class="card-description">
-                          Once we establish ourselves as a person who would not
-                          shy away from saying white lies as long as we get what
-                          we want/prevent bad things....
-                        </p>
-                        <p class="author">
-                          by
-                          <strong>Nagarjun Nagesh</strong>, March 30, 2022
-                        </p>
-                      </div>
-                      <div class="col-md-5">
-                        <div class="card-image">
-                          <img class="img img-raised rounded" src="img/psychology/bg18.jpg" alt="blog" />
-                        </div>
-                      </div>
-                    </div>
-                  </card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <other-blogs :next="30" :previous="31"></other-blogs>
       </div>
     </div>
   </div>
@@ -276,11 +225,9 @@ import {
   Checkbox,
 } from "@/components";
 import initParallax from "@/utils/initParallax";
+import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
   name: "blog-post",
-  head: {
-    title: 'Why is the Sense of Morality more Important than Capitalism?',
-  },
   components: {
     Card,
     InfoSection,
@@ -288,9 +235,17 @@ export default {
     Comment,
     [Button.name]: Button,
     [Checkbox.name]: Checkbox,
+    OtherBlogs
+  },
+  head() {
+    return {
+      title: this.pageTitle
+    }
   },
   data() {
     return {
+      pageTitle: 'Why is the Sense of Morality more Important than Capitalism?',
+      audioPath: "https://audio.blitzbudget.com/psychology/why-is-the-sense-of-morality-more-important-than-capitalism.mp3",
       form: {
         comment: "",
       },
@@ -302,5 +257,4 @@ export default {
   },
 };
 </script>
-<style>
-</style>
+<style></style>

@@ -1,5 +1,4 @@
 <template>
-
     <div class="container">
         <div class="col-md-12">
             <h2 class="title text-center">Similar Stories</h2>
@@ -77,6 +76,11 @@ export default {
         Card,
         [Button.name]: Button,
         [FormGroupInput.name]: FormGroupInput,
+    },
+    head() {
+        return {
+            title: this.pageTitle
+        }
     },
     data() {
         return {
@@ -684,6 +688,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>

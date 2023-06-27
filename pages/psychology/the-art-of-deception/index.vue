@@ -1,12 +1,11 @@
 <template>
     <div class="wrapper blog-post">
         <div class="page-header page-header-small rellax-header">
-            <div class="page-header-image"
-                style="background-image: url('img/psychology/the-art-of-deception.jpg')"></div>
+            <div class="page-header-image" style="background-image: url('img/psychology/the-art-of-deception.jpg')"></div>
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">The art of Deception</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -19,6 +18,20 @@
                             <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                                 <em class="now-ui-icons text_align-left"></em> Read Article
                             </nuxt-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -203,9 +216,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Should you untangle your past?',
-    },
     components: {
         Card,
         InfoSection,
@@ -215,8 +225,15 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'The Art of Deception?',
+            audioPath: "https://audio.blitzbudget.com/psychology/the-art-of-deception.mp3",
             form: {
                 comment: "",
             },
@@ -228,6 +245,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>

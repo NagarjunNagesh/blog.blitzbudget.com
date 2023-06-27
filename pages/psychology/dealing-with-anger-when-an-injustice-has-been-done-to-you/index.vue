@@ -1,11 +1,13 @@
 <template>
     <div class="wrapper blog-post">
         <div class="page-header page-header-small rellax-header">
-            <div class="page-header-image" style="background-image: url('img/psychology/dealing-with-anger-when-an-injustice-has-been-done-to-you.jpg')"></div>
+            <div class="page-header-image"
+                style="background-image: url('img/psychology/dealing-with-anger-when-an-injustice-has-been-done-to-you.jpg')">
+            </div>
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Dealing with anger when an injustice has been done to you</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -22,65 +24,70 @@
                     </div>
                 </div>
             </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section" id="article">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
                             <h3 class="title">That is often the hardest to control...</h3>
                             <p>
-                                at least personally. I am forced to deal with the
-                                immediacy of dealing with that and correcting it. When a false accusation has been made
-                                effectively making you the bad person then you immediately know that an injustice has
-                                been done towards you, or do you??
+                                Personally, I find it challenging to control certain aspects of my life. When confronted
+                                with false accusations that unjustly paint me as the bad person, it becomes an immediate
+                                struggle to rectify the situation. It's natural to feel a sense of injustice when such
+                                allegations are made against us, but it's essential to reflect on our own actions and
+                                consider if there was anything we could have done differently to prevent being in that
+                                situation in the first place. Sometimes, we may be unknowingly influenced or manipulated
+                                into acting against our own wishes under specific circumstances or emotional triggers.
                                 <br>
                                 <br>
-                                It is easy to assume that, but then ask yourself what is it that you could have done to
-                                prevent yourself from being in that situation in the first place. If there is something
-                                that you indeed was seduced into doing that you would otherwise not do then someone
-                                knows to manipulate you into doing the things that you do not want to do under normal
-                                circumstance but would do if certain emotions or certain situations were triggered.
+                                If you have thoroughly examined the situation and genuinely believe that the other person is
+                                unjustly criticizing you, going beyond a mere negative perception, it may be time to
+                                distance yourself from that individual or group. Learn from the experience and grow, but do
+                                not retreat into your own shell or become an introvert again. If you find yourself
+                                withdrawing from others and retreating into isolation, it is likely triggered by your own
+                                insecurities. Such a scenario often leads to disconnection and restless nights.
                                 <br>
                                 <br>
-                                If you could no longer find anything that you could have done to improve the situation
-                                and are absolutely convinced that the other person is bitching about you and their
-                                perception of you is not negative that using the word negative seems to be an
-                                understatement then, by all means, move away from that person or group, learn from that
-                                experience. Do not in any way learn to go inwards and become an introvert again., If
-                                that is the conclusion then it is your insecurity that is being triggered and almost
-                                always that is often the scenario during which you would stop connecting with others and
-                                curl up and sleep during the night.
+                                Instead, strive to act as you normally would but develop the ability to identify
+                                manipulative individuals more quickly and filter them out of your life and relationships. By
+                                doing so, you can avoid repeating such unpleasant experiences. Your primary goal should be
+                                to protect yourself and your loved ones, enabling personal growth and progress toward a
+                                better future.
                                 <br>
                                 <br>
-                                Act as you would normally act but learn to identify manipulative people faster and
-                                filter them out of your relationship faster so you do not have to go through that shitty
-                                experience again. By all means, you have one purpose in goal, protect yourself and your
-                                loved ones so that you can grow and move towards the goal pointed towards the good,
-                                towards improvement.
+                                When I encounter situations like this, I often feel frustration or anger, and a strong urge
+                                to correct the perceived injustice and take immediate action. However, anger is a peculiar
+                                negative emotion that compels us to react impulsively, often leading to unintended
+                                consequences that we wouldn't otherwise choose under normal circumstances.
                                 <br>
                                 <br>
-                                More often than not I get frustrated or angry when this information filter through and I
-                                find myself wanting to correct that injustice and take action. Anger as such is a weird
-                                negative emotion that forces us to take action immediately often having dire
-                                consequences as a result which you would not otherwise have done under normal
-                                circumstances.
+                                It's important to work on managing this emotion rather than suppressing it, as bottling up
+                                anger can lead to increased stress and irritability. Instead, find healthy outlets for that
+                                energy. Redirect it into something constructive or find alternative ways to release it. One
+                                effective method I've discovered is writing. Take a piece of paper, isolate yourself from
+                                distractions, and allow your thoughts to flow freely without filtering. If the content
+                                becomes too provocative, consider burning the paper afterward. This outlet can be divine,
+                                providing a sense of relief and freeing you from the burden of the emotion. It's a clear
+                                indication that you are no longer consumed by it. This process also helps you organize your
+                                thoughts and gain clarity. Writing is a therapeutic way to spend time alone and sort through
+                                the internal mess. Alternatively, engaging in physical activities like punching a bag (not
+                                actual people who triggered your emotions) can also provide a release.
                                 <br>
                                 <br>
-                                Work on that emotion, do not control your anger. that often bottles up and becomes
-                                stressed. redirect that energy into something else. Let it out in some other way.
-                                because when you bottle it up you would often find yourself more irritable or snapping
-                                at someone. Those are signs of bottling up negative emotions, time to spend some time
-                                with yourself and find out why you are feeling what you are feeling and start organizing
-                                those thoughts, The best way that I found out was to take a piece of paper, isolate
-                                yourself from other circumstances and start writing without filter what ever is on your
-                                mind. and if it is too provocative. just burn it afterwards. But that outlet is divine.
-                                You would often find yourself relieved of a burden. That is the key sign that you are no
-                                longer captivated by an emotion. That emotion has a subpersonality which would is now
-                                used to get yourself more organized. Because writing is the most curative way of doing
-                                or even spending time alone with yourself and sorting through the mess. or even by
-                                punching stuff, I mean punching bags, not actual people who triggered those emotions.
-                                <br>
-                                <br>
-                                And next time do better.
+                                Remember, the key is to learn from these experiences and strive to do better in the future.
                             </p>
                         </div>
                     </div>
@@ -150,9 +157,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Should you forgive?',
-    },
     components: {
         Card,
         InfoSection,
@@ -162,8 +166,15 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Dealing with anger when an injustice has been done to you',
+            audioPath: "https://audio.blitzbudget.com/psychology/dealing-with-anger-when-an-injustice-has-been-done-to-you.mp3",
             form: {
                 comment: "",
             },
@@ -175,6 +186,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>

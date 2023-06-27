@@ -2,11 +2,12 @@
     <div class="wrapper blog-post">
         <div class="page-header page-header-small rellax-header">
             <div class="page-header-image"
-                style="background-image: url('img/psychology/should-you-untangle-your-past.jpg')"></div>
+                style="background-image: url('img/psychology/why-i-couldnt-keep-up-with-my-new-years-resolution.jpg')">
+            </div>
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Why I couldn’t keep up with my New Years resolution?</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -23,153 +24,160 @@
                     </div>
                 </div>
             </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section" id="article">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h3 class="title">Video games!! They were an integral...</h3>
+                            <h3 class="title">Video games!! They were an integral part of my life since childhood.</h3>
                             <p>
-                                There is an inherent sense of suffering that encompasses all our living beings. Bogged
-                                down by the circumstances without which we could live freely without restrictions and
-                                achieve what we had dreamed of achieving.
-                                <br>
-                                <br>
-                                In a sense, suffering gives us all a choice, to be resentful about our current situation
-                                and declare an enemy who wants to keep us in that state or to be a dreamer and plan to
-                                get to where we had always wanted to be. To dream is to see the possibilities. And to
-                                see the possibilities is to see your potential. To see your potential is to be motivated
-                                and with that motivation, you can finally take action towards achieving that dream.
-                                <br>
-                                <br>
-                                All of this gave birth buy suffering. In a sense suffering is something we should be
-                                embracing. Embracing suffering with open arms with the full intention that that
-                                suffering is only going to make us stronger every day and make us prepared for bigger
-                                and better things which might await us in the future.
-                                <br>
-                                <br>
-                                That distant future will never come to us if we do not take action. Such is the power of
-                                suffering. Which has the power to destroy using resentment or to have the power to
-                                create using our potential to dream of a day when we would have everything that would
-                                alleviate the suffering and even more Maybe, who knows what the future has in store for
-                                us.
-                                <br>
-                                <br>
-                                And along the way to achieve, we may face hurdles which could seem far beyond our
-                                capability to navigate through. But, never the less we still manage to bring out the
-                                courage that resides within all of us and try to get closer to our goal.
-                                <br>
-                                <br>
-                                Funny that suffering gives us clarity, goal, direction and meaning in life. We call all
-                                see it is the people who have suffered and endured who are the most willing to help the
-                                less fortunate. For we know that despite our efforts, hard work, endurance and
-                                intelligence we would have reached nowhere if the opportunities has not presented
-                                themselves almost before we had given up hope on ever achieving that goal.
-                                <br>
-                                <br>
-                                That could possibly be called luck, as the circumstances around which it would have been
-                                possible for the world to have provided the opportunities are very minuscule.
-                                Nevertheless, we shall all be given an opportunity but will never be capable of taking
-                                them if we are not prepared for it.
-                                <br>
-                                <br>
-                                How many job openings do we have on LinkedIn at any given point in time for your role?
-                                How many clients do you think you should approach before changing something in your
-                                product or the way you approach them? There are possibly 7.7 billion possibilities if we
-                                focus on transacting with the people. Most of the time people don’t know what they want.
-                                What is going to do about it? Where is the market moving towards now? What is the market
-                                moving away from? Where are you situated in there?
-                                <br>
-                                <br>
-                                All of the questions would definitely give us more clarity about where we are. Upon
-                                knowing where we are we often are disappointed with the place where we are at, present
-                                and it is that which gives us the possibility to see where we want to go and navigate
-                                towards it.
-                                <br>
-                                <br>
-                                When I was learning to drive, I soon learnt that if we need to avoid hitting a tree. It
-                                is futile to look at the tree and try to stay on the road. Because you will soon realize
-                                that you would hit the trunk of the tree, the one thing that you intend to avoid.
-                                <br>
-                                <br>
-                                No matter the intention, where you see is where you go. All the while if you are
-                                bitching about the current circumstances and exactly how unjust that situation is and as
-                                a result, curse all those that you think are responsible for it and hate them. That is
-                                inevitably what we all start to propagate as a result, hate and resentment. That would
-                                soon be the way we start seeing the world. And the more we hate, the more we
-                                unconsciously move away from our goal. The more we start to hate and resent. This
-                                becomes a cycle that would never lead us to where we initially wanted to go.
-                                <br>
-                                <br>
-                                If we cannot reliably iterate a habit, 10, 100, or 1000 times and reach a place which is
-                                far better than where are currently then that habit is detrimental to our emotional and
-                                spiritual well-being. Start moving away from that habit.
-                                <br>
-                                <br>
-                                I would feel less confident about my body when I initially came to Spain and started to
-                                see all the people my age living in Madrid who were extremely fit and energetic. That
-                                kind of kept me lowballing every time around, and I kept beating myself up for a long
-                                time. I blamed the bad food culture that I was exposed to in India, and I blamed the bad
-                                food culture that I was exposed to in the UK
-                                when I was doing my masters. But the one thing that did not change is that I was looking
-                                for some other external circumstances which had forced me to be the way I am right now,
-                                instead of focusing on what I had to do to reach where I wanted to reach. At least a
-                                person who could wear a T-shirt for once without trying to loosen the belly area or
-                                having to be conscious about it every now and then.
-                                <br>
-                                <br>
-                                It is only recently that I started working on it really intensely and started losing
-                                around 5 KG, I kind of make it seem too easy. But trust me it is not, we had to change
-                                the whole circumstances, start getting used to intermittent fasting, destroy my
-                                prejudice and self-confidence that I could somehow become fit without exercise, and
-                                educate the people around me about exactly what is it that I am trying to achieve and
-                                how much it really means to me.
-                                <br>
-                                <br>
-                                Even after all this, when we start to feel hungry or smell or even see food, my
-                                subconscious goes “have it right now”. Then I had to create an eating window within
-                                which I am allowed to eat and the rest of the time when I am not allowed to eat. That
-                                kind of liberated me from this responsibility of when is it that I am actually allowed
-                                to eat and when is it that I am not allowed to eat. And how to time it precisely to
-                                ensure that I lose weight every day. How much of the food should I actually eat??
-                                <br>
-                                <br>
-                                Depending on how your parents have raised you and thought you around well, you will have
-                                it either easier or harder to make these new habits by destroying the old ones.
-                                <br>
-                                <br>
-                                It is definitely harder than it seems. Some people have to tell their parents who
-                                eventually teach and train their kids to be healthier naturally so by just changing one
-                                or two habits you can fix your issues. But other like us have at least one parent who
-                                was obese and thought us some bad habits that are detrimental to our health so it means
-                                that we are required to change 5 - 10 habits at a time to have any reasonable effect on
-                                our body.
-                                <br>
-                                <br>
-                                That is one of those moments when we can either choose to hate our parents for providing
-                                us with those subconscious bad habits or understand and appreciate all the other good
-                                things that they ingrained in us when we were a child which helps us to this day and
-                                some of them do not have.
-                                <br>
-                                <br>
-                                Suffering this has the potential opportunity to let you be grateful for the things that
-                                you have but others around you don’t. That liberates you from self-pity, self resentment
-                                and self-deceit. Why did I put self-deceit there? Some people say my parents, my
-                                grandparents and my great-grandparents have this chronic obesity and hence I am a
-                                chronically obese person. It’s just an example. Maybe there is someone who thinks about
-                                this, maybe it is true but genes also have the potential to change. More genes in our
-                                body have the potential to change with our habits and lifestyle than the ones that are
-                                passed down to you generationally.
-                                <br>
-                                <br>
-                                And your choosing to live a better life and shaping your genes to be a little healthier
-                                will force your future kids to have a healthier gene. Just a little bit better.
-                                <br>
-                                <br>
-                                Such is the power of good habit and healthy thinking. Always see the light even during
-                                the darkest of times it will get you to a better place and be a little more grateful
-                                about life.
-                                <br>
-                                <br>
+                                I started playing games in the era of Prince of Persia. How many of you guys have played it?
+                                I used to play it a lot. Actually, I played a lot of games, like Dangerous Dave, Contra,
+                                Shooting duck, Unreal Tournament, and Resident Evil on PS2. When I promised my mom that I
+                                would get first place during my 11th and 12th grades, I had strong motivation to prevent my
+                                mom from going through such hardship to get me into a school.
+                                <br><br>
+                                I messed up my chance to stay in the same school during my 10th grade. They had an exam at
+                                the end of the 10th grade, and I just hated staying in the hostel so much that I lied and
+                                went to my parent's place in Indore, Maharashtra from Chennai.
+                                <br><br>
+                                I hated, with a capital H, my stay in the hostel. People had this tyrannical hierarchy, they
+                                would bully me, sideline me, and create gangs that I was never a part of. The truth is that
+                                I could not resonate with them. Their thought process was so different from mine that we
+                                were never going to be a group.
+                                <br><br>
+                                I was so naive. They seemed to have incorporated darkness. They were capable of inflicting
+                                deliberate harm when possible to others and never shied away from it when necessary.
+                                <br><br>
+                                So I missed this opportunity to stay essentially in the same school and went through a
+                                horrible experience. I was pretty average in my 10th grade due to the emotional stress of
+                                staying in the hostel. I know it is an excuse, but I was like 15 years old and that was all
+                                I could handle.
+                                <br><br>
+                                So I was essentially kicked out of that school and had to join or apply as a new student.
+                                All I asked my parents was that one of them would have to come and stay with me during my
+                                11th and 12th grades in Chennai, and whichever school I went to, I would ensure that I
+                                become first in the class if they could provide me with that privilege.
+                                <br><br>
+                                I essentially did that with persistence, and as a reward, I asked my grandfather for a
+                                PlayStation 2, and he got me one. Before joining my bachelor's, I had this 6-month gap and
+                                all I ever did was play from morning to night.
+                                <br><br>
+                                I mean play video games, from then on I kind of attached my identity to being a person who
+                                plays video games. Even when I joined college, I convinced myself that earning 70% marks is
+                                sufficient and what is more important is balance in life. But that also included me playing
+                                2-3 hours of DOTA every day for the next 4 years.
+                                <br><br>
+                                I say this because I was a person who was proud of playing games and attached my identity to
+                                it. Life happened, I went to the UK and found myself a poor person, back to 0. Like Ray
+                                Dalio says, revolution is a great leveler. I really felt that everything was removed and I
+                                was thrown into a new system where all my Indian peers, including myself, were at level 0.
+                                <br><br>
+                                God, I was extremely miserable. Saying "extremely miserable" does not accurately describe my
+                                feelings. I was pretty devastated. From then on, my motivation was to get back to that
+                                middle-class comfortable standard that I am currently in after 10 years of effort from the
+                                UK back in 2013.
+                                <br><br>
+                                It feels so far apart, like more than 10 years' worth of gap. When I think back, it feels
+                                like more than 10 years, you know what I mean?
+                                <br><br>
+                                During these 10 years, I have always felt that playing games was a luxury. Like taking a
+                                rest and a break from real life. I can enter this virtual universe where I enjoy the
+                                progress and rewards that I couldn't get in the real world. It felt good actually to keep
+                                staying in that virtual world.
+                                <br><br>
+                                Sometimes it was my attraction towards zombie movies that made me start playing some zombie
+                                apocalypse games. Or it could be that I had so much free time that I would just listen to an
+                                audiobook and play Age of Empires for like 8 months whenever I had some free time when I
+                                first came to Spain. I had to spend 8 months without my wife alone in Spain where no one
+                                speaks English, at least not the people whom I knew anyway.
+                                <br><br>
+                                Slowly, I started feeling guilty when I played games. It felt like whenever I played, I
+                                wasn't living my real life, and I noticed that it made my eyesight a little worse.
+                                <br><br>
+                                I had been wearing glasses since my 11th and 12th grades when all I did was study, and I
+                                didn't even bother turning on the lights when it got dark, so I developed myopia.
+                                <br><br>
+                                After reading so many scientific papers on the 27th of March 2017, I just decided to stop
+                                wearing glasses and live a life without searching for them as soon as I woke up.
+                                <br><br>
+                                I felt so dependent and low as a result of being dependent on something. It affected my
+                                self-confidence so much.
+                                <br><br>
+                                When I played video games, I noticed that it made my eyesight worse and I would get
+                                headaches. Plus, that was time I was not spending with my wife and not living a life worth
+                                living. It felt like video games were taking so much away from me.
+                                <br><br>
+                                So, this year in 2022, like every year, I made a promise that I would not play video games
+                                for a whole year. After feeling miserable after a month of playing games, I thought I could
+                                just use my willpower to not play. I had done that previously and it worked successfully in
+                                the past.
+                                <br><br>
+                                The one thing, however, I didn't take into account was the fact that I had been consuming
+                                too much Jordan Peterson content, which fundamentally changed me into a person who was more
+                                open to life and the possibility of being vulnerable. I was more vulnerable! As a result,
+                                even now, I believe vulnerability is the single greatest change Jordan Peterson can give
+                                you, including meaning and purpose in life, if you start believing in morality. All the more
+                                good.
+                                <br><br>
+                                I kind of deeply became all of that. I rediscovered my morality, which I had somehow lost in
+                                the pursuit of money. Having lived in Spain, I thought living morally was not an option in
+                                western nations.
+                                <br><br>
+                                I was seeing too many Hollywood movies, apparently, and I wanted to become a westerner as
+                                well. Little did I know that I had lost the key to living the most fulfilling life. A life
+                                worth living is worth living morally.
+                                <br><br>
+                                By morality, I mean reflecting and being empathetic towards others, understanding that what
+                                affects you can be used in reverse to inflict pain on others. That knowledge changed me.
+                                <br><br>
+                                I was a different person, and somehow my willpower was just not enough to keep me in check
+                                from playing video games.
+                                <br><br>
+                                It lasted for like 4 months, and after writing like 35 articles for this book, I felt so
+                                empty that I started playing video games again. It was then that I noticed a pattern.
+                                <br><br>
+                                When I feel empty and exhausted, I use playing video games as an escape to refill or at
+                                least not feel exhausted anymore.
+                                <br><br>
+                                After understanding this fundamental reason, which subconsciously triggers me to move
+                                towards playing video games, the next time I felt that way, I stopped the creation spree
+                                that I was in and spent more time with my loving wife, watching a movie or going out for a
+                                drink, and the next day, I could get back to it.
+                                <br><br>
+                                I know more successful people do not have the luxury of taking a whole day off. But heck, I
+                                am young and always feel like I need to nurture my relationship. I think everyone should
+                                spend quality time nurturing all the people who love them unconditionally. I do not mean the
+                                relationships that fall into the "frenemy" category, as Vanessa Van Edwards put it. By the
+                                way, look into her work.
+                                <br><br>
+                                It's amazing the kind of things that you can learn from her books. She adds so much value
+                                and helps us understand so much more about human behavior that I cannot insist enough. Go
+                                and read her books.
+                                <br><br>
+                                Coming back to the point, the new resolution did not work for me, and I guess it does not
+                                work as well as it could for you either. Simply saying that you will not do something does
+                                not suffice.
+                                <br><br>
+                                You have to understand the subconscious impulses that trigger you to move towards playing
+                                video games or whatever it is that you do not want to do, and then ask yourself what other
+                                constructive and meaningful things you can replace them with.
+                                <br><br>
+                                That approach only works for resolutions where you do not want to engage in negative
+                                behaviors. But what if you want to do something?
                             </p>
                         </div>
                     </div>
@@ -239,9 +247,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Should you untangle your past?',
-    },
     components: {
         Card,
         InfoSection,
@@ -251,8 +256,15 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Why I couldn’t keep up with my New Years resolution?',
+            audioPath: "https://audio.blitzbudget.com/psychology/why-i-couldnt-keep-up-with-my-new-years-resolution.mp3",
             form: {
                 comment: "",
             },
@@ -264,6 +276,4 @@ export default {
     },
 };
 </script>
-<style>
-
-</style>
+<style></style>
