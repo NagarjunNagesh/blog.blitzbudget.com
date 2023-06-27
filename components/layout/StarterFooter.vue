@@ -40,6 +40,11 @@ export default {
         backgroundColor: String,
         type: String
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
             year: new Date().getFullYear()
@@ -47,5 +52,4 @@ export default {
     }
 }
 </script>
-<style>
-</style>
+<style></style>

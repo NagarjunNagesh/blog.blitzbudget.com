@@ -1,11 +1,12 @@
 <template>
     <div class="wrapper blog-post">
         <div class="page-header page-header-small rellax-header">
-            <div class="page-header-image" style="background-image: url('img/psychology/how-to-channel-emotions-to-be-more-productive.jpg')"></div>
+            <div class="page-header-image"
+                style="background-image: url('img/psychology/how-to-channel-emotions-to-be-more-productive.jpg')"></div>
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">How to channel emotions to be more productive?</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -18,6 +19,20 @@
                             <nuxt-link to="#article" class="btn btn-success btn-round btn-lg">
                                 <em class="now-ui-icons text_align-left"></em> Read Article
                             </nuxt-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-container">
+                                <audio controls color="primary">
+                                    <source :src="audioPath" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -276,31 +291,33 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Should you forgive?',
-    },
-    components: {
-        Card,
+components: {
+    Card,
         InfoSection,
         Badge,
         Comment,
         [Button.name]: Button,
-        [Checkbox.name]: Checkbox,
-        OtherBlogs
-    },
-    data() {
-        return {
-            form: {
-                comment: "",
-            },
-            comments: [],
-        };
-    },
-    mounted() {
-        initParallax();
-    },
+            [Checkbox.name]: Checkbox,
+                OtherBlogs
+},
+head() {
+    return {
+        title: this.pageTitle
+    }
+},
+data() {
+    return {
+        pageTitle: 'How to channel emotions to be more productive?',
+        audioPath: "https://audio.blitzbudget.com/psychology/how-to-channel-emotions-to-be-more-productive.mp3",
+        form: {
+            comment: "",
+        },
+        comments: [],
+    };
+},
+mounted() {
+    initParallax();
+},
 };
 </script>
-<style>
-
-</style>
+<style></style>
