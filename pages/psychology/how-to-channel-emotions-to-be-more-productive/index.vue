@@ -6,7 +6,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">{{ head.title }}</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -291,30 +291,33 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'How to channel emotions to be more productive?',
-    },
-    components: {
-        Card,
+components: {
+    Card,
         InfoSection,
         Badge,
         Comment,
         [Button.name]: Button,
-        [Checkbox.name]: Checkbox,
-        OtherBlogs
-    },
-    data() {
-        return {
-            audioPath: "https://audio.blitzbudget.com/psychology/how-to-channel-emotions-to-be-more-productive.mp3",
-            form: {
-                comment: "",
-            },
-            comments: [],
-        };
-    },
-    mounted() {
-        initParallax();
-    },
+            [Checkbox.name]: Checkbox,
+                OtherBlogs
+},
+head() {
+    return {
+        title: this.pageTitle
+    }
+},
+data() {
+    return {
+        pageTitle: 'How to channel emotions to be more productive?',
+        audioPath: "https://audio.blitzbudget.com/psychology/how-to-channel-emotions-to-be-more-productive.mp3",
+        form: {
+            comment: "",
+        },
+        comments: [],
+    };
+},
+mounted() {
+    initParallax();
+},
 };
 </script>
 <style></style>

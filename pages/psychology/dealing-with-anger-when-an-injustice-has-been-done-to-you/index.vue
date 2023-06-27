@@ -7,7 +7,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">{{ head.title }}</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -157,9 +157,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Dealing with anger when an injustice has been done to you',
-    },
     components: {
         Card,
         InfoSection,
@@ -169,8 +166,14 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Dealing with anger when an injustice has been done to you',
             audioPath: "https://audio.blitzbudget.com/psychology/dealing-with-anger-when-an-injustice-has-been-done-to-you.mp3",
             form: {
                 comment: "",

@@ -6,7 +6,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">{{ head.title }}</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -184,11 +184,12 @@
                     </div>
                 </div>
             </div>
-        <div class="section">
-            <other-blogs :next="7" :previous="8"></other-blogs>
+            <div class="section">
+                <other-blogs :next="7" :previous="8"></other-blogs>
+            </div>
         </div>
     </div>
-</div></template>
+</template>
 <script>
 import {
     Card,
@@ -202,9 +203,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Greed, Power and Inequality',
-    },
     components: {
         Card,
         InfoSection,
@@ -214,8 +212,14 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Greed, Power and Inequality',
             audioPath: "https://audio.blitzbudget.com/psychology/an-enemy-with-multiple-faces.mp3",
             form: {
                 comment: "",

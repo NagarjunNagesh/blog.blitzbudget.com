@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">{{ head.title }}</h2>
+            <h2 class="title">{{ pageTitle }}</h2>
           </div>
         </div>
       </div>
@@ -23,19 +23,19 @@
         </div>
       </div>
       <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="button-container">
-                                <audio controls color="primary">
-                                    <source :src="audioPath" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="button-container">
+                <audio controls color="primary">
+                  <source :src="audioPath" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
       <div class="section" id="article">
         <div class="container">
           <div class="row">
@@ -228,9 +228,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
   name: "blog-post",
-  head: {
-    title: 'Why is the Sense of Morality more Important than Capitalism?',
-  },
   components: {
     Card,
     InfoSection,
@@ -240,8 +237,14 @@ export default {
     [Checkbox.name]: Checkbox,
     OtherBlogs
   },
+  head() {
+    return {
+      title: this.pageTitle
+    }
+  },
   data() {
     return {
+      pageTitle: 'Why is the Sense of Morality more Important than Capitalism?',
       audioPath: "https://audio.blitzbudget.com/psychology/why-is-the-sense-of-morality-more-important-than-capitalism.mp3",
       form: {
         comment: "",
@@ -254,5 +257,4 @@ export default {
   },
 };
 </script>
-<style>
-</style>
+<style></style>

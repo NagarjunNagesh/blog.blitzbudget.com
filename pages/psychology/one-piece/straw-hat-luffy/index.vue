@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">{{ head.title }}</h2>
+            <h2 class="title">{{ pageTitle }}</h2>
           </div>
         </div>
       </div>
@@ -315,9 +315,6 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
-  head: {
-    title: 'One Piece: Straw Hat Luffy',
-  },
   components: {
     Card,
     InfoSection,
@@ -326,9 +323,15 @@ export default {
     [Button.name]: Button,
     [Checkbox.name]: Checkbox,
   },
+  head() {
+    return {
+      title: this.pageTitle
+    }
+  },
   data() {
     return {
-      audioPath: "https://audio.blitzbudget.com/psychology/an-enemy-with-multiple-faces.mp3",
+      pageTitle: 'One Piece: Straw Hat Luffy',
+      audioPath: "https://audio.blitzbudget.com/psychology/one-piece/straw-hat-luffy.mp3",
       form: {
         comment: "",
       },

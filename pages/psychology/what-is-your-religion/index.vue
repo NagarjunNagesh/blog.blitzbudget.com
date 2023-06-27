@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">{{ head.title }}</h2>
+            <h2 class="title">{{ pageTitle }}</h2>
           </div>
         </div>
       </div>
@@ -23,19 +23,19 @@
         </div>
       </div>
       <div class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="button-container">
-                                <audio controls color="primary">
-                                    <source :src="audioPath" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="button-container">
+                <audio controls color="primary">
+                  <source :src="audioPath" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
       <div class="section" id="article">
         <div class="container">
           <div class="row">
@@ -308,9 +308,6 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
-  head: {
-    title: 'What is your Religion?',
-  },
   components: {
     Card,
     InfoSection,
@@ -319,8 +316,14 @@ export default {
     [Button.name]: Button,
     [Checkbox.name]: Checkbox,
   },
+  head() {
+    return {
+      title: this.pageTitle
+    }
+  },
   data() {
     return {
+      pageTitle: 'What is your Religion?',
       audioPath: "https://audio.blitzbudget.com/psychology/what-is-your-religion.mp3",
       form: {
         comment: "",
@@ -333,5 +336,4 @@ export default {
   },
 };
 </script>
-<style>
-</style>
+<style></style>

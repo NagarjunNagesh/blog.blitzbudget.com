@@ -7,7 +7,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">{{ head.title }}</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -247,9 +247,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Why I couldn’t keep up with my New Years resolution?',
-    },
     components: {
         Card,
         InfoSection,
@@ -259,8 +256,14 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Why I couldn’t keep up with my New Years resolution?',
             audioPath: "https://audio.blitzbudget.com/psychology/why-i-couldnt-keep-up-with-my-new-years-resolution.mp3",
             form: {
                 comment: "",

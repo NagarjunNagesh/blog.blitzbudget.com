@@ -6,7 +6,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">{{ head.title }}</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -153,9 +153,6 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'Can you be Vulnerable?',
-    },
     components: {
         Card,
         InfoSection,
@@ -165,8 +162,14 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'Can you be Vulnerable?',
             audioPath: "https://audio.blitzbudget.com/psychology/an-enemy-with-multiple-faces.mp3",
             form: {
                 comment: "",

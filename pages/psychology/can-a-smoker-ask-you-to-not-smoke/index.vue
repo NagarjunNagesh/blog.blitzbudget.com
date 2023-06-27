@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">{{ head.title }}</h2>
+            <h2 class="title">{{ pageTitle }}</h2>
           </div>
         </div>
       </div>
@@ -271,9 +271,6 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
-  head: {
-    title: 'Can a Smoke ask you to Not Smoke?',
-  },
   components: {
     Card,
     InfoSection,
@@ -284,6 +281,7 @@ export default {
   },
   data() {
     return {
+      pageTitle: 'Can a Smoke ask you to Not Smoke?',
       audioPath: "https://audio.blitzbudget.com/psychology/an-enemy-with-multiple-faces.mp3",
       form: {
         comment: "",

@@ -22,17 +22,20 @@ import { Card, Button, FormGroupInput } from "@/components";
 import initParallax from "@/utils/initParallax";
 export default {
     name: "error",
-    head: {
-        title: 'BlitzBudget Blog',
-    },
     layout: "default",
     components: {
         Card,
         [Button.name]: Button,
         [FormGroupInput.name]: FormGroupInput,
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'BlitzBudget Blog',
             year: new Date().getFullYear(),
         };
     },
@@ -41,5 +44,4 @@ export default {
     },
 };
 </script>
-<style>
-</style>
+<style></style>

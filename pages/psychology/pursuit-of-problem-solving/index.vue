@@ -5,7 +5,7 @@
       <div class="content-center">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">{{ head.title }}</h2>
+            <h2 class="title">{{ pageTitle }}</h2>
           </div>
         </div>
       </div>
@@ -260,9 +260,6 @@ import {
 import initParallax from "@/utils/initParallax";
 export default {
   name: "blog-post",
-  head: {
-    title: 'Pursuit of Problem Solving?',
-  },
   components: {
     Card,
     InfoSection,
@@ -271,8 +268,14 @@ export default {
     [Button.name]: Button,
     [Checkbox.name]: Checkbox,
   },
+  head() {
+    return {
+      title: this.pageTitle
+    }
+  },
   data() {
     return {
+      pageTitle: 'Pursuit of Problem Solving?',
       audioPath: "https://audio.blitzbudget.com/psychology/pursuit-of-problem-solving.mp3",
       form: {
         comment: "",

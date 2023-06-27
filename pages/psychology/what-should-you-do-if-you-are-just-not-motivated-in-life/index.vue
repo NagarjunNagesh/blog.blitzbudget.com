@@ -7,7 +7,7 @@
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">{{ head.title }}</h2>
+                        <h2 class="title">{{ pageTitle }}</h2>
                     </div>
                 </div>
             </div>
@@ -200,9 +200,7 @@ import initParallax from "@/utils/initParallax";
 import OtherBlogs from "../../../components/BlogPosts/OtherBlogs.vue";
 export default {
     name: "blog-post",
-    head: {
-        title: 'What should you do if you are just not motivated in life?',
-    },
+    pageTitle: 'What should you do if you are just not motivated in life?',
     components: {
         Card,
         InfoSection,
@@ -212,8 +210,14 @@ export default {
         [Checkbox.name]: Checkbox,
         OtherBlogs
     },
+    head() {
+        return {
+            title: this.pageTitle
+        }
+    },
     data() {
         return {
+            pageTitle: 'What should you do if you are just not motivated in life?',
             audioPath: "https://audio.blitzbudget.com/psychology/what-should-you-do-if-you-are-just-not-motivated-in-life.mp3",
             form: {
                 comment: "",
@@ -226,5 +230,4 @@ export default {
     },
 };
 </script>
-<style>
-</style>
+<style></style>
